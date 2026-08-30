@@ -1,8 +1,8 @@
 {
   "evaluation_date": "2026-08-30",
   "release_name": "NDEA-Periodic-Cayley-CN-Lean",
-  "status": "local_public_release_candidate",
-  "external_repository_created": false,
+  "status": "published_public_release",
+  "external_repository_created": true,
   "external_post_created": false,
   "lean_version": "4.31.0",
   "transitive_lean_source_count": 53,
@@ -22,5 +22,7 @@
     "contribution_is_audited_Lean4_formalization": true,
     "first_claim_is_preliminary_and_unchecked": true
   },
-  "next_action": "create an external GitHub repository and upload this exact release tree"
+  "repository_url": "https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean",
+  "release_commit": "e3d1f028d836ff49eb8c2161f485bb74dc3f5579",
+  "next_action": "obtain independent mathematical and formalization review"
 }
