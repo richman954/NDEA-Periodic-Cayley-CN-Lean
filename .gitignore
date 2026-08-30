@@ -1,0 +1,9 @@
+/.lake/
+/lake-packages/
+*.olean
+*.ilean
+*.trace
+*.log
+*.aux
+*.out
+

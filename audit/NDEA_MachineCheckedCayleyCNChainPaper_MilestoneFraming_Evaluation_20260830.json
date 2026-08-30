@@ -1,0 +1,20 @@
+{
+  "evaluation_date": "2026-08-30",
+  "source": "NDEA_MACHINE_CHECKED_CAYLEY_CN_CHAIN_PAPER.tex",
+  "pdf": "NDEA_MACHINE_CHECKED_CAYLEY_CN_CHAIN_PAPER.pdf",
+  "framing": "formalization milestone",
+  "required_statements_present": {
+    "numerical_theorem_is_classical": true,
+    "contribution_is_audited_Lean4_formalization": true,
+    "first_claim_is_preliminary_and_unchecked": true
+  },
+  "definitive_first_claim_made": false,
+  "pdflatex_passes": 2,
+  "pdflatex_return_codes": [0, 0],
+  "page_count": 4,
+  "pdf_bytes": 201425,
+  "undefined_citations_or_references": false,
+  "overfull_boxes": 0,
+  "first_page_visual_inspection_passed": true,
+  "status": "posting_ready_as_formalization_milestone"
+}

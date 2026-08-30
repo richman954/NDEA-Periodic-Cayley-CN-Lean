@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite this repository and its technical note."
+title: "A Formalization Milestone: A Machine-Checked Periodic Cayley–Crank–Nicolson Convergence Chain"
+type: software
+authors:
+  - name: "R.R."
+date-released: 2026-08-30
+version: 1.0.0-draft
+license: Apache-2.0
+
