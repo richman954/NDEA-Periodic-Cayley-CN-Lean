@@ -12,5 +12,6 @@ Status: public-review candidate, 2026-08-30.
 - Placeholder audit: no `sorry`, `admit`, custom `axiom`, or `native_decide`
   in the headline new sources.
 - Independent human review: not yet recorded.
-- External publication: not yet recorded.
-
+- External publication: public GitHub repository created and populated.
+- Repository: https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean
+- Initial full-tree commit: `e3d1f028d836ff49eb8c2161f485bb74dc3f5579`.
