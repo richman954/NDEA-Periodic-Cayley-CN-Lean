@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "proof_verification": false,
+  "archives_verified": [
+    {
+      "name": "Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+      "bytes": 237013,
+      "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+    },
+    {
+      "name": "NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+      "bytes": 39096085,
+      "sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18"
+    },
+    {
+      "name": "Exp013_Verified_Review_Packet_20260908.zip",
+      "bytes": 5573217,
+      "sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412"
+    },
+    {
+      "name": "Exp014_Verified_Review_Packet_20260909.zip",
+      "bytes": 2112650,
+      "sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282"
+    },
+    {
+      "name": "Exp001_Assurance_Hardening_v2.bundle",
+      "bytes": 440385,
+      "sha256": "fb8cb79fc574522fdb142b348b50637087c75e582f437ed19531260546ad5257"
+    },
+    {
+      "name": "NDEA_Evolve_exp001_final.bundle",
+      "bytes": 632099,
+      "sha256": "10dc27fd1046a419358a92565fe59e1ae40414c9c5692c9afd3b016bce7540c1"
+    },
+    {
+      "name": "NDEA_Evolve_exp002_final.bundle",
+      "bytes": 1345734,
+      "sha256": "12dc3635e9bee8776cd6929bad1844e4293003b2117d4bc7c8dcee2023fe79d2"
+    },
+    {
+      "name": "NDEA_Exp002_validator_assurance_v2_1.bundle",
+      "bytes": 190038,
+      "sha256": "442928ce12499c4b5d27051393cb4fa9ce93cb954015a00416882fdd7cb5d7d1"
+    },
+    {
+      "name": "NDEA_Evolve_exp003_step1_final.bundle",
+      "bytes": 1801441,
+      "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963"
+    },
+    {
+      "name": "exp003_step2_verified_final.bundle",
+      "bytes": 1846644,
+      "sha256": "e8bbedd8d2688611b8316a1e638ed11c8f1d7b7a30e1e431f2ac206ea5f2c0bd"
+    },
+    {
+      "name": "exp003_step3_verified_final.bundle",
+      "bytes": 1868999,
+      "sha256": "66b7c56be14991c4085587cfb1965fada47c7b5535488b548b7c2bdb90ea9e5f"
+    },
+    {
+      "name": "exp003_step4_verified_final.bundle",
+      "bytes": 1859404,
+      "sha256": "4a5f6283c5c3aacc0ae2bd19b239bacb063e371cad54d311d917080e5aeb9084"
+    },
+    {
+      "name": "exp003_step5_verified_final.bundle",
+      "bytes": 2010027,
+      "sha256": "ec3823965d3dfb5b2f7cfa5c62b610f864c937cdbd1adbb6421cd81e254da511"
+    },
+    {
+      "name": "exp004_verified_final.bundle",
+      "bytes": 2017632,
+      "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8"
+    },
+    {
+      "name": "exp005_verified_final.bundle",
+      "bytes": 2700849,
+      "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7"
+    }
+  ],
+  "companions_verified": 13,
+  "restore_to": null
+}

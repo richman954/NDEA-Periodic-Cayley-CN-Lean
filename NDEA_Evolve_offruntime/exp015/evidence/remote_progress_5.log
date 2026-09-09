@@ -1,0 +1,13 @@
+BOOT bb7ce4d2-8e5b-4960-9ba7-5dd6feb82daa
+UTC 2026-09-09T03:27:56.529762+00:00
+bootstrap {"passed": true, "start_utc": "2026-09-09T03:03:27.820873+00:00", "end_utc": "2026-09-09T03:05:57.435602+00:00", "command_count": 57, "completed_commands": 57}
+bootstrap controller_bytes 112
+Decompressed 2908774400 bytes using libzstd.so.1
+Safely extracted 15233 members
+{"passed": true, "error": null}
+
+final_verification {"passed": true, "exit_code": 0, "start_utc": "2026-09-09T03:23:54.847279+00:00", "end_utc": "2026-09-09T03:26:31.844785+00:00", "elapsed_seconds": 109.77076476799994, "axiom_audits": 50, "phase": "finished", "dependency_artifacts": 10768, "compiler_warning_count": 26}
+final_verification controller_bytes 118
+{"passed": true, "exit_code": 0, "error": null, "elapsed_seconds": 109.77076476799994, "dependency_artifacts": 10768}
+
+

@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T03:15:45.923750+00:00",
+  "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
+  "branch": "backup/ndeaevolve-20260909",
+  "commit": "2a4028add0c09e7e8445e8f6886a965cd2573ac0",
+  "tree": "252ca564f70e9d4772c920cd85338f605d80f4a4",
+  "parent": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+  "fresh_network_clone": "/home/richman954/NDEA_GitHub_Backup/source_readback_root",
+  "clone_exit_code": 0,
+  "clone_log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_CLONE.log",
+  "files_verified": 1093,
+  "bytes_verified": 15290025,
+  "all_sha256_and_sizes_matched": true,
+  "original_files_unchanged": true,
+  "git_fsck_passed": true,
+  "source_manifest_sha256": "0027795707573837cb735c6a235710286099b36a27a244b9b7c3e5f6f0b3239f",
+  "upload_manifest_sha256": "7facfd9f69a597cb6de11cd69bc20cef81dd6a7ee238ea7c86c2a9a25450f3f0",
+  "commands": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_head.log",
+      "log_sha256": "6648d7cfd84b8b0203a44b6b5e2ccd111c35debe9007e19d2d61329440d64b99"
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD^"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_parent.log",
+      "log_sha256": "f88424a9ea5647eb08fd3a4cea211cc3cbd5654ba3008d83dc6d0554dd0cee3b"
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD^{tree}"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_tree.log",
+      "log_sha256": "1f7d94929ed8e62109568c66bf625d3722e54e2ea6f678e44b6adadc86684a4d"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--name-status",
+        "HEAD^",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_diff.log",
+      "log_sha256": "0edfa6a3a2c13c8173a98da97d72c3efcd625e4cd5f7b2fa10cf3b0ebfcadf46"
+    },
+    {
+      "command": [
+        "git",
+        "fsck",
+        "--full"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_fsck.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_clean.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "proof_verification": false,
+  "coverage": "Selected sources through Exp014; Exp015/recovery snapshot at2026-09-09T02:50UTCbeforefreeze/finalqualification. Exactfullsealedarchives are separatebackupbranch."
+}

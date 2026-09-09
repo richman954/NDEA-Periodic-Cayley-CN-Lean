@@ -1,7 +1,9 @@
 # Recovery status — September 9, 2026 UTC
 
-Latest milestone: Experiment014 is complete and sealed; Exp015 is the active extension.
-Read exp015/PLAN.md and current task state for ongoing forcing/residual stability work.
+Latest milestone: Experiment015 is complete and sealed.
+All50audits passed locally and independently; receiving validation and finalizer
+gates passed. Final backup refresh is in progress; read current task state and
+exp015/COMPLETION_REPORT.md. No Exp016 proof work has started.
 For restart recovery, first read `/home/richman954/NDEA_Recovery/START_HERE.md`
 and `TASK_STATE.json`. Older sections are historical records.
 
@@ -743,3 +745,15 @@ applies to Exp014.solution under its original regular potential/Fourier-data
 hypotheses and retains both arbitrary initial error and exact initialization.
 The22exactcontrols and final local/fresh-Colab combined qualification remain
 pending; no Exp015packet is sealed yet.
+
+Exp015 sealed at2026-09-09T03:30:11.620244UTC: seven modules,50newaudits
+(28production+22controls), local297.277s andindependent109.771s, exit0.
+The receiver verified92payloads,57bootstrapcommands and10,768matching external
+artifacts. Frozen combinedSHAef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846.
+Packet Exp015_Verified_Review_Packet_20260909.zip SHA
+b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71
+contains214verifiedpayloads. Its actualPDEresidual estimate preserves initial
+L2error andcoefficient1, includingtheExp014solution underoriginalassumptions.
+Discrete reconstruction/defect/refinement forthebroaderpotentialclass remains
+proposedlaterwork. InitialGitHubbackups throughExp014+Exp015WIPareverified;
+completedExp015local/GitHubrefreshisnowinprogress.

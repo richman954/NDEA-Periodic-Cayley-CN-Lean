@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "exp005_frozen",
+      "entry_count": 889,
+      "matched_entry_count": 889,
+      "passed": true
+    },
+    {
+      "name": "exp006_local_verified",
+      "entry_count": 21,
+      "matched_entry_count": 21,
+      "passed": true
+    },
+    {
+      "name": "exp006_final_packet",
+      "entry_count": 99,
+      "matched_entry_count": 99,
+      "passed": true
+    },
+    {
+      "name": "exp007_final_packet",
+      "entry_count": 217,
+      "matched_entry_count": 217,
+      "passed": true
+    },
+    {
+      "name": "exp008_final_packet",
+      "entry_count": 254,
+      "matched_entry_count": 254,
+      "passed": true
+    },
+    {
+      "name": "fresh_vm_recheck_r2",
+      "entry_count": 340,
+      "matched_entry_count": 340,
+      "passed": true
+    },
+    {
+      "name": "exp009_final_packet",
+      "entry_count": 193,
+      "matched_entry_count": 193,
+      "passed": true
+    },
+    {
+      "name": "exp010_final_packet",
+      "entry_count": 169,
+      "matched_entry_count": 169,
+      "passed": true
+    },
+    {
+      "name": "exp011_final_packet",
+      "entry_count": 179,
+      "matched_entry_count": 179,
+      "passed": true
+    },
+    {
+      "name": "exp012_final_packet",
+      "entry_count": 171,
+      "matched_entry_count": 171,
+      "passed": true
+    },
+    {
+      "name": "exp013_final_packet",
+      "entry_count": 313,
+      "matched_entry_count": 313,
+      "passed": true
+    },
+    {
+      "name": "exp014_final_packet",
+      "entry_count": 262,
+      "matched_entry_count": 262,
+      "passed": true
+    }
+  ]
+}
+{"passed": true, "utc": "2026-09-09T03:30:11.620244+00:00", "archive": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip", "archive_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71", "archive_bytes": 2171185, "manifest_entries": 214, "verified_zip_files": 215, "manifest_sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740", "qualification": "Every ZIP member read back byte-for-byte; CRC and payload manifest hashes passed. This receipt and the neighboring checksum file are outside the ZIP to avoid a self-hash cycle."}
+

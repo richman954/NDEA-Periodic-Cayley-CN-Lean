@@ -5,8 +5,8 @@ inp=root/'inputs'
 archive=pathlib.Path('/content/exp015_bootstrap_inputs.tar.gz')
 script=pathlib.Path('/content/exp015_bootstrap.py')
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-EXPECTED_ARCHIVE_SHA256 = 'UNPREPARED'
-EXPECTED_BOOTSTRAP_SHA256 = 'UNPREPARED'
+EXPECTED_ARCHIVE_SHA256 = '2b241d475047b2bdf4b06094786fb837f2455dd5e92f23d24d296bcafd0cab05'
+EXPECTED_BOOTSTRAP_SHA256 = 'b22e24bd4476c5b8c0e32a1c41db8d6e6ec262b3a67bf137d0dd14ba636f60cb'
 if 'UNPREPARED' in {EXPECTED_ARCHIVE_SHA256,EXPECTED_BOOTSTRAP_SHA256}:
     raise RuntimeError('Run prepare_bootstrap_inputs.py before launching')
 if sha(archive)!=EXPECTED_ARCHIVE_SHA256 or sha(script)!=EXPECTED_BOOTSTRAP_SHA256:

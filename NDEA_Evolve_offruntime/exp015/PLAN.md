@@ -1,6 +1,6 @@
 # Experiment 015 — quantitative forcing and residual stability
 
-Status: implementation in progress; no completed error estimate claimed.
+Status: completed and verified. See [COMPLETION_REPORT.md](COMPLETION_REPORT.md).
 
 User authorization: “good call, proceed”, following the proposed Exp015 residual-to-error milestone.
 

@@ -1,49 +1,271 @@
 {
-  "active_experiment_qualification": "Exp015 WIP from the 02:50 checkpoint; all seven modular checks accepted; combined/fresh-runtime checks and sealing pending at this snapshot.",
-  "base_commit": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
-  "checkpoint_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
-  "copies_byte_verified": true,
-  "created_utc": "2026-09-09T02:54:10.921050+00:00",
-  "exclusions": [
-    ".git",
-    ".lake",
-    "__pycache__",
-    "build",
-    "dependencies",
-    "downloaded_evidence",
-    "evidence",
-    "final_evidence",
-    "foundation_verified",
-    "historical_inputs",
-    "suite_payload",
-    "archive bulk",
-    "compiler artifacts",
-    "repeated restored evidence/payload trees"
+  "active_experiment_qualification": {
+    "audits": 50,
+    "combined_sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+    "controls": 22,
+    "experiment": "exp015",
+    "final_verification_sha256": "fc9c6dc0930bbc458955fe71d9864dbd729bba65efdeb9cafe63476ba0f49962",
+    "independent_payloads": 92,
+    "independent_result_sha256": "40f9dc693e5dd333ae351e579d3e702ee6ea0924a18a43c38ee63420b0e7aaa4",
+    "local_result_sha256": "1c2b71c589477c8bceb18debc6523446da3eab2216b3ad816d051f760df2a9f1",
+    "matching_external_artifacts": 10768,
+    "modules": 7,
+    "packet_archive": "Exp015_Verified_Review_Packet_20260909.zip",
+    "packet_payloads": 214,
+    "packet_receipt_sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e",
+    "packet_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+    "packet_zip_members": 215,
+    "production_declarations": 28,
+    "qualification_source": "Unmodified accepted receipts in the fixed checkpoint; this preparation runs no Lean proof.",
+    "scope": "Quantitative spatial L2 forcing and actual-residual stability, with coefficient one and retained initial error, for classical periodic complex Hilbert-valued Schrödinger fields with positive period, a common pointwise selfadjoint potential and the stated continuity assumptions. Applies to the Exp014 regular static variable-potential solution. No convergence theorem for discrete iterates or reconstructions is claimed. Compatible compiler/library artifacts remain trusted inputs.",
+    "status": "sealed and verified",
+    "transfer_receipt_sha256": "829f46e230156d0d4035ddab6b1af73f1ff1aa9d38fb213a386665ca2406a92d"
+  },
+  "base_commit": "2a4028add0c09e7e8445e8f6886a965cd2573ac0",
+  "base_tree": "252ca564f70e9d4772c920cd85338f605d80f4a4",
+  "branch": "backup/ndeaevolve-20260909",
+  "checkpoint_archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+  "checkpoint_payloads_verified": 289,
+  "checkpoint_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+  "created_utc": "2026-09-09T03:51:16.596595+00:00",
+  "excluded_checkpoint_members": [
+    {
+      "bytes": 1714,
+      "path": "AGENTS.md",
+      "reason": "outside the requested Exp015/recovery/continuity refresh paths",
+      "sha256": "ecc91fb614791001fc90274964941a196ecb0a6bf746a5b94e3eb38a06b94826"
+    },
+    {
+      "bytes": 1248999,
+      "path": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/DEPENDENCY_ARTIFACTS.json",
+      "reason": "large repeated artifact/upload manifest; compact hash receipts retained",
+      "sha256": "d8158a559e1c3093becd3d28f7d7ddf23b5489044d376bc046627d7304782dbe"
+    },
+    {
+      "bytes": 38824,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs.tar.gz",
+      "reason": "binary archive or compiled artifact; full archives have separate backup",
+      "sha256": "2b241d475047b2bdf4b06094786fb837f2455dd5e92f23d24d296bcafd0cab05"
+    },
+    {
+      "bytes": 1632,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/FINAL_TRANSFER_INPUTS.json",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "a0468c1955c0d157fd8dd016a38208947a8016748741699b522163792b4f2a7c"
+    },
+    {
+      "bytes": 5702,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/evidence/FINAL_INPUTS.json",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "cc3f423d1cc2c7c724dcc36022234ca0ad3f9c6448d05e48f7eb2c43467d2038"
+    },
+    {
+      "bytes": 8721,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/Controls.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "e5afdf59a044ea25f1263ba99345023c275122d3c2df5840d9e19e17cac9fd24"
+    },
+    {
+      "bytes": 84650,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/Exp014Foundation.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "9d8ac0dfcba35dec86ea229657defc88da01f94ddfece9b8f119f52120a4d8c6"
+    },
+    {
+      "bytes": 119883,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/Exp015Combined.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846"
+    },
+    {
+      "bytes": 2777,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/ForcedStability.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "4e64ef0cd6c6f132486726e1eb6c9a1688dddbdc4541de306dc49d685d6cf1dc"
+    },
+    {
+      "bytes": 3910,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/ResidualEstimate.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "1b39a5713e6baf76b3222639f2dfc302ee7d9abbd350587d3288b20c4555c6e5"
+    },
+    {
+      "bytes": 3520,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/ResidualField.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "859f05bb08bf5e445ef9288506c7411146ffc9a3d1d7a753e4b313a379109cd7"
+    },
+    {
+      "bytes": 3263,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/ScalarSqrtEstimate.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "7ea970694c0b05bd231195c53c78059e8c8eb834e291e47f18a8289eac9fb927"
+    },
+    {
+      "bytes": 6314,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/SpatialL2.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "49f15285df64a006ff2179042aad3c07630f8f960385c0d99c946a9f5ef0ce40"
+    },
+    {
+      "bytes": 3084,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/lean/VariablePotentialBridge.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "0a94c00f8a65a6f807d9fa786db591560cb96abf4fa18b28e3ccc273b0bb3169"
+    },
+    {
+      "bytes": 6594,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/make_combined.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "bb6fff01c7953d1a0ba95d6f4b7563e64fa8a2b5e67c0619aacb4241b1f4df1a"
+    },
+    {
+      "bytes": 92727,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/predecessor_sources/Exp014Combined.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee"
+    },
+    {
+      "bytes": 3145,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/remote_check/bootstrap_inputs/lake-manifest.json",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158"
+    },
+    {
+      "bytes": 3602,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/verification_tools/lean_import_closure.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057"
+    },
+    {
+      "bytes": 28275,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/verification_tools/verify_exp005.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+    },
+    {
+      "bytes": 6962,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_source/verify_combined.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "3159dcb5e31a09c2e6228eae112dd7bb417f02315571ee32a81e063426dbe77d"
+    },
+    {
+      "bytes": 1248999,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/DEPENDENCY_ARTIFACTS.json",
+      "reason": "large repeated artifact/upload manifest; compact hash receipts retained",
+      "sha256": "d8158a559e1c3093becd3d28f7d7ddf23b5489044d376bc046627d7304782dbe"
+    },
+    {
+      "bytes": 119883,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/Combined.lean",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846"
+    },
+    {
+      "bytes": 460,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/INPUT_HASHES.json",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "b24266cb165d0f5eacc90c3d733d139d701a178b58dea84a8c419e52e53fd510"
+    },
+    {
+      "bytes": 17497,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/bootstrap_colab.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67"
+    },
+    {
+      "bytes": 3145,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/lake-manifest.json",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158"
+    },
+    {
+      "bytes": 3602,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/lean_import_closure.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057"
+    },
+    {
+      "bytes": 28275,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/inputs/verify_exp005.py",
+      "reason": "duplicate delivered source or bootstrap-input copy; canonical source/pins retained",
+      "sha256": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+    },
+    {
+      "bytes": 632577,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/exp015_independent_evidence_20260909T032818Z.tar.gz",
+      "reason": "binary archive or compiled artifact; full archives have separate backup",
+      "sha256": "a3675e21f27ebce496bf06d924f0e46a2ed58443cf5d2429232a6b820cd8b163"
+    },
+    {
+      "bytes": 80453,
+      "path": "NDEA_Evolve_offruntime/exp015/remote_check/final_sources_ef99d7098209d790.tar.gz",
+      "reason": "binary archive or compiled artifact; full archives have separate backup",
+      "sha256": "97ec6476764f8f3040b1f765e800cb8624d2f7eee3c2bf7e273d420ddb5a8c95"
+    },
+    {
+      "bytes": 475444,
+      "path": "NDEA_Recovery/github_evidence/SOURCE_CANDIDATES.json",
+      "reason": "large repeated artifact/upload manifest; compact hash receipts retained",
+      "sha256": "0027795707573837cb735c6a235710286099b36a27a244b9b7c3e5f6f0b3239f"
+    },
+    {
+      "bytes": 474590,
+      "path": "NDEA_Recovery/github_evidence/SOURCE_UPLOAD.json",
+      "reason": "large repeated artifact/upload manifest; compact hash receipts retained",
+      "sha256": "7facfd9f69a597cb6de11cd69bc20cef81dd6a7ee238ea7c86c2a9a25450f3f0"
+    },
+    {
+      "bytes": 11475,
+      "path": "NDEA_Recovery/github_evidence/archive_readback_logs/git_current_tree.log",
+      "reason": "NUL-delimited Git diagnostic output; exact raw log remains in the separate checkpoint archive",
+      "sha256": "a5eb899696dc9d716f5ccb773a894355682b015cb3e599e72277a65d580e8391"
+    },
+    {
+      "bytes": 6777,
+      "path": "NDEA_Recovery/github_evidence/archive_readback_logs/git_oldmain_tree.log",
+      "reason": "NUL-delimited Git diagnostic output; exact raw log remains in the separate checkpoint archive",
+      "sha256": "57461a8d3d48a63605b1b527a3c8525526161a1b9e04bf64f0fe0e1044ca879e"
+    }
   ],
-  "file_count": 1091,
+  "file_count": 1253,
   "files": [
     {
-      "bytes": 45238,
+      "bytes": 2624,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "based_on": [
+          "Exp015 accepted final verification, transfer and packet receipts",
+          "observed published parent commit/tree"
+        ],
+        "checkpoint_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "generated_backup_status"
+      },
+      "sha256": "e35fa26bd50efd20abde1c69d52b26ddc4e4a901b46c91dbe2ee31e45b5d6484",
+      "target": "NDEA_BACKUP_STATUS.md"
+    },
+    {
+      "bytes": 46141,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/RESUME_STATUS.md"
       },
-      "sha256": "32bb252081801a4e9594a33b4f5db18e1f1ab1e05c9a00d8b870d876d681ebdc",
+      "sha256": "d1cc8cb4cf1fc22afd0b85826818f15c834262bdb3ae85b691294dfaeb0b09df",
       "target": "NDEA_Evolve_offruntime/RESUME_STATUS.md"
     },
     {
-      "bytes": 20365,
+      "bytes": 21041,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/WORKING_ROADMAP.md"
       },
-      "sha256": "5b7de5d7c790ba05c73ca34e903c20d37d8ef02ab738bf33951b1d2b5789cc93",
+      "sha256": "13b03e52f2cb54ba8a4a09df05db961815954fdede66118cb4a3210c010873d0",
       "target": "NDEA_Evolve_offruntime/WORKING_ROADMAP.md"
     },
     {
@@ -10007,11 +10229,23 @@
       "target": "NDEA_Evolve_offruntime/exp014/verify_combined.py"
     },
     {
+      "bytes": 3393,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/COMPLETION_REPORT.md"
+      },
+      "sha256": "fd083d2cce165eee3764120f78b844353f1ab121e5a620370457affffa1b7c3a",
+      "target": "NDEA_Evolve_offruntime/exp015/COMPLETION_REPORT.md"
+    },
+    {
       "bytes": 4094,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/INFRASTRUCTURE_REVIEW.md"
       },
@@ -10022,8 +10256,8 @@
       "bytes": 4024,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/MATHEMATICAL_DERIVATION.md"
       },
@@ -10031,23 +10265,35 @@
       "target": "NDEA_Evolve_offruntime/exp015/MATHEMATICAL_DERIVATION.md"
     },
     {
-      "bytes": 1928,
+      "bytes": 26395,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/PACKET_MANIFEST.json"
+      },
+      "sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740",
+      "target": "NDEA_Evolve_offruntime/exp015/PACKET_MANIFEST.json"
+    },
+    {
+      "bytes": 1937,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/PLAN.md"
       },
-      "sha256": "47c01c2de4c068cb709f76f3f1c71b97f3545928430040330e8dcfeba5f2bd93",
+      "sha256": "6a549d0801ec6c7576fc5365ed38720b15eec8fa0802a5e69dd5e1daec3d34d5",
       "target": "NDEA_Evolve_offruntime/exp015/PLAN.md"
     },
     {
       "bytes": 5901,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/REPRODUCE.md"
       },
@@ -10055,11 +10301,23 @@
       "target": "NDEA_Evolve_offruntime/exp015/REPRODUCE.md"
     },
     {
+      "bytes": 5884,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/REVIEW.md"
+      },
+      "sha256": "115387d99fab0c86c8485878372358a0af56d8de85f6f31280906775ded8043c",
+      "target": "NDEA_Evolve_offruntime/exp015/REVIEW.md"
+    },
+    {
       "bytes": 3868,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/SAVED_FILES.md"
       },
@@ -10070,8 +10328,8 @@
       "bytes": 2702,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/controls_r0/20260909T023536.861572Z_Controls.json"
       },
@@ -10082,8 +10340,8 @@
       "bytes": 2844,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/controls_r0/20260909T023536.861572Z_Controls.log"
       },
@@ -10094,8 +10352,8 @@
       "bytes": 8494,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/controls_r0/Controls.lean"
       },
@@ -10106,8 +10364,8 @@
       "bytes": 311,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/controls_r0/PRESERVATION.json"
       },
@@ -10118,8 +10376,8 @@
       "bytes": 2706,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/spatial_l2_r1/20260909T021151.242520Z_SpatialL2.json"
       },
@@ -10130,8 +10388,8 @@
       "bytes": 4219,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/spatial_l2_r1/20260909T021151.242520Z_SpatialL2.log"
       },
@@ -10142,8 +10400,8 @@
       "bytes": 373,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/spatial_l2_r1/PRESERVATION.json"
       },
@@ -10154,8 +10412,8 @@
       "bytes": 6010,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/attempts/spatial_l2_r1/SpatialL2.lean"
       },
@@ -10166,8 +10424,8 @@
       "bytes": 4685,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/check_predecessors.py"
       },
@@ -10178,8 +10436,8 @@
       "bytes": 2907,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T020804.334727Z_ScalarSqrtEstimate.json"
       },
@@ -10190,8 +10448,8 @@
       "bytes": 0,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T020804.334727Z_ScalarSqrtEstimate.log"
       },
@@ -10202,8 +10460,8 @@
       "bytes": 2881,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T020834.967003Z_ResidualField.json"
       },
@@ -10214,8 +10472,8 @@
       "bytes": 2255,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T020834.967003Z_ResidualField.log"
       },
@@ -10226,8 +10484,8 @@
       "bytes": 2706,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T021151.242520Z_SpatialL2.json"
       },
@@ -10238,8 +10496,8 @@
       "bytes": 4219,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T021151.242520Z_SpatialL2.log"
       },
@@ -10250,8 +10508,8 @@
       "bytes": 2861,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T021809.399759Z_SpatialL2.json"
       },
@@ -10262,8 +10520,8 @@
       "bytes": 3430,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T021809.399759Z_SpatialL2.log"
       },
@@ -10274,8 +10532,8 @@
       "bytes": 2891,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022244.427691Z_ForcedStability.json"
       },
@@ -10286,8 +10544,8 @@
       "bytes": 0,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022244.427691Z_ForcedStability.log"
       },
@@ -10298,8 +10556,8 @@
       "bytes": 2891,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022557.243378Z_ResidualEstimate.json"
       },
@@ -10310,8 +10568,8 @@
       "bytes": 0,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022557.243378Z_ResidualEstimate.log"
       },
@@ -10322,8 +10580,8 @@
       "bytes": 2932,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022941.122474Z_VariablePotentialBridge.json"
       },
@@ -10334,8 +10592,8 @@
       "bytes": 0,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T022941.122474Z_VariablePotentialBridge.log"
       },
@@ -10346,8 +10604,8 @@
       "bytes": 2702,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T023536.861572Z_Controls.json"
       },
@@ -10358,8 +10616,8 @@
       "bytes": 2844,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T023536.861572Z_Controls.log"
       },
@@ -10370,8 +10628,8 @@
       "bytes": 2857,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T024243.649302Z_Controls.json"
       },
@@ -10382,8 +10640,8 @@
       "bytes": 0,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/20260909T024243.649302Z_Controls.log"
       },
@@ -10394,8 +10652,8 @@
       "bytes": 467,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/BASELINE.json"
       },
@@ -10406,8 +10664,8 @@
       "bytes": 969,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/COMBINED_INFRASTRUCTURE_TESTS.json"
       },
@@ -10418,8 +10676,8 @@
       "bytes": 598,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/ENVIRONMENT_ISOLATION_TEST.json"
       },
@@ -10430,8 +10688,8 @@
       "bytes": 1349,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/FINALIZER_GATE_TESTS.json"
       },
@@ -10439,11 +10697,47 @@
       "target": "NDEA_Evolve_offruntime/exp015/evidence/FINALIZER_GATE_TESTS.json"
     },
     {
+      "bytes": 5702,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_INPUTS.json"
+      },
+      "sha256": "cc3f423d1cc2c7c724dcc36022234ca0ad3f9c6448d05e48f7eb2c43467d2038",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_INPUTS.json"
+    },
+    {
+      "bytes": 602,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_PACKET_RECEIPT.json"
+      },
+      "sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_PACKET_RECEIPT.json"
+    },
+    {
+      "bytes": 6472,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_VERIFICATION.json"
+      },
+      "sha256": "fc9c6dc0930bbc458955fe71d9864dbd729bba65efdeb9cafe63476ba0f49962",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/FINAL_VERIFICATION.json"
+    },
+    {
       "bytes": 1414,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/INFRASTRUCTURE_TESTS.json"
       },
@@ -10451,23 +10745,395 @@
       "target": "NDEA_Evolve_offruntime/exp015/evidence/INFRASTRUCTURE_TESTS.json"
     },
     {
+      "bytes": 853,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/LOCAL_COMBINED_DRIVER_RECEIPT.json"
+      },
+      "sha256": "0fd3b9ea6a1a97d73a80e3a6a7d2d1721a4cfeb8e822d96ed4ad3a7a77f74a65",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/LOCAL_COMBINED_DRIVER_RECEIPT.json"
+    },
+    {
+      "bytes": 6600,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/MODULAR_VERIFICATION.json"
+      },
+      "sha256": "08d071834d2eb47266a5f7b6c8932ae2060e259af344d82e65fc41579c09e483",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/MODULAR_VERIFICATION.json"
+    },
+    {
       "bytes": 10948,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/evidence/PREDECESSOR_PRESERVATION.json"
       },
-      "sha256": "4ef12d839c5ff6b4835959b08b4303882100213c39c7c6a42380cc38b3a6be3a",
+      "sha256": "06f73705534049195ce789acc77f61595064db5393e84df48639ae94703ad0a8",
       "target": "NDEA_Evolve_offruntime/exp015/evidence/PREDECESSOR_PRESERVATION.json"
+    },
+    {
+      "bytes": 864,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/RECEIVING_DRIVER_RECEIPT.json"
+      },
+      "sha256": "c5622194e84c51b883bc196dfe82fa773eda67331854a7f0782328c62ed2b3d1",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/RECEIVING_DRIVER_RECEIPT.json"
+    },
+    {
+      "bytes": 5067,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/REVIEW_CHECK.json"
+      },
+      "sha256": "91ba410e6acab080e8d9be964021a4193d78c265efd2ac43f67389791893847b",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/REVIEW_CHECK.json"
+    },
+    {
+      "bytes": 160,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/ROOT_BOOT_READBACK.log"
+      },
+      "sha256": "fa799f649bf852a8980def4944aa22a410f7927c03566c14c47025f49eb57666",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/ROOT_BOOT_READBACK.log"
+    },
+    {
+      "bytes": 1813,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/ROOT_POST_REFRESH_STATUS.log"
+      },
+      "sha256": "0e0661c5f6ba48bdf2c398e14a10a6d37f5bf970497f05db3c258158ed620031",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/ROOT_POST_REFRESH_STATUS.log"
+    },
+    {
+      "bytes": 2839,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/SCALAR_CONTROLS_CROSS_REVIEW.json"
+      },
+      "sha256": "f92c4c85bb95f8448da4b81af61a7de84ba296abd540b61f91fdb7c310e94742",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/SCALAR_CONTROLS_CROSS_REVIEW.json"
+    },
+    {
+      "bytes": 12324,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/RESULT.json"
+      },
+      "sha256": "1c2b71c589477c8bceb18debc6523446da3eab2216b3ad816d051f760df2a9f1",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/RESULT.json"
+    },
+    {
+      "bytes": 17833,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/combined.log"
+      },
+      "sha256": "b13c4ee8a82b2f2ea7675ef204ab8d45d01c4e36899f896a28fd58c1e3530f2b",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/combined.log"
+    },
+    {
+      "bytes": 95987,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/dependency_copy.log"
+      },
+      "sha256": "41029ca8a1b5851d060d71716520937fffa0e6565217334ae43d108021dff3a9",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/local_combined/dependency_copy.log"
+    },
+    {
+      "bytes": 117,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/local_combined_driver.log"
+      },
+      "sha256": "1fb8ff745a12db7d3524be93c429330eb3fe9842c836b407cb63c8b369183d44",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/local_combined_driver.log"
+    },
+    {
+      "bytes": 180,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/prepare_make_combined.log"
+      },
+      "sha256": "e57ebff5cb6f45c0869ec4cc2f1099132f44ab9fe2361288e3204646c0664501",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/prepare_make_combined.log"
+    },
+    {
+      "bytes": 1021,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/prepare_prepare_bootstrap_inputs.log"
+      },
+      "sha256": "4f208b1044d8e58a90d5fbb02957beb298ab03817bef78811254bffb6f736307",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/prepare_prepare_bootstrap_inputs.log"
+    },
+    {
+      "bytes": 212,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/prepare_prepare_final_sources.log"
+      },
+      "sha256": "6d9273634ce88dc646cdbe0f2301f82726a819ad56e0fa70125569bd70d218d2",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/prepare_prepare_final_sources.log"
+    },
+    {
+      "bytes": 14669,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/receiving_check_driver.log"
+      },
+      "sha256": "4669e4f1e9dbed45d2ca2a3ff75a82b8a7ccd8fe1e0ae5057a31ac7fa26304e9",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/receiving_check_driver.log"
+    },
+    {
+      "bytes": 765,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_launch.log"
+      },
+      "sha256": "5ef78caeb823beef8877abda8e2b013f07331d978db56ffb6422d44fbb0c614f",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_launch.log"
+    },
+    {
+      "bytes": 304,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_receipt_downloads.log"
+      },
+      "sha256": "7fd118c6263f6886e8912a001997cdb0c94f6c8f4d2028c24d9b2fbb941f6562",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_receipt_downloads.log"
+    },
+    {
+      "bytes": 275,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_uploads.log"
+      },
+      "sha256": "3fb5958dba0a7f414e5f1aef391835e9d1413547cb5000103821b0734bfc6bce",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_bootstrap_uploads.log"
+    },
+    {
+      "bytes": 361,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_evidence_downloads.log"
+      },
+      "sha256": "4cadeb62288e8849aa54ef21304427afb34ce6e737e5ce9d2b9244df26d3ab42",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_evidence_downloads.log"
+    },
+    {
+      "bytes": 222,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_export.log"
+      },
+      "sha256": "6be42d7a88e75f514ca8f8c4192700e8f787d10008ccec4ceb99dc94d9358acb",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_export.log"
+    },
+    {
+      "bytes": 663,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_final_launch.log"
+      },
+      "sha256": "c1cb2de0598b364bc6f0509d367035a21ce47698bf325e64c9287f1d6c94bf8d",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_final_launch.log"
+    },
+    {
+      "bytes": 324,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_final_uploads.log"
+      },
+      "sha256": "c710e466afea5b009dfb654f66a3f687bb706134717306ba6af488844fb59e94",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_final_uploads.log"
+    },
+    {
+      "bytes": 720,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_network_retry.log"
+      },
+      "sha256": "e0bea1aea94ba30216dad93e6dea12a4830472051063f167f70b8168170e51c7",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_network_retry.log"
+    },
+    {
+      "bytes": 30262,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_retry.log"
+      },
+      "sha256": "5a846ef16bb6f402f743bcba449a7bb324b301c0b57e393569a06c8951a0e8f6",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_retry.log"
+    },
+    {
+      "bytes": 16106,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_status.log"
+      },
+      "sha256": "ab21e23021c44b8d80de709b2d331588083ec543ca518b9d1d52e73799a0ef34",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_status.log"
+    },
+    {
+      "bytes": 310,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_1.log"
+      },
+      "sha256": "27324efdc45dc3abcac9ecb70c08943bf7abd8f06e8af57b10459cddab836d04",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_1.log"
+    },
+    {
+      "bytes": 482,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_3.log"
+      },
+      "sha256": "5766697c6a379f30c80e366317971b9f1ea3d4ab0d4f9167fd572b74380daf84",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_3.log"
+    },
+    {
+      "bytes": 482,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_4.log"
+      },
+      "sha256": "5766697c6a379f30c80e366317971b9f1ea3d4ab0d4f9167fd572b74380daf84",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_4.log"
+    },
+    {
+      "bytes": 842,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_5.log"
+      },
+      "sha256": "67a93a6dcb4bfc82d80fb4d6103ab801c9debd3a6dbd6856503919961ec65341",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_progress_5.log"
+    },
+    {
+      "bytes": 284,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_proxy_refresh_refused.log"
+      },
+      "sha256": "b5e1f7b69b2f4cd9d99f1295310af7208a42e84fa204901deab7ddb0cb99f632",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_proxy_refresh_refused.log"
+    },
+    {
+      "bytes": 218,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/evidence/remote_sessions_after_connection_loss.log"
+      },
+      "sha256": "0158c9572016abeb99d1e3c9fe79a06d2e6a999914e5dbd96e1516d6a7cd4e8b",
+      "target": "NDEA_Evolve_offruntime/exp015/evidence/remote_sessions_after_connection_loss.log"
     },
     {
       "bytes": 12269,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/finalize.py"
       },
@@ -10478,8 +11144,8 @@
       "bytes": 8721,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/Controls.lean"
       },
@@ -10490,8 +11156,8 @@
       "bytes": 84650,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/Exp014Foundation.lean"
       },
@@ -10499,11 +11165,23 @@
       "target": "NDEA_Evolve_offruntime/exp015/lean/Exp014Foundation.lean"
     },
     {
+      "bytes": 119883,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/lean/Exp015Combined.lean"
+      },
+      "sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+      "target": "NDEA_Evolve_offruntime/exp015/lean/Exp015Combined.lean"
+    },
+    {
       "bytes": 2777,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/ForcedStability.lean"
       },
@@ -10514,8 +11192,8 @@
       "bytes": 3910,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/ResidualEstimate.lean"
       },
@@ -10526,8 +11204,8 @@
       "bytes": 3520,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
       },
@@ -10538,8 +11216,8 @@
       "bytes": 3263,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/ScalarSqrtEstimate.lean"
       },
@@ -10550,8 +11228,8 @@
       "bytes": 6314,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean"
       },
@@ -10562,8 +11240,8 @@
       "bytes": 3084,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/lean/VariablePotentialBridge.lean"
       },
@@ -10574,8 +11252,8 @@
       "bytes": 6594,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/make_combined.py"
       },
@@ -10586,8 +11264,8 @@
       "bytes": 92727,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/predecessor_sources/Exp014Combined.lean"
       },
@@ -10598,8 +11276,8 @@
       "bytes": 3935,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/prepare_bootstrap_inputs.py"
       },
@@ -10610,8 +11288,8 @@
       "bytes": 2650,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/prepare_final_sources.py"
       },
@@ -10619,11 +11297,47 @@
       "target": "NDEA_Evolve_offruntime/exp015/prepare_final_sources.py"
     },
     {
+      "bytes": 1061,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_INPUTS.json"
+      },
+      "sha256": "ea9602a78b496607c103680df7fa114b5469029b8229c9ae47de47c3fb042727",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_INPUTS.json"
+    },
+    {
+      "bytes": 822,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_LAUNCH.json"
+      },
+      "sha256": "00094b7fdf525e3da1499318886b9345b0e88e5b48ef109284d2ccfea6bf076d",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_LAUNCH.json"
+    },
+    {
+      "bytes": 35491,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_RESULT.json"
+      },
+      "sha256": "712438e0452964f71c50d0fb25595d1abe9af2510db0d459db1198e7b78b7177",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/BOOTSTRAP_RESULT.json"
+    },
+    {
       "bytes": 551,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/ENVIRONMENT_EXPECTED.json"
       },
@@ -10631,11 +11345,47 @@
       "target": "NDEA_Evolve_offruntime/exp015/remote_check/ENVIRONMENT_EXPECTED.json"
     },
     {
+      "bytes": 233,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/EXPORT_RECEIPT.json"
+      },
+      "sha256": "4e758c06d4adee127bf3e65436ab440b830225e45af52e354ea4f54a1cf01b76",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/EXPORT_RECEIPT.json"
+    },
+    {
+      "bytes": 15267,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/FINAL_TRANSFER_CHECK.json"
+      },
+      "sha256": "829f46e230156d0d4035ddab6b1af73f1ff1aa9d38fb213a386665ca2406a92d",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/FINAL_TRANSFER_CHECK.json"
+    },
+    {
+      "bytes": 2046,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/FINAL_UPLOAD.json"
+      },
+      "sha256": "9707bc8110fa58163827a7fe53fa8d85c4570502fbd166911609570c518d77d8",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/FINAL_UPLOAD.json"
+    },
+    {
       "bytes": 551,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/PREDECESSOR_ENVIRONMENT.json"
       },
@@ -10646,8 +11396,8 @@
       "bytes": 702,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/VM_ALLOCATION.json"
       },
@@ -10658,8 +11408,8 @@
       "bytes": 5164,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap.py"
       },
@@ -10667,11 +11417,35 @@
       "target": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap.py"
     },
     {
+      "bytes": 119883,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/Combined.lean"
+      },
+      "sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/Combined.lean"
+    },
+    {
+      "bytes": 460,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/INPUT_HASHES.json"
+      },
+      "sha256": "b24266cb165d0f5eacc90c3d733d139d701a178b58dea84a8c419e52e53fd510",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/INPUT_HASHES.json"
+    },
+    {
       "bytes": 17497,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/bootstrap_colab.py"
       },
@@ -10682,8 +11456,8 @@
       "bytes": 3145,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/lake-manifest.json"
       },
@@ -10694,8 +11468,8 @@
       "bytes": 3602,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/lean_import_closure.py"
       },
@@ -10706,8 +11480,8 @@
       "bytes": 28275,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs/verify_exp005.py"
       },
@@ -10718,8 +11492,8 @@
       "bytes": 21938,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/check_download.py"
       },
@@ -10727,11 +11501,839 @@
       "target": "NDEA_Evolve_offruntime/exp015/remote_check/check_download.py"
     },
     {
+      "bytes": 822,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/BOOTSTRAP_LAUNCH.json"
+      },
+      "sha256": "00094b7fdf525e3da1499318886b9345b0e88e5b48ef109284d2ccfea6bf076d",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/BOOTSTRAP_LAUNCH.json"
+    },
+    {
+      "bytes": 551,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/ENVIRONMENT.json"
+      },
+      "sha256": "a443e2fa6b785efca0ca7741785d26ef8cca36373e11402acf0adf43024e5199",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/ENVIRONMENT.json"
+    },
+    {
+      "bytes": 9892,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/EVIDENCE_SHA256.json"
+      },
+      "sha256": "36735f9070bcacc4207202e5221b42a190f97dec24d1d1532d4ec0ad31f435df",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/EVIDENCE_SHA256.json"
+    },
+    {
+      "bytes": 734,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/FINAL_LAUNCH.json"
+      },
+      "sha256": "f44dbe8e8b1ef42ffe0824f6513da2a35dff09e9b1565a56efd4b5682c723291",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/FINAL_LAUNCH.json"
+    },
+    {
+      "bytes": 2046,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/FINAL_UPLOAD.json"
+      },
+      "sha256": "9707bc8110fa58163827a7fe53fa8d85c4570502fbd166911609570c518d77d8",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/FINAL_UPLOAD.json"
+    },
+    {
+      "bytes": 1977,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/001_download_lean.log"
+      },
+      "sha256": "018517f8ea8f512c80056597500731a23b530d4a185cd6bbee5853dd87cb4a33",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/001_download_lean.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/002_init_mathlib.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/002_init_mathlib.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/003_remote_mathlib.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/003_remote_mathlib.log"
+    },
+    {
+      "bytes": 130,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/004_fetch_mathlib.log"
+      },
+      "sha256": "ddca247f1ee5da33bee135792a8eddd17bef2b1c884a72b0ddaef798088a4561",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/004_fetch_mathlib.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/005_checkout_mathlib.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/005_checkout_mathlib.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/006_pin_mathlib.log"
+      },
+      "sha256": "b5017ae798c1946ebd517271aeaa1d44720270b74e96ea9b73222061b945ad55",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/006_pin_mathlib.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/007_init_plausible.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/007_init_plausible.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/008_remote_plausible.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/008_remote_plausible.log"
+    },
+    {
+      "bytes": 131,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/009_fetch_plausible.log"
+      },
+      "sha256": "a8df935ca8b96db8a4693fb0db3e8fe0e6b9f0eb09a02e648bd95510ff936ae8",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/009_fetch_plausible.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/010_checkout_plausible.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/010_checkout_plausible.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/011_pin_plausible.log"
+      },
+      "sha256": "eb4ec09eed2bb418fa959f580ae123ba925cf478911605d05d0338dfff7e5109",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/011_pin_plausible.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/012_init_LeanSearchClient.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/012_init_LeanSearchClient.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/013_remote_LeanSearchClient.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/013_remote_LeanSearchClient.log"
+    },
+    {
+      "bytes": 138,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/014_fetch_LeanSearchClient.log"
+      },
+      "sha256": "a30c137da7add82c2364ecc3315e242d6a385e85bd0c3de04f2ca9884ade9d2f",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/014_fetch_LeanSearchClient.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/015_checkout_LeanSearchClient.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/015_checkout_LeanSearchClient.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/016_pin_LeanSearchClient.log"
+      },
+      "sha256": "2f23612cfb656f77475dd72b6fef961ef026cc564e4255e8888522b0c64e145e",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/016_pin_LeanSearchClient.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/017_init_importGraph.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/017_init_importGraph.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/018_remote_importGraph.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/018_remote_importGraph.log"
+    },
+    {
+      "bytes": 134,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/019_fetch_importGraph.log"
+      },
+      "sha256": "42c9b8e4c86b7f1318a353cf4078ce81c227fe91c6a123961a3208100efdee4e",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/019_fetch_importGraph.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/020_checkout_importGraph.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/020_checkout_importGraph.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/021_pin_importGraph.log"
+      },
+      "sha256": "9fa0e5f41ede66798c7b6cc50805e6eacf5083d816a0f4377cb4e594c1b72c86",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/021_pin_importGraph.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/022_init_proofwidgets.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/022_init_proofwidgets.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/023_remote_proofwidgets.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/023_remote_proofwidgets.log"
+    },
+    {
+      "bytes": 135,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/024_fetch_proofwidgets.log"
+      },
+      "sha256": "987dd23b357fbf4f46c0ac1980c4d0215a1f82e139b7504544f59f744458f02f",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/024_fetch_proofwidgets.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/025_checkout_proofwidgets.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/025_checkout_proofwidgets.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/026_pin_proofwidgets.log"
+      },
+      "sha256": "30d94c60b954d9eca4f225a124c79a430faa3f0fac636555662a53340d389c46",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/026_pin_proofwidgets.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/027_init_aesop.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/027_init_aesop.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/028_remote_aesop.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/028_remote_aesop.log"
+    },
+    {
+      "bytes": 127,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/029_fetch_aesop.log"
+      },
+      "sha256": "74e97bfcaaa1a39ac5742a87ef2149e0d2a558b6580e4bb34d99faacb49b3793",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/029_fetch_aesop.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/030_checkout_aesop.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/030_checkout_aesop.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/031_pin_aesop.log"
+      },
+      "sha256": "293905827145d67569da0681b785f1ecc719b8c96f1a2cadaa90b6cb862ff893",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/031_pin_aesop.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/032_init_Qq.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/032_init_Qq.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/033_remote_Qq.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/033_remote_Qq.log"
+    },
+    {
+      "bytes": 128,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/034_fetch_Qq.log"
+      },
+      "sha256": "b5ec4175e9942a83f7cba5b20dcaeac74d8c1585ce192c544b8ff6320af76867",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/034_fetch_Qq.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/035_checkout_Qq.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/035_checkout_Qq.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/036_pin_Qq.log"
+      },
+      "sha256": "9ef9878894434ff1e3d2b8c7733eac45e8fee7da537c165cccbc2619cc2239fd",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/036_pin_Qq.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/037_init_batteries.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/037_init_batteries.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/038_remote_batteries.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/038_remote_batteries.log"
+    },
+    {
+      "bytes": 131,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/039_fetch_batteries.log"
+      },
+      "sha256": "111eba297daf88e8e58ea3233d3c5c0d7d61e996f48c9d5d016051d5d910c30a",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/039_fetch_batteries.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/040_checkout_batteries.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/040_checkout_batteries.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/041_pin_batteries.log"
+      },
+      "sha256": "96a7d1426766466732ec36683930306f4c28f6acc835cc4e45f04ddbc84a4eb3",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/041_pin_batteries.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/042_init_Cli.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/042_init_Cli.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/043_remote_Cli.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/043_remote_Cli.log"
+    },
+    {
+      "bytes": 121,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/044_fetch_Cli.log"
+      },
+      "sha256": "6adf59a8b42fa8a95c88abdffcf628e91cd074dfa7d1993f6491adbe9eb14ce5",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/044_fetch_Cli.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/045_checkout_Cli.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/045_checkout_Cli.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/046_pin_Cli.log"
+      },
+      "sha256": "a3209fe94c28ff67a45eec97807065ca08798197e1d43918d129b89527c7b39f",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/046_pin_Cli.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/047_cache_Batteries_Data_Array_Match.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/047_cache_Batteries_Data_Array_Match.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/048_cache_Batteries_Data_String_Basic.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/048_cache_Batteries_Data_String_Basic.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/049_cache_Batteries_Data_String_Matcher.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/049_cache_Batteries_Data_String_Matcher.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/050_cache_Cache_Lean.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/050_cache_Cache_Lean.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/051_cache_Batteries_Tactic_OpenPrivate.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/051_cache_Batteries_Tactic_OpenPrivate.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/052_cache_Cache_IO.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/052_cache_Cache_IO.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/053_cache_Cache_Hashing.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/053_cache_Cache_Hashing.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/054_cache_Cache_Init.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/054_cache_Cache_Init.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/055_cache_Cache_Requests.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/055_cache_Cache_Requests.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/056_cache_Cache_Main.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/056_cache_Cache_Main.log"
+    },
+    {
+      "bytes": 10657,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/057_mathlib_cache.log"
+      },
+      "sha256": "b02d5caae12660b08b9d90f541ba70df30c93ca4f4981e9524fdf95ef12ea09e",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/057_mathlib_cache.log"
+    },
+    {
+      "bytes": 35491,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/RESULT.json"
+      },
+      "sha256": "712438e0452964f71c50d0fb25595d1abe9af2510db0d459db1198e7b78b7177",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap/RESULT.json"
+    },
+    {
+      "bytes": 112,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap_controller.log"
+      },
+      "sha256": "dcb7a2564ca1008039b7df323033e9d9b80d0613a90f53dec5e5f4384bb46e44",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap_controller.log"
+    },
+    {
+      "bytes": 5164,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap_tools/bootstrap.py"
+      },
+      "sha256": "b22e24bd4476c5b8c0e32a1c41db8d6e6ec262b3a67bf137d0dd14ba636f60cb",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/bootstrap_tools/bootstrap.py"
+    },
+    {
+      "bytes": 118,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_controller.log"
+      },
+      "sha256": "e3470697378ac8e2c26a173d8630aea71860c81471557e5487c08bf453fce762",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_controller.log"
+    },
+    {
+      "bytes": 12239,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/RESULT.json"
+      },
+      "sha256": "40f9dc693e5dd333ae351e579d3e702ee6ea0924a18a43c38ee63420b0e7aaa4",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/RESULT.json"
+    },
+    {
+      "bytes": 17521,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/combined.log"
+      },
+      "sha256": "6ac4d8e156ce27a62b46f98261f27414481272aaac10e41f2ef393300f821a4f",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/combined.log"
+    },
+    {
+      "bytes": 95987,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/dependency_copy.log"
+      },
+      "sha256": "41029ca8a1b5851d060d71716520937fffa0e6565217334ae43d108021dff3a9",
+      "target": "NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/dependency_copy.log"
+    },
+    {
       "bytes": 1857,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/export_evidence.py"
       },
@@ -10742,8 +12344,8 @@
       "bytes": 1086,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/initialize.py"
       },
@@ -10751,23 +12353,23 @@
       "target": "NDEA_Evolve_offruntime/exp015/remote_check/initialize.py"
     },
     {
-      "bytes": 1887,
+      "bytes": 1995,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/start_bootstrap.py"
       },
-      "sha256": "3ba608f7c61c20bc065ea5dc487a63d60df0f92dfa3e889675adbb2b777d9316",
+      "sha256": "275bc4f63687287b0cc63c82429b88c2db11788974123359aef1bae33a3d96d4",
       "target": "NDEA_Evolve_offruntime/exp015/remote_check/start_bootstrap.py"
     },
     {
       "bytes": 2314,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/start_final.py"
       },
@@ -10778,8 +12380,8 @@
       "bytes": 846,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/remote_check/status.py"
       },
@@ -10790,8 +12392,8 @@
       "bytes": 2922,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/run_lean.py"
       },
@@ -10802,8 +12404,8 @@
       "bytes": 4832,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/test_combined_infrastructure.py"
       },
@@ -10814,8 +12416,8 @@
       "bytes": 2471,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/test_environment_isolation.py"
       },
@@ -10826,8 +12428,8 @@
       "bytes": 8633,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/test_finalizer_gates.py"
       },
@@ -10838,8 +12440,8 @@
       "bytes": 12670,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/test_infrastructure.py"
       },
@@ -10850,8 +12452,8 @@
       "bytes": 3602,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/verification_tools/lean_import_closure.py"
       },
@@ -10862,8 +12464,8 @@
       "bytes": 28275,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/verification_tools/verify_exp005.py"
       },
@@ -10874,8 +12476,8 @@
       "bytes": 6962,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Evolve_offruntime/exp015/verify_combined.py"
       },
@@ -10886,8 +12488,8 @@
       "bytes": 2693,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/BACKUP_UPLOADS.json"
       },
@@ -10895,11 +12497,35 @@
       "target": "NDEA_Recovery/BACKUP_UPLOADS.json"
     },
     {
+      "bytes": 32457,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/GITHUB_BACKUP_RECEIPT.json"
+      },
+      "sha256": "e5d70d9fd24daa8948a2b64b49e990907f8349b638dc207393bbf79bfce64c8f",
+      "target": "NDEA_Recovery/GITHUB_BACKUP_RECEIPT.json"
+    },
+    {
+      "bytes": 16363,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/GITHUB_BACKUP_RUNBOOK.md"
+      },
+      "sha256": "a3eaff417653310a4938d994bcb2137f9168b4e79dce387ce09452f8cefa9ef5",
+      "target": "NDEA_Recovery/GITHUB_BACKUP_RUNBOOK.md"
+    },
+    {
       "bytes": 2039,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/LOCAL_BACKUP_RECEIPT.json"
       },
@@ -10910,8 +12536,8 @@
       "bytes": 1994,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/LOCAL_COPY_TEST_RESULT.json"
       },
@@ -10922,8 +12548,8 @@
       "bytes": 2792,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/OFF_MACHINE_BACKUP_RECEIPT.json"
       },
@@ -10934,8 +12560,8 @@
       "bytes": 6864,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/README.md"
       },
@@ -10943,23 +12569,23 @@
       "target": "NDEA_Recovery/README.md"
     },
     {
-      "bytes": 5714,
+      "bytes": 6916,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RECOVERY_POLICY.md"
       },
-      "sha256": "5ea3ffe2fc3624d8c9d4da4cd2a1bef34b443aa362a6f538ba1b1b8ae9991449",
+      "sha256": "9ba038972e8e077e72cab3be8e8d8bf39b19650e9a8b04da477b3d87c4ccd374",
       "target": "NDEA_Recovery/RECOVERY_POLICY.md"
     },
     {
       "bytes": 3270,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RECOVERY_REVIEW.md"
       },
@@ -10967,23 +12593,23 @@
       "target": "NDEA_Recovery/RECOVERY_REVIEW.md"
     },
     {
-      "bytes": 1172,
+      "bytes": 7444,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RECOVERY_TEST_RESULT.json"
       },
-      "sha256": "9631a6ffa92f80b3ba62ab4662746fa63644ce5c84502d65334d2df656c84b28",
+      "sha256": "7a3ee59959b0c9140be6a99788776d81940f28f754957e20dda395b7efc2405b",
       "target": "NDEA_Recovery/RECOVERY_TEST_RESULT.json"
     },
     {
       "bytes": 1381,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RELEASE_ARCHIVE_RECEIPT.json"
       },
@@ -10994,8 +12620,8 @@
       "bytes": 8611,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RELEASE_INVENTORY.json"
       },
@@ -11006,8 +12632,8 @@
       "bytes": 1851,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/RUN_MANIFEST.json"
       },
@@ -11015,47 +12641,47 @@
       "target": "NDEA_Recovery/RUN_MANIFEST.json"
     },
     {
-      "bytes": 4595,
+      "bytes": 5409,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/START_HERE.md"
       },
-      "sha256": "5b4e5c802a2848e98476ad71e9762744776faaac597735d6022901b511a7adf1",
+      "sha256": "351a646a80e9fe1fa09abebe5a43c67699d2c0ebe92641019c21353677d19ac6",
       "target": "NDEA_Recovery/START_HERE.md"
     },
     {
-      "bytes": 12613,
+      "bytes": 54468,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/TASK_STATE.json"
       },
-      "sha256": "05e165fb320878148501de3abdc2fe415767eb18db15439f99a819274c215ddd",
+      "sha256": "5d9328418f0232c915b228de256b2d784ae74e50516e768bc45fd5b7fb6c9a6f",
       "target": "NDEA_Recovery/TASK_STATE.json"
     },
     {
-      "bytes": 243,
+      "bytes": 463,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/WATCHER_STATUS.json"
       },
-      "sha256": "5196c9ed2355db4b1bbab7ce5292d2d82b9222b7cad8f76e22ba1fc5f11dd7ba",
+      "sha256": "81632eeb2f9fa8c3a838022964bc2fcfe6608dd950e3b6f90cff08917b9baeda",
       "target": "NDEA_Recovery/WATCHER_STATUS.json"
     },
     {
       "bytes": 15571,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/archive_releases.py"
       },
@@ -11063,23 +12689,551 @@
       "target": "NDEA_Recovery/archive_releases.py"
     },
     {
-      "bytes": 17375,
+      "bytes": 18906,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/checkpoint.py"
       },
-      "sha256": "6c0eb8a6f5e377021fc8ba8c27a1e1783a038ab315d8f7561a5fb95123c0b3bd",
+      "sha256": "70aeeb67bdae5880944c3256f8758bac6425d187fa4562c02adc10028d94b0b0",
       "target": "NDEA_Recovery/checkpoint.py"
+    },
+    {
+      "bytes": 27141,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/ARCHIVE_REMOTE_READBACK.json"
+      },
+      "sha256": "efea7f81caffc2f27b92e98893abcf84044e3c5b10dba5a20d816a91769bdcd5",
+      "target": "NDEA_Recovery/github_evidence/ARCHIVE_REMOTE_READBACK.json"
+    },
+    {
+      "bytes": 16486,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/ARCHIVE_UPLOAD.json"
+      },
+      "sha256": "c74391b3c9f6a5b4d20fb7efd57ca38a2ee958c184dfa4cb5a053e6ffd0540e4",
+      "target": "NDEA_Recovery/github_evidence/ARCHIVE_UPLOAD.json"
+    },
+    {
+      "bytes": 2186,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/EXP015_FINALIZER.log"
+      },
+      "sha256": "81a6c00515c7e95eb010a12b19ab6a1ed28ac0c3aa4ef8aa5df6b80641b9bc08",
+      "target": "NDEA_Recovery/github_evidence/EXP015_FINALIZER.log"
+    },
+    {
+      "bytes": 2376,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/EXP015_FINAL_PACKET_READBACK.json"
+      },
+      "sha256": "5eb7af6ce230768b68d3e999b3f9114ebda6e89f7a77d54d90928f233c8c10e8",
+      "target": "NDEA_Recovery/github_evidence/EXP015_FINAL_PACKET_READBACK.json"
+    },
+    {
+      "bytes": 2376,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/EXP015_FINAL_PACKET_READBACK.log"
+      },
+      "sha256": "5eb7af6ce230768b68d3e999b3f9114ebda6e89f7a77d54d90928f233c8c10e8",
+      "target": "NDEA_Recovery/github_evidence/EXP015_FINAL_PACKET_READBACK.log"
+    },
+    {
+      "bytes": 33641,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/EXP015_WATCHER_FINAL_OUTPUT.log"
+      },
+      "sha256": "9206f748c4123eba48928b0bcd61402c3a6a68c3553442413bc1aeecaf909d09",
+      "target": "NDEA_Recovery/github_evidence/EXP015_WATCHER_FINAL_OUTPUT.log"
+    },
+    {
+      "bytes": 7810,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/RECOVERY_METADATA_FIX_RESULT.json"
+      },
+      "sha256": "c2123cfc94feba09febfb94dac018867d4cee67adbd9d11c89e3d985018aae43",
+      "target": "NDEA_Recovery/github_evidence/RECOVERY_METADATA_FIX_RESULT.json"
+    },
+    {
+      "bytes": 679,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/SOURCE_CANDIDATE_REVIEW.json"
+      },
+      "sha256": "ccd2df64e0fca97e77a7058b8062db667e6c8e0f1ec7abe6cf96ebf42414bba9",
+      "target": "NDEA_Recovery/github_evidence/SOURCE_CANDIDATE_REVIEW.json"
+    },
+    {
+      "bytes": 1768,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/SOURCE_NETWORK_FAILURE_1.json"
+      },
+      "sha256": "786b204fc98303d8aa390d7a892d9913c6f6de4903a16f60f05d27cc5acd882b",
+      "target": "NDEA_Recovery/github_evidence/SOURCE_NETWORK_FAILURE_1.json"
+    },
+    {
+      "bytes": 196,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/SOURCE_NETWORK_FAILURE_1.log"
+      },
+      "sha256": "278978e3b608720f06ac1333b8f5e4c6bf0d1a1a3ae377bf71cf54a42a919329",
+      "target": "NDEA_Recovery/github_evidence/SOURCE_NETWORK_FAILURE_1.log"
+    },
+    {
+      "bytes": 2827,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/SOURCE_REMOTE_READBACK.json"
+      },
+      "sha256": "7c6c82e91410303f41c0eb9d4a0aa7fdd9be8b264f18856e2b8db5a3667fc467",
+      "target": "NDEA_Recovery/github_evidence/SOURCE_REMOTE_READBACK.json"
+    },
+    {
+      "bytes": 197,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/clone.log"
+      },
+      "sha256": "7051013fb7ffc06167ce60bb49cb2a984ca8688deced8a9ce4081963ff1e5ab8",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/clone.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_ancestry.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_ancestry.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_fsck.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_fsck.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_head.log"
+      },
+      "sha256": "8013d4ccbe28e79119468261d61d6a93af3156b46d05d0d6a3891be4c8bfc764",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_head.log"
+    },
+    {
+      "bytes": 63,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_origin.log"
+      },
+      "sha256": "a39536c197054d4bf16d2618f6240ebea3b060451674983ad89f6ff258961099",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_origin.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_parent.log"
+      },
+      "sha256": "638d468ca25568415afa4f089363e972a60e9ead2f8b060ddeba65a9e72c8422",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_parent.log"
+    },
+    {
+      "bytes": 6,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_shallow.log"
+      },
+      "sha256": "2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_shallow.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_status_after.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_status_after.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_status_before.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_status_before.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_tracking_branch.log"
+      },
+      "sha256": "8013d4ccbe28e79119468261d61d6a93af3156b46d05d0d6a3891be4c8bfc764",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_tracking_branch.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/git_tree.log"
+      },
+      "sha256": "be688305890708801e5dcb2ec0658614a2a2a08bb49ce9bbed56f4e384de1dd2",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/git_tree.log"
+    },
+    {
+      "bytes": 489,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/independent_validation.log"
+      },
+      "sha256": "8fdabd70c00c008ecfbbbbd97f447c4dfada65e782389e78d41a7d2d8fece2c7",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/independent_validation.log"
+    },
+    {
+      "bytes": 2765,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/archive_readback_logs/published_verify_backup.log"
+      },
+      "sha256": "3b03ed8ce701d5294defe3824a197d7010ef566f3f589227756965695444f1eb",
+      "target": "NDEA_Recovery/github_evidence/archive_readback_logs/published_verify_backup.log"
+    },
+    {
+      "bytes": 8894,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/ARCHIVE_BLOB_UPLOAD.json"
+      },
+      "sha256": "c4a746acec84b26929632a3aa5b2e527c1c434c1b0d6f5e4705a486392b54f15",
+      "target": "NDEA_Recovery/github_evidence/logs/ARCHIVE_BLOB_UPLOAD.json"
+    },
+    {
+      "bytes": 322,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/ARCHIVE_COMPLETE_PUBLICATION.json"
+      },
+      "sha256": "d4479e2e6057841e0dc54006eaa83131b580f8e810082768cbfada7546f7c326",
+      "target": "NDEA_Recovery/github_evidence/logs/ARCHIVE_COMPLETE_PUBLICATION.json"
+    },
+    {
+      "bytes": 301,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/ARCHIVE_INITIAL_PUBLICATION.json"
+      },
+      "sha256": "18e5c0f7e0c1dee7fd1ee0c0356978bcdac6949bb4e585027c83572ec4eb69e9",
+      "target": "NDEA_Recovery/github_evidence/logs/ARCHIVE_INITIAL_PUBLICATION.json"
+    },
+    {
+      "bytes": 76,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/ARCHIVE_ROOT_CLONE.log"
+      },
+      "sha256": "0af25540c5550da61cffea2c572f42f0e55c39c2c58f2ee006827d933a81fa66",
+      "target": "NDEA_Recovery/github_evidence/logs/ARCHIVE_ROOT_CLONE.log"
+    },
+    {
+      "bytes": 411,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/BACKUP_RESTORE_TEST.json"
+      },
+      "sha256": "b5b48950a3a269de01002a3f14ca824d062bac7399981b5a0b35607de25d1d73",
+      "target": "NDEA_Recovery/github_evidence/logs/BACKUP_RESTORE_TEST.json"
+    },
+    {
+      "bytes": 852,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/BACKUP_RESTORE_TEST.log"
+      },
+      "sha256": "b126e97c0e68fe4092653bd3292bd2d16236e2cc462ef76e260fcaf4431c4406",
+      "target": "NDEA_Recovery/github_evidence/logs/BACKUP_RESTORE_TEST.log"
+    },
+    {
+      "bytes": 86,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/EXP015_PROXY_STATUS_FAILURE.log"
+      },
+      "sha256": "2819e1887b0ab7f3bbd6d4cbaf35e0a9ed9016606e0307af4c50126648458e23",
+      "target": "NDEA_Recovery/github_evidence/logs/EXP015_PROXY_STATUS_FAILURE.log"
+    },
+    {
+      "bytes": 7444,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/RECOVERY_METADATA_FIX_TEST.log"
+      },
+      "sha256": "f17c50f5e404416e9ebcea07bb82e74cc58ac9086e6540365827776f627cc394",
+      "target": "NDEA_Recovery/github_evidence/logs/RECOVERY_METADATA_FIX_TEST.log"
+    },
+    {
+      "bytes": 283,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_PUBLICATION.json"
+      },
+      "sha256": "309d17e72ebdbc551f5aa08e79086ab56378bc90d49337f62a9c5bd3ad0a2752",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_PUBLICATION.json"
+    },
+    {
+      "bytes": 75,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_CLONE.log"
+      },
+      "sha256": "e7c98236e4ab06e54802aae33baae8c65b002fffbe6dd38830f00dbff43dfab6",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_CLONE.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_clean.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_clean.log"
+    },
+    {
+      "bytes": 90739,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_diff.log"
+      },
+      "sha256": "0edfa6a3a2c13c8173a98da97d72c3efcd625e4cd5f7b2fa10cf3b0ebfcadf46",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_diff.log"
+    },
+    {
+      "bytes": 0,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_fsck.log"
+      },
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_fsck.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_head.log"
+      },
+      "sha256": "6648d7cfd84b8b0203a44b6b5e2ccd111c35debe9007e19d2d61329440d64b99",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_head.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_parent.log"
+      },
+      "sha256": "f88424a9ea5647eb08fd3a4cea211cc3cbd5654ba3008d83dc6d0554dd0cee3b",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_parent.log"
+    },
+    {
+      "bytes": 41,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_tree.log"
+      },
+      "sha256": "1f7d94929ed8e62109568c66bf625d3722e54e2ea6f678e44b6adadc86684a4d",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_tree.log"
+    },
+    {
+      "bytes": 10350,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/logs/SOURCE_TREE_UPLOAD.json"
+      },
+      "sha256": "01ea5d993fb995cf75f21cee9c7977821847f26a0f38bbbd53752bb4569dd491",
+      "target": "NDEA_Recovery/github_evidence/logs/SOURCE_TREE_UPLOAD.json"
+    },
+    {
+      "bytes": 911,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/repair_exp015_colab_proxy.py"
+      },
+      "sha256": "96dd257205c6e203e38fb7ff11c94663eff4a7916c7a33f725d11201ce7ddeac",
+      "target": "NDEA_Recovery/github_evidence/repair_exp015_colab_proxy.py"
+    },
+    {
+      "bytes": 22800,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/verify_exp015_final_readback.py"
+      },
+      "sha256": "2cfc3c9488962db1bf655fb30e78941b73d5b4b1a19093f37720509a5cf2b037",
+      "target": "NDEA_Recovery/github_evidence/verify_exp015_final_readback.py"
+    },
+    {
+      "bytes": 5575,
+      "git_mode": "100644",
+      "origin": {
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+        "kind": "checkpoint_zip",
+        "member": "NDEA_Recovery/github_evidence/verify_source_remote.py"
+      },
+      "sha256": "c020f7e2a954cb4c2a7c90457643d61e61b53363b207d448a8a2cde4b4f2c26e",
+      "target": "NDEA_Recovery/github_evidence/verify_source_remote.py"
     },
     {
       "bytes": 22123,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/make_local_copy.py"
       },
@@ -11090,8 +13244,8 @@
       "bytes": 16245,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/test_local_copy.py"
       },
@@ -11099,23 +13253,23 @@
       "target": "NDEA_Recovery/test_local_copy.py"
     },
     {
-      "bytes": 7090,
+      "bytes": 10122,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/test_recovery.py"
       },
-      "sha256": "f8261422df3d481d4e9747cb5c057bed426b4f2495b326c565fa0671a1ed8d4f",
+      "sha256": "446e12400cece679f18a152d5f4d1a39e7cf19555b413ef96a750d841c17d266",
       "target": "NDEA_Recovery/test_recovery.py"
     },
     {
       "bytes": 2594,
       "git_mode": "100644",
       "origin": {
-        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
-        "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+        "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+        "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
         "kind": "checkpoint_zip",
         "member": "NDEA_Recovery/verify_off_machine.py"
       },
@@ -11123,11 +13277,13 @@
       "target": "NDEA_Recovery/verify_off_machine.py"
     }
   ],
+  "proof_rerun_performed": false,
   "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
-  "schema": 1,
-  "selection": "Cumulative Exp001\u2013005 tracked source/docs/pins from Exp005; Exp006\u2013014 source/tools/docs/pins and selected compact receipts; entire noncache Exp015/recovery checkpoint. Full sealed packets and original Git bundles are separate backup payloads.",
-  "source_frozen": false,
-  "status": "Local prepared source backup; no new Git commit or upload yet.",
-  "total_bytes": 14812821,
-  "workspace_sources_unchanged_after_copy": true
+  "schema": 2,
+  "sealed_sources_and_original_reports_unchanged": true,
+  "selection": "Preserved cumulative selected predecessor files plus exact final Exp015/recovery checkpoint text selection; no deletions.",
+  "self_hash_policy": "This manifest excludes itself; SOURCE_FINAL_UPLOAD and the Git tree bind its bytes.",
+  "source_frozen": true,
+  "status": "Exact local prepared refresh; publication and remote readback are separate actions.",
+  "total_bytes": 15922907
 }

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "proof_verification": false,
+  "archives_verified": [
+    {
+      "name": "Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+      "bytes": 237013,
+      "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+    }
+  ],
+  "companions_verified": 3,
+  "restore_to": "/tmp/ndea_backup_restore_exy2mhrz/restored"
+}
+
+Existing destination rejection:
+Traceback (most recent call last):
+  File "/home/richman954/NDEA_GitHub_Backup/archive_stage/verify_backup.py", line 92, in <module>
+    main()
+  File "/home/richman954/NDEA_GitHub_Backup/archive_stage/verify_backup.py", line 77, in main
+    args.restore_to.mkdir(parents=False, exist_ok=False)
+  File "/usr/lib/python3.11/pathlib.py", line 1117, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/tmp/ndea_backup_restore_exy2mhrz/restored'

@@ -28,7 +28,10 @@ METADATA_FILES = (
     "RUN_MANIFEST.json", "WATCHER_STATUS.json", "RELEASE_INVENTORY.json", "RELEASE_ARCHIVE_RECEIPT.json",
     "OFF_MACHINE_BACKUP_RECEIPT.json", "BACKUP_UPLOADS.json",
     "LOCAL_BACKUP_RECEIPT.json", "make_local_copy.py", "test_local_copy.py", "LOCAL_COPY_TEST_RESULT.json",
+    "GITHUB_BACKUP_RECEIPT.json", "GITHUB_BACKUP_RUNBOOK.md",
 )
+GITHUB_EVIDENCE_SUFFIXES = {".json", ".log", ".md", ".py", ".txt", ".sha256"}
+MAX_GITHUB_EVIDENCE_FILE_BYTES = 2 << 20
 EXCLUDED_DIRS = {
     ".git", ".lake", "__pycache__", "build", "cache", "caches",
     "dependencies", "isolated_dependencies", "dependency_cache", "library_cache",
@@ -143,6 +146,26 @@ def active_experiment(state: Path) -> Path:
     return selected
 
 
+def github_evidence_paths() -> list[Path]:
+    """Include only explicitly staged small text evidence, never external clones."""
+    root = HERE / "github_evidence"
+    if root.is_symlink() or (root.exists() and not root.is_dir()):
+        raise ValueError("GitHub evidence root must be a nonsymlink directory")
+    paths = []
+    for base, dirs, files in os.walk(root, followlinks=False):
+        parent = Path(base)
+        if any((parent / name).is_symlink() for name in dirs):
+            raise ValueError("GitHub evidence directory symlink rejected")
+        for name in files:
+            path = parent / name
+            if (path.is_symlink() or not path.is_file()
+                    or path.suffix not in GITHUB_EVIDENCE_SUFFIXES
+                    or path.stat().st_size > MAX_GITHUB_EVIDENCE_FILE_BYTES):
+                raise ValueError(f"Invalid GitHub evidence file: {path}")
+            paths.append(path)
+    return sorted(paths)
+
+
 def source_paths(state: Path, experiment: Path) -> tuple[list[Path], list[str]]:
     paths = []
     excluded = []
@@ -162,14 +185,16 @@ def source_paths(state: Path, experiment: Path) -> tuple[list[Path], list[str]]:
                 excluded.append(str(path.relative_to(WORKSPACE)))
             elif path.is_file():
                 paths.append(path)
-    for path in [PROJECT / "RESUME_STATUS.md", PROJECT / "WORKING_ROADMAP.md",
+    required = {WORKSPACE / "AGENTS.md", PROJECT / "RESUME_STATUS.md", PROJECT / "WORKING_ROADMAP.md"}
+    for path in [*required,
                  state, *(HERE / name for name in METADATA_FILES)]:
         if path.is_symlink():
             raise ValueError(f"Recovery metadata must not be a symlink: {path}")
         if path.is_file():
             paths.append(path)
-        elif path in {PROJECT / "RESUME_STATUS.md", PROJECT / "WORKING_ROADMAP.md"}:
+        elif path in required:
             raise FileNotFoundError(path)
+    paths.extend(github_evidence_paths())
     return sorted(set(paths)), excluded
 
 
@@ -183,6 +208,13 @@ def capture(path: Path) -> tuple[bytes, dict]:
         after = os.fstat(stream.fileno())
     if len(data) > MAX_BYTES:
         raise ValueError(f"Source exceeds recovery size limit: {path}")
+    if path.is_relative_to(HERE / "github_evidence"):
+        if len(data) > MAX_GITHUB_EVIDENCE_FILE_BYTES:
+            raise ValueError(f"GitHub evidence exceeds size limit: {path}")
+        try:
+            data.decode("utf-8")
+        except UnicodeDecodeError as error:
+            raise ValueError(f"GitHub evidence must be UTF-8 text: {path}") from error
     return data, {
         "sha256": sha(data), "bytes": len(data), "captured_utc": utc(),
         "source_mtime_ns_before": before.st_mtime_ns,

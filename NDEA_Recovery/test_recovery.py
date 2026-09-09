@@ -29,6 +29,15 @@ def check_task_selection():
             checkpoint.PROJECT = Path(temporary) / "project"
             checkpoint.HERE.mkdir()
             checkpoint.PROJECT.mkdir()
+            (checkpoint.WORKSPACE / "AGENTS.md").write_text("Fixture startup instructions\n")
+            for name in ["GITHUB_BACKUP_RECEIPT.json", "GITHUB_BACKUP_RUNBOOK.md"]:
+                (checkpoint.HERE / name).write_text("Fixture GitHub recovery metadata\n")
+            github = checkpoint.HERE / "github_evidence"
+            github.mkdir()
+            (github / "readback.log").write_text("Fixture exact readback log\n")
+            external = checkpoint.WORKSPACE / "NDEA_GitHub_Backup"
+            external.mkdir()
+            (external / "unselected.log").write_text("Must not enter recovery snapshot\n")
             for name in ["RESUME_STATUS.md", "WORKING_ROADMAP.md"]:
                 (checkpoint.PROJECT / name).write_text("Fixture recovery notes\n")
             selected = checkpoint.PROJECT / "exp013"
@@ -43,6 +52,25 @@ def check_task_selection():
             first = checkpoint.snapshot_once(state, "selected_task_without_final_receipt")
             assert first["active_experiment"] == "exp013"
             assert first["final_packet_receipt_captured"] is False
+            payload = checkpoint.verify_archive(Path(first["archive"]), first["archive_sha256"])["manifest"]["files"]
+            assert "AGENTS.md" in payload and "recovery/github_evidence/readback.log" in payload
+            assert not any(name.startswith("NDEA_GitHub_Backup/") for name in payload)
+            controls = {}
+            for name, target in [("file-link.log", selected / "proof.lean"), ("directory-link", selected)]:
+                path = github / name
+                path.symlink_to(target, target_is_directory=target.is_dir())
+                controls[name] = rejected(lambda: checkpoint.source_paths(state, selected))
+                path.unlink()
+            for name, data in [("archive.zip", b"not an allowed evidence type"),
+                               ("oversized.log", b"x" * (checkpoint.MAX_GITHUB_EVIDENCE_FILE_BYTES + 1))]:
+                path = github / name
+                path.write_bytes(data)
+                controls[name] = rejected(lambda: checkpoint.source_paths(state, selected))
+                path.unlink()
+            invalid_text = github / "invalid-text.log"
+            invalid_text.write_bytes(b"\xff")
+            controls["invalid_utf8"] = rejected(lambda: checkpoint.snapshot_once(state, "invalid_text_control"))
+            invalid_text.unlink()
             (selected / "evidence").mkdir()
             (selected / "evidence/FINAL_PACKET_RECEIPT.json").write_text('{"fixture": true}\n')
             with contextlib.redirect_stdout(io.StringIO()):
@@ -61,7 +89,9 @@ def check_task_selection():
             return {"old_experiment_receipt_did_not_complete_selected_task": True,
                     "watcher_stopped_after_matching_task_receipt_captured": True,
                     "outside_project_selection_rejected": outside_rejected,
-                    "symlink_experiment_selection_rejected": symlink_rejected}
+                    "symlink_experiment_selection_rejected": symlink_rejected,
+                    "github_evidence_rejections": controls,
+                    "unrelated_backup_directory_excluded": True}
         finally:
             checkpoint.HERE, checkpoint.PROJECT, checkpoint.WORKSPACE = original
             for sig, handler in signals.items():
@@ -70,6 +100,12 @@ def check_task_selection():
 
 def main():
     task_selection = check_task_selection()
+    metadata_paths = [checkpoint.WORKSPACE / "AGENTS.md",
+                      checkpoint.HERE / "GITHUB_BACKUP_RECEIPT.json",
+                      checkpoint.HERE / "GITHUB_BACKUP_RUNBOOK.md",
+                      *checkpoint.github_evidence_paths()]
+    expected_metadata = {str(path.relative_to(checkpoint.WORKSPACE)): path.read_bytes()
+                         for path in metadata_paths}
     pointer = checkpoint.snapshot_once(reason="recovery_readback_test")
     archive = Path(pointer["archive"])
     digest = pointer["archive_sha256"]
@@ -77,10 +113,17 @@ def main():
     assert checked["manifest"]["task_state_present"]
     assert "NDEA_Recovery/checkpoint.py" in checked["manifest"]["files"]
     assert "NDEA_Recovery/TASK_STATE.json" in checked["manifest"]["files"]
+    with zipfile.ZipFile(archive) as source:
+        for name, data in expected_metadata.items():
+            assert checked["manifest"]["files"][name]["sha256"] == checkpoint.sha(data)
+            assert source.read(name) == data
     with tempfile.TemporaryDirectory(prefix="recovery-test-", dir=checkpoint.HERE) as temporary:
         root = Path(temporary)
         restored = checkpoint.restore_archive(archive, digest, root / "restored")
         assert restored["files_verified"] == checked["payload_files_verified"]
+        for name, data in expected_metadata.items():
+            assert (root / "restored" / name).read_bytes() == data
+            assert (checkpoint.WORKSPACE / name).read_bytes() == data
         damaged = root / "damaged.zip"
         data = bytearray(archive.read_bytes())
         data[len(data) // 2] ^= 1
@@ -121,6 +164,8 @@ def main():
         "payload_hash_damage_rejected": payload_damage_rejected,
         "unsafe_path_rejected_before_restore": unsafe_rejected,
         "task_selection": task_selection,
+        "current_startup_and_github_metadata_captured_and_restored_exactly": {
+            name: checkpoint.sha(data) for name, data in expected_metadata.items()},
         "temporary_restore_removed_after_verification": True,
         "proof_completion_evidence": False,
         "scope": "Actual recovery archive readback and restored file hashes, with focused corruption/path controls; no Lean rerun or power-loss simulation.",

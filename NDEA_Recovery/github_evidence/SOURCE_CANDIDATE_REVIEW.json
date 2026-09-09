@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-09T02:54:57.631495+00:00",
+  "manifest_sha256": "0027795707573837cb735c6a235710286099b36a27a244b9b7c3e5f6f0b3239f",
+  "files_hash_verified": 1091,
+  "unique_content_hashes": 927,
+  "source_bytes": 14812821,
+  "all_utf8": true,
+  "non_utf8_paths": [],
+  "secret_pattern_findings": [],
+  "qualification": "Complete exact candidate byte scan using listed high-precision token/key patterns; original archives and Git histories are separately reviewed. This does not itself establish proof qualification.",
+  "patterns": [
+    "github_token",
+    "google_api_key",
+    "oauth_access_token",
+    "private_key",
+    "credential_json"
+  ],
+  "passed": true
+}

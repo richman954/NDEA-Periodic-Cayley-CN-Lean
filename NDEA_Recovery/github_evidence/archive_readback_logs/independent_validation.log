@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "exit_status": 0,
+  "commit": "ba4cd8d2275e13e812bd566bf5091f219fab1a79",
+  "remote_files_verified": 39,
+  "archives_reconstructed": 15,
+  "archive_bytes": 63732217,
+  "working_payloads_restored": 95,
+  "old_main_files_unchanged": 66,
+  "zip_payload_counts": [
+    40,
+    313,
+    262,
+    95
+  ],
+  "report": "/home/richman954/NDEA_GitHub_Backup/ARCHIVE_REMOTE_READBACK.json",
+  "report_sha256": "efea7f81caffc2f27b92e98893abcf84044e3c5b10dba5a20d816a91769bdcd5"
+}

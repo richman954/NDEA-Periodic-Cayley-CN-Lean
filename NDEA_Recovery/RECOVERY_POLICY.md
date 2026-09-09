@@ -81,9 +81,28 @@ truncated, say so and give its retained log path. Use tee or equivalent logging
 when useful. Preserve computation throughput while retaining complete evidence
 and enough visible observability to understand every important state change.
 
+For short authorized network-client operations, prefer a direct command using
+its established approval prefix. Preserve its complete tool-returned output in
+a named log immediately afterward. Shell wrappers/redirection can require a
+new approval despite an existing direct-command rule and may stall progress.
+The expensive remote compiler/bootstrap must still retain complete logs while
+running. This is the user's performance-aware observability compromise, not a
+reason to evade an approval or omit decisive evidence.
+
 GitHub backup authorization update: the user explicitly authorized using the
 existing public `richman954/NDEA-Periodic-Cayley-CN-Lean` repository for backups
 alongside local Chromebook copies. Preserve history, use additive changes and
 review exact upload contents. Verify remote source/assets by readback before
 claiming current off-device protection. This supersedes the earlier inspection-
 only limit for this destination; it does not authorize Google Drive backups.
+
+## Git source cadence and development layer
+
+Keep August 30 main unchanged. Use dev/variable-potential for curated source,
+tooling, tests, pins, derivations and compact meaningful receipts; retain exact
+large archives on the dedicated backup branch. Preserve receipt-bearing logs
+intentionally instead of blanket *.log exclusions. Take Git checkpoints after
+meaningful source progress, before risky refactors and after milestones. Reduce
+push frequency if it interferes with research; local snapshots remain frequent.
+Never move a published verified tag. Bind new Git metadata to original accepted
+source/receipt SHA-256 values without modifying sealed evidence to add a commit.

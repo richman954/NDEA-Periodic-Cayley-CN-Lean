@@ -1,0 +1,8 @@
+BOOT bb7ce4d2-8e5b-4960-9ba7-5dd6feb82daa
+bootstrap {"passed": false, "start_utc": "2026-09-09T03:03:27.820873+00:00", "command_count": 1, "completed_commands": 1}
+bootstrap controller_bytes 80
+Decompressed 2908774400 bytes using libzstd.so.1
+Safely extracted 15233 members
+
+final_verification RESULT pending
+

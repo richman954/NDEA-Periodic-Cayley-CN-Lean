@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/exp015_refresh_existing_proxy.py", line 12, in <module>
+    raise RuntimeError('Existing local Exp015 identity differs or is absent; no state changed')
+RuntimeError: Existing local Exp015 identity differs or is absent; no state changed

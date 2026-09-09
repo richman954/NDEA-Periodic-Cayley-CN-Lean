@@ -52,6 +52,16 @@ Exp011 piecewise-constant field does not satisfy Exp015 classical regularity;
 one must construct a suitable regular comparison field and prove its relation
 to the actual numerical output.
 
+One previously constrained path is initialization: Exp011's uniform estimate
+uses exact sampled initialization and an inverse grid-to-point norm estimate.
+Exp015 preserves an arbitrary initial L2 mismatch. With a proved stable
+reconstruction, this opens a route to inexact initialization in L2 without
+assuming the older pointwise inverse-norm step. Uniform pointwise convergence
+would still need additional control. A bridge from the current continuous-field
+integral norm to Mathlib's L2 interfaces may support that shared norm/synthesis
+infrastructure; establish its concrete consumer and feasibility before widening
+the next experiment to a general weak-solution theory.
+
 Use finite time slabs with globally defined polynomial time extensions and
 smooth periodic spatial synthesis. Apply Exp015 on each slab, prove the needed
 spatial L2 triangle inequality, and accumulate actual value jumps at interfaces.

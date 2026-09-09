@@ -1,0 +1,33 @@
+{
+  "passed": false,
+  "started_utc": "2026-09-09T03:04:14.845096+00:00",
+  "remote": "https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean.git",
+  "branch": "backup/ndeaevolve-20260909",
+  "expected_commit": "2a4028add0c09e7e8445e8f6886a965cd2573ac0",
+  "expected_tree": "252ca564f70e9d4772c920cd85338f605d80f4a4",
+  "expected_parent": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+  "clone": "/home/richman954/NDEA_GitHub_Backup/source_readback",
+  "commands": [
+    {
+      "command": [
+        "git",
+        "clone",
+        "--branch",
+        "backup/ndeaevolve-20260909",
+        "--single-branch",
+        "https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean.git",
+        "/home/richman954/NDEA_GitHub_Backup/source_readback"
+      ],
+      "cwd": null,
+      "exit_code": 128,
+      "log": "/home/richman954/NDEA_GitHub_Backup/source_readback_clone.log",
+      "log_sha256": "278978e3b608720f06ac1333b8f5e4c6bf0d1a1a3ae377bf71cf54a42a919329",
+      "bytes": 196
+    }
+  ],
+  "upload_manifest_sha256": "7facfd9f69a597cb6de11cd69bc20cef81dd6a7ee238ea7c86c2a9a25450f3f0",
+  "error": "clone returned 128; inspect saved log",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/richman954/NDEA_GitHub_Backup/verify_source_remote.py\", line 54, in <module>\n    run('clone', ['git', 'clone', '--branch', BRANCH, '--single-branch', result['remote'], str(CLONE)])\n  File \"/home/richman954/NDEA_GitHub_Backup/verify_source_remote.py\", line 33, in run\n    raise RuntimeError(f'{label} returned {process.returncode}; inspect saved log')\nRuntimeError: clone returned 128; inspect saved log\n",
+  "finished_utc": "2026-09-09T03:04:14.945907+00:00",
+  "verifier_sha256": "c020f7e2a954cb4c2a7c90457643d61e61b53363b207d448a8a2cde4b4f2c26e"
+}

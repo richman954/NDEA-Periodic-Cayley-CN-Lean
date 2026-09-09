@@ -1,9 +1,12 @@
 {
   "active_experiment": "exp015",
   "interval_seconds": 60.0,
+  "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T033030.765054Z_126ef1f9.zip",
   "maximum_hours": 12.0,
   "pid": 2,
   "started_utc": "2026-09-09T02:05:07.900251+00:00",
-  "status": "running",
+  "status": "stopped",
+  "stop_reason": "final_packet_receipt_captured",
+  "stopped_utc": "2026-09-09T03:30:31.027274+00:00",
   "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
 }

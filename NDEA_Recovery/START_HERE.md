@@ -2,6 +2,18 @@
 
 Start with the saved files, even if the previous chat is unavailable.
 
+GitHub backup update, September 9, 2026 UTC: the user now authorizes the
+existing public `richman954/NDEA-Periodic-Cayley-CN-Lean` repository as an
+additional backup destination. Read `GITHUB_BACKUP_RECEIPT.json` and
+`GITHUB_BACKUP_RUNBOOK.md` for verified coverage and recovery commands. The
+source branch is `backup/ndeaevolve-20260909`; exact archive payloads are on
+`backup/verified-milestones-20260909`. Local Chromebook copies continue.
+GitHub updates occur at verified milestones; the local minute watcher does
+not automatically push them. A Git commit records source bytes, while original
+proof receipts establish which source passed which checks. Google Drive remains
+canceled. If recovering without this Chromebook, begin at the repository's
+archive branch and its `NDEA_BACKUP/README.md` and manifest.
+
 1. Read `TASK_STATE.json` in this directory, then
    `/home/richman954/NDEA_Evolve_offruntime/RESUME_STATUS.md` and
    `/home/richman954/NDEA_Evolve_offruntime/WORKING_ROADMAP.md`.

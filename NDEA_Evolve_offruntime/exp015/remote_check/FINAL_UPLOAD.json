@@ -1,0 +1,24 @@
+{
+  "archive": "/content/exp015_check/final_sources_ef99d7098209d790.tar.gz",
+  "sha256": "97ec6476764f8f3040b1f765e800cb8624d2f7eee3c2bf7e273d420ddb5a8c95",
+  "combined_sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "cc3f423d1cc2c7c724dcc36022234ca0ad3f9c6448d05e48f7eb2c43467d2038",
+    "lean/Controls.lean": "e5afdf59a044ea25f1263ba99345023c275122d3c2df5840d9e19e17cac9fd24",
+    "lean/Exp014Foundation.lean": "9d8ac0dfcba35dec86ea229657defc88da01f94ddfece9b8f119f52120a4d8c6",
+    "lean/Exp015Combined.lean": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+    "lean/ForcedStability.lean": "4e64ef0cd6c6f132486726e1eb6c9a1688dddbdc4541de306dc49d685d6cf1dc",
+    "lean/ResidualEstimate.lean": "1b39a5713e6baf76b3222639f2dfc302ee7d9abbd350587d3288b20c4555c6e5",
+    "lean/ResidualField.lean": "859f05bb08bf5e445ef9288506c7411146ffc9a3d1d7a753e4b313a379109cd7",
+    "lean/ScalarSqrtEstimate.lean": "7ea970694c0b05bd231195c53c78059e8c8eb834e291e47f18a8289eac9fb927",
+    "lean/SpatialL2.lean": "49f15285df64a006ff2179042aad3c07630f8f960385c0d99c946a9f5ef0ce40",
+    "lean/VariablePotentialBridge.lean": "0a94c00f8a65a6f807d9fa786db591560cb96abf4fa18b28e3ccc273b0bb3169",
+    "make_combined.py": "bb6fff01c7953d1a0ba95d6f4b7563e64fa8a2b5e67c0619aacb4241b1f4df1a",
+    "predecessor_sources/Exp014Combined.lean": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "3159dcb5e31a09c2e6228eae112dd7bb417f02315571ee32a81e063426dbe77d"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/final_sources_ef99d7098209d790.tar.gz"
+}

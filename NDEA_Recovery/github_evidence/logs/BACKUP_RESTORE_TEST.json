@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T03:03:36.444497+00:00",
+  "checks": [
+    "actual_checkpoint_reconstructed_and_sha256_readback_passed",
+    "existing_restore_destination_rejected",
+    "corrupted_part_rejected",
+    "path_traversal_rejected",
+    "duplicate_archive_rejected"
+  ],
+  "verifier_sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39",
+  "proof_verification": false
+}

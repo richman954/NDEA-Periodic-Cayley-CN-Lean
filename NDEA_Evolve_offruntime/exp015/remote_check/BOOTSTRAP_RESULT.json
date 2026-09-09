@@ -1,0 +1,1068 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "label": "download_lean",
+      "command": [
+        "curl",
+        "-fL",
+        "--retry",
+        "3",
+        "--connect-timeout",
+        "30",
+        "--max-time",
+        "900",
+        "https://github.com/leanprover/lean4/releases/download/v4.31.0/lean-4.31.0-linux.tar.zst",
+        "-o",
+        "/content/exp015_check/lean-4.31.0-linux.tar.zst"
+      ],
+      "log": "/content/exp015_check/bootstrap/001_download_lean.log",
+      "exit_code": 0,
+      "elapsed_seconds": 20.14914643200018,
+      "log_sha256": "018517f8ea8f512c80056597500731a23b530d4a185cd6bbee5853dd87cb4a33"
+    },
+    {
+      "label": "init_mathlib",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib"
+      ],
+      "log": "/content/exp015_check/bootstrap/002_init_mathlib.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.11782262699944113,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_mathlib",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "log": "/content/exp015_check/bootstrap/003_remote_mathlib.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.008194470000489673,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_mathlib",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f"
+      ],
+      "log": "/content/exp015_check/bootstrap/004_fetch_mathlib.log",
+      "exit_code": 0,
+      "elapsed_seconds": 9.259972980000384,
+      "log_sha256": "ddca247f1ee5da33bee135792a8eddd17bef2b1c884a72b0ddaef798088a4561"
+    },
+    {
+      "label": "checkout_mathlib",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/005_checkout_mathlib.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9691385930000251,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_mathlib",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/006_pin_mathlib.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.006361809999361867,
+      "log_sha256": "b5017ae798c1946ebd517271aeaa1d44720270b74e96ea9b73222061b945ad55"
+    },
+    {
+      "label": "init_plausible",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/plausible"
+      ],
+      "log": "/content/exp015_check/bootstrap/007_init_plausible.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.00489016499977879,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_plausible",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/plausible",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/plausible"
+      ],
+      "log": "/content/exp015_check/bootstrap/008_remote_plausible.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0074121070001638145,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_plausible",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/plausible",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "63045536fe95024e6c18fc7b48e03f506701c5bc"
+      ],
+      "log": "/content/exp015_check/bootstrap/009_fetch_plausible.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.920868100000007,
+      "log_sha256": "a8df935ca8b96db8a4693fb0db3e8fe0e6b9f0eb09a02e648bd95510ff936ae8"
+    },
+    {
+      "label": "checkout_plausible",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/plausible",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/010_checkout_plausible.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.016200713999751315,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_plausible",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/011_pin_plausible.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0038871890001246356,
+      "log_sha256": "eb4ec09eed2bb418fa959f580ae123ba925cf478911605d05d0338dfff7e5109"
+    },
+    {
+      "label": "init_LeanSearchClient",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/LeanSearchClient"
+      ],
+      "log": "/content/exp015_check/bootstrap/012_init_LeanSearchClient.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003880089000631415,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_LeanSearchClient",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/LeanSearchClient",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/LeanSearchClient"
+      ],
+      "log": "/content/exp015_check/bootstrap/013_remote_LeanSearchClient.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0038472770002044854,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_LeanSearchClient",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/LeanSearchClient",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "c5d5b8fe6e5158def25cd28eb94e4141ad97c843"
+      ],
+      "log": "/content/exp015_check/bootstrap/014_fetch_LeanSearchClient.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8673023050005213,
+      "log_sha256": "a30c137da7add82c2364ecc3315e242d6a385e85bd0c3de04f2ca9884ade9d2f"
+    },
+    {
+      "label": "checkout_LeanSearchClient",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/LeanSearchClient",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/015_checkout_LeanSearchClient.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.008115330999316939,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_LeanSearchClient",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/016_pin_LeanSearchClient.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003876114999911806,
+      "log_sha256": "2f23612cfb656f77475dd72b6fef961ef026cc564e4255e8888522b0c64e145e"
+    },
+    {
+      "label": "init_importGraph",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/importGraph"
+      ],
+      "log": "/content/exp015_check/bootstrap/017_init_importGraph.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.008110026999929687,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_importGraph",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/importGraph",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/import-graph"
+      ],
+      "log": "/content/exp015_check/bootstrap/018_remote_importGraph.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003984085999945819,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_importGraph",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/importGraph",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "5c7542ed018c78194f1e2b903eaf6a792b74c03d"
+      ],
+      "log": "/content/exp015_check/bootstrap/019_fetch_importGraph.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9191004949998387,
+      "log_sha256": "42c9b8e4c86b7f1318a353cf4078ce81c227fe91c6a123961a3208100efdee4e"
+    },
+    {
+      "label": "checkout_importGraph",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/importGraph",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/020_checkout_importGraph.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.016336942000634735,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_importGraph",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/021_pin_importGraph.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.004076247999364568,
+      "log_sha256": "9fa0e5f41ede66798c7b6cc50805e6eacf5083d816a0f4377cb4e594c1b72c86"
+    },
+    {
+      "label": "init_proofwidgets",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/proofwidgets"
+      ],
+      "log": "/content/exp015_check/bootstrap/022_init_proofwidgets.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0039365149996228865,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_proofwidgets",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/proofwidgets",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/ProofWidgets4"
+      ],
+      "log": "/content/exp015_check/bootstrap/023_remote_proofwidgets.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003909417000613757,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_proofwidgets",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/proofwidgets",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "24b0d9dc081c5423f8eec7e866c441e5184f29d9"
+      ],
+      "log": "/content/exp015_check/bootstrap/024_fetch_proofwidgets.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0678400770002554,
+      "log_sha256": "987dd23b357fbf4f46c0ac1980c4d0215a1f82e139b7504544f59f744458f02f"
+    },
+    {
+      "label": "checkout_proofwidgets",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/proofwidgets",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/025_checkout_proofwidgets.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.06447686100000283,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_proofwidgets",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/026_pin_proofwidgets.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.004004789999271452,
+      "log_sha256": "30d94c60b954d9eca4f225a124c79a430faa3f0fac636555662a53340d389c46"
+    },
+    {
+      "label": "init_aesop",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/aesop"
+      ],
+      "log": "/content/exp015_check/bootstrap/027_init_aesop.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.00403769700005796,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_aesop",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/aesop",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/aesop"
+      ],
+      "log": "/content/exp015_check/bootstrap/028_remote_aesop.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003970860999288561,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_aesop",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/aesop",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "e3cb2f741431ce31bf73549fb52316a57368b06f"
+      ],
+      "log": "/content/exp015_check/bootstrap/029_fetch_aesop.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9174366919996828,
+      "log_sha256": "74e97bfcaaa1a39ac5742a87ef2149e0d2a558b6580e4bb34d99faacb49b3793"
+    },
+    {
+      "label": "checkout_aesop",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/aesop",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/030_checkout_aesop.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.03270218099987687,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_aesop",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/031_pin_aesop.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003968111000176577,
+      "log_sha256": "293905827145d67569da0681b785f1ecc719b8c96f1a2cadaa90b6cb862ff893"
+    },
+    {
+      "label": "init_Qq",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/Qq"
+      ],
+      "log": "/content/exp015_check/bootstrap/032_init_Qq.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.00398772199969244,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_Qq",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Qq",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/quote4"
+      ],
+      "log": "/content/exp015_check/bootstrap/033_remote_Qq.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003967812000155391,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_Qq",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Qq",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "f46324995fca5f0483b742e4eb4daec7f4ee50d2"
+      ],
+      "log": "/content/exp015_check/bootstrap/034_fetch_Qq.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9182251150004959,
+      "log_sha256": "b5ec4175e9942a83f7cba5b20dcaeac74d8c1585ce192c544b8ff6320af76867"
+    },
+    {
+      "label": "checkout_Qq",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Qq",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/035_checkout_Qq.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.008104573000309756,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_Qq",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/036_pin_Qq.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003974731000198517,
+      "log_sha256": "9ef9878894434ff1e3d2b8c7733eac45e8fee7da537c165cccbc2619cc2239fd"
+    },
+    {
+      "label": "init_batteries",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/batteries"
+      ],
+      "log": "/content/exp015_check/bootstrap/037_init_batteries.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003919869999663206,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_batteries",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover-community/batteries"
+      ],
+      "log": "/content/exp015_check/bootstrap/038_remote_batteries.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0039032630002111546,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_batteries",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "fa08db58b30eb033edcdab331bba000827f9f785"
+      ],
+      "log": "/content/exp015_check/bootstrap/039_fetch_batteries.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0178085379993718,
+      "log_sha256": "111eba297daf88e8e58ea3233d3c5c0d7d61e996f48c9d5d016051d5d910c30a"
+    },
+    {
+      "label": "checkout_batteries",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/040_checkout_batteries.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.03232622900031856,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_batteries",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/041_pin_batteries.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.003986031999374973,
+      "log_sha256": "96a7d1426766466732ec36683930306f4c28f6acc835cc4e45f04ddbc84a4eb3"
+    },
+    {
+      "label": "init_Cli",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "/content/exp015_check/mathlib/.lake/packages/Cli"
+      ],
+      "log": "/content/exp015_check/bootstrap/042_init_Cli.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0039116710004236666,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "remote_Cli",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Cli",
+        "remote",
+        "add",
+        "origin",
+        "https://github.com/leanprover/lean4-cli"
+      ],
+      "log": "/content/exp015_check/bootstrap/043_remote_Cli.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0039287250001507346,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "fetch_Cli",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Cli",
+        "fetch",
+        "--depth=1",
+        "origin",
+        "92564e5770e4d09f2d86dfbf8ada1e9c715b384c"
+      ],
+      "log": "/content/exp015_check/bootstrap/044_fetch_Cli.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9175706679998257,
+      "log_sha256": "6adf59a8b42fa8a95c88abdffcf628e91cd074dfa7d1993f6491adbe9eb14ce5"
+    },
+    {
+      "label": "checkout_Cli",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Cli",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/045_checkout_Cli.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.008151797000209626,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "pin_Cli",
+      "command": [
+        "git",
+        "-C",
+        "/content/exp015_check/mathlib/.lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "/content/exp015_check/bootstrap/046_pin_Cli.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0039048959997671773,
+      "log_sha256": "a3209fe94c28ff67a45eec97807065ca08798197e1d43918d129b89527c7b39f"
+    },
+    {
+      "label": "cache_Batteries_Data_Array_Match",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Batteries/Data/Array/Match.olean",
+        "/content/exp015_check/mathlib/.lake/packages/batteries/Batteries/Data/Array/Match.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/047_cache_Batteries_Data_Array_Match.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7253184119999787,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Batteries_Data_String_Basic",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Batteries/Data/String/Basic.olean",
+        "/content/exp015_check/mathlib/.lake/packages/batteries/Batteries/Data/String/Basic.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/048_cache_Batteries_Data_String_Basic.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.670089511999322,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Batteries_Data_String_Matcher",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Batteries/Data/String/Matcher.olean",
+        "/content/exp015_check/mathlib/.lake/packages/batteries/Batteries/Data/String/Matcher.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/049_cache_Batteries_Data_String_Matcher.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6215866190004817,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_Lean",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/Lean.olean",
+        "/content/exp015_check/mathlib/Cache/Lean.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/050_cache_Cache_Lean.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5173710819999542,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Batteries_Tactic_OpenPrivate",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib/.lake/packages/batteries",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Batteries/Tactic/OpenPrivate.olean",
+        "/content/exp015_check/mathlib/.lake/packages/batteries/Batteries/Tactic/OpenPrivate.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/051_cache_Batteries_Tactic_OpenPrivate.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1.3695404239997515,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_IO",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/IO.olean",
+        "/content/exp015_check/mathlib/Cache/IO.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/052_cache_Cache_IO.log",
+      "exit_code": 0,
+      "elapsed_seconds": 2.725292047000039,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_Hashing",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/Hashing.olean",
+        "/content/exp015_check/mathlib/Cache/Hashing.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/053_cache_Cache_Hashing.log",
+      "exit_code": 0,
+      "elapsed_seconds": 1.1679284820002067,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_Init",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/Init.olean",
+        "/content/exp015_check/mathlib/Cache/Init.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/054_cache_Cache_Init.log",
+      "exit_code": 0,
+      "elapsed_seconds": 0.36542826700042497,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_Requests",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/Requests.olean",
+        "/content/exp015_check/mathlib/Cache/Requests.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/055_cache_Cache_Requests.log",
+      "exit_code": 0,
+      "elapsed_seconds": 4.133279857000161,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "cache_Cache_Main",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "-R",
+        "/content/exp015_check/mathlib",
+        "-o",
+        "/content/exp015_check/bootstrap/cache_client/lib/lean/Cache/Main.olean",
+        "/content/exp015_check/mathlib/Cache/Main.lean"
+      ],
+      "log": "/content/exp015_check/bootstrap/056_cache_Cache_Main.log",
+      "exit_code": 0,
+      "elapsed_seconds": 2.031792738999684,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "mathlib_cache",
+      "command": [
+        "/content/exp015_check/lean-4.31.0-linux/bin/lean",
+        "-j",
+        "1",
+        "--run",
+        "/content/exp015_check/mathlib/Cache/Main.lean",
+        "get",
+        "Mathlib.Algebra.QuadraticDiscriminant",
+        "Mathlib.Analysis.Calculus.Deriv.Add",
+        "Mathlib.Analysis.Calculus.Deriv.Mul",
+        "Mathlib.Analysis.Calculus.Deriv.Slope",
+        "Mathlib.Analysis.Calculus.ParametricIntervalIntegral",
+        "Mathlib.Analysis.Calculus.SmoothSeries",
+        "Mathlib.Analysis.Complex.RealDeriv",
+        "Mathlib.Analysis.InnerProductSpace.Adjoint",
+        "Mathlib.Analysis.InnerProductSpace.Calculus",
+        "Mathlib.Analysis.Normed.Algebra.Exponential",
+        "Mathlib.Analysis.Normed.Group.Bounded",
+        "Mathlib.Analysis.Normed.Group.FunctionSeries",
+        "Mathlib.Analysis.Normed.Lp.lpHolder",
+        "Mathlib.Analysis.Normed.Lp.lpSpace",
+        "Mathlib.Analysis.Normed.Operator.Bilinear",
+        "Mathlib.Analysis.Normed.Operator.ContinuousLinearMap",
+        "Mathlib.Analysis.ODE.ExistUnique",
+        "Mathlib.Analysis.Real.Sqrt",
+        "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
+        "Mathlib.Analysis.SpecialFunctions.Exponential",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv",
+        "Mathlib.Analysis.SpecificLimits.Basic",
+        "Mathlib.LinearAlgebra.Matrix.Kronecker",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set",
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Module",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Topology.Algebra.InfiniteSum.Module"
+      ],
+      "log": "/content/exp015_check/bootstrap/057_mathlib_cache.log",
+      "exit_code": 0,
+      "elapsed_seconds": 42.431628241,
+      "log_sha256": "b02d5caae12660b08b9d90f541ba70df30c93ca4f4981e9524fdf95ef12ea09e"
+    }
+  ],
+  "start_utc": "2026-09-09T03:03:27.820873+00:00",
+  "input_hashes": {
+    "Combined.lean": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+    "bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+  },
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "archive_sha256": "07a633cc8d9151cbc08825ea4cdda50d4b02a2c9cb852c0131b13046f49cad7f",
+  "dependency_pins": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "cache_modules": [
+    "Mathlib.Algebra.QuadraticDiscriminant",
+    "Mathlib.Analysis.Calculus.Deriv.Add",
+    "Mathlib.Analysis.Calculus.Deriv.Mul",
+    "Mathlib.Analysis.Calculus.Deriv.Slope",
+    "Mathlib.Analysis.Calculus.ParametricIntervalIntegral",
+    "Mathlib.Analysis.Calculus.SmoothSeries",
+    "Mathlib.Analysis.Complex.RealDeriv",
+    "Mathlib.Analysis.InnerProductSpace.Adjoint",
+    "Mathlib.Analysis.InnerProductSpace.Calculus",
+    "Mathlib.Analysis.Normed.Algebra.Exponential",
+    "Mathlib.Analysis.Normed.Group.Bounded",
+    "Mathlib.Analysis.Normed.Group.FunctionSeries",
+    "Mathlib.Analysis.Normed.Lp.lpHolder",
+    "Mathlib.Analysis.Normed.Lp.lpSpace",
+    "Mathlib.Analysis.Normed.Operator.Bilinear",
+    "Mathlib.Analysis.Normed.Operator.ContinuousLinearMap",
+    "Mathlib.Analysis.ODE.ExistUnique",
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
+    "Mathlib.Analysis.SpecialFunctions.Exponential",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv",
+    "Mathlib.Analysis.SpecificLimits.Basic",
+    "Mathlib.LinearAlgebra.Matrix.Kronecker",
+    "Mathlib.MeasureTheory.Integral.Bochner.Set",
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Module",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Topology.Algebra.InfiniteSum.Module"
+  ],
+  "end_utc": "2026-09-09T03:05:57.435602+00:00"
+}

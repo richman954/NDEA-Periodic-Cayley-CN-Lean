@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-09T03:29:05.824574+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/check_download.py",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/exp015_independent_evidence_20260909T032818Z.tar.gz",
+    "--sha256",
+    "a3675e21f27ebce496bf06d924f0e46a2ed58443cf5d2429232a6b820cd8b163",
+    "--extract-to",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence"
+  ],
+  "exit_code": 0,
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/receiving_check_driver.log",
+  "log_sha256": "4669e4f1e9dbed45d2ca2a3ff75a82b8a7ccd8fe1e0ae5057a31ac7fa26304e9",
+  "archive_sha256": "a3675e21f27ebce496bf06d924f0e46a2ed58443cf5d2429232a6b820cd8b163",
+  "checker_sha256": "382868c7ec877414fb929d2ec7d00028015cca9669c3251c7c923539eaaa3023"
+}
