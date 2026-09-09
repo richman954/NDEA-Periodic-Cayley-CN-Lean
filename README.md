@@ -1,88 +1,42 @@
-# NDEA periodic Cayley–Crank–Nicolson formalization
+# Variable-potential development
 
-This repository records a Lean 4.31 formalization milestone for a classical
-convergence analysis of a periodic one-dimensional centered-space
-Cayley–Crank–Nicolson discretization of the linear Schrödinger equation.
+This is the curated `dev/variable-potential` branch of NDEA. It starts from the August 30 main commit `15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c`. Main and its history remain unchanged. The original release sources, paper, configuration and audit files remain here; the [original README](https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean/blob/15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c/README.md) describes that release. This branch changes only this README and `.gitignore` among those original files.
 
-Three scope statements are essential:
+Start with [the development plan](DEVELOPMENT_PLAN.md), [the current roadmap](NDEA_Evolve_offruntime/WORKING_ROADMAP.md), and the [Exp015 completion report](NDEA_Evolve_offruntime/exp015/COMPLETION_REPORT.md). Exp013 establishes generic classical energy and uniqueness; Exp014 constructs classical solutions for a weighted Fourier variable-potential class; Exp015 proves quantitative continuous L2 forcing/residual estimates with coefficient 1, including arbitrary initial error and application to those solutions. Variable-potential discrete-scheme convergence remains proposed work. Exp015 has completed local and independent qualification and packet sealing; this branch does not add a new proof result.
 
-- The numerical theorem is classical.
-- The contribution is the audited Lean 4 formalization.
-- Any “first” claim remains preliminary and unchecked.
+## Layout and evidence
 
-## Verified chain
+`NDEA_Evolve_offruntime/exp013` through `exp015` retain exact accepted Lean sources, combined sources, verification/audit Python, controls, tests, dependency pins, derivations and compact receipts. The selected Exp008–012 Lean files complete the actual modular import chain. Their packet manifests and receipts bind those bytes to earlier sealed packets. The older experiment folders here are deliberately partial.
 
-The development connects:
+The [source manifest](DEVELOPMENT_SOURCE_MANIFEST.json) maps paths and SHA-256 values to sealed packet entries, accepted module receipts, combined-source hashes and local/independent result receipts. Small accepted compiler `.log` files are deliberately included. Large dependency artifact inventories, downloaded libraries, project build caches, full bootstrap logs, scratch files, launch/session state and packet archives belong in recovery storage. Historical receipt paths remain unchanged; not every referenced payload is in this curated tree.
 
-1. the periodic centered finite-difference Laplacian;
-2. Cayley-factor invertibility and unitarity;
-3. arbitrary finite-step weighted-norm stability;
-4. explicit spatial and temporal Taylor remainder estimates;
-5. a fixed-time `O(k² + h²)` weighted-error estimate; and
-6. a grid-family convergence theorem.
+The separate `backup/ndeaevolve-20260909` branch is a recovery source snapshot. `backup/verified-milestones-20260909` contains exact archive payloads and its `NDEA_BACKUP/README.md` explains restoration and coverage. Use its actual manifest and verified readback receipts to establish the latest uploaded milestone; a local sealed packet does not by itself establish remote coverage. Restore full archives into a separate directory when historical packet validation is needed. Local Chromebook recovery copies continue; Google Drive is canceled.
 
-The headline bound is
+## Rechecking accepted combined sources
 
-```text
-error(N) ≤ initial_error
-  + T * (sqrt(L) * (5*Mt/12) * k² + sqrt(L) * (Ms/12) * h²).
+Use the exact Lean 4.31.0 compiler and clean pinned dependency checkouts with compatible prebuilt external artifacts. The complete package lock is `expNNN/remote_check/bootstrap_inputs/lake-manifest.json`; Mathlib is pinned to `fabf563a7c95a166b8d7b6efca11c8b4dc9d911f`. The recorded Lean binary SHA-256 is `e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550`. These dependencies are not vendored here. The old root Lake project still describes the August 30 release; `lake build` at this root is not the Exp013–015 qualification command.
+
+From this checkout, after provisioning the pinned compiler and external package artifacts, run one experiment at a time, with absolute paths substituted:
+
+```sh
+python3 -B NDEA_Evolve_offruntime/exp015/verify_combined.py \
+  --root /absolute/path/to/checkout/NDEA_Evolve_offruntime/exp015 \
+  --lean /absolute/path/to/lean-4.31.0/bin/lean \
+  --mathlib /absolute/path/to/packages/mathlib \
+  --other-packages /absolute/path/to/packages \
+  --output /absolute/path/to/new-exp015-check-output
 ```
 
-## Headline declarations
+The output directory must not exist. Substitute `exp013` or `exp014` for the other accepted checks. The checker reconstructs and compares the combined source and source pins, uses an isolated external import closure, sanitizes Lean environment paths, elaborates the combined file and records the expected axiom audits. It trusts the pinned compiler and compatible library artifacts; it does not rebuild their sources or prove source-to-artifact correspondence. Keep new results outside the historical evidence paths. A direct Lean elaboration alone establishes less than this receipt-producing check.
 
-- `PeriodicCayleyCNAnalyticClosureV1.periodic_cayley_cn_convergence_of_smooth_solution`
-- `PeriodicCayleyCNConstantModeExampleV1.constantMode_fixed_time_weighted_error_eq_zero`
-- `PeriodicCayleyCNGridFamilyConvergenceV1.asymptoticErrorBound_tendsto_zero`
-- `PeriodicCayleyCNGridFamilyConvergenceV1.error_tendsto_zero_of_explicit_bound`
-- `PeriodicCayleyCNGridFamilyConvergenceV1.exact_initialization_error_tendsto_zero`
+The original `run_lean.py` scripts contain Chromebook-specific compiler, package, build and lock paths; their presence is historical tooling preservation, not a portable modular build promise. `make_combined.py` writes accepted source/receipt files when run as a script; do not run it over this baseline. Preparation scripts are already prepared and single-use. Real finalizers/predecessor checks require full prior packets, all manifest payloads, archived evidence, review bindings and historical absolute paths/.olean artifacts, so they cannot be run unchanged using only this thin tree.
 
-## Reproduce the build
+Environment-isolation tests are self-contained. Combined-infrastructure tests for Exp014/015 have the required canonical predecessor source copies here. General `test_infrastructure.py` suites require omitted full downloaded bootstrap/evidence fixtures. Exp015 finalizer-gate tests also assume historical absolute archive anchors. Copied historical `REPRODUCE.md` files describe the full original workspace; this guide states the limits of this curated checkout. No proof checks were rerun while staging it.
 
-Install `elan`, then run from the repository root:
+## What each record establishes
 
-```bash
-elan toolchain install leanprover/lean4:v4.31.0
-elan default leanprover/lean4:v4.31.0
-lake update
-lake build NDEAMathlibGate.PeriodicCayleyCNAnalyticClosureV1
-lake build NDEAMathlibGate.PeriodicCayleyCNConstantModeExampleV1
-lake build NDEAMathlibGate.PeriodicCayleyCNGridFamilyConvergenceV1
-```
+A Git commit identifies repository bytes. Lean acceptance establishes elaboration of specified source under its inputs. An NDEA receipt records the specified checks and their input/output hashes. Independent qualification repeats the check in the documented isolated environment. These are different claims.
 
-Direct source checks:
+The manifest records accepted source and receipt hashes without changing sealed evidence. After publication, an external readback receipt must bind the actual Git commit/tree to this manifest's SHA-256 and every staged file hash. This yields commit → source → acceptance receipt and receipt → source hash → committed path without a self-hash cycle. No commit ID is invented inside its own content. Tags or releases can later mark a fully qualified milestone after review; never move a published verified tag.
 
-```bash
-lake env lean NDEAMathlibGate/PeriodicCayleyCNAnalyticClosureV1.lean
-lake env lean NDEAMathlibGate/PeriodicCayleyCNConstantModeExampleV1.lean
-lake env lean NDEAMathlibGate/PeriodicCayleyCNGridFamilyConvergenceV1.lean
-```
-
-The toolchain and dependency revisions are pinned by `lean-toolchain` and
-`lake-manifest.json`.
-
-## Trust and audit status
-
-The headline declarations compile without `sorry`, `admit`, custom `axiom`, or
-`native_decide`. Their recorded axiom audits contain only `propext`,
-`Classical.choice`, and `Quot.sound`.
-
-Compilation establishes kernel acceptance; it does not by itself establish
-that the formal statement perfectly captures the intended mathematics. The
-paper therefore states the assumptions and constants explicitly. Independent
-human mathematical and formalization review remains desirable.
-
-Audit records are under [`audit/`](audit/). The technical note and its LaTeX
-source are under [`paper/`](paper/).
-
-## Repository contents
-
-- `NDEAMathlibGate/`: exact transitive Lean source closure required by the
-  three headline modules (53 source files).
-- `paper/`: posting-ready milestone paper and LaTeX source.
-- `audit/`: build, axiom, and PDF-validation records.
-- `lakefile.toml`, `lake-manifest.json`, `lean-toolchain`: pinned build setup.
-
-## License
-
-The project is released under the Apache License 2.0. See [`LICENSE`](LICENSE).
-
+Commit after meaningful source progress, before risky refactors, and at accepted milestones. Push at useful milestones; local recovery snapshots remain frequent. Changes to mathematics or tooling require new checks and new receipts in a working experiment, preserving this accepted baseline.

@@ -1,0 +1,237 @@
+/content/exp014_check/final_source/lean/Exp014Combined.lean:313:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:320:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.densityDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:327:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.fluxDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:342:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_time_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:415:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.norm_sq_integral_pos_of_ne_zero`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:534:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.dysonTerm_continuous`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:552:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.dysonTerm_succ_zero`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:556:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.dysonTerm_norm_le`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:645:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.operatorEvaluation_continuous`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:922:8: warning: automatically included section variable(s) unused in theorem `_private.lean.Exp014Combined.0.NDEAEvolve.Exp014.scalar_identity_norm_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:1067:8: warning: automatically included section variable(s) unused in theorem `_private.lean.Exp014Combined.0.NDEAEvolve.Exp014.state_norm_eq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:1073:8: warning: automatically included section variable(s) unused in theorem `_private.lean.Exp014Combined.0.NDEAEvolve.Exp014.shiftValue_norm_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:1182:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.regularPotential_absolute`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp014_check/final_source/lean/Exp014Combined.lean:1205:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.operatorPotential_periodic`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp014.strong_apply_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.dysonTerm_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.dysonTerm_succ_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.dysonTerm_succ_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.dysonTerm_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.dysonTerm_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.linearEvolution_eq_head_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.linearEvolution_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.linearEvolution_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorEvaluation_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.exists_global_linear_solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.abs_frequency_le_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.frequency_sq_le_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.abs_frequency_div_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.frequency_sq_div_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficientCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.state_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.state_tsum_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weight_mul_coefficient_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weighted_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.weighted_tsum_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.ofCoefficients_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_ofCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.ofCoefficients_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.phase_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.phase_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.phase_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.phase_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.phase_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlowLinear_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlowLinear_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_neg_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_freeFlow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_eq_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeFlow_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeries_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeriesCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeriesCLM_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeries_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeries_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeries_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.scalarSeries_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.character_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potential_weight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potential_weight_ratio_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialShift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialShift_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_potentialShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialShift_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialShift_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialConvolution_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.potentialConvolution_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.coefficient_potentialConvolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.regularPotential_absolute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.operatorPotential_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthesisMultiplier_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthesisMultiplier_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.firstMultiplier_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.secondMultiplier_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthesisMultiplier_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.firstMultiplier_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.secondMultiplier_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthesisMultiplier_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.firstMultiplier_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_eq_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthFirst_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthSecond_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthFirst_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeMultiplier_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeDerivativeMultiplier_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeMultiplier_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeMultiplier_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.freeDerivativeMultiplier_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_freeFlow_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synthesis_terms_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_potentialShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.synth_potentialConvolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactionGenerator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactionGenerator_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactionGenerator_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactionReal_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactingState_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactingState_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.interactingState_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.physicalState_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_space_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_second_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.solution_classical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.global_classical_exists_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.singleData_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.singleData_synthesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.negative_frequency_free_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_at_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_at_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.pairPotential_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.zeroPotential_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.zeroPotential_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.zeroPotential_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_weighted_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_support_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.infiniteData_infinite_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp014.Controls.variablePotential_singleMode_exists_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp014.Controls.zeroPotential_infiniteData_exists_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp014.Controls.variablePotential_infiniteData_exists_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

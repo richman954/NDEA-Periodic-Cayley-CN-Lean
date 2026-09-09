@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T02:18:43.628216+00:00",
+  "checks": [
+    "sealed_manifest_rejected",
+    "unaccepted_transfer_rejected",
+    "unaccepted_local_rejected",
+    "unaccepted_independent_rejected",
+    "unbound_accepted_bytes_rejected",
+    "changed_receiver_rejected",
+    "unaccepted_export_rejected",
+    "changed_export_archive_rejected",
+    "unaccepted_bootstrap_rejected",
+    "changed_bound_local_bytes_rejected",
+    "changed_bound_independent_bytes_rejected",
+    "changed_combined_source_rejected",
+    "unaccepted_review_rejected",
+    "changed_review_text_rejected",
+    "changed_reviewed_tool_rejected",
+    "unreviewed_finalizer_rejected",
+    "missing_document_review_rejected",
+    "changed_reviewed_document_rejected",
+    "missing_modular_proof_rejected_after_other_fixture_gates"
+  ],
+  "check_count": 19,
+  "finalizer_sha256": "7e63f8b43796d68ec1c64f016303a4327218f2f23b77f45960e2cfb7d4650c55",
+  "script_sha256": "29296fe30b492145246e334d3b8b06a6ff9dcdda30fca4216e82f7dc5470afac",
+  "scope": "Synthetic isolated copies exercise unchanged finalizer gates; only archive output is relocated into the fixture. Every case rejects before any write, including a fixture passing earlier protocol/review gates but lacking modular proof. No packet is created and no synthetic input is accepted as proof evidence."
+}

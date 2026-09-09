@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T14:18:08.617383+00:00",
+  "scope": "Checkpoint of accepted production modules; Controls and final combined checks remain pending.",
+  "modules": {
+    "GenericClassical": {
+      "source_sha256": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+      "accepted_receipt": "evidence/20260908T135629.629163Z_GenericClassical.json"
+    },
+    "GenericEnergy": {
+      "source_sha256": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+      "accepted_receipt": "evidence/20260908T135948.307403Z_GenericEnergy.json"
+    },
+    "GenericUniqueness": {
+      "source_sha256": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9",
+      "accepted_receipt": "evidence/20260908T140434.735407Z_GenericUniqueness.json"
+    },
+    "LegacyBridge": {
+      "source_sha256": "145526a13ad87eb17d1de9f37b3e792e0ff2b725973a261237b9d1ebe2bc309e",
+      "accepted_receipt": "evidence/20260908T140945.630980Z_LegacyBridge.json"
+    }
+  }
+}

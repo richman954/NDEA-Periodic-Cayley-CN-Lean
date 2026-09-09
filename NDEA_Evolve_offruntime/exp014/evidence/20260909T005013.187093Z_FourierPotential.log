@@ -1,0 +1,25 @@
+/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean:85:8: warning: automatically included section variable(s) unused in theorem `_private.FourierPotential.0.NDEAEvolve.Exp014.state_norm_eq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean:91:8: warning: automatically included section variable(s) unused in theorem `_private.FourierPotential.0.NDEAEvolve.Exp014.shiftValue_norm_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean:200:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.regularPotential_absolute`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean:223:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp014.operatorPotential_periodic`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

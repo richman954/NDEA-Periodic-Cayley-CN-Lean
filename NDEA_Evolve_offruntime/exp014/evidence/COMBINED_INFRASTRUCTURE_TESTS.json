@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T00:43:36.025135+00:00",
+  "checks": [
+    "infrastructure_python_syntax",
+    "exact_generic_foundation_reconstruction",
+    "generic_provenance_matches_sealed_originals",
+    "complete_new_catalog_ignores_comments_and_private_declarations",
+    "only_generic_predecessor_bodies_are_embedded",
+    "all_provenance_files_are_in_source_delivery_map",
+    "changed_generic_original_rejected",
+    "changed_derived_foundation_rejected",
+    "unembedded_numerical_project_import_rejected",
+    "duplicate_public_name_rejected",
+    "missing_control_source_rejected"
+  ],
+  "check_count": 11,
+  "script_sha256": "1b60d36856c99ae8dfbbba0c1d45a7a76df2484f9cc77a72fe5a308fda668975",
+  "scope": "Focused offline source reconstruction and rejection fixtures. No Lean invocation, network action, final source delivery, or final proof acceptance."
+}

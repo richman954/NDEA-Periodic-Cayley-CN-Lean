@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T15:41:14.458510+00:00",
+  "source": "lean/GlobalLinearEvolution.lean",
+  "source_sha256": "93a0f239ecb2707d4296681669fd8c5ce6b3f03bd91d6dff07a04c532b9fdac1",
+  "accepted_receipt": "evidence/20260908T153640.533133Z_GlobalLinearEvolution.json",
+  "accepted_receipt_sha256": "740d364044c29ef3419ef558b3dc31a62da6ee2daff6c1a676dac4a43684bc4d",
+  "log_sha256": "eb0221efff35c0b5589b7228aaf7bf80d9b11e63be32820093daf10a6984b991",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean/GlobalLinearEvolution.olean": "c86743bbbe891cddeb4cb659e237390959cddc80e2a66c773d6ef97ab80d5229"
+  },
+  "elapsed_seconds": 196.49711418200604,
+  "public_theorems": 10,
+  "catalog": [
+    "NDEAEvolve.Exp014.dysonTerm_continuous",
+    "NDEAEvolve.Exp014.dysonTerm_succ_hasDerivAt",
+    "NDEAEvolve.Exp014.dysonTerm_succ_zero",
+    "NDEAEvolve.Exp014.dysonTerm_norm_le",
+    "NDEAEvolve.Exp014.dysonTerm_summable",
+    "NDEAEvolve.Exp014.linearEvolution_eq_head_add",
+    "NDEAEvolve.Exp014.linearEvolution_zero",
+    "NDEAEvolve.Exp014.linearEvolution_hasDerivAt",
+    "NDEAEvolve.Exp014.operatorEvaluation_continuous",
+    "NDEAEvolve.Exp014.exists_global_linear_solution"
+  ],
+  "qualification": "Accepted modular Lean check with source/log/output hashes verified. Four unused-section-variable linter warnings remain; no compiler errors. Complete combined public axiom audits remain pending."
+}

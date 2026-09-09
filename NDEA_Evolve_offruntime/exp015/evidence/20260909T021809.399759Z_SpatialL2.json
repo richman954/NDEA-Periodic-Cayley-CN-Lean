@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean",
+  "source_sha256_before": "49f15285df64a006ff2179042aad3c07630f8f960385c0d99c946a9f5ef0ce40",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean/SpatialL2.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-09T02:18:09.408226+00:00",
+  "runner_sha256": "6b0f88e1d1f1891f538deef192da424ff457db08b2215c3cbfab2412a017147d",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "49f15285df64a006ff2179042aad3c07630f8f960385c0d99c946a9f5ef0ce40",
+  "elapsed_seconds": 184.7131206640006,
+  "log_sha256": "716c0ff2f7ddc450eee0d66d656cae94221cf0082659210070a9e1b785cb366c",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T021809.399759Z_SpatialL2.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean/SpatialL2.olean": "e0a453013f0593133bf0f40d0120c0eaa17234ff9e99c9d6077df4961ca48d0e"
+  },
+  "sources_unchanged": true
+}

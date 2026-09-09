@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-09-09T02:55:16.065488+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 340.06998544700036,
+  "command": [
+    "python3",
+    "-B",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/verify_combined.py",
+    "--root",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015",
+    "--lean",
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "--mathlib",
+    "/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib",
+    "--other-packages",
+    "/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages",
+    "--output",
+    "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/local_combined"
+  ],
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/local_combined_driver.log",
+  "log_sha256": "1fb8ff745a12db7d3524be93c429330eb3fe9842c836b407cb63c8b369183d44"
+}

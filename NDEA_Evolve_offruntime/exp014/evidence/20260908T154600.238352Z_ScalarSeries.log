@@ -1,0 +1,6 @@
+/home/richman954/NDEA_Evolve_offruntime/exp014/lean/ScalarSeries.lean:24:8: warning: automatically included section variable(s) unused in theorem `_private.ScalarSeries.0.NDEAEvolve.Exp014.scalar_identity_norm_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

@@ -1,0 +1,18 @@
+{
+  "qualification": "Exactly retained Exp013 generic classical, energy and uniqueness bodies with external imports collected; no predecessor numerical proof chain.",
+  "original_source_sha256": {
+    "predecessor_sources/GenericClassical.lean": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+    "predecessor_sources/GenericEnergy.lean": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+    "predecessor_sources/GenericUniqueness.lean": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9"
+  },
+  "foundation_sha256": "dad2f80daceb0c14eaa7c68a9d7397eb6eb75da989ca4c951b5aaf1af188d959",
+  "external_imports": [
+    "Mathlib.Analysis.Calculus.Deriv.Add",
+    "Mathlib.Analysis.Calculus.Deriv.Mul",
+    "Mathlib.Analysis.Calculus.ParametricIntervalIntegral",
+    "Mathlib.Analysis.InnerProductSpace.Adjoint",
+    "Mathlib.Analysis.InnerProductSpace.Calculus",
+    "Mathlib.Analysis.Normed.Group.Bounded",
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus"
+  ]
+}

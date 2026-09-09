@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-09T02:05:07.520698+00:00",
+  "exp014_packet_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+  "exp014_packet_manifest_sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6",
+  "exp014_payloads_verified": 262,
+  "exp014_combined_sha256": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+  "foundation_sha256": "9d8ac0dfcba35dec86ea229657defc88da01f94ddfece9b8f119f52120a4d8c6"
+}

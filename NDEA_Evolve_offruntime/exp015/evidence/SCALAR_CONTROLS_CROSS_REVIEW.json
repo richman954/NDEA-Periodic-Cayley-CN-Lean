@@ -1,0 +1,30 @@
+{
+  "kind": "source_cross_review",
+  "mathematical_review_passed": true,
+  "utc": "2026-09-09T02:49:52.814159+00:00",
+  "reviewed_source_hashes": {
+    "lean/ScalarSqrtEstimate.lean": "7ea970694c0b05bd231195c53c78059e8c8eb834e291e47f18a8289eac9fb927",
+    "lean/Controls.lean": "e5afdf59a044ea25f1263ba99345023c275122d3c2df5840d9e19e17cac9fd24"
+  },
+  "scalar_accepted_modular_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T020804.334727Z_ScalarSqrtEstimate.json",
+  "scalar_receipt_hash": "17305988a5373fde452a091993b3fa6903d243dff808ce289bfd82f6413f47bf",
+  "scalar_source_log_artifact_bindings_verified": true,
+  "controls_compiler_acceptance_claimed": true,
+  "findings": [
+    "No mathematical blocker found in the reviewed scalar comparison or exact controls.",
+    "The scalar theorem never divides by sqrt(E). It divides by 2*sqrt(E+epsilon^2), whose positivity is proved for every real time from E>=0 and epsilon>0.",
+    "An integrable continuous upper derivative bound suffices for the exact Mathlib FTC inequality used; continuity or integrability of D is not silently assumed.",
+    "The epsilon removal uses an arbitrary-positive-epsilon estimate and a half-gap contradiction, retaining coefficient one and permitting energy to vanish initially or later.",
+    "The actual periodic scalar field u(t,x)=t with V=0 has calculated residual i and zero initial data. On period one its L2 error and integrated residual at time one are both one.",
+    "The linear-field controls both instantiate the residual-error theorem and separately show saturation; any claimed smaller universal coefficient must satisfy one<=C.",
+    "The stationary field u=1 against exact solution zero has residual zero and initial L2 error one. Controls show preservation and contradiction if the initial-error term is omitted.",
+    "The identically zero field explicitly checks zero energy and instantiates the certified error bound. Equal-time interval control also covers s=t."
+  ],
+  "qualification": "Read-only source cross-review of the listed exact bytes. Both accepted modular compiler receipts and their current source/log/artifact bindings checked. No mathematical blocker found. This is not final combined qualification or independent-runtime evidence.",
+  "controls_accepted_modular_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T024243.649302Z_Controls.json",
+  "controls_receipt_hash": "9fd27ccae6f0b80d9ec96c59ce3e981b6fdb4e802e7f90ba5e9d2010ba9eccc3",
+  "controls_source_log_artifact_bindings_verified": true,
+  "controls_exit_code": 0,
+  "controls_public_theorems": 22,
+  "controls_accepted_changes_reviewed": "Added private explicit constant-field slice equality and explicit rewrites/simp normalization. All public statements unchanged from preliminary mathematical review."
+}

@@ -1,0 +1,24 @@
+/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean:52:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean:59:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.densityDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean:66:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.fluxDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean:81:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_time_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

@@ -1,0 +1,314 @@
+/content/exp013_check/final_source/lean/Exp013Combined.lean:633:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:634:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1171:8: warning: automatically included section variable(s) unused in theorem `_private.lean.Exp013Combined.0.NDEAEvolve.Exp003.norm_pow_le_with_norm_one_le`:
+  [NormedAlgebra ℂ 𝔸]
+  [CompleteSpace 𝔸]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAlgebra ℂ 𝔸] [CompleteSpace 𝔸] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1408:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1408:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1844:50: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1844:50: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:1844:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:2188:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:2381:5: warning: Variable name `hdx` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:2644:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:2913:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3240:18: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3240:54: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3242:10: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3252:46: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3253:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3253:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3260:46: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3261:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3261:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3302:37: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [lift, Fintype.sum_prod_type,̵ ̵n̵o̵r̵m̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3358:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [potential, Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3366:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3410:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3411:58: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3412:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3457:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3468:25: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3486:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3545:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3545:48: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3551:13: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3551:44: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3563:4: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3638:45: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3675:8: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3693:24: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3699:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3735:24: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3772:19: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:3954:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4161:24: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4237:36: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4408:41: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [modeLift, Fintype.sum_prod_type,̵ ̵n̵o̵r̵m̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4492:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4493:55: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4494:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4513:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4524:25: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4760:19: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4775:34: warning: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [superpositionLift, modeLiftCLM, modeLiftLinear, modeLift,
+  ̵  ̵ ̵ ̵finiteSolution, modeSolution,̵ ̵m̵u̵l̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4786:8: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4946:8: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/content/exp013_check/final_source/lean/Exp013Combined.lean:4959:54: warning: This simp argument is unused:
+  weightedNorm_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [stageResidualBudget,
+      factorResidual_cayley_zero (A (modeSymbol m h)) (̵k̵/̵4̵)̵(̲k̲ ̲/̲ ̲4̲)̲ (A_isHermitian _),
+      factorResidual_cayley_zero B (̵k̵/̵2̵)̵(̲k̲ ̲/̲ ̲2̲)̲ B_isHermitian, w̵e̵i̵g̵h̵t̵e̵d̵N̵o̵r̵m̵_̵z̵e̵r̵o̵,̵ ̵zero_add, weightedNorm, Real.sqrt_one,
+  ̲  ̲ ̲ ̲one_mul, norm_zero, modeOrbit_norm] at hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:5071:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:5094:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:6182:49: warning: This simp argument is unused:
+  norm_div
+
+Hint: Omit it from the simp argument list.
+  simp [regularGeometricCoefficients, norm_smul, norm_d̵i̵v̵,̵ ̵n̵o̵r̵m̵_̵pow,
+  ̵  ̵ ̵ ̵Exp007.Controls.initialSpinor_norm,
+      Real.norm_eq_abs, abs_of_nonneg (Exp009.frequencyWeight_nonneg 2 m)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:6546:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:7532:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:7539:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.densityDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:7546:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.fluxDerivative_intervalIntegrable`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:7561:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.energy_time_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp013_check/final_source/lean/Exp013Combined.lean:7634:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.norm_sq_integral_pos_of_ne_zero`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp013.potential_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.imaginary_self_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.periodic_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.density_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energyDensity_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.densityDerivative_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.fluxDerivative_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.densityDerivative_eq_fluxDerivative_add_forcingWork' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp013.forcingWork_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.flux_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.flux_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_sub_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_sub_space_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_sub_second_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_sub_same_forcing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.compact_derivative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.joint_interval_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.densityDerivative_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.fluxDerivative_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.forcingWork_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.fluxDerivative_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.densityDerivative_integral_eq_forcingWork' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_time_hasDerivAt_work' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_hasDerivAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.energy_eq_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.norm_sq_integral_pos_of_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.norm_sq_integrals_separate_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.norm_sq_integrals_separate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_difference_energy_conserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_unique_at_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_zero_of_time_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.classical_zero_of_initial_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacyPotential_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_classical_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_unique_via_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_eq_infiniteSolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_existsUnique_via_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_reconstruction_converges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.legacy_reconstruction_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.spatialPotential_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.spatialPotential_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.spatialPotential_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.stationary_classical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.stationary_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.stationary_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.spatialPotential_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.spatialPotential_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forced_linear_classical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forcing_work_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forcing_changes_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.same_data_different_forcing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.zero_period_fails_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.stationary_energy_conserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.stationary_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forcing_work_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forced_energy_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp013.Controls.forced_energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]

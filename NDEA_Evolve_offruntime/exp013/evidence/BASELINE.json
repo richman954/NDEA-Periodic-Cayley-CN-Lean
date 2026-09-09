@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-08T13:42:27.547240+00:00",
+  "passed": true,
+  "foundation_sha256": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+  "exp012_manifest_sha256": "f672a80e505e8959e2c15aed3e4f812e97175cf3202fbf42f993137fc6f835e7",
+  "predecessor_payloads_verified": 171,
+  "exp012_packet_sha256": "2c1347c1261c00f1f63e06b7c500235c48dfb5e9b817f25ffb23ea0edc0d596d",
+  "exp012_packet": "/home/richman954/Exp012_Verified_Review_Packet_20260908.zip"
+}

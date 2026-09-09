@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T02:54:02.747067+00:00",
+  "current_source_hashes": {
+    "predecessor_sources/Exp014Combined.lean": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+    "lean/Exp014Foundation.lean": "9d8ac0dfcba35dec86ea229657defc88da01f94ddfece9b8f119f52120a4d8c6",
+    "lean/ScalarSqrtEstimate.lean": "7ea970694c0b05bd231195c53c78059e8c8eb834e291e47f18a8289eac9fb927",
+    "lean/SpatialL2.lean": "49f15285df64a006ff2179042aad3c07630f8f960385c0d99c946a9f5ef0ce40",
+    "lean/ResidualField.lean": "859f05bb08bf5e445ef9288506c7411146ffc9a3d1d7a753e4b313a379109cd7",
+    "lean/ForcedStability.lean": "4e64ef0cd6c6f132486726e1eb6c9a1688dddbdc4541de306dc49d685d6cf1dc",
+    "lean/ResidualEstimate.lean": "1b39a5713e6baf76b3222639f2dfc302ee7d9abbd350587d3288b20c4555c6e5",
+    "lean/VariablePotentialBridge.lean": "0a94c00f8a65a6f807d9fa786db591560cb96abf4fa18b28e3ccc273b0bb3169",
+    "lean/Controls.lean": "e5afdf59a044ea25f1263ba99345023c275122d3c2df5840d9e19e17cac9fd24"
+  },
+  "combined_source_sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+  "public_catalog_total": 50,
+  "production_declarations": 28,
+  "control_declarations": 22,
+  "reviewed_tool_hashes": {
+    "make_combined.py": "bb6fff01c7953d1a0ba95d6f4b7563e64fa8a2b5e67c0619aacb4241b1f4df1a",
+    "verify_combined.py": "3159dcb5e31a09c2e6228eae112dd7bb417f02315571ee32a81e063426dbe77d",
+    "run_lean.py": "6b0f88e1d1f1891f538deef192da424ff457db08b2215c3cbfab2412a017147d",
+    "prepare_final_sources.py": "06ff1561d3074c008a5c874ca5927822a3eb77838eb35e615395ae4e24081686",
+    "prepare_bootstrap_inputs.py": "05282d94bcf8e205a1c1ce9f540870b4dd57ff0ecd8b097766c2b64ed730aad9",
+    "finalize.py": "7e63f8b43796d68ec1c64f016303a4327218f2f23b77f45960e2cfb7d4650c55",
+    "check_predecessors.py": "be2bdc9093b3e88fd03c6c92fe941b5122dcb9710307c08116a08ec762f11f9b",
+    "test_combined_infrastructure.py": "6bee8400adaed930bf3d255c2b2a807a5d9817671fc80b77873e55c17965b7d6",
+    "test_infrastructure.py": "b0676fa919d839da0855d4e39a694aa60bc3a236dc1f8de1d46458b839b3d227",
+    "test_environment_isolation.py": "20b08e469b746a48a7c81ba91551e23991d2a6a0b7d963313ed6715f161d4231",
+    "test_finalizer_gates.py": "29296fe30b492145246e334d3b8b06a6ff9dcdda30fca4216e82f7dc5470afac",
+    "remote_check/initialize.py": "28ecbc3ba421af15dde03b82d46dadeffea7ee7514be2a26ffbc51908b710f08",
+    "remote_check/bootstrap.py": "b22e24bd4476c5b8c0e32a1c41db8d6e6ec262b3a67bf137d0dd14ba636f60cb",
+    "remote_check/start_bootstrap.py": "275bc4f63687287b0cc63c82429b88c2db11788974123359aef1bae33a3d96d4",
+    "remote_check/start_final.py": "b41ce152613a652d4aef1533da48fc1fd0d34c488b05db857bde254b074d0cf9",
+    "remote_check/export_evidence.py": "a7c7260874ab300f376593a8fce4aedccf295b69c1a99490be1f1a64543d9500",
+    "remote_check/check_download.py": "382868c7ec877414fb929d2ec7d00028015cca9669c3251c7c923539eaaa3023",
+    "remote_check/bootstrap_inputs/bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "remote_check/bootstrap_inputs/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "remote_check/bootstrap_inputs/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+  },
+  "reviewed_document_hashes": {
+    "MATHEMATICAL_DERIVATION.md": "f8ec6bb8f79a1b172168a261fcf6ad0ab04a1e0294b3526a60bf325d5046d684",
+    "REPRODUCE.md": "e073788783284bfbb0881a418dafb342a28a2f0f66c42851dbc32bfe495f5e5e",
+    "SAVED_FILES.md": "69294541b2d859bc7e58815325048461bb78f17f80d9d6fd5d9b8e2f0357f02c",
+    "INFRASTRUCTURE_REVIEW.md": "c1981dd1a4ae9eef6c7746322f4cbb878428626b9e68e3ee3a4ea612dbe0ee84"
+  },
+  "review_sha256": "115387d99fab0c86c8485878372358a0af56d8de85f6f31280906775ded8043c",
+  "modular_verification_sha256": "08d071834d2eb47266a5f7b6c8932ae2060e259af344d82e65fc41579c09e483",
+  "cross_review_sha256": "f92c4c85bb95f8448da4b81af61a7de84ba296abd540b61f91fdb7c310e94742",
+  "review_roles": {
+    "coordinating_reviewer_authored": [
+      "ScalarSqrtEstimate",
+      "Controls"
+    ],
+    "coordinating_reviewer_independently_reviewed": [
+      "SpatialL2",
+      "ResidualField",
+      "ForcedStability",
+      "ResidualEstimate",
+      "VariablePotentialBridge"
+    ],
+    "separate_mathematical_cross_review": "SpatialL2 author reviewed exact accepted ScalarSqrtEstimate and Controls bytes",
+    "critical_infrastructure_independent_review": "root coordinator; implementer INFRASTRUCTURE_REVIEW remains separately identified"
+  },
+  "offline_check_count": 62,
+  "qualification": "Exact-source mathematical and tool review acceptance. Independent review is attributed by author/reviewer role; this receipt is not a combined compiler result, independent-runtime qualification or sealed packet receipt."
+}

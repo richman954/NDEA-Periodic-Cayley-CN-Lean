@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T01:56:41.286121+00:00",
+  "archive": "/home/richman954/Exp014_Verified_Review_Packet_20260909.zip",
+  "archive_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+  "archive_bytes": 2112650,
+  "manifest_entries": 262,
+  "verified_zip_files": 263,
+  "manifest_sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6",
+  "qualification": "Every ZIP member read back byte-for-byte; CRC and payload manifest hashes passed. This receipt and the neighboring checksum file are outside the ZIP to avoid a self-hash cycle."
+}

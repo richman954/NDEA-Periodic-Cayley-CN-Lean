@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T00:59:58.883601+00:00",
+  "checker_sha256": "1fa19aff12c7b10833e3fac39224844d59a4802273b726a5fbbd783ec5e74554",
+  "script_sha256": "20b08e469b746a48a7c81ba91551e23991d2a6a0b7d963313ed6715f161d4231",
+  "checks": [
+    "project_path_replaced_and_pinned_core_used",
+    "source_path_removed",
+    "sysroot_override_removed",
+    "unrelated_environment_preserved",
+    "single_thread_setting_applied"
+  ],
+  "scope": "Executes the actual checker environment-construction AST against deliberately conflicting inherited Lean variables; no compiler invocation."
+}

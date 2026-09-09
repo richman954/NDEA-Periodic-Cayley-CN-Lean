@@ -1,9 +1,48 @@
-/.lake/
-/lake-packages/
+# Compiler and downloaded dependency caches (all experiment levels)
+.lake/
+lake-packages/
+__pycache__/
+*.py[cod]
 *.olean
+*.olean.*
 *.ilean
+*.ir
 *.trace
-*.log
-*.aux
-*.out
+/NDEA_Evolve_offruntime/exp*/build/
 
+# New local recheck output and transient work; accepted evidence stays visible.
+/dev_checks/
+/NDEA_Evolve_offruntime/exp*/attempts/
+/NDEA_Evolve_offruntime/exp*/lean/probes/
+/NDEA_Evolve_offruntime/exp*/remote_check/lost_runtime/
+/NDEA_Evolve_offruntime/exp*/remote_check/VM_ALLOCATION.json
+/NDEA_Evolve_offruntime/exp*/remote_check/ENVIRONMENT_EXPECTED.json
+/NDEA_Evolve_offruntime/exp*/remote_check/*STATUS.json
+/NDEA_Evolve_offruntime/exp*/remote_check/*PID*
+/NDEA_Evolve_offruntime/exp*/evidence/*/dependencies/
+/NDEA_Evolve_offruntime/exp*/evidence/*/dependency_artifacts/
+
+# Bulk recovery and archive payloads use the dedicated backup branch.
+/NDEA_Recovery/
+/NDEA_GitHub_Backup/
+/NDEA_BACKUP/
+*.zip
+*.tar.gz
+*.tar
+*.bundle
+*.part[0-9]*
+
+# Account/config secrets and editor/LaTeX intermediates.
+.env
+.env.*
+!.env.example
+.netrc
+.git-credentials
+*.swp
+*~
+/paper/*.aux
+/paper/*.out
+/paper/*.toc
+/paper/*.synctex.gz
+
+# Deliberately no blanket *.log rule: accepted compiler logs are versioned.

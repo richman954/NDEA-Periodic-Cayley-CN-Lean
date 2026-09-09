@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T14:55:56.600142+00:00",
+  "qualification": "Frozen corrected-source mathematical review, complete public catalog, accepted modular evidence, prepared r2 deliveries and reviewed verification-tool/document bindings. This source review does not rerun Lean, assert ongoing combined checks have completed, accept the independent evidence transfer, or seal the packet; those are separate final gates.",
+  "attempt": "r2_corrected_source",
+  "current_source_hashes": {
+    "lean/Exp012Foundation.lean": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+    "lean/GenericClassical.lean": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+    "lean/GenericEnergy.lean": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+    "lean/GenericUniqueness.lean": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9",
+    "lean/LegacyBridge.lean": "145526a13ad87eb17d1de9f37b3e792e0ff2b725973a261237b9d1ebe2bc309e",
+    "lean/Controls.lean": "0b297b21320d90c24c76d648666a2b3627bdbf6565c74eccb04205f41ddaf76d"
+  },
+  "combined_source_sha256": "b14e205da846e45c0ac506e9319a0f351e5148232ee4fc608193709734cd4788",
+  "public_catalog_total": 64,
+  "production_theorems": 46,
+  "controls": 18,
+  "public_catalog_by_module": {
+    "GenericClassical": 18,
+    "GenericEnergy": 13,
+    "GenericUniqueness": 8,
+    "LegacyBridge": 7,
+    "Controls": 18
+  },
+  "public_catalog_independently_enumerated": true,
+  "expected_audits": [
+    "NDEAEvolve.Exp013.potential_cancellation",
+    "NDEAEvolve.Exp013.imaginary_self_cancellation",
+    "NDEAEvolve.Exp013.periodic_deriv",
+    "NDEAEvolve.Exp013.density_time_hasDerivAt",
+    "NDEAEvolve.Exp013.energyDensity_continuous",
+    "NDEAEvolve.Exp013.densityDerivative_continuous",
+    "NDEAEvolve.Exp013.fluxDerivative_continuous",
+    "NDEAEvolve.Exp013.classical_time_derivative",
+    "NDEAEvolve.Exp013.densityDerivative_eq_fluxDerivative_add_forcingWork",
+    "NDEAEvolve.Exp013.forcingWork_continuous",
+    "NDEAEvolve.Exp013.flux_hasDerivAt",
+    "NDEAEvolve.Exp013.flux_periodic",
+    "NDEAEvolve.Exp013.classical_sub_time_derivative",
+    "NDEAEvolve.Exp013.classical_sub_space_derivative",
+    "NDEAEvolve.Exp013.classical_sub_second_derivative",
+    "NDEAEvolve.Exp013.classical_sub",
+    "NDEAEvolve.Exp013.classical_sub_same_forcing",
+    "NDEAEvolve.Exp013.classical_zero",
+    "NDEAEvolve.Exp013.compact_derivative_bound",
+    "NDEAEvolve.Exp013.joint_interval_hasDerivAt",
+    "NDEAEvolve.Exp013.energy_intervalIntegrable",
+    "NDEAEvolve.Exp013.densityDerivative_intervalIntegrable",
+    "NDEAEvolve.Exp013.fluxDerivative_intervalIntegrable",
+    "NDEAEvolve.Exp013.forcingWork_intervalIntegrable",
+    "NDEAEvolve.Exp013.energy_time_hasDerivAt",
+    "NDEAEvolve.Exp013.fluxDerivative_integral_zero",
+    "NDEAEvolve.Exp013.densityDerivative_integral_eq_forcingWork",
+    "NDEAEvolve.Exp013.energy_time_hasDerivAt_work",
+    "NDEAEvolve.Exp013.energy_hasDerivAt_zero",
+    "NDEAEvolve.Exp013.energy_eq",
+    "NDEAEvolve.Exp013.energy_eq_initial",
+    "NDEAEvolve.Exp013.norm_sq_integral_pos_of_ne_zero",
+    "NDEAEvolve.Exp013.norm_sq_integrals_separate_zero",
+    "NDEAEvolve.Exp013.norm_sq_integrals_separate",
+    "NDEAEvolve.Exp013.classical_difference_energy_conserved",
+    "NDEAEvolve.Exp013.classical_unique_at_time",
+    "NDEAEvolve.Exp013.classical_unique",
+    "NDEAEvolve.Exp013.classical_zero_of_time_zero",
+    "NDEAEvolve.Exp013.classical_zero_of_initial_zero",
+    "NDEAEvolve.Exp013.legacyPotential_selfadjoint",
+    "NDEAEvolve.Exp013.legacy_classical_iff",
+    "NDEAEvolve.Exp013.legacy_unique_via_generic",
+    "NDEAEvolve.Exp013.legacy_eq_infiniteSolution",
+    "NDEAEvolve.Exp013.legacy_existsUnique_via_generic",
+    "NDEAEvolve.Exp013.legacy_reconstruction_converges",
+    "NDEAEvolve.Exp013.legacy_reconstruction_error",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_selfadjoint",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_periodic",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_continuous",
+    "NDEAEvolve.Exp013.Controls.stationary_classical",
+    "NDEAEvolve.Exp013.Controls.stationary_nonzero",
+    "NDEAEvolve.Exp013.Controls.stationary_nonconstant",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_nonconstant",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_active",
+    "NDEAEvolve.Exp013.Controls.forced_linear_classical",
+    "NDEAEvolve.Exp013.Controls.forcing_work_sign",
+    "NDEAEvolve.Exp013.Controls.forcing_changes_norm",
+    "NDEAEvolve.Exp013.Controls.same_data_different_forcing",
+    "NDEAEvolve.Exp013.Controls.zero_period_fails_separation",
+    "NDEAEvolve.Exp013.Controls.stationary_energy_conserved",
+    "NDEAEvolve.Exp013.Controls.stationary_unique",
+    "NDEAEvolve.Exp013.Controls.forcing_work_eq",
+    "NDEAEvolve.Exp013.Controls.forced_energy_formula",
+    "NDEAEvolve.Exp013.Controls.forced_energy_derivative"
+  ],
+  "catalog_review_method": "A manually enumerated ordered theorem list was compared with actual public declarations and generated audit names. The r2 Controls diff changes only a qualified proof reference, preserving all definitions/statements and the complete catalog.",
+  "accepted_modular_receipts": {
+    "GenericClassical": {
+      "receipt": "evidence/20260908T135629.629163Z_GenericClassical.json",
+      "receipt_sha256": "674ad960a8c24ff1116639dd3b3a1e14b2fc3db36a329998bbebb7169c3216a5",
+      "source_sha256": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+      "log": "evidence/20260908T135629.629163Z_GenericClassical.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/GenericClassical.olean": "b617f2cc875824e2bee800d4a7e8a55bc99a23f29aeb03d3fcb246cc21292cfd"
+      },
+      "runner_sha256_recorded": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+      "exit_code": 0,
+      "elapsed_seconds": 169.48263915700227,
+      "sources_unchanged": true
+    },
+    "GenericEnergy": {
+      "receipt": "evidence/20260908T135948.307403Z_GenericEnergy.json",
+      "receipt_sha256": "d25b616742b1a158660d8d94776c5453a7f287959d8b38435b047fbe0677ca05",
+      "source_sha256": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+      "log": "evidence/20260908T135948.307403Z_GenericEnergy.log",
+      "log_sha256": "ee9bad041ee2335b3a19ad367b96e201e934f8cf447b5db142b29e5ea6d7330a",
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/GenericEnergy.olean": "4491be634ffd44f793daf5454cd7a9db952980bf1eb09e10ddb4ad3a37978ad8"
+      },
+      "runner_sha256_recorded": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+      "exit_code": 0,
+      "elapsed_seconds": 204.15855251799803,
+      "sources_unchanged": true
+    },
+    "GenericUniqueness": {
+      "receipt": "evidence/20260908T140434.735407Z_GenericUniqueness.json",
+      "receipt_sha256": "78743412549b4662c39957975e9b8be16fab24484e6bac205553ec64fe4fd0c4",
+      "source_sha256": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9",
+      "log": "evidence/20260908T140434.735407Z_GenericUniqueness.log",
+      "log_sha256": "2ee9b7956e75bef7b0909b74b6544f9fbb1b0e92ef4db5475efe70b7fb92b6ca",
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/GenericUniqueness.olean": "9adf539ad537d46316a7fe3f611a8bef7e4970a44f8f08af376d7030cbecb2fc"
+      },
+      "runner_sha256_recorded": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+      "exit_code": 0,
+      "elapsed_seconds": 175.12326878999738,
+      "sources_unchanged": true
+    },
+    "LegacyBridge": {
+      "receipt": "evidence/20260908T140945.630980Z_LegacyBridge.json",
+      "receipt_sha256": "f777339c0139d4034d4983bb799f059de130996882be6b18b2674adcfeafb600",
+      "source_sha256": "145526a13ad87eb17d1de9f37b3e792e0ff2b725973a261237b9d1ebe2bc309e",
+      "log": "evidence/20260908T140945.630980Z_LegacyBridge.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/LegacyBridge.olean": "1511b2d570ee590995aae36ccdebf07af40f5feec2fbdae316ba765fe42d19c8"
+      },
+      "runner_sha256_recorded": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+      "exit_code": 0,
+      "elapsed_seconds": 156.92449037000188,
+      "sources_unchanged": true
+    },
+    "Controls": {
+      "receipt": "evidence/20260908T143505.507040Z_Controls.json",
+      "receipt_sha256": "db1505ba53d51a951bd71405f92149ecaa79892b6a5cb343a38d17a0a9d7d63b",
+      "source_sha256": "0b297b21320d90c24c76d648666a2b3627bdbf6565c74eccb04205f41ddaf76d",
+      "log": "evidence/20260908T143505.507040Z_Controls.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/Controls.olean": "13ecab771929dba46793a952a82c6a495379a2af00aff32116088295a903427f"
+      },
+      "runner_sha256_recorded": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+      "exit_code": 0,
+      "elapsed_seconds": 227.4686597320033,
+      "sources_unchanged": true
+    }
+  },
+  "review_sha256": "5924ed0ea36129d079c0848f519e8e6f3fa0bc8970de220a33e71ca644d3edac",
+  "reviewed_tool_hashes": {
+    "check_predecessors.py": "34a628e8910a0330f631f1e21ec237fdd513de9489e5068c995141e9e4a17df7",
+    "finalize.py": "1b90ce622210853eca42f3671b6df364b8eb46eb4d36abb5304e0edcc989e534",
+    "make_combined.py": "3a78d61203229c96ea2f5ace4de8dbba916adcd98ae6399a53cc05f814ac4a79",
+    "prepare_bootstrap_inputs.py": "ee9ac8203dc252b4844e22aed62d7e3274e8a62eaf598acf78deddf760d4517a",
+    "prepare_final_sources.py": "3e63f5024d20f9a27a4471071d3cf7c5b5a41d44e1136ac84b771147538a542f",
+    "remote_check/bootstrap.py": "65ab4ca0479546340a83744aac4694e1b23e95bb2df9351cbe7709e338692b68",
+    "remote_check/bootstrap_inputs/bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "remote_check/bootstrap_inputs/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "remote_check/bootstrap_inputs/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "remote_check/check_download.py": "36fe2bdcbdfcb7b33d9e9df8556bd21fd120325c3b53143e77ec117b944ad33e",
+    "remote_check/export_evidence.py": "f2477d2d22316d1607408b4e3a5e2c8acd4228c1b3dca5bec42313257648f5a6",
+    "remote_check/initialize.py": "daec07af237bcf6a44195f687028904c3bc85c4ff786071f296dfc07091ea959",
+    "remote_check/start_bootstrap.py": "c10adc4e380f48cbdd4b85ad41e6dd1406014c229e1a70163ba889a13bbacacc",
+    "remote_check/start_final.py": "7d6461a2dc7375b0cfe8156a05c769b1477249f8041c6f8e5cc043aea1006648",
+    "remote_check/status.py": "ad1d24c9211139f7c602ca53b46de6bb459469a79ed73cd67b547691bedf9ef8",
+    "run_lean.py": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+    "test_infrastructure.py": "26ee0aa1d5e51deef19ed789396125700ad2aedcc0e5afbd55599af4976066df",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "5bad9fc9c2239194ac92a146500e217071453ce704877f5020a1a1e6d48a30dc"
+  },
+  "reviewed_document_hashes": {
+    "MATHEMATICAL_DERIVATION.md": "7ddf18dfdc1631ad0bbc50fb38343e27434599469eccfecea73af074b594938e",
+    "REPRODUCE.md": "ab0cb92e863fe8811a500e1294e50424c36c8c855b59692f436322e10e96220f",
+    "SAVED_FILES.md": "1add9d85a263a153f1f8e7024a419e308e54521651ff689a39bb251aa0876bb6",
+    "INFRASTRUCTURE_REVIEW.md": "326c25450a64f4a13169a40ca738ac320ef5d8ecb8e5848f31baf92055cc7ecf"
+  },
+  "infrastructure_tests_receipt_sha256": "0363672a012630637cb0c295d734e3132622e6e8d2510913947a7e62ca225e09",
+  "infrastructure_final_check_receipt_sha256": "43ac5ac46b8e1b06fb9a4392227141266cb241fbec46e4db371a4693e0472290",
+  "bootstrap_delivery_bound_to_final_source": true,
+  "bootstrap_inputs_receipt_sha256": "6114d60bf064ece574bfbaae8a2a668bc835381dbb980146882c1af2fae03aed",
+  "bootstrap_archive_sha256": "e65cbe0624a61740bd9b70adecda5a8a015177500060d4a321b6a6690dce5417",
+  "bootstrap_driver_sha256": "65ab4ca0479546340a83744aac4694e1b23e95bb2df9351cbe7709e338692b68",
+  "bootstrap_launcher_sha256": "c10adc4e380f48cbdd4b85ad41e6dd1406014c229e1a70163ba889a13bbacacc",
+  "final_source_delivery_receipt_sha256": "3de746d44df15aaccbc4192e461b37c8fd2f95087356283de4d02c3fe398647e",
+  "final_source_archive_sha256": "2f977734f9f009a1c1f3c79098d8877cd3198fa0d347b2d5c7b18dd246d53752",
+  "final_launcher_sha256": "7d6461a2dc7375b0cfe8156a05c769b1477249f8041c6f8e5cc043aea1006648",
+  "initial_fresh_environment_receipt_sha256": "de143ee6d8202858c60d4524762a441aa069409d1e1ecec938d71487d5cfd714",
+  "vm_allocation_receipt_sha256": "ff480389f9a0244771acd3d7b5840af2fa17df04db6418bec29ff3ef1c0f77bd",
+  "blocking_findings": [],
+  "resolved_findings": [
+    "Finalizer validates all four stable reviewed-document hashes and its own tool hash before sealing.",
+    "Mass/squared-L2 interpretation requires positive period; arbitrary real period uses oriented interval integrals.",
+    "Potential boundedness is pointwise, without a uniform operator-norm bound.",
+    "Inherited Matrix opening made unqualified smul_apply ambiguous in the first combined run. Corrected Controls uses _root_.smul_apply and passed its repeated modular check; both final combined checks are repeated."
+  ],
+  "scope_checks": {
+    "actual_derivatives_and_joint_continuity_explicit": true,
+    "forcing_work_continuity_derived_without_circularity": true,
+    "potential_and_forcing_regularity_not_silently_added": true,
+    "forcing_sign_and_periodic_boundary_flux_consistent": true,
+    "compact_domination_derived_locally": true,
+    "positive_period_required_for_pointwise_separation_and_uniqueness": true,
+    "shared_forcing_required_for_difference_conservation_and_uniqueness": true,
+    "legacy_equivalence_preserves_all_fields": true,
+    "numerical_convergence_remains_legacy_only": true,
+    "no_general_variable_potential_existence_claim": true,
+    "no_rough_spatial_L2_evolution_claim": true,
+    "no_Hamiltonian_conservation_or_unitary_group_claim": true,
+    "zero_period_control_only_claims_failure_of_integral_separation": true,
+    "finalizer_exp012_baseline_and_exp013_packet_prefix_correct": true
+  },
+  "peer_review": {
+    "generic_local_legacy_controls": "Separate mathematical peer review by exp010_controls found no blocker. The corrected Controls differs solely by explicit root qualification of the intended lemma; its compiled output is identical to the earlier accepted standalone module.",
+    "generic_energy_uniqueness_legacy_controls": "Reviewed against actual frozen source and derivation by the final-review agent; no blocker.",
+    "infrastructure": "Independent r2 frozen-input/tool/delivery/VM validation by exp009_cutoff; current receipt bound above."
+  },
+  "preserved_first_attempt": {
+    "combined_source_sha256": "d318bab32985465629249d7431061d6a3495e2bc5da5196fa740da253febde73",
+    "root": "attempts/r1",
+    "failed_results": {
+      "attempts/r1/frozen_run/local_combined/RESULT.json": {
+        "sha256": "ab623769e7183d80438cffe9202c58afee5801537d722c2f3d2860d2cbe92f34",
+        "passed": false,
+        "exit_code": 1,
+        "elapsed_seconds": 605.8228658949956
+      },
+      "attempts/r1/remote_failed_evidence/final_verification/RESULT.json": {
+        "sha256": "ee21d57b1997b77585cd30458bcb3af1baddcdc2ed81eab9179e6c04919c68bf",
+        "passed": false,
+        "exit_code": 1,
+        "elapsed_seconds": 397.1232445759997
+      }
+    },
+    "initial_pending_review_sha256": "ed684daaaa96531918f019e39bef71f6509711ce1847d329fd754e4dea659509",
+    "mathematical_source_diff": "Only smul_apply was qualified as _root_.smul_apply in Controls; all statements unchanged."
+  },
+  "final_gates_not_adjudicated_by_this_review": [
+    "local_combined_result",
+    "independent_combined_result",
+    "received_evidence_validation",
+    "final_packet_sealing"
+  ],
+  "preservation_note": "No frozen r2 mathematical source, delivery or verification tool was edited during final binding. Retry metadata changes and original evidence were preserved first. PLAN.md is excluded from stable document pins because finalize.py intentionally changes its completion status."
+}

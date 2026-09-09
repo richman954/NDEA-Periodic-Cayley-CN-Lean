@@ -1,0 +1,13 @@
+# Development continuation plan
+
+This branch organizes the accepted baseline through Exp015. It launches no new experiment. All copied sealed sources and receipts retain their original bytes and paths. The current root `lakefile.toml`, lock, toolchain and original proof collection remain the August 30 project; the separate Exp013–015 combined-check route is described in the README.
+
+The next proposed mathematical milestone connects an actual variable-potential numerical method to the continuous residual-to-error estimate. First choose and state the concrete grid, potential representation, time-stepping method, reconstruction and comparison norm. Then prove reusable consistency/forcing bounds for that actual reconstruction, including spatial derivatives, time discretization, periodicity and any Fourier aliasing/truncation error. Carry the full initial error and all regularity assumptions explicitly. Apply the accepted Exp015 estimate to obtain an error bound, and only then prove convergence/rates under a stated mesh/time schedule.
+
+The barrier removed by Exp015 is converting controlled continuous forcing/residual into continuous L2 error with a sharp coefficient 1. This opens the same stability endpoint to several approximations once their actual residuals are controlled. The next barrier is proving those consistency estimates for a concrete discrete method, including a faithful norm/sampling bridge. A residual theorem by itself does not establish that a numerical scheme has a small residual.
+
+Before implementation, compare plausible reconstructions by proof reuse, regularity required, whether their residual is well-defined in the proved class, and their direct connection to the actual scheme. Record the chosen scope in a new working experiment. Reuse frozen results by exact pinned copies or imports; do not edit accepted Exp013–015 files to retrofit later claims.
+
+Development validation should progress from actual imports and small meaningful controls through module elaboration, combined reconstruction and catalog audit, full local qualification, independent qualification, transfer checks and packet sealing where appropriate. Tests cover their actual stated properties, not blanket mathematical correctness. Preserve failures and accepted logs in their appropriate development/recovery locations. Heavy original archive evidence remains on the dedicated recovery branch.
+
+Git cadence is meaningful progress, before risky changes and at milestones. Local snapshots remain more frequent. Bind commits externally to source/combined hashes and immutable acceptance receipts after readback; do not rewrite old receipts to add a commit. Review scope before tags/releases and never move a published verified tag.
