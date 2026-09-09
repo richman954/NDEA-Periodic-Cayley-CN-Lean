@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "archive_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+  "archive_bytes": 39096085,
+  "manifest_sha256": "8296eb6f41d1b6b00538c8db49fe23146334680aeb394e00fee13d008720df60",
+  "payload_files": 40,
+  "zip_members": 41,
+  "crc_checked": true,
+  "all_payload_hashes_checked": true,
+  "utc": "2026-09-08T12:53:42.644762+00:00",
+  "archive": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+  "source_checks": {
+    "accepted_packet_receipts_checked": 8,
+    "exp003_exp004_delivery_receipts_checked": 2,
+    "adjacent_checksum_lines_checked": 14,
+    "original_zip_crc_checks": 12
+  },
+  "originals_unchanged": true,
+  "exact_zip_readback": true,
+  "scope": "Selected completed release/review packets for Experiments 001–012, the 001–007 recap, the 001–008 fresh-VM recheck, explicit Exp003/004 release archives and Git bundles, and available checksum/receipt companions. This is not a backup of every historical intermediate file, current working tree, build cache, compiler installation, or account credential. Current task-state checkpoints are maintained separately.",
+  "publication": "Generation directory atomically renamed after complete validation; receipt and checksum are outside ZIP."
+}

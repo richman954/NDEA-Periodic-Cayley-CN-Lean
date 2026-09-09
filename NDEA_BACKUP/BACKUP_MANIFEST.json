@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "created_utc": "2026-09-09T03:03:07.986000+00:00",
+  "created_utc": "2026-09-09T03:06:29.546616+00:00",
   "qualification": "Transport and recovery backup; source Git commits and original proof receipts have separate meanings. Exp015 was incomplete at this checkpoint.",
   "archives": [
     {
@@ -13,6 +13,252 @@
           "path": "checkpoints/Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
           "bytes": 237013,
           "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+        }
+      ]
+    },
+    {
+      "name": "NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+      "bytes": 39096085,
+      "sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+      "kind": "packets",
+      "original_path": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+      "parts": [
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0000",
+          "bytes": 4194304,
+          "sha256": "d774c7bf38d7b3cf677beed3a4b904192275c291242849d9aadb15f164edb022"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0001",
+          "bytes": 4194304,
+          "sha256": "0a7ad6ba6f2e73b1e545fb0a42ce5294d9de9f10feb57bb499f73a0e4f2b36aa"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0002",
+          "bytes": 4194304,
+          "sha256": "ddcb7a2b3c07b17629a8dc2ef4278d7f8df38598357449b98bca891143638ab6"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0003",
+          "bytes": 4194304,
+          "sha256": "c7804fd73eff685c4a77c47bf57c8d49a8f15868f683511512b3aaa6028244bd"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0004",
+          "bytes": 4194304,
+          "sha256": "8ebff83bfa4c2df5ea383fa67a3f72fdfc7325fc734163c4c3c026b5386e1e4b"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0005",
+          "bytes": 4194304,
+          "sha256": "591b7ae3d71f7fce969edeecffa3412d5f93c0050226214f1e8afdaae6541ef7"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0006",
+          "bytes": 4194304,
+          "sha256": "9bbec04a849873978088225475ceeb615be9eaa8eb509b7c34dabf4f4f039a3b"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0007",
+          "bytes": 4194304,
+          "sha256": "b1a7c5d0eb7a54bd22ad3d77b529bb17e63a6b09505af6f3c6cc7c051be4072b"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0008",
+          "bytes": 4194304,
+          "sha256": "062c97b22a54fc7be19862abdefcdb71c62616f313aa988b358a3d80604809fe"
+        },
+        {
+          "path": "packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0009",
+          "bytes": 1347349,
+          "sha256": "8c96fac222d261c621d45d60452ea576fd72473f1d8ed2ed02335639ba929b25"
+        }
+      ]
+    },
+    {
+      "name": "Exp013_Verified_Review_Packet_20260908.zip",
+      "bytes": 5573217,
+      "sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+      "kind": "packets",
+      "original_path": "/home/richman954/Exp013_Verified_Review_Packet_20260908.zip",
+      "parts": [
+        {
+          "path": "packets/Exp013_Verified_Review_Packet_20260908.zip/part-0000",
+          "bytes": 4194304,
+          "sha256": "fabe45129a2ef59b5b3a2a339b48411132bdeea296f972cb1cd860947a685c1f"
+        },
+        {
+          "path": "packets/Exp013_Verified_Review_Packet_20260908.zip/part-0001",
+          "bytes": 1378913,
+          "sha256": "594ea28426f4a52ed4eca89116c4c82955080fb7339e47aef17e171e1a440af3"
+        }
+      ]
+    },
+    {
+      "name": "Exp014_Verified_Review_Packet_20260909.zip",
+      "bytes": 2112650,
+      "sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+      "kind": "packets",
+      "original_path": "/home/richman954/Exp014_Verified_Review_Packet_20260909.zip",
+      "parts": [
+        {
+          "path": "packets/Exp014_Verified_Review_Packet_20260909.zip/part-0000",
+          "bytes": 2112650,
+          "sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282"
+        }
+      ]
+    },
+    {
+      "name": "Exp001_Assurance_Hardening_v2.bundle",
+      "bytes": 440385,
+      "sha256": "fb8cb79fc574522fdb142b348b50637087c75e582f437ed19531260546ad5257",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp001/assurance_v2/Exp001_Assurance_Hardening_v2.bundle",
+      "parts": [
+        {
+          "path": "history/Exp001_Assurance_Hardening_v2.bundle/part-0000",
+          "bytes": 440385,
+          "sha256": "fb8cb79fc574522fdb142b348b50637087c75e582f437ed19531260546ad5257"
+        }
+      ]
+    },
+    {
+      "name": "NDEA_Evolve_exp001_final.bundle",
+      "bytes": 632099,
+      "sha256": "10dc27fd1046a419358a92565fe59e1ae40414c9c5692c9afd3b016bce7540c1",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp001/final/NDEA_Evolve_exp001_final.bundle",
+      "parts": [
+        {
+          "path": "history/NDEA_Evolve_exp001_final.bundle/part-0000",
+          "bytes": 632099,
+          "sha256": "10dc27fd1046a419358a92565fe59e1ae40414c9c5692c9afd3b016bce7540c1"
+        }
+      ]
+    },
+    {
+      "name": "NDEA_Evolve_exp002_final.bundle",
+      "bytes": 1345734,
+      "sha256": "12dc3635e9bee8776cd6929bad1844e4293003b2117d4bc7c8dcee2023fe79d2",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp002/final_delivery_20260906/NDEA_Evolve_exp002_final.bundle",
+      "parts": [
+        {
+          "path": "history/NDEA_Evolve_exp002_final.bundle/part-0000",
+          "bytes": 1345734,
+          "sha256": "12dc3635e9bee8776cd6929bad1844e4293003b2117d4bc7c8dcee2023fe79d2"
+        }
+      ]
+    },
+    {
+      "name": "NDEA_Exp002_validator_assurance_v2_1.bundle",
+      "bytes": 190038,
+      "sha256": "442928ce12499c4b5d27051393cb4fa9ce93cb954015a00416882fdd7cb5d7d1",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp002/supplements/final_delivery_validator_assurance_v2_1_20260906/NDEA_Exp002_validator_assurance_v2_1.bundle",
+      "parts": [
+        {
+          "path": "history/NDEA_Exp002_validator_assurance_v2_1.bundle/part-0000",
+          "bytes": 190038,
+          "sha256": "442928ce12499c4b5d27051393cb4fa9ce93cb954015a00416882fdd7cb5d7d1"
+        }
+      ]
+    },
+    {
+      "name": "NDEA_Evolve_exp003_step1_final.bundle",
+      "bytes": 1801441,
+      "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_final.bundle",
+      "parts": [
+        {
+          "path": "history/NDEA_Evolve_exp003_step1_final.bundle/part-0000",
+          "bytes": 1801441,
+          "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963"
+        }
+      ]
+    },
+    {
+      "name": "exp003_step2_verified_final.bundle",
+      "bytes": 1846644,
+      "sha256": "e8bbedd8d2688611b8316a1e638ed11c8f1d7b7a30e1e431f2ac206ea5f2c0bd",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp003_step2/releases/20260907_verified_final/exp003_step2_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp003_step2_verified_final.bundle/part-0000",
+          "bytes": 1846644,
+          "sha256": "e8bbedd8d2688611b8316a1e638ed11c8f1d7b7a30e1e431f2ac206ea5f2c0bd"
+        }
+      ]
+    },
+    {
+      "name": "exp003_step3_verified_final.bundle",
+      "bytes": 1868999,
+      "sha256": "66b7c56be14991c4085587cfb1965fada47c7b5535488b548b7c2bdb90ea9e5f",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp003_step3/releases/20260907_verified_final/exp003_step3_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp003_step3_verified_final.bundle/part-0000",
+          "bytes": 1868999,
+          "sha256": "66b7c56be14991c4085587cfb1965fada47c7b5535488b548b7c2bdb90ea9e5f"
+        }
+      ]
+    },
+    {
+      "name": "exp003_step4_verified_final.bundle",
+      "bytes": 1859404,
+      "sha256": "4a5f6283c5c3aacc0ae2bd19b239bacb063e371cad54d311d917080e5aeb9084",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp003_step4/releases/20260907_verified_final/exp003_step4_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp003_step4_verified_final.bundle/part-0000",
+          "bytes": 1859404,
+          "sha256": "4a5f6283c5c3aacc0ae2bd19b239bacb063e371cad54d311d917080e5aeb9084"
+        }
+      ]
+    },
+    {
+      "name": "exp003_step5_verified_final.bundle",
+      "bytes": 2010027,
+      "sha256": "ec3823965d3dfb5b2f7cfa5c62b610f864c937cdbd1adbb6421cd81e254da511",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp003_step5/releases/20260907_verified_final/exp003_step5_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp003_step5_verified_final.bundle/part-0000",
+          "bytes": 2010027,
+          "sha256": "ec3823965d3dfb5b2f7cfa5c62b610f864c937cdbd1adbb6421cd81e254da511"
+        }
+      ]
+    },
+    {
+      "name": "exp004_verified_final.bundle",
+      "bytes": 2017632,
+      "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp004/releases/20260907_verified_final/exp004_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp004_verified_final.bundle/part-0000",
+          "bytes": 2017632,
+          "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8"
+        }
+      ]
+    },
+    {
+      "name": "exp005_verified_final.bundle",
+      "bytes": 2700849,
+      "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7",
+      "kind": "history",
+      "original_path": "/home/richman954/NDEA_Evolve_offruntime/exp005/releases/20260907_verified_final/exp005_verified_final.bundle",
+      "parts": [
+        {
+          "path": "history/exp005_verified_final.bundle/part-0000",
+          "bytes": 2700849,
+          "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7"
         }
       ]
     }
@@ -42,6 +288,51 @@
       "path": "BACKUP_RESTORE_TEST.json",
       "bytes": 411,
       "sha256": "b5b48950a3a269de01002a3f14ca824d062bac7399981b5a0b35607de25d1d73"
+    },
+    {
+      "path": "receipts/COMPLETED_001-012_ARCHIVE_RECEIPT.json",
+      "bytes": 1381,
+      "sha256": "c307a03bfaf133b00ab102ffa1d3d1996f71c0bc4823ce9c4e0c2b41d7f5225d"
+    },
+    {
+      "path": "receipts/exp013_FINAL_PACKET_RECEIPT.json",
+      "bytes": 602,
+      "sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5"
+    },
+    {
+      "path": "receipts/exp013_FINAL_VERIFICATION.json",
+      "bytes": 6565,
+      "sha256": "2104ebcfb0a7bb6cdaa9541e56269e6ea9352a71c2c3a958c32a5e324f62ff64"
+    },
+    {
+      "path": "receipts/exp013_PACKET_MANIFEST.json",
+      "bytes": 41018,
+      "sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa"
+    },
+    {
+      "path": "receipts/exp014_FINAL_PACKET_RECEIPT.json",
+      "bytes": 602,
+      "sha256": "4b14c15d4527c92468d38b9c003d359ba6d7ba42244eff697ca21fe02b637b09"
+    },
+    {
+      "path": "receipts/exp014_FINAL_VERIFICATION.json",
+      "bytes": 11324,
+      "sha256": "9af04cc22680cbeab97f2c7874ceb624a0a5951264da4472e5b76fddbdeb7e82"
+    },
+    {
+      "path": "receipts/exp014_PACKET_MANIFEST.json",
+      "bytes": 33111,
+      "sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6"
+    },
+    {
+      "path": "RELEASE_ASSET_REVIEW.json",
+      "bytes": 1048975,
+      "sha256": "8b8e28beedc6774a36ec89bcb1fa762a49aa06505d48b309478ae6da1e8744a0"
     }
-  ]
+  ],
+  "coverage": {
+    "completed_packets": "Exp001\u2013Exp014",
+    "active_checkpoint": "Exp015 all7modularaccepted, before finalqualification at02:50UTC",
+    "historical_bundles": 11
+  }
 }
