@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "module": "SpatialL2Operator",
+  "prepared_manifest_sha256": "5516b626a64fd2ca4b552348b9378cba1ea84733efeae14ce6579d4c0e22c1e2",
+  "source_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
+  "receipt_sha256": "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509",
+  "artifact_sha256": "2cfbf7c14eb289642925e4a2a745177ba18bc57cbd9cda1f7a7a55a4657d313a",
+  "explicit_axiom_audit_count": 2,
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.spatialL2_le_mul_of_norm_le",
+    "NDEAEvolve.Exp016.spatialL2_operator_le"
+  ],
+  "standard_axioms_only": true,
+  "warning_count": 0,
+  "expected_project_imports": {
+    "SpatialL2Bridge": {
+      "source": "exp016/lean/SpatialL2Bridge.lean",
+      "source_sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1",
+      "artifact": "exp016/build/lib/lean/SpatialL2Bridge.olean",
+      "artifact_sha256": "f574d76136b8501e0cd7fc7ac96ee136ad933f7abd5c2d4e388dbaec607c8d9c"
+    }
+  },
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runtime_readback_sha256": "a6fb5ffdd9f589afaaa076098b8fc837fa4b632e9a787a584fae6f8c6fa177ed",
+  "helper_sha256": "774e8f1de7671ac158b6c572e098b5add109f1bbe41fce9af2217bc4dcf149ea",
+  "independent_qualification": false,
+  "scope": "Source-bound incremental development with pinned restored imports, not independent qualification."
+}

@@ -1,0 +1,17 @@
+/content/exp016_dev/project/exp016/lean/PotentialErrorTransfer.lean:43:8: warning: automatically included section variable(s) unused in theorem `_private.PotentialErrorTransfer.0.NDEAEvolve.Exp016.pet_spatialL2_sub_comm`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp016.synth_spatialL2_le_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.solution_cutoff_spatialL2_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleySolutionError' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_cutoff_error_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_cutoff_error_transfer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_cutoff_error_transfer_weighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

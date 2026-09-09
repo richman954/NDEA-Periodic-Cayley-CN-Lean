@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "ContinuumPotentialStability",
+  "archive_sha256": "3fd90d2599ffc9badace1422a286129197cdf5c9b0f93d405866f4448af99c2c",
+  "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/RESULT.json",
+  "receipt_sha256": "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/ContinuumPotentialStability.olean",
+  "artifact_sha256": "eb74edfc9ab29f8eb04c03150fb51cb6e727dbee080c9ae485aebfb180734e38",
+  "independent_qualification": false,
+  "utc": "2026-09-09T17:03:49.773822+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "module": "ContinuumPotentialStability",
+  "prepared_manifest_sha256": "77e0ca27eeef44e5ca964482b3a5830a6b4de9e5593fddf5757524c4b439a5f6",
+  "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
+  "receipt_sha256": "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d",
+  "artifact_sha256": "eb74edfc9ab29f8eb04c03150fb51cb6e727dbee080c9ae485aebfb180734e38",
+  "explicit_axiom_audit_count": 3,
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.solution_pdeResidual_other_potential",
+    "NDEAEvolve.Exp016.solution_spatialL2_conserved",
+    "NDEAEvolve.Exp016.solution_potential_spatialL2_le"
+  ],
+  "standard_axioms_only": true,
+  "warning_count": 1,
+  "expected_project_imports": {
+    "SpatialL2Operator": {
+      "source": "exp016/lean/SpatialL2Operator.lean",
+      "source_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
+      "artifact": "exp016/build/lib/lean/SpatialL2Operator.olean",
+      "artifact_sha256": "2cfbf7c14eb289642925e4a2a745177ba18bc57cbd9cda1f7a7a55a4657d313a"
+    },
+    "VariablePotentialBridge": {
+      "source": "exp015/lean/VariablePotentialBridge.lean",
+      "source_sha256": "0a94c00f8a65a6f807d9fa786db591560cb96abf4fa18b28e3ccc273b0bb3169",
+      "artifact": "exp015/build/lib/lean/VariablePotentialBridge.olean",
+      "artifact_sha256": "e247fe866f6507043b7add98a31f1d616d76353afddb8b59bc4ee6ce03a71b13"
+    }
+  },
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runtime_readback_sha256": "a6fb5ffdd9f589afaaa076098b8fc837fa4b632e9a787a584fae6f8c6fa177ed",
+  "helper_sha256": "774e8f1de7671ac158b6c572e098b5add109f1bbe41fce9af2217bc4dcf149ea",
+  "independent_qualification": false,
+  "scope": "Source-bound incremental development with pinned restored imports, not independent qualification."
+}

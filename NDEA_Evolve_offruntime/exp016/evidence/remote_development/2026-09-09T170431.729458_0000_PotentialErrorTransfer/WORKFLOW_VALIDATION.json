@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "module": "PotentialErrorTransfer",
+  "prepared_manifest_sha256": "f71e3ff9baef14b91b7f22fdcf30ffd5ff558df3c35d142db0b3bf3fd71fa37e",
+  "source_sha256": "4d83f7f9651c3bf143a5f3a99ea804c4db887ec9999c4d6af319c87d764765bd",
+  "receipt_sha256": "ceb03e5dc8485353a51e4dce3b30e23e59b94e22f571b65193b6a8efc5ece46a",
+  "artifact_sha256": "1ac8baf53152a6a816afcdefe99f64b22176f50952060bff20ccf11948619fe1",
+  "explicit_axiom_audit_count": 6,
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.synth_spatialL2_le_state",
+    "NDEAEvolve.Exp016.solution_cutoff_spatialL2_le_tail",
+    "NDEAEvolve.Exp016.sampledCayleySolutionError",
+    "NDEAEvolve.Exp016.sampledCayley_cutoff_error_transfer",
+    "NDEAEvolve.Exp016.sampledCayley_gridTime_cutoff_error_transfer",
+    "NDEAEvolve.Exp016.sampledCayley_gridTime_cutoff_error_transfer_weighted"
+  ],
+  "standard_axioms_only": true,
+  "warning_count": 1,
+  "expected_project_imports": {
+    "PotentialStability": {
+      "source": "exp016/lean/PotentialStability.lean",
+      "source_sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23",
+      "artifact": "exp016/build/lib/lean/PotentialStability.olean",
+      "artifact_sha256": "633212d66b84a4c4d12ace4bf5a34f1095d83082a9216141994a32c0d1c610c5"
+    },
+    "ContinuumPotentialStability": {
+      "source": "exp016/lean/ContinuumPotentialStability.lean",
+      "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
+      "artifact": "exp016/build/lib/lean/ContinuumPotentialStability.olean",
+      "artifact_sha256": "eb74edfc9ab29f8eb04c03150fb51cb6e727dbee080c9ae485aebfb180734e38"
+    }
+  },
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runtime_readback_sha256": "a6fb5ffdd9f589afaaa076098b8fc837fa4b632e9a787a584fae6f8c6fa177ed",
+  "helper_sha256": "774e8f1de7671ac158b6c572e098b5add109f1bbe41fce9af2217bc4dcf149ea",
+  "independent_qualification": false,
+  "scope": "Source-bound incremental development with pinned restored imports, not independent qualification."
+}

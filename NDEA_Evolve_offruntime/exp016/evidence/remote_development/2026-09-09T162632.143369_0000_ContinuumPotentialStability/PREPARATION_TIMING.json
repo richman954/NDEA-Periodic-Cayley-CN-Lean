@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-09T17:03:49.547181+00:00",
+  "manifest_prepared_after_compiler_run": true,
+  "purpose": "Post-run validation of received exact evidence against frozen unchanged source and direct project imports; this manifest was not the pre-run launch record.",
+  "compiler_started_utc": "2026-09-09T16:26:32.143557+00:00",
+  "compiler_completed_utc": "2026-09-09T16:26:35.872452+00:00",
+  "original_launcher": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/check_ContinuumPotentialStability.py",
+  "original_complete_driver_log": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/ContinuumPotentialStability_r2_driver.log",
+  "original_complete_driver_log_sha256": "80eab0b0155a5b9b0266551a3dcc1c92b3fb4b5718f1c77525a4f1ea96ed12e6",
+  "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
+  "source_changed": false,
+  "proof_rerun": false
+}

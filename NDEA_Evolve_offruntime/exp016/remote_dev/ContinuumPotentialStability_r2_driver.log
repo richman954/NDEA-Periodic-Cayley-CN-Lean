@@ -1,0 +1,18 @@
+COMPILER RUNNING ContinuumPotentialStability SOURCE e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750 LOG /content/exp016_dev/checks/20260909T162632.143036Z_ContinuumPotentialStability/compiler.log
+/content/exp016_dev/project/exp016/lean/ContinuumPotentialStability.lean:44:8: warning: automatically included section variable(s) unused in theorem `_private.ContinuumPotentialStability.0.NDEAEvolve.Exp016.cps_spatialL2_sub_comm`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp016.solution_pdeResidual_other_potential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.solution_spatialL2_conserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.solution_potential_spatialL2_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+{"module": "ContinuumPotentialStability", "exit_code": 0, "elapsed_seconds": 3.676989486000366, "sources_unchanged": true, "imports_unchanged": true, "output_sha256": "eb74edfc9ab29f8eb04c03150fb51cb6e727dbee080c9ae485aebfb180734e38", "independent_qualification": false}
+RESULT_ARCHIVE /content/exp016_dev/checks/20260909T162632.143036Z_ContinuumPotentialStability.zip SHA256 3fd90d2599ffc9badace1422a286129197cdf5c9b0f93d405866f4448af99c2c
+
+
+RUNNER_EXIT_STATUS 0
+

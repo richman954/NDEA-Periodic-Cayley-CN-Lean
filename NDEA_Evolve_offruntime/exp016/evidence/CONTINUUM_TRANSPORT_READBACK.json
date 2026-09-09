@@ -1,0 +1,21 @@
+{
+  "boot_id": "97b97bbe-7331-4611-bc2f-53078c9daeec",
+  "cwd": "/content",
+  "paths": [
+    {
+      "path": "/content/exp016_dev",
+      "exists": true,
+      "sha256": null
+    },
+    {
+      "path": "/content/exp016_dev/checks",
+      "exists": true,
+      "sha256": null
+    },
+    {
+      "path": "/content/exp016_dev/checks/20260909T162632.143036Z_ContinuumPotentialStability.zip",
+      "exists": true,
+      "sha256": "3fd90d2599ffc9badace1422a286129197cdf5c9b0f93d405866f4448af99c2c"
+    }
+  ]
+}

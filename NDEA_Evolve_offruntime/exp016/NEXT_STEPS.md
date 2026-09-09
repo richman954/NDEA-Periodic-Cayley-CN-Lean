@@ -1,4 +1,4 @@
-# Exp016 continuation after actual potential stability
+# Exp016 continuation after paired continuum/numerical potential transfer
 
 This is a work plan, not verification evidence. Preserve Exp013–015 and reuse the exact BASELINE/NUMERICAL_PINS sources. Exp016 is not sealed. The normative endpoint and assumptions are in PLAN.md.
 
@@ -15,16 +15,22 @@ SampledPotentialBounds, CayleyPerturbation, PotentialCutoff and PotentialStabili
 now prove mesh-independent actual grid-time potential perturbation, including
 the symmetric cutoff tail/rate and actual sampled initial norm. Read current TASK_STATE source receipts;
 do not repeat these proofs because an older startup note lists them as pending.
+The new continuum potential comparison retains arbitrary initial L2 mismatch;
+PotentialErrorTransfer connects actual exact-sampled solver/PDE errors with
+explicit cutoff-tail and weighted costs, independently of the spatial mesh.
 
 1. Complete the finite-grid milestone's final statement/dependency review and
    required controls, then isolated combined and fresh independent qualification,
    transfer validation, finalizer and immutable packet gates. Development module
    acceptance is not this full qualification. Preserve failed attempt evidence.
-2. Prove the matching continuum two-potential L2 comparison using Exp015. The
-   sampled block norm, actual ordered grid-time perturbation and Hermitian
-   cutoff-tail bounds are accepted. The kinetic A_h norm estimate remains.
-   These support the smooth-cutoff transfer; they do not establish smooth-core
-   scheme convergence or uniform comparison of quadratic partial-slab paths.
+2. Prove the concrete induced kinetic bound ||A_h||<=4/h^2+1 using the accepted
+   Fourier diagonalization/Parseval bridge, then substitute it with the sampled
+   potential bound into the actual temporal budget and recorded refinement
+   schedule. ContinuumPotentialStability and PotentialErrorTransfer now close
+   the matching continuum comparison and paired actual-error cutoff transfer:
+   E_v<=E_cutoff+2T*sqrt(2*pi)||a||*tail_v(R), with the weighted cutoff rate.
+   Do not repeat these accepted proofs. Smooth-core scheme convergence and
+   quadratic partial-slab potential transfer remain separate obligations.
 3. Close the main refinement obstacle: numerical evolution of the actual
    fourth moments and low/high coefficient sums, or a justified smooth-core
    comparison with uniform stability. Finite Fourier input/potential support

@@ -1,0 +1,37 @@
+{
+  "module": "ContinuumPotentialStability",
+  "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
+  "frozen_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/workflows/20260909T170331.257311Z_ContinuumPotentialStability/ContinuumPotentialStability.lean",
+  "command_file": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/workflows/20260909T170331.257311Z_ContinuumPotentialStability/check.py",
+  "command_file_sha256": "5448ff469e3ac16a8e9ea06986903bdcc1b586ab0e99616b9ad9a8f51090fe3b",
+  "reviewed_helper_sha256": {
+    "prepare_check.py": "377e390980bab7d34556217db82129c583cc4935812785c36681f4ad814535e6",
+    "run_module.py": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+    "accept_result.py": "0e9c05415148b25e2444fa17a30482968b43aea0125fcc0f8d15d807e901140d"
+  },
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "expected_project_imports": {
+    "SpatialL2Operator": {
+      "source": "exp016/lean/SpatialL2Operator.lean",
+      "source_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
+      "artifact": "exp016/build/lib/lean/SpatialL2Operator.olean",
+      "artifact_sha256": "2cfbf7c14eb289642925e4a2a745177ba18bc57cbd9cda1f7a7a55a4657d313a"
+    },
+    "VariablePotentialBridge": {
+      "source": "exp015/lean/VariablePotentialBridge.lean",
+      "source_sha256": "0a94c00f8a65a6f807d9fa786db591560cb96abf4fa18b28e3ccc273b0bb3169",
+      "artifact": "exp015/build/lib/lean/VariablePotentialBridge.olean",
+      "artifact_sha256": "e247fe866f6507043b7add98a31f1d616d76353afddb8b59bc4ee6ce03a71b13"
+    }
+  },
+  "runtime_readback": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/CONTINUUM_RUNTIME_READBACK.json",
+  "runtime_readback_sha256": "a6fb5ffdd9f589afaaa076098b8fc837fa4b632e9a787a584fae6f8c6fa177ed",
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "mathlib_pin": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "independent_qualification": false,
+  "explicit_audit_requests": [
+    "solution_pdeResidual_other_potential",
+    "solution_spatialL2_conserved",
+    "solution_potential_spatialL2_le"
+  ]
+}

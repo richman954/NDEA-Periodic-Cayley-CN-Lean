@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-09T17:02:07.574976+00:00",
+  "session": "exp016-development",
+  "endpoint": "m-s-kkb-usc1c0-3nv3p0bo2kg3y",
+  "action": "Restored local name/proxy binding for the observed existing assignment only. No allocation, VM restart, bootstrap, project file edit or proof rerun.",
+  "runtime_contents_verified": false,
+  "credentials_in_receipt": false
+}

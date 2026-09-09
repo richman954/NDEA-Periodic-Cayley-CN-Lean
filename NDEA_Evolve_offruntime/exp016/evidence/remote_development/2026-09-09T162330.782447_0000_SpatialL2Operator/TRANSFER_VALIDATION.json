@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "SpatialL2Operator",
+  "archive_sha256": "6d38f3f6d3c580a20e6ff761664b1f39ebca42a6cb2f5c07ff17a4f8b9dc2e74",
+  "source_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/RESULT.json",
+  "receipt_sha256": "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SpatialL2Operator.olean",
+  "artifact_sha256": "2cfbf7c14eb289642925e4a2a745177ba18bc57cbd9cda1f7a7a55a4657d313a",
+  "independent_qualification": false,
+  "utc": "2026-09-09T16:24:11.870791+00:00"
+}
