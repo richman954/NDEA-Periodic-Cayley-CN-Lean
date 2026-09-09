@@ -1,0 +1,16 @@
+/content/exp016_dev/project/exp016/lean/QuadraticPDEBudget.lean:36:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.RegularSynthesis.spatialDefect_apply_continuous`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp016.RegularSynthesis.spatialDefect_apply_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_spatialDefect_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_field_residual_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.fourier_quadratic_residual_spatialL2_le' depends on axioms: [propext, Classical.choice, Quot.sound]

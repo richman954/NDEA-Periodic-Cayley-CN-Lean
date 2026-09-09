@@ -1,0 +1,72 @@
+{
+  "utc": "2026-09-09T06:06:08.734348+00:00",
+  "module": "QuadraticPDEBudget",
+  "passed": true,
+  "qualification": "incremental development compiler check; independent combined qualification pending",
+  "independent_qualification": false,
+  "exit_code": 0,
+  "compiler_seconds": 6.44042221299992,
+  "queue_wait_seconds": 2.2485000044980552e-05,
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticPDEBudget.lean",
+  "source_sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json",
+  "receipt_sha256": "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/compiler.log",
+  "log_sha256": "b98e3cc3ebeeff398d3c08979d0ff18dbcbae87f754832aa3e899c27df55e587",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticPDEBudget.olean",
+  "artifact_sha256": "304554ce86109a3b754b36d101c3e2b24b112f82aa60b5b8c0613d0e666ecda4",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/results/QuadraticPDEBudget_20260909T060450.zip",
+  "archive_sha256": "983281d8ab59f404ab7d9b5ef0bd7f6f1ab8b7d221d77a2331c802ee979c2890",
+  "source_unchanged": true,
+  "imports_unchanged": true,
+  "audit_count": 4,
+  "audits": [
+    {
+      "name": "NDEAEvolve.Exp016.RegularSynthesis.spatialDefect_apply_continuous",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.RegularSynthesis.quadratic_spatialDefect_spatialL2_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.RegularSynthesis.quadratic_field_residual_spatialL2_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.fourier_quadratic_residual_spatialL2_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [
+    "Unused CompleteSpace H section variable in spatialDefect_apply_continuous; accepted source retained."
+  ],
+  "scope": {
+    "spatial_defect": "C(x)=S.eval(x)\u2218G + S.dxx(x) \u2212 V(x)\u2218S.eval(x)",
+    "generic_budget": "rho*(norm(i*v-G*m)+(k^2/8)*norm(G(G*v))) + L2(C*m) + (k/2)*L2(C*v) + (k^2/8)*L2(C(G*v))",
+    "synthesis_hypothesis": "For every grid state z, integral spatial L2 of S.eval(x)z equals rho*norm(z).",
+    "regularity_hypotheses": "RegularSynthesis; continuous V; L>=0; t in [t0,t0+k].",
+    "extra_rho_nonnegative_premise": false,
+    "extra_k_nonnegative_premise": false,
+    "fourier_consumer": "Actual full odd-grid reconstruction under exact mesh relation, rho=sqrt(h), L=2*pi; arbitrary grid data, all M including zero.",
+    "assumed_residual_smallness": false,
+    "spatial_refinement_proved": false
+  },
+  "failed_attempt": "/home/richman954/NDEA_Evolve_offruntime/exp016/attempts/QuadraticPDEBudget_r0"
+}

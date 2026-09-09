@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "FourierSynthesisRegular",
+  "archive_sha256": "10a75b802d5902be6b2f45d2f89aec143546095d054d4ba83b44d1f7f9584e4b",
+  "source_sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json",
+  "receipt_sha256": "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FourierSynthesisRegular.olean",
+  "artifact_sha256": "2b4df573383fc30e25888f38866b51e1c8311676b4a821701de8b0de082acb34",
+  "independent_qualification": false,
+  "utc": "2026-09-09T06:01:35.587424+00:00"
+}

@@ -1,0 +1,42 @@
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:31:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.RegularSynthesis.field_time_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:42:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.RegularSynthesis.field_space_derivative`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:86:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:87:4: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:108:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.RegularSynthesis.quadratic_slab_left`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/content/exp016_dev/project/exp016/lean/RegularSynthesis.lean:112:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.RegularSynthesis.quadratic_slab_right`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'NDEAEvolve.Exp016.RegularSynthesis.field_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.field_time_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.field_space_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.field_second_space_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.field_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.field_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_field_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_field_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_slab_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_slab_right' depends on axioms: [propext, Classical.choice, Quot.sound]

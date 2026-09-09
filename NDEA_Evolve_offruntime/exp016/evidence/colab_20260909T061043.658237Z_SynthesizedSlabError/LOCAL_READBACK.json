@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T061043.658237Z_SynthesizedSlabError_colab.zip",
+  "archive_sha256": "8a1f84a5122672ee188b9cc2d3bd8653cbcb244d1790b3a13a48757ad8923422",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json",
+  "receipt_sha256": "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee",
+  "log_sha256": "cdff5aade63b8aca95cdcf20b2b55a1313b1a18717214a5f48f3a11490b780cc",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "0df10e067bc59d270ee11aae34664b73105e7fff8998dae5234a7c934ebddb74",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SynthesizedSlabError.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.RegularSynthesis.quadratic_slabs_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.RegularSynthesis.variable_potential_quadratic_slabs_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 0,
+  "independent_qualification": false
+}

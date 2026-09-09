@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "ActualCayleySynthesis",
+  "archive_sha256": "378373cec3471bb7994bd82c558e8c364ac47964d7c3311b7a1770d2cafe1004",
+  "source_sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json",
+  "receipt_sha256": "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/ActualCayleySynthesis.olean",
+  "artifact_sha256": "f144dd264fcffcaa2ec79eb31cd769a609b1fb09442c55a3c93429a2d26ff6af",
+  "independent_qualification": false,
+  "utc": "2026-09-09T06:11:11.163176+00:00"
+}

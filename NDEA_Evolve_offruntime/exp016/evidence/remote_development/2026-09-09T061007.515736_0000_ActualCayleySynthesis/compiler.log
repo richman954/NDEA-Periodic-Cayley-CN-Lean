@@ -1,0 +1,8 @@
+'NDEAEvolve.Exp016.orderedCayley_midpointDefect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_residual_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

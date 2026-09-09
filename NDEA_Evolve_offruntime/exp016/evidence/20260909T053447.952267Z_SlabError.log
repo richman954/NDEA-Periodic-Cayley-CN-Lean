@@ -1,0 +1,3 @@
+'NDEAEvolve.Exp016.slabwise_residual_error_uniform_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.slabwise_residual_error_partial_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.variable_potential_slabwise_error' depends on axioms: [propext, Classical.choice, Quot.sound]

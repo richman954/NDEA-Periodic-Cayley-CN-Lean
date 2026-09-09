@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "purpose": "Development check archive readback and local artifact installation; target definitions only, no property theorem",
+  "source_sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T060815.328360Z_IndependentTarget_colab.zip",
+  "archive_sha256": "78240a30d590b6ea8515989afa8202f9182f8c9267bb2b2b9b8b901a9223d036",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json",
+  "receipt_sha256": "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "d77b7d9e4801bbb57e7be0318aab3217de4d631ac4732993c2faaf58e53e5baa",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/IndependentTarget.olean",
+  "independent_qualification": false
+}

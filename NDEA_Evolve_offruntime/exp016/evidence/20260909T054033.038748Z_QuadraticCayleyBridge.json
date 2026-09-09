@@ -1,0 +1,35 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean",
+  "source_sha256_before": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticCayleyBridge.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-09T05:40:33.058751+00:00",
+  "runner_sha256": "53d0702ac0d319bcb76096adf1f5ef107cdac4e40ff44b8692908a099e052e32",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "lock_wait_seconds": 1027.3756771579974,
+  "compiler_started_utc": "2026-09-09T05:57:40.475333+00:00",
+  "exit_code": 0,
+  "source_sha256_after": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130",
+  "elapsed_seconds": 340.1000444800011,
+  "log_sha256": "0d28adcdef123bf6f68fcaf6a93b21ebf792e3c6509090dd013bcf6730513e36",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.log",
+  "compiler_cpu_user_seconds": 15.395032,
+  "compiler_cpu_system_seconds": 37.676309,
+  "child_maxrss_kib": 1492736,
+  "child_major_faults": 238042,
+  "child_block_inputs": 0,
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticCayleyBridge.olean": "740cbff71173d24463a87a94ef45db2d437eb9322e741c40bf34d10adefa4411"
+  },
+  "sources_unchanged": true
+}

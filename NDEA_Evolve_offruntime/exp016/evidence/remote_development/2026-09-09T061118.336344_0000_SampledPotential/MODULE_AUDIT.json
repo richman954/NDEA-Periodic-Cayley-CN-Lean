@@ -1,0 +1,112 @@
+{
+  "utc": "2026-09-09T06:12:41.254348+00:00",
+  "module": "SampledPotential",
+  "passed": true,
+  "qualification": "incremental development compiler check; independent combined qualification pending",
+  "independent_qualification": false,
+  "exit_code": 0,
+  "compiler_seconds": 4.532507686000372,
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean",
+  "source_sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json",
+  "receipt_sha256": "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/compiler.log",
+  "log_sha256": "991817e9fd3f9b6a352bad9e82f4f889da451430caa294694c2a167b9b5793d1",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SampledPotential.olean",
+  "artifact_sha256": "f80246a28262ad91af8ea3a2bb756b6894779482213868eeff830854f25f6cb3",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/results/SampledPotential_20260909T061118.zip",
+  "archive_sha256": "fc3b620c25dcffb34c77b42dffebfd3e2b5e556c3de790fa0181128243d9fff1",
+  "source_unchanged": true,
+  "imports_unchanged": true,
+  "audit_count": 9,
+  "audits": [
+    {
+      "name": "NDEAEvolve.Exp016.sampledBlock_isHermitian",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledBlock_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledBlock_nodeValue",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledBlock_const",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledBlock_sub",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledSplitA_isHermitian",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledSplitB_isHermitian",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledSplit_sum",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.sampledSplitB_old_constant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [
+    "Two unused simp arguments in sampledBlock_const; accepted source retained."
+  ],
+  "scope": {
+    "matrix": "On existing Grid n = Fin(n+1) x Fin 2, sampledBlock ((i,a),(j,b)) = if i=j then W(j*h)(a,b) else 0.",
+    "hermitian": "Pointwise Hermitian matrix field implies sampled matrix and both split factors are Hermitian.",
+    "action": "Node value of sampled-block action equals operatorOf(W(node)) applied to the original node value.",
+    "constant": "Constant sampled block equals old SpinorGrid.potential.",
+    "split": "A=old hamiltonian Z; B=sampledBlock(W-Z); A+B=discrete Laplacian tensor identity + sampledBlock W.",
+    "old_constant": "W constant Z+X gives B=old potential X.",
+    "extra_mesh_or_frequency_hypotheses": false,
+    "continuity_hypothesis": false,
+    "clm_to_matrix_general_bridge": false,
+    "spatial_refinement_proved": false
+  },
+  "failed_attempt": "/home/richman954/NDEA_Evolve_offruntime/exp016/attempts/SampledPotential_r0"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "QuadraticNormAudit",
+  "archive_sha256": "af5751305566e176a29714f9b3850a094b960287bb3dae61f6c6ef1ce30493a6",
+  "source_sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json",
+  "receipt_sha256": "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticNormAudit.olean",
+  "artifact_sha256": "79e52069a2798d81650d5e654696593ab6ca1b86f9247351ad32304097aefeff",
+  "independent_qualification": false,
+  "utc": "2026-09-09T06:08:49.630985+00:00"
+}

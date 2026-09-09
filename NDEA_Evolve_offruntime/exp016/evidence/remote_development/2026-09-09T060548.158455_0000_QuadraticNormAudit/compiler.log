@@ -1,0 +1,13 @@
+'NDEAEvolve.Exp016.quadraticOffset_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticCorrection_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticCorrection_norm_eq_on_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticCorrection_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticCorrection_integral_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticTime_gridResidual_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticTime_integral_gridResidual_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.quadraticSlab_gridResidual_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.quadraticSlab_integral_gridResidual_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

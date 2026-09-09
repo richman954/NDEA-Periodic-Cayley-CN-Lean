@@ -1,0 +1,138 @@
+{
+  "repository": "openai/NavierStokesAndEuler",
+  "commit": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "inspection": "read-only source inspection; no external code executed or built",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob": "7605002090afc6e2603ba2f624d41af1c6da5149",
+      "sha256": "2ca277a62b6bb6ce34686303c9c777e56d5b460160004a49a28e4e72086d781e",
+      "bytes": 2018,
+      "git_blob_verified": true
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob": "b814d987e0c93cb99938be934d9b277778495ba1",
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+      "bytes": 29,
+      "git_blob_verified": true
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+      "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09",
+      "bytes": 3810,
+      "git_blob_verified": true
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+      "sha256": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09",
+      "bytes": 662,
+      "git_blob_verified": true
+    },
+    {
+      "path": "formalization.yaml",
+      "git_blob": "01270e9f666b0400b60d032204e02e6d684cee98",
+      "sha256": "6c6d30c58c70a0a04fa41a08a50ba7eb7e8a96a7f604a30b4bec6b921ea87dc3",
+      "bytes": 4379,
+      "git_blob_verified": true
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.lean",
+      "git_blob": "673fb19e26e60818d446363afd953f618719f99b",
+      "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61",
+      "bytes": 13031,
+      "git_blob_verified": true
+    },
+    {
+      "path": "ComparatorChallenges/Euler.lean",
+      "git_blob": "d797fa5083a1bd0ab24356420a4e4576841b7e33",
+      "sha256": "b11e9bafc220c8126142a9c9281cfeab4872d8f74a7d4899fed206f7f6e1d4f7",
+      "bytes": 9210,
+      "git_blob_verified": true
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.json",
+      "git_blob": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+      "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8",
+      "bytes": 375,
+      "git_blob_verified": true
+    },
+    {
+      "path": "ComparatorChallenges/Euler.json",
+      "git_blob": "7ec008190e0301512deffe70ea493e57a0a4b01e",
+      "sha256": "56bc185a931f68d9a0f0265a3c00cb12771dccc85384eaf6546b37844b8adc84",
+      "bytes": 314,
+      "git_blob_verified": true
+    },
+    {
+      "path": "ComparatorChallenges/README.md",
+      "git_blob": "bbe080b9fa8fd091617914290eb815e831cf16b2",
+      "sha256": "f28c5f581d7bbc9504db467b88686a89ad5a94e4fd38b48a1866ae6224b5a1d8",
+      "bytes": 665,
+      "git_blob_verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorSolution.lean",
+      "git_blob": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227",
+      "bytes": 1359,
+      "git_blob_verified": true
+    },
+    {
+      "path": "Euler/Solution.lean",
+      "git_blob": "5f936ddfc0a891c3e9c9f45b2d964cc2325064b7",
+      "sha256": "5dced6caecbfd85d952ff9537e420a85d4f38386e2c655a9c569a21b7139ea4f",
+      "bytes": 3529,
+      "git_blob_verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorDefinitions.lean",
+      "git_blob": "d92c81ac99c1139e54c181c97d9021e975e23b7a",
+      "sha256": "8d90e0f9eee14f8b01773852083a02fd58bda59d4de2abb60d1787bbc9f6ebf4",
+      "bytes": 10979,
+      "git_blob_verified": true
+    },
+    {
+      "path": "Euler/SolutionDefinitions.lean",
+      "git_blob": "346be3e2fc21f3e726530ac196c18d4cfed9cbed",
+      "sha256": "91f8c7287fda0f4cdbedf8b97b21a9020c46b9225a9cd70fd69ff68c3f642a70",
+      "bytes": 6422,
+      "git_blob_verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorR3Theorem.lean",
+      "git_blob": "eb98522380b91b209421bf7519f34bc68ba95c1d",
+      "sha256": "bcf984eb9f9b70d2f0a3850b146bccef918b36d27831f607b5c1aed14aab92a3",
+      "bytes": 2000,
+      "git_blob_verified": true
+    },
+    {
+      "path": "NavierStokes/ComparatorTheorem.lean",
+      "git_blob": "8105493534a5007c689c59e22bc252623bcbe901",
+      "sha256": "94b2218013c242e55b8726523ca1151bc1bd5e2b55a5d6d0909cd867bf5e1f59",
+      "bytes": 2818,
+      "git_blob_verified": true
+    },
+    {
+      "path": "NavierStokes/FourierAlias.lean",
+      "git_blob": "eb0728333b51307c1ddd24c0cfe4fc868bdf0cc3",
+      "sha256": "66d31483f4e46eea92f89ac12c8f87c6bb08c7c8174dd0ac2263e8da4198efa7",
+      "bytes": 38933,
+      "git_blob_verified": true
+    },
+    {
+      "path": "Euler/LpSmoothApproximation.lean",
+      "git_blob": "27e8d81b6a9b00e8084721bb3b65783a45e1b81b",
+      "sha256": "5c1dee3337ad9c2d4645b5638ad077d0c594c9f1257de464b42d55b5ef7a5370",
+      "bytes": 4159,
+      "git_blob_verified": true
+    }
+  ],
+  "comparator": {
+    "repository": "leanprover/comparator",
+    "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "file": "README.md"
+  }
+}

@@ -1,0 +1,4 @@
+'NDEAEvolve.Exp016.RegularSynthesis.quadratic_slabs_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.variable_potential_quadratic_slabs_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

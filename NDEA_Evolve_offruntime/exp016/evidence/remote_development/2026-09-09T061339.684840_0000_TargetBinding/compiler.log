@@ -1,0 +1,13 @@
+'NDEAEvolve.Exp016.fourierReconstruction_eq_independentTarget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_eq_independentTarget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.actualFourierQuadratic_realizes_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.independentTarget_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.independentTarget_spatialL2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.independentTarget_actual_residual_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.independentTarget_variable_potential_slab_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

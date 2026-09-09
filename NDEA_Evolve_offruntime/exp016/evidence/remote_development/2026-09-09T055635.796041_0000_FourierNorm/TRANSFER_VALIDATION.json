@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "FourierNorm",
+  "archive_sha256": "f59a33d5ff74087cb0ae7cb96a1ee7347bc9f2118af71fc53f0d5f7a483c91e4",
+  "source_sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json",
+  "receipt_sha256": "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FourierNorm.olean",
+  "artifact_sha256": "42722937d2943573c027315fb664211ec5ab32892ffc44ec264c1444860ac532",
+  "independent_qualification": false,
+  "utc": "2026-09-09T05:57:46.121108+00:00"
+}

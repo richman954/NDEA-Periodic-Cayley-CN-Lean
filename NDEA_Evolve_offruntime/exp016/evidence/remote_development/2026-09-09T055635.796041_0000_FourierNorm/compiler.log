@@ -1,0 +1,6 @@
+'NDEAEvolve.Exp016.phaseMode_integral_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierSynthesis_integral_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierSynthesis_spatialL2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierSynthesis_sample_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierCoefficient_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_spatialL2' depends on axioms: [propext, Classical.choice, Quot.sound]
