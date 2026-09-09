@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-09T03:03:07.986000+00:00",
+  "qualification": "Transport and recovery backup; source Git commits and original proof receipts have separate meanings. Exp015 was incomplete at this checkpoint.",
+  "archives": [
+    {
+      "name": "Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+      "bytes": 237013,
+      "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+      "proof_completion_evidence": false,
+      "parts": [
+        {
+          "path": "checkpoints/Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+          "bytes": 237013,
+          "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+        }
+      ]
+    }
+  ],
+  "companions": [
+    {
+      "path": "checkpoints/Exp015_WORK_IN_PROGRESS_CHECKPOINT_RECEIPT.json",
+      "bytes": 521,
+      "sha256": "162717900ab3f61cdeb6c6293a51884754104441d17e5bae6c9d820649b16d36"
+    },
+    {
+      "path": "NDEA_STARTUP_INSTRUCTIONS.md",
+      "bytes": 1714,
+      "sha256": "ecc91fb614791001fc90274964941a196ecb0a6bf746a5b94e3eb38a06b94826"
+    },
+    {
+      "path": "verify_backup.py",
+      "bytes": 3711,
+      "sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2391,
+      "sha256": "f48460f74135ec6978c61b03b8c38a5babdeaac067b7f7fcf7607b2e68ca4721"
+    },
+    {
+      "path": "BACKUP_RESTORE_TEST.json",
+      "bytes": 411,
+      "sha256": "b5b48950a3a269de01002a3f14ca824d062bac7399981b5a0b35607de25d1d73"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "active_experiment": "exp015",
+  "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
+  "archive_bytes": 237013,
+  "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+  "final_packet_receipt_captured": false,
+  "kind": "recovery_checkpoint_receipt",
+  "payload_files_verified": 95,
+  "proof_completion_evidence": false,
+  "published_utc": "2026-09-09T02:50:20.795454+00:00",
+  "reason": "manual",
+  "task_state_present": true
+}
