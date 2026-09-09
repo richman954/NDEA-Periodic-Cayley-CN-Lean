@@ -1,0 +1,313 @@
+{
+  "utc": "2026-09-09T14:52:30.296171+00:00",
+  "development_only": true,
+  "independent_qualification": false,
+  "sealed": false,
+  "new_modules": [
+    {
+      "module": "GridAlias",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
+      "source_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json",
+      "receipt_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log",
+      "log_sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
+      "artifact_sha256": "b0c63039c77096ec23923fa0174771b712e8e5573413211ac265e6bf3e50d4a5",
+      "compiler_exit": 0,
+      "elapsed_seconds": 6.8026810539995495,
+      "lock_wait_seconds": 2.4309003492817283e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.fourierCoefficient_modeLift_alias": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.existsUnique_gridAlias": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_modeLift_alias": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_modeLift_alias_frequency": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.norm_fourierReconstruction_modeLift": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_phase_of_memBand": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_modeLift_spatialL2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "eac067f0bca2f900ec39b46c9c6ecd7553224e3ae63487cc958e148f3b5d9bea"
+    },
+    {
+      "module": "FourierTailBounds",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierTailBounds.lean",
+      "source_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json",
+      "receipt_sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log",
+      "log_sha256": "66f5f464d7448bd2580db4805281c5c45cda928690aa5d8df2957d698785cda0",
+      "artifact_sha256": "8165c72aea976bd0996c4cdab589427e1a862acaa6fe5f97c960f98df8075688",
+      "compiler_exit": 0,
+      "elapsed_seconds": 6.691048037002474,
+      "lock_wait_seconds": 2.4421002308372408e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.shiftedFrequencyNormTail_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.frequencyNormTail_le_weighted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.potential_shifted_tails_le_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.spatialL2_le_sqrt_mul_of_pointwise": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "a76aa4084a754ec35b4c08017f9576fcc2e10bc68e145d30fcae4230c2671016"
+    },
+    {
+      "module": "PotentialAlias",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
+      "source_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json",
+      "receipt_sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/compiler.log",
+      "log_sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
+      "artifact_sha256": "770c0158d06874dd6c6ad786ffa0340eb5428fa5717cbb4bb016b099b9fa98fe",
+      "compiler_exit": 0,
+      "elapsed_seconds": 7.502697438998439,
+      "lock_wait_seconds": 2.2565996914636344e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.potential_modeLift_terms_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotential_on_modeLift": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_filtered": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.potential_alias_progression_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_alias": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/LOCAL_READBACK.json",
+      "transfer_receipt_sha256": "ab55d24c634c741d440a9386d9d40488e327a9a5addebd3e9b45f38c326453a9"
+    },
+    {
+      "module": "PotentialDefectExpansion",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
+      "source_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json",
+      "receipt_sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log",
+      "log_sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
+      "artifact_sha256": "6869034d70b1be3088cb35069ac85fe0a0dcc90e91f7e8fd9a6616fb1c1f91b5",
+      "compiler_exit": 0,
+      "elapsed_seconds": 7.108662536003976,
+      "lock_wait_seconds": 2.9219998396001756e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.potentialModeDiscrepancy_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotentialDefect_eq_sum_tsum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "61772be3f6102b75e47a8830c3d3795fe991e29c86daf7969ca51d949fef91ed"
+    },
+    {
+      "module": "PotentialAliasBounds",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean",
+      "source_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json",
+      "receipt_sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log",
+      "log_sha256": "e14530e368033bee5263d8400b5c3d2b00eb7469a4dfd6267df03660fb82b6e5",
+      "artifact_sha256": "0e7a47481ca3b39e2c088cde653b9de1896bd446dbf3944692bd2084dcf2b904",
+      "compiler_exit": 0,
+      "elapsed_seconds": 8.311150272005762,
+      "lock_wait_seconds": 2.3721004254184663e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.potentialModeDiscrepancy_norm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.potentialModeDiscrepancy_eq_zero_of_memBand": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.potentialModeDiscrepancy_tsum_norm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotentialDefect_norm_le_tailBudget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledPotentialDefect_spatialL2_le_tailBudget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.potentialAliasTailBudget_le_weighted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "ddd8d722ebff8ee8a69d3d85c2c06dcc1771453023a8897dbf7121f414fadaaf"
+    },
+    {
+      "module": "AliasTailCertificate",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean",
+      "source_sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json",
+      "receipt_sha256": "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/compiler.log",
+      "log_sha256": "59c373477ff6a0abaa70b9fad347bde96731c929e1c4c45b14b71cd770429967",
+      "artifact_sha256": "c414251e092fbb7989c8f72d2b80ea0894bf8407bf808a47338d5cef5962e4cf",
+      "compiler_exit": 0,
+      "elapsed_seconds": 6.09323075300199,
+      "lock_wait_seconds": 2.2755004465579987e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.sampledSpatialDefectBudget_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledQuantitativeBudget_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledQuantitativeBudgetSequence_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledCayley_gridTime_tail_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledCayley_partialSlab_tail_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "863b5df734faf54b84efff5fc2646187d2e04fe5e83a1a3c8e48e9b681c197ad"
+    },
+    {
+      "module": "AliasTailControls",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
+      "source_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json",
+      "receipt_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log",
+      "log_sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
+      "artifact_sha256": "0ba96f97083701810cc67ccd8d8f8bdc66204668a445a48492322c24ac192bda",
+      "compiler_exit": 0,
+      "elapsed_seconds": 6.500076361997344,
+      "lock_wait_seconds": 1.814499410102144e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.sampledPotential_product_exact_of_resolved_support": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.Controls.cosine_times_mode_one_resolved": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "8c16b0f72efd7e6da5b9e458a496b90f0834d545b2aa8dd93e46d11923e3151c"
+    }
+  ],
+  "sealed_predecessor_readback": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_ALIAS.json",
+  "sealed_predecessor_readback_sha256": "62cd000a7d2c6a0fa92aac9f43373368ad651dd26d0d2fbf1382d38693636890",
+  "scope": "Actual sampled potential alias identity, full spatial discrepancy tail bound, weighted potential tail, actual ordered grid/partial error certificate consumer and nonzero resolved-band control. No mesh convergence claim."
+}

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T14:42:22.223052+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T144117.477372Z_PotentialAlias_colab.zip",
+  "archive_sha256": "d14a51aee9e4126587ef7ece4f848c11fa1b7cf8a72073eae342c9fff368dc92",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json",
+  "receipt_sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
+  "log_sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "770c0158d06874dd6c6ad786ffa0340eb5428fa5717cbb4bb016b099b9fa98fe",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/PotentialAlias.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.potential_modeLift_terms_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledPotential_on_modeLift": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_filtered": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.potential_alias_progression_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_alias": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 0,
+  "independent_qualification": false
+}

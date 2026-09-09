@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "module": "GridAlias",
+  "audit_count": 7,
+  "audit_names": [
+    "fourierCoefficient_modeLift_alias",
+    "existsUnique_gridAlias",
+    "fourierReconstruction_modeLift_alias",
+    "fourierReconstruction_modeLift_alias_frequency",
+    "norm_fourierReconstruction_modeLift",
+    "fourierReconstruction_phase_of_memBand",
+    "fourierReconstruction_modeLift_spatialL2"
+  ],
+  "warning_count": 0,
+  "error_count": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
+  "receipt_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
+  "log_sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
+  "runner_matches_current": true,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false
+}

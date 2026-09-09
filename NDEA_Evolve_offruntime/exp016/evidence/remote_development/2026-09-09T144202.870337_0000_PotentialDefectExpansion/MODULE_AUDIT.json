@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T14:43:21.454700+00:00",
+  "module": "PotentialDefectExpansion",
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
+  "source_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json",
+  "receipt_sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log",
+  "log_sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/PotentialDefectExpansion.olean",
+  "artifact_sha256": "6869034d70b1be3088cb35069ac85fe0a0dcc90e91f7e8fd9a6616fb1c1f91b5",
+  "exit_code": 0,
+  "elapsed_seconds": 7.108662536003976,
+  "lock_wait_seconds": 2.9219998396001756e-05,
+  "axiom_audits": {
+    "NDEAEvolve.Exp016.potentialModeDiscrepancy_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledPotentialDefect_eq_sum_tsum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "audits": 2,
+  "errors": 0,
+  "warnings": 0,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "direct_alias_dependencies_match_local": {
+    "GridAlias": {
+      "artifact_sha256": "b0c63039c77096ec23923fa0174771b712e8e5573413211ac265e6bf3e50d4a5",
+      "source_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4"
+    },
+    "PotentialAlias": {
+      "artifact_sha256": "770c0158d06874dd6c6ad786ffa0340eb5428fa5717cbb4bb016b099b9fa98fe",
+      "source_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03"
+    }
+  },
+  "compiler_attempts": 1,
+  "independent_qualification": false,
+  "scope": "Exact expansion of the actual sampled-potential discrepancy into a finite sum of summable all-integer mode-discrepancy series. Includes raw continuum product and all aliases.",
+  "assumptions": "RegularPotential only for discrepancy-series summability; exact odd-grid mesh additionally for the actual grid-state expansion. No Hermitian, tail-smallness or stronger decay premise.",
+  "exclusions": "No numerical refinement, convergence, independent qualification, or new norm/cutoff bound proved by this module."
+}

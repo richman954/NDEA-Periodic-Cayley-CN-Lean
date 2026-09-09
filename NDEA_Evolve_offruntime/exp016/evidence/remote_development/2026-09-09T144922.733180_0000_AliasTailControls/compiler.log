@@ -1,0 +1,4 @@
+'NDEAEvolve.Exp016.sampledPotential_product_exact_of_resolved_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.Controls.cosine_times_mode_one_resolved' depends on axioms: [propext, Classical.choice, Quot.sound]

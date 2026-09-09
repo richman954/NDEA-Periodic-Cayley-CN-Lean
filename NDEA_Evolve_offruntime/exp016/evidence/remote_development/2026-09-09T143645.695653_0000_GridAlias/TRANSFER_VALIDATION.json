@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "GridAlias",
+  "archive_sha256": "e71fc3758e05c73a09e0be302ac9092ad1152e88c6d15915f5cb525b28fc68fd",
+  "source_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json",
+  "receipt_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/GridAlias.olean",
+  "artifact_sha256": "b0c63039c77096ec23923fa0174771b712e8e5573413211ac265e6bf3e50d4a5",
+  "independent_qualification": false,
+  "utc": "2026-09-09T14:37:58.101257+00:00"
+}

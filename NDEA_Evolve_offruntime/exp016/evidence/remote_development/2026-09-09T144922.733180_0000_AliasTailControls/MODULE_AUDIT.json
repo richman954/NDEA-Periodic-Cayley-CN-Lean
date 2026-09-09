@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "module": "AliasTailControls",
+  "audit_count": 2,
+  "audit_names": [
+    "NDEAEvolve.Exp016.sampledPotential_product_exact_of_resolved_support",
+    "NDEAEvolve.Exp016.Controls.cosine_times_mode_one_resolved"
+  ],
+  "warning_count": 0,
+  "error_count": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
+  "receipt_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
+  "log_sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
+  "runner_matches_current": true,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false
+}

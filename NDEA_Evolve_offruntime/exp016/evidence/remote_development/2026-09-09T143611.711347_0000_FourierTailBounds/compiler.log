@@ -1,0 +1,4 @@
+'NDEAEvolve.Exp016.shiftedFrequencyNormTail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyNormTail_le_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.potential_shifted_tails_le_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialL2_le_sqrt_mul_of_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]

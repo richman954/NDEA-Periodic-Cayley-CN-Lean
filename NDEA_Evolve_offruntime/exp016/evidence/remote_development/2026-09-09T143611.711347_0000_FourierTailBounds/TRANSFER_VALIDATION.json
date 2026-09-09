@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "FourierTailBounds",
+  "archive_sha256": "f6ed2d40d942dc015dc08a17ddd6668df48439db841d6970598db6cf9d3972fe",
+  "source_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json",
+  "receipt_sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FourierTailBounds.olean",
+  "artifact_sha256": "8165c72aea976bd0996c4cdab589427e1a862acaa6fe5f97c960f98df8075688",
+  "independent_qualification": false,
+  "utc": "2026-09-09T14:40:32.968923+00:00"
+}

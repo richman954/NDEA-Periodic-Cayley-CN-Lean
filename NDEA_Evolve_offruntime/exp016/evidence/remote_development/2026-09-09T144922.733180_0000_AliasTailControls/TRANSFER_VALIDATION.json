@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "AliasTailControls",
+  "archive_sha256": "68f87abc78458d55f7b9bf859faba5c193195482576a5030f8851f53b716d31f",
+  "source_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json",
+  "receipt_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/AliasTailControls.olean",
+  "artifact_sha256": "0ba96f97083701810cc67ccd8d8f8bdc66204668a445a48492322c24ac192bda",
+  "independent_qualification": false,
+  "utc": "2026-09-09T14:50:44.217278+00:00"
+}

@@ -1,0 +1,10 @@
+'NDEAEvolve.Exp016.potentialModeDiscrepancy_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.potentialModeDiscrepancy_eq_zero_of_memBand' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.potentialModeDiscrepancy_tsum_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotentialDefect_norm_le_tailBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotentialDefect_spatialL2_le_tailBudget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.potentialAliasTailBudget_le_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]

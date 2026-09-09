@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "PotentialAliasBounds",
+  "archive_sha256": "e54b2e0df9fd2b008326e87b8e8a2630a8c0c8c6ab2e5dcc401fb5a510372c25",
+  "source_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json",
+  "receipt_sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/PotentialAliasBounds.olean",
+  "artifact_sha256": "0e7a47481ca3b39e2c088cde653b9de1896bd446dbf3944692bd2084dcf2b904",
+  "independent_qualification": false,
+  "utc": "2026-09-09T14:48:10.707329+00:00"
+}

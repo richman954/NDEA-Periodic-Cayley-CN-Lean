@@ -1,0 +1,9 @@
+'NDEAEvolve.Exp016.fourierCoefficient_modeLift_alias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.existsUnique_gridAlias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_modeLift_alias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_modeLift_alias_frequency' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.norm_fourierReconstruction_modeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_phase_of_memBand' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_modeLift_spatialL2' depends on axioms: [propext, Classical.choice, Quot.sound]

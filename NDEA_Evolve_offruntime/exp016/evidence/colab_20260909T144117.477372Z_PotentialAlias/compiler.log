@@ -1,0 +1,7 @@
+'NDEAEvolve.Exp016.potential_modeLift_terms_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotential_on_modeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_filtered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.potential_alias_progression_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotential_fourierCoefficient_alias' depends on axioms: [propext, Classical.choice, Quot.sound]

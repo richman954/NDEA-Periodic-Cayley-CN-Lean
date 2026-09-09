@@ -1,14 +1,31 @@
-# Exp016 continuation after the reconstruction startup modules
+# Exp016 continuation after the actual potential-alias bound
 
 This is a work plan, not verification evidence. Preserve Exp013–015 and reuse the exact BASELINE/NUMERICAL_PINS sources. Exp016 is not sealed. The normative endpoint and assumptions are in PLAN.md.
 
-1. Finish the currently queued module checks and inspect their actual receipts. Do not repeat accepted checks merely because a session has changed. A receipt binds only its recorded source SHA-256; compiler failures are retained with their source snapshots.
-2. Add the centered quadratic coefficient bound on a positive slab: absolute offset at most k/2, correction norm at most k²/8. Keep the exact endpoint defect explicit. Consume the quadratic identities in the actual ordered-stage algebra; do not replace the product by a single Cayley factor.
-3. Complete the finite Fourier synthesis calculus: actual first/second spatial derivative formulas, continuity and periodicity. Package only the evaluation/derivative maps needed by this concrete consumer as a regular-synthesis interface. Apply it to the polynomial slab extension to prove the actual Exp015 regularity predicate.
-4. Prove continuum finite-sum Parseval using integral orthogonality of integer phases. Combine it with the existing discrete alias-free Parseval on the full centered odd band and the new inverse-DFT sampling theorem. Derive exactly spatialL2(S_h y)=sqrt(h)*norm(y), including N=1 where applicable; do not replace this by a pointwise inverse bound.
-5. Define the sampled block potential, prove Hermiticity and the specialization to the old Z/X split. Prove the stencil/synthesis and potential interpolation discrepancies as actual expressions. Keep the factor order in the stronger eta identity and derive its bounds using saved unitary stages.
-6. Prove the synthesized quadratic PDE residual identity and the explicit PLAN slab budget using the actual integral-based spatialL2 rules. Apply Exp015 against Exp014's solution and telescope finite positive time slabs with arbitrary initial mismatch.
-7. Add exact controls for endpoint recovery, nonzero initial mismatch, nonzero macro midpoint defect despite exact stage solves, and the saved constant-potential numerical consumer. Complete the planned review, audit catalog, isolated combined and independent fresh-runtime qualification, transfer, finalizer and immutable packet gates before any verified milestone label.
+Development-accepted work now includes the quadratic slab identities/regularity,
+physical L2 isometry, exact ordered stage bounds, sampled potential and stencil,
+actual finite/partial-slab Exp014 error certificates, full-band stencil multiplier
+bounds, and the exact potential alias series plus low/high frequency-tail bounds.
+AliasTailCertificate uses these bounds on the actual mean, velocity and generator
+velocity of the ordered Cayley stages. Read current TASK_STATE source receipts;
+do not repeat these proofs because an older startup note lists them as pending.
+
+1. Complete the finite-grid milestone's final statement/dependency review and
+   required controls, then isolated combined and fresh independent qualification,
+   transfer validation, finalizer and immutable packet gates. Development module
+   acceptance is not this full qualification. Preserve failed attempt evidence.
+2. The next small mathematical bridge is actual initial sampling/interpolation:
+   derive its tail estimate from GridAlias and the weighted Fourier data, retaining
+   arbitrary added initial mismatch. This removes an explicit PLAN table row and
+   supports the selected approximation/stability refinement route.
+3. Prove concrete sampled-block/operator and potential-perturbation bounds with
+   h/potential dependence visible. Use them to transfer convergence from smooth
+   cutoffs, while preserving Hermitian symmetry of the potential approximation.
+4. Close the main refinement obstacle: numerical evolution of the actual
+   fourth moments and low/high coefficient sums, or a justified smooth-core
+   comparison with uniform stability. Finite Fourier input/potential support
+   does not imply an invariant finite band for the evolved numerical solution.
+   No norm-isometry or fixed-grid estimate is a substitute for this obligation.
 
 The next experiment must derive initial interpolation and accumulated spatial-defect vanishing along actual refinements. Full-band M*h<=1 is false on the chosen grid family; old small-band estimates cannot be applied wholesale. Uniform sampled-potential/initial weighted norms and any stronger graph regularity must be proved under explicit hypotheses. Exp016 does not assume residual-to-zero as a shortcut to that theorem.
 

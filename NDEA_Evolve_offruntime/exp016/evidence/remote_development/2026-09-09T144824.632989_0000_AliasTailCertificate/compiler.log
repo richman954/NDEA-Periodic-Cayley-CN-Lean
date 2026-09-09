@@ -1,0 +1,5 @@
+'NDEAEvolve.Exp016.sampledSpatialDefectBudget_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledQuantitativeBudget_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledQuantitativeBudgetSequence_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_tail_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_partialSlab_tail_error' depends on axioms: [propext, Classical.choice, Quot.sound]
