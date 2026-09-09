@@ -1,0 +1,9 @@
+{
+  "archive": "/content/exp007_check/exp007_independent_evidence_20260908T061853Z.tar.gz",
+  "archive_sha256": "fe0de6ba7936fe651352c14589b5a3fa800ad1473f1d085206e47b59cb7e0308",
+  "archive_bytes": 751256,
+  "files": 118,
+  "manifest_sha256": "6e404daf92e805aa52338f0c9b77b08f690b02ae3f6df976366f8dc0b2cd9284",
+  "passed": true,
+  "stamp": "20260908T061853Z"
+}

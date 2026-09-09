@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archive": "/home/richman954/Exp007_Verified_Review_Packet_20260908.zip",
+  "archive_sha256": "cb527b6245b11cdeb044a97e60aa9201cf20bfc8c60dac99642d91677a7f7b5f",
+  "archive_bytes": 2492055,
+  "manifest_entries": 217,
+  "manifest_sha256": "5bd1178ebd2df92579092a3de17383f6b4097214d7a12b1442bcaa07185eda5a",
+  "verified_file_count": 218
+}

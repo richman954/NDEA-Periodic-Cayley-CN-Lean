@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean",
+  "source_sha256_before": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp013/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/GenericClassical.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T13:56:29.632298+00:00",
+  "runner_sha256": "c00cb5898082dd069fd9c148af140073dffbeac1e5ca4eccc9b0c51229912ab7",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+  "elapsed_seconds": 169.48263915700227,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp013/evidence/20260908T135629.629163Z_GenericClassical.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/GenericClassical.olean": "b617f2cc875824e2bee800d4a7e8a55bc99a23f29aeb03d3fcb246cc21292cfd"
+  },
+  "sources_unchanged": true
+}

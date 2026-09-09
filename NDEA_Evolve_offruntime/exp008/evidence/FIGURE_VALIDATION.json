@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "data_sha256": "ce51d960568195fc3cd3667a103b22fdbcb74162d8fb624fa7c405d6bf437fef",
+  "figure_hashes": {
+    "exp008_convergence.png": "f3425d279badaf59e2b210596fee2e7f89dc97cfb76be4343c25ab6a6c2347d1",
+    "exp008_convergence.pdf": "beea59f0023296e5654de5134082e8a42e569ad34c0f0f22b1f6fd081bab5aca",
+    "exp008_convergence.svg": "731312d5137db10c199a8c89c3ed28fc950f71e1fedbfb9fc3aa5d7b15ef5d32"
+  },
+  "local_png_agrees": true,
+  "scope": "Saved numerical data and all independently rendered PNG/PDF/SVG hashes agree; floating-point visualization only."
+}

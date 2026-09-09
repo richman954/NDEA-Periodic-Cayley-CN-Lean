@@ -1,0 +1,65 @@
+{
+  "schema": "ndea.exp007.predecessor-preservation.v1",
+  "start_utc": "2026-09-08T06:09:45.516888+00:00",
+  "scope": "Read-only SHA-256 verification of every manifest-listed predecessor file; no predecessor files or caches were modified. This is preservation evidence, not a new proof compilation.",
+  "checks": [
+    {
+      "name": "exp005_frozen",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp005/worktree/NDEA_Evolve",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp005/worktree/NDEA_Evolve/experiments/exp005_mesh_weighted_residual_bridge/evidence/FINAL_SHA256SUMS",
+      "manifest_format": "sha256sum",
+      "manifest_sha256_before": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "manifest_sha256_after": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "manifest_unchanged_during_check": true,
+      "expected_entry_count": 889,
+      "entry_count": 889,
+      "matched_entry_count": 889,
+      "failures": [],
+      "canonical_entries_sha256": "8a31baa9324101f388f37283feeb2c42762ab2b0eef29de1531c94de9477f5bc",
+      "expected_manifest_sha256": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "manifest_matches_recorded_pin": true,
+      "passed": true
+    },
+    {
+      "name": "exp006_local_verified",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp006",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/LOCAL_VERIFIED_MANIFEST.json",
+      "manifest_format": "json",
+      "manifest_sha256_before": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "manifest_sha256_after": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "manifest_unchanged_during_check": true,
+      "expected_entry_count": 21,
+      "entry_count": 21,
+      "matched_entry_count": 21,
+      "failures": [],
+      "canonical_entries_sha256": "26ced5033db936d12c7c5584e08bb956ff98e5bb46d49fcb11329550719e2576",
+      "expected_manifest_sha256": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "manifest_matches_recorded_pin": true,
+      "passed": true
+    },
+    {
+      "name": "exp006_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp006",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/FINAL_PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "manifest_sha256_before": "1c11c0a1523ef5a56a9fa72b6a150246c232b831ec15acef9f172d8d9d47a678",
+      "manifest_sha256_after": "1c11c0a1523ef5a56a9fa72b6a150246c232b831ec15acef9f172d8d9d47a678",
+      "manifest_unchanged_during_check": true,
+      "expected_entry_count": 99,
+      "entry_count": 99,
+      "matched_entry_count": 99,
+      "failures": [],
+      "canonical_entries_sha256": "74cda4c84999e5b58cd7dc51558b8db70a27cd5f620250c950fd5b4345fe71a1",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "exp006_local_sha256sum_crosscheck": {
+    "path": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/LOCAL_VERIFIED_SHA256SUMS",
+    "sha256": "7bb551ac07498074b7cba28ae6df837c8acc99075ebbf687abb3fea704fa9378",
+    "entry_count": 21,
+    "agrees_with_json_manifest": true,
+    "passed": true
+  },
+  "end_utc": "2026-09-08T06:09:45.950312+00:00"
+}

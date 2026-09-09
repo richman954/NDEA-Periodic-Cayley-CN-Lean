@@ -1,0 +1,19 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean:68:8: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean:81:54: warning: This simp argument is unused:
+  weightedNorm_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [stageResidualBudget,
+      factorResidual_cayley_zero (A (modeSymbol m h)) (̵k̵/̵4̵)̵(̲k̲ ̲/̲ ̲4̲)̲ (A_isHermitian _),
+      factorResidual_cayley_zero B (̵k̵/̵2̵)̵(̲k̲ ̲/̲ ̲2̲)̲ B_isHermitian, w̵e̵i̵g̵h̵t̵e̵d̵N̵o̵r̵m̵_̵z̵e̵r̵o̵,̵ ̵zero_add, weightedNorm, Real.sqrt_one,
+  ̲  ̲ ̲ ̲one_mul, norm_zero, modeOrbit_norm] at hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NDEAEvolve.Exp008.gridFactorResidual_superposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.gridFactorResidual_superposition_weighted_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp008.frequency_final_stage_residual_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.actual_superposition_stage_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

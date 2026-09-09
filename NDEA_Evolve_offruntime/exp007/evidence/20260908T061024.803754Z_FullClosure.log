@@ -1,0 +1,8 @@
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/FullClosure.lean:16:19: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+'NDEAEvolve.Exp007.reference_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.concrete_noncommuting_grid_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.concrete_noncommuting_mesh_error_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,21 @@
+{
+  "archive": "/content/exp013_check/final_sources_b14e205da846e45c.tar.gz",
+  "sha256": "2f977734f9f009a1c1f3c79098d8877cd3198fa0d347b2d5c7b18dd246d53752",
+  "combined_sha256": "b14e205da846e45c0ac506e9319a0f351e5148232ee4fc608193709734cd4788",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "6e9c966120933a2a53f38c79b6a143d03d01197a7cfc4e9c02869afb8ba6d8c4",
+    "lean/Controls.lean": "0b297b21320d90c24c76d648666a2b3627bdbf6565c74eccb04205f41ddaf76d",
+    "lean/Exp012Foundation.lean": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+    "lean/Exp013Combined.lean": "b14e205da846e45c0ac506e9319a0f351e5148232ee4fc608193709734cd4788",
+    "lean/GenericClassical.lean": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+    "lean/GenericEnergy.lean": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+    "lean/GenericUniqueness.lean": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9",
+    "lean/LegacyBridge.lean": "145526a13ad87eb17d1de9f37b3e792e0ff2b725973a261237b9d1ebe2bc309e",
+    "make_combined.py": "3a78d61203229c96ea2f5ace4de8dbba916adcd98ae6399a53cc05f814ac4a79",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "5bad9fc9c2239194ac92a146500e217071453ce704877f5020a1a1e6d48a30dc"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp013/remote_check/final_sources_b14e205da846e45c.tar.gz"
+}

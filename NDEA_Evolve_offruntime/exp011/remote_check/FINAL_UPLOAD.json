@@ -1,0 +1,21 @@
+{
+  "archive": "/content/exp011_check/final_sources_6e516d1a5cbd1eae.tar.gz",
+  "sha256": "cb2cb4e2fcd7cb922477ff7005a8de8ff95a3be2dd82ccdf9af813d79f08a9bb",
+  "combined_sha256": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "b2baf5fbd883980873481f94123521470e7cc48bbb8dd80d9e5152a309740d99",
+    "lean/Controls.lean": "e4442c347374e51125c474cc39e8a620b6e90a1d50ccd6bacec55b1e4ce0ad67",
+    "lean/Exp010Foundation.lean": "fb7b27b42d0baaca9ab8b30f9ba80bb0a5b8999986342fe8538e880bb3947ef0",
+    "lean/Exp011Combined.lean": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+    "lean/Reconstruction.lean": "296ab241366fd4128bf7d933ed0fb251a53792f0ebbb7c6805e3f5ab78d4f043",
+    "lean/ScheduleBounds.lean": "c3382951dc6b0668d141a38bf726cca3a6a1683077c2478045634c84a3e888db",
+    "lean/SolutionLipschitz.lean": "01986d7ebcbce986000c404993621bf46b12d0fe0b18bf24b163de5fdddfcaf6",
+    "lean/UniformConvergence.lean": "d2e5c12d7b3cff455cbe7c2dabfa792ebc496521ac0f940cced9067002b242d3",
+    "make_combined.py": "76b406af33edbe236a4db31cc808bc9e1fb4b14eb27d20d36a6661da8bf74d2e",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "5e2e4e95e28b6298db38544016fba903da85ce088b989beaecb679ddceebaaf6"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp011/remote_check/final_sources_6e516d1a5cbd1eae.tar.gz"
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T14:49:24.493364+00:00",
+  "checks": [
+    "infrastructure_python_syntax",
+    "complete_fixture_catalog_ignores_comments",
+    "generic_adjoint_import_retained",
+    "unembedded_project_import_rejected",
+    "duplicate_public_name_rejected",
+    "changed_foundation_rejected",
+    "prepare_final_sources.py_roundtrip_and_repeat_refusal",
+    "prepare_bootstrap_inputs.py_roundtrip_and_repeat_refusal",
+    "fresh_bootstrap_protocol_fixture_accepted",
+    "failed_bootstrap_rejected",
+    "failed_command_rejected",
+    "wrong_cache_target_rejected",
+    "incomplete_cache_roots_rejected",
+    "changed_command_log_rejected",
+    "missing_command_log_rejected",
+    "reused_vm_identity_rejected"
+  ],
+  "check_count": 16,
+  "script_sha256": "26ee0aa1d5e51deef19ed789396125700ad2aedcc0e5afbd55599af4976066df",
+  "scope": "Bounded offline infrastructure exercises with synthetic and transformed predecessor fixtures. No Experiment 013 Lean proof or network action is performed or accepted by these tests."
+}

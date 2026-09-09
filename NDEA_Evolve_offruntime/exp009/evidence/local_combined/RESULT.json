@@ -1,0 +1,495 @@
+{
+  "passed": true,
+  "start_utc": "2026-09-08T09:25:56.934011+00:00",
+  "runner_sha256": "9d5affc4c26adbc7878611b1bf94d01276bc24918f6e3f5eb35dbd3f22a2a83c",
+  "scope": "All project source re-elaborated using compatible external artifacts from pinned source checkouts, with recorded hashes. Compiler and library artifacts remain trusted inputs; this check does not rebuild them or prove source-to-artifact correspondence.",
+  "reconstruction_verified": true,
+  "source_sha256_before": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+  "source_hashes": {
+    "lean/Exp008Foundation.lean": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+    "lean/InfiniteReference.lean": "ef31378a27fb871f22d662303a86cc8c90c1cc2ea18bb959b770d5cef71a38e1",
+    "lean/WeightedTail.lean": "59fe3f191091a88679160d4fa1cd40f419582b6540363203b7cba0c4c2614b98",
+    "lean/CutoffSchedule.lean": "41604c9d77be7780e933258a640deeacfbc3ddd0823aa2663667d1fc077be8f4",
+    "lean/InfiniteClosure.lean": "bf99f2e9c96eac54902366b7e416b1a4c7bdbb6461f0c13226858ce70b9a0272",
+    "lean/WeightedClosure.lean": "98df998a9a953fa4bdc58cd15dc3e1731a86180a0938933a81487f4568e7a970",
+    "lean/ScheduleClosure.lean": "d11f50dace8452e6b42558b378d98b23578853e21b3598a399f6bba981cffc5f",
+    "lean/Controls.lean": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54"
+  },
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "dependency_pins": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_artifacts": 9868,
+  "dependency_manifest_sha256": "a13f61fbe0f5ad8120216e898158a0a29b27c34e892896ba13ac79d596f08a12",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/lean/Exp009Combined.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp009/evidence/local_combined/dependencies:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "exit_code": 0,
+  "elapsed_seconds": 414.8782003369997,
+  "log_sha256": "ae4d9d5a968f8cc4c3441a2566a95f3641da1ca901a208ad00cdfb2929f06a9e",
+  "axiom_audits": {
+    "NDEAEvolve.Exp009.band_frequency_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.band_tendsto_atTop": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mass_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.band_mass_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.tail_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.tail_eq_tsum_compl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.tail_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.coefficientNorm_band_le_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.modeSolution_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.modeSolution_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteSolution_periodic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteSolution_initial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.modeLift_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGrid_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGrid_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGrid_initial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGrid_is_sampled_solution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGrid_tail_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.frequencyWeight_one_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.frequencyWeight_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.moment_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.weighted_summable_implies_absolute": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mass_le_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.outside_band_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.weighted_tail_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.tail_le_moment_div": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_real_ge_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.gridPoints_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.gridPoints_eq_gridIndex_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_unaliased": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mesh_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mesh_period": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_mesh_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.timeStep_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.timeStep_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.timeStep_restriction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.stepCount_timeStep": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_tendsto_atTop": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_inverse_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mesh_eq_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.timeStep_eq_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.mesh_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.timeStep_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_error_eq_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.cutoff_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.control_cutoff_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.control_first_schedule": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteGridError_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infiniteInitialError_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infinite_exact_initial_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.zero_steps_retain_full_initial_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.finite_initial_error_le_full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infinite_grid_error_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.infinite_mesh_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.weighted_infinite_grid_error_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.scheduled_infinite_grid_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.scheduled_infinite_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.scheduled_exact_initial_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.scheduled_reference_time_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_coefficient_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_coefficient_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_support_all": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_infinite_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_tail_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_tail_tends_to_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.geometric_infinite_reference_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.grid_multiple_is_constant_mode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp009.Controls.coherent_aliases_violate_l2_sampling": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "source_sha256_after": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+  "end_utc": "2026-09-08T09:33:32.308259+00:00"
+}

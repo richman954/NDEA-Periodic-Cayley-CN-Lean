@@ -1,0 +1,43 @@
+{
+  "detached_launch_attempt": {
+    "pid": 4,
+    "started_utc": "2026-09-08T12:45:50.769929+00:00",
+    "interval_seconds": 60,
+    "hours": 12,
+    "task": "Experiment 012 qualification and recovery protection",
+    "observed_status": "No status or initial snapshot appeared; child did not survive launcher."
+  },
+  "verified_foreground_run": {
+    "interval_seconds": 60.0,
+    "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp012_recovery_20260908T124822.679790Z_37d3c6d6.zip",
+    "maximum_hours": 12.0,
+    "pid": 2,
+    "started_utc": "2026-09-08T12:48:22.665966+00:00",
+    "status": "stopped",
+    "stop_reason": "final_packet_receipt_captured",
+    "stopped_utc": "2026-09-08T12:48:22.990755+00:00",
+    "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+  },
+  "current_method": "Tracked minute watcher94110 with startup and advancing timed snapshots verified; explicit milestones also required.",
+  "automatic_reboot_service": false,
+  "current_experiment": "exp015",
+  "current_foreground_exec_session": 94110,
+  "current_watch_started_utc": "2026-09-09T02:05:07.900251+00:00",
+  "status": "running",
+  "active_experiment": "exp015",
+  "started_utc": "2026-09-08T15:24:30.781341+00:00",
+  "restart_audit_utc": "2026-09-09T00:28:17.361705+00:00",
+  "historical_foreground_exec_session": 20094,
+  "previous_watch_completion": {
+    "active_experiment": "exp014",
+    "interval_seconds": 60.0,
+    "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp014_recovery_20260909T015707.091512Z_76c3aa27.zip",
+    "maximum_hours": 12.0,
+    "pid": 2,
+    "started_utc": "2026-09-09T00:37:45.165630+00:00",
+    "status": "stopped",
+    "stop_reason": "final_packet_receipt_captured",
+    "stopped_utc": "2026-09-09T01:57:07.355151+00:00",
+    "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+  }
+}

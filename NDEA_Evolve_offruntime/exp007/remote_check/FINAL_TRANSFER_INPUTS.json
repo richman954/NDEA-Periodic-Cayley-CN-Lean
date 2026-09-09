@@ -1,0 +1,17 @@
+{
+  "make_combined.py": "d33eb973d8ecae176dcf8a2a27df21dac87b13ee814fed38e3ad86e4a595721e",
+  "verify_combined.py": "dabd6559dc9c2db5606596bf8d363317c237b3237509a64b91fb4caac9819752",
+  "evidence/FINAL_INPUTS.json": "644ece37fc11da4a8e898a3cb8cd5ce3dd58856afd6f12d2452ac3dad789bce2",
+  "foundation/Exp006CombinedVerification.lean": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "lean/ReducedNoncommuting.lean": "56d1fcea52c27dafbb18c411749a5cf8545fe317ca3dbdd7a840e74d507d052c",
+  "lean/SpinorGrid.lean": "a9f9f181472cfe1edc9774156fa8cbd8e801549a35471480cabff75171185d1f",
+  "lean/ContinuumSpinor.lean": "925f1b96317f0e5a7587e40559679300befc747904e0c374f4d88b3b31202ed5",
+  "lean/ReducedClosure.lean": "c859e1d430507defbe8439c4dd0d401aa11a2e00bb5cf4be2efd291b0515a7a0",
+  "lean/FullClosure.lean": "a451d571f0ab42c9d904b6f1a56426272d6e620e57e2f167d648f0f8e67ee2f6",
+  "lean/StageBridge.lean": "7b9c2f68fa999cf08a718a6a11391ba4f6709c235ddb16edc59efe71ab3bd370",
+  "lean/Controls.lean": "32e4f1221d53d0ddd4906cf57c5b57481ddfb67c46fec1b134c9151174ccae8f",
+  "lean/Exp007Combined.lean": "cdb0fd44edea6e81b761af02304deada2e7ff7c9ebea1936c4e664acc1f0456c",
+  "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+  "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+  "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158"
+}

@@ -1,0 +1,48 @@
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:19:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_nonneg`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:22:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_sq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:36:8: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_zero`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:39:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_const`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:53:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_time_continuous`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:96:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.norm_product_integral_le`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:102:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.forcingWork_pointwise_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

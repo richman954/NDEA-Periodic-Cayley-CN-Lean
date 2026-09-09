@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sealed_utc": "2026-09-08T08:07:09.350435+00:00",
+  "archive": "/home/richman954/Exp008_Verified_Review_Packet_20260908.zip",
+  "archive_sha256": "8e2b429c161443901be17a585562af2ce5f920b44283044ba3e5f14bd99330a7",
+  "archive_bytes": 3036868,
+  "manifest_entries": 254,
+  "manifest_sha256": "537f3608ee3bdb96fadab042026ec722ec3c8957a1f0b1edf86be051b79ce4bd",
+  "verified_file_count": 255,
+  "qualification": "Every packaged file hash and archive CRC checked after writing. The packet receipt and archive checksum are external to avoid a self-hash cycle."
+}

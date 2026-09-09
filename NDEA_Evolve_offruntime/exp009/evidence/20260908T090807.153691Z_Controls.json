@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp009/lean/Controls.lean",
+  "source_sha256_before": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean/Controls.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/lean/Controls.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T09:08:07.185819+00:00",
+  "runner_sha256": "abbf3f4e7876086a23f1377a1d8504b9f4ddadff64b88362739ece4577e1fc4c",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54",
+  "elapsed_seconds": 112.5610670040005,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp009/evidence/20260908T090807.153691Z_Controls.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean/Controls.olean": "13458382c986df01b389124bdfaf56ff0a32a9d68f2cabe6e7d50e0a6edc0f81"
+  },
+  "sources_unchanged": true
+}

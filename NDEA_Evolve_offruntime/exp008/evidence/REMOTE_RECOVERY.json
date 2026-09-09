@@ -1,0 +1,7 @@
+{
+  "utc": "2026-09-08T07:15:39.161594+00:00",
+  "previous_session": "exp007-independent-check",
+  "observed_result": "Colab exec reported session lost (404/401) and cleaned local session mapping.",
+  "action": "Create exp008-independent-check and independently download pinned compiler and libraries.",
+  "predecessor_evidence": "Already preserved locally; no proof rerun result lost."
+}

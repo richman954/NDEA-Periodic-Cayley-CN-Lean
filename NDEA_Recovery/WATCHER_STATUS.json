@@ -1,0 +1,9 @@
+{
+  "active_experiment": "exp015",
+  "interval_seconds": 60.0,
+  "maximum_hours": 12.0,
+  "pid": 2,
+  "started_utc": "2026-09-09T02:05:07.900251+00:00",
+  "status": "running",
+  "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+}

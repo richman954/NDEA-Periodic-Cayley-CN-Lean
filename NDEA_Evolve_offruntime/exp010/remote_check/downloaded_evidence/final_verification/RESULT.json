@@ -1,0 +1,468 @@
+{
+  "passed": true,
+  "start_utc": "2026-09-08T10:24:00.492850+00:00",
+  "runner_sha256": "118bd58934414beac5529d58c98947c25057d1d6d843f6921ec511b7d0ab7971",
+  "scope": "All project source re-elaborated using compatible external artifacts from pinned source checkouts, with recorded hashes. Compiler and library artifacts remain trusted inputs; this check does not rebuild them or prove source-to-artifact correspondence.",
+  "reconstruction_verified": true,
+  "source_sha256_before": "fb7b27b42d0baaca9ab8b30f9ba80bb0a5b8999986342fe8538e880bb3947ef0",
+  "source_hashes": {
+    "lean/Exp009Foundation.lean": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+    "lean/Regularity.lean": "e219924f02855f9d2abc2303b56e791a7f6cb7224779736200a4881719e59299",
+    "lean/ClassicalSolution.lean": "6ec534b1c1413569f16e166fb3f3b68c15a3c83791748a68f10607d83390ed51",
+    "lean/Continuity.lean": "7e26cbb8653f1a1d8926674a3f9e4d2ebfc60abfd49eb2a7b4fa0dc8984a63a6",
+    "lean/ClassicalClosure.lean": "0084bc521a7fd4db76668d1bce8b5a0267b263878040f8f30fe51c4757ca0745",
+    "lean/Controls.lean": "9c847094a530fd8626d30178338b849e33c0a053d0d14c1a7b988e836a504a20"
+  },
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "dependency_pins": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_artifacts": 9880,
+  "dependency_manifest_sha256": "61df23eb2597c5f7aeaac5907a83c1877d8df1164e26aaad98cb4e977332257e",
+  "command": [
+    "/content/exp010_check/lean-4.31.0-linux/bin/lean",
+    "-j",
+    "1",
+    "/content/exp010_check/final_source/lean/Exp010Combined.lean"
+  ],
+  "lean_path": "/content/exp010_check/final_verification/dependencies:/content/exp010_check/lean-4.31.0-linux/lib/lean",
+  "exit_code": 0,
+  "elapsed_seconds": 282.011450275,
+  "log_sha256": "252e88277186ca59a8f93a673087a0527e356fb5d357ff32720fd52131e4ac29",
+  "axiom_audits": {
+    "NDEAEvolve.Exp010.regular_absolute": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.frequencyWeight_two_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.frequency_abs_le_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.frequency_sq_le_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.frequency_generator_le_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeGenerator_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.complex_integer_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeTime_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSpace_norm_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSecond_norm_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSpace_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSecond_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_time_majorant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_time_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_space_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_second_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_time_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_space_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.regular_second_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.mode_time_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.mode_space_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.mode_second_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.mode_schrodinger": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_time_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_space_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_time_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_space_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_second_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_second_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_schrodinger": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSolution_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeTime_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSpace_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.modeSecond_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_continuous_of_absolute": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_time_derivative_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_space_derivative_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_second_derivative_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.infiniteSolution_classical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.sampleSolution_eq_infiniteGrid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.classicalGridError_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.classicalInitialError_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.classical_grid_error_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.scheduled_classical_reference_time_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.scheduled_classical_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.scheduled_classical_exact_initial_convergence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_coefficient_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_weighted_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_regular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_summable_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_coefficient_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_support_all": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_infinite_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_tail_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.zero_coefficients_regular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.zero_infinite_solution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.single_coefficients_regular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.single_infinite_solution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.negative_frequency_derivative_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.positive_frequency_derivative_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.negative_frequency_second_derivative_sign": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_classical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.regular_geometric_schrodinger": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp010.Controls.infinite_support_classical_example": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "source_sha256_after": "fb7b27b42d0baaca9ab8b30f9ba80bb0a5b8999986342fe8538e880bb3947ef0",
+  "end_utc": "2026-09-08T10:29:11.856806+00:00"
+}

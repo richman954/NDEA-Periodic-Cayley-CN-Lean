@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-09T00:40:46.134694+00:00",
+  "session": "exp014-independent-check",
+  "vm_id": "m-s-kkb-use4c0-3g3ru54zvgn9o",
+  "previous_vm_ids": [
+    "m-s-kkb-use1c2-3vyfjmsvu7xz8",
+    "m-s-kkb-usc1c0-1k0px308tu45q",
+    "m-s-kkb-usw4c1-1loxz56gsupls",
+    "m-s-kkb-usw3b1-3oqo9i5fec2ow",
+    "m-s-kkb-use1c1-1e742c6fpiifs",
+    "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "m-s-kkb-usc1b1-2yftnii3g1zpd",
+    "m-s-kkb-usc1c1-1p1nzzki4492q"
+  ],
+  "distinct_allocation": true,
+  "root": "/content/exp014_check",
+  "qualification": "New CPU runtime created after restart; ID observed through live colab status. Initial environment recorded by initialize.py before proof inputs. Historical HTTP412 allocation attempt remains preserved."
+}

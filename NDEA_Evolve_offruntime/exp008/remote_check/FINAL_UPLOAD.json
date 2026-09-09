@@ -1,0 +1,23 @@
+{
+  "archive": "/content/exp008_check/final_sources_5fbcbcb39be7d681.tar.gz",
+  "sha256": "a8e4f0b2abcd3ba863755c1d0bb22d0e725e5c63ef811a4ab0ef7731b5c542b6",
+  "combined_sha256": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "0c98b3b4f3cfcedc9e9f8d6cf62a38eac5be68122307963232a46ca697392e0e",
+    "lean/ContinuumModes.lean": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63",
+    "lean/Controls.lean": "51732dae30719c18d67cae31a958aa3544b80199578cb390d79563c72a1f57a5",
+    "lean/Exp007Foundation.lean": "cdb0fd44edea6e81b761af02304deada2e7ff7c9ebea1936c4e664acc1f0456c",
+    "lean/Exp008Combined.lean": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+    "lean/FourierGrid.lean": "c62e4d0498cb5a0af95b3fca52f8407e675c7983c36b1187d7a6c15489a5c5fb",
+    "lean/FrequencyBounds.lean": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6",
+    "lean/Orthogonality.lean": "f5840adbd334be3953257dfd33c7b0a4648e3598dd111429db665a2de1687671",
+    "lean/StageBridge.lean": "85f75baadcbe2c1500463cb82d35b1bede8e8e7c0ea24f0628bf4dcff38cd4c6",
+    "lean/SuperpositionClosure.lean": "a793d4731fa9c01aea6dca1ae4993a73750c426a2168920da1920f2eb130d377",
+    "make_combined.py": "9b6b9edbe615c9ffb7afe878d6d876a596073024e15155b62ee92ae8d1d8be99",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "c9f0ee95367aa08129ad401b9e638707dfa85cd26058fbe8c38655ff4706231a"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp008/remote_check/final_sources_5fbcbcb39be7d681.tar.gz"
+}

@@ -1,0 +1,146 @@
+{
+  "start_utc": "2026-09-08T11:36:20.207616+00:00",
+  "scope": "Read-only hash checks of frozen source/evidence manifests; no predecessor proof compilation or edit.",
+  "checks": [
+    {
+      "name": "exp005_frozen",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp005/worktree/NDEA_Evolve",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp005/worktree/NDEA_Evolve/experiments/exp005_mesh_weighted_residual_bridge/evidence/FINAL_SHA256SUMS",
+      "manifest_format": "sha256sum",
+      "expected_manifest_sha256": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "manifest_sha256_before": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "manifest_sha256_after": "8a6dddcfdd6f29034397bd950b3098399177ee1eb892edfa91656d0fb11c692a",
+      "expected_entry_count": 889,
+      "entry_count": 889,
+      "matched_entry_count": 889,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp006_local_verified",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp006",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/LOCAL_VERIFIED_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "manifest_sha256_before": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "manifest_sha256_after": "30a0eeb371b1d525944427cb310814ba7907f33b7d7d09f75437281f02ecae9b",
+      "expected_entry_count": 21,
+      "entry_count": 21,
+      "matched_entry_count": 21,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp006_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp006",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/FINAL_PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "1c11c0a1523ef5a56a9fa72b6a150246c232b831ec15acef9f172d8d9d47a678",
+      "manifest_sha256_before": "1c11c0a1523ef5a56a9fa72b6a150246c232b831ec15acef9f172d8d9d47a678",
+      "manifest_sha256_after": "1c11c0a1523ef5a56a9fa72b6a150246c232b831ec15acef9f172d8d9d47a678",
+      "expected_entry_count": 99,
+      "entry_count": 99,
+      "matched_entry_count": 99,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp007_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp007",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp007/PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "5bd1178ebd2df92579092a3de17383f6b4097214d7a12b1442bcaa07185eda5a",
+      "manifest_sha256_before": "5bd1178ebd2df92579092a3de17383f6b4097214d7a12b1442bcaa07185eda5a",
+      "manifest_sha256_after": "5bd1178ebd2df92579092a3de17383f6b4097214d7a12b1442bcaa07185eda5a",
+      "expected_entry_count": 217,
+      "entry_count": 217,
+      "matched_entry_count": 217,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp008_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp008",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp008/PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "537f3608ee3bdb96fadab042026ec722ec3c8957a1f0b1edf86be051b79ce4bd",
+      "manifest_sha256_before": "537f3608ee3bdb96fadab042026ec722ec3c8957a1f0b1edf86be051b79ce4bd",
+      "manifest_sha256_after": "537f3608ee3bdb96fadab042026ec722ec3c8957a1f0b1edf86be051b79ce4bd",
+      "expected_entry_count": 254,
+      "entry_count": 254,
+      "matched_entry_count": 254,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "fresh_vm_recheck_r2",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp008/independent_checks/colab_r2_20260908",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp008/independent_checks/colab_r2_20260908/PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "abf5c23851a95eb69cfb70adf07e3b6038cd34655e140442e1e03fe32d0411a0",
+      "manifest_sha256_before": "abf5c23851a95eb69cfb70adf07e3b6038cd34655e140442e1e03fe32d0411a0",
+      "manifest_sha256_after": "abf5c23851a95eb69cfb70adf07e3b6038cd34655e140442e1e03fe32d0411a0",
+      "expected_entry_count": 340,
+      "entry_count": 340,
+      "matched_entry_count": 340,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp009_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp009",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp009/PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "bc5b84098b7ca23a643933aa120299cd3e3f42781ba6126e5cbe715f1e1a5d80",
+      "manifest_sha256_before": "bc5b84098b7ca23a643933aa120299cd3e3f42781ba6126e5cbe715f1e1a5d80",
+      "manifest_sha256_after": "bc5b84098b7ca23a643933aa120299cd3e3f42781ba6126e5cbe715f1e1a5d80",
+      "expected_entry_count": 193,
+      "entry_count": 193,
+      "matched_entry_count": 193,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "exp010_final_packet",
+      "root": "/home/richman954/NDEA_Evolve_offruntime/exp010",
+      "manifest_path": "/home/richman954/NDEA_Evolve_offruntime/exp010/PACKET_MANIFEST.json",
+      "manifest_format": "json",
+      "expected_manifest_sha256": "10e26fd0bda467b7d95da588d2b3129e8e35c237e29bbf6158ef68d93693ed21",
+      "manifest_sha256_before": "10e26fd0bda467b7d95da588d2b3129e8e35c237e29bbf6158ef68d93693ed21",
+      "manifest_sha256_after": "10e26fd0bda467b7d95da588d2b3129e8e35c237e29bbf6158ef68d93693ed21",
+      "expected_entry_count": 169,
+      "entry_count": 169,
+      "matched_entry_count": 169,
+      "failures": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "archive_checks": [
+    {
+      "path": "/home/richman954/Exp008_Verified_Review_Packet_20260908.zip",
+      "expected_sha256": "8e2b429c161443901be17a585562af2ce5f920b44283044ba3e5f14bd99330a7",
+      "sha256": "8e2b429c161443901be17a585562af2ce5f920b44283044ba3e5f14bd99330a7",
+      "passed": true
+    },
+    {
+      "path": "/home/richman954/Experiments_001-008_Fresh_VM_Recheck_20260908.zip",
+      "expected_sha256": "95f8fc6d27975d0a59fbea3f9e0a6517369131342d8abbdecb9923606d545a4c",
+      "sha256": "95f8fc6d27975d0a59fbea3f9e0a6517369131342d8abbdecb9923606d545a4c",
+      "passed": true
+    },
+    {
+      "path": "/home/richman954/Exp009_Verified_Review_Packet_20260908.zip",
+      "expected_sha256": "1ecbfe8203e1082ee8e89647e01a0c90aad3f366dcdc4dc797fea43d7b6d520c",
+      "sha256": "1ecbfe8203e1082ee8e89647e01a0c90aad3f366dcdc4dc797fea43d7b6d520c",
+      "passed": true
+    },
+    {
+      "path": "/home/richman954/Exp010_Verified_Review_Packet_20260908.zip",
+      "expected_sha256": "91f4069711cc3ab26978d89eb9f12a2853524609e48d53c01e73eddbf74fd438",
+      "sha256": "91f4069711cc3ab26978d89eb9f12a2853524609e48d53c01e73eddbf74fd438",
+      "passed": true
+    }
+  ],
+  "end_utc": "2026-09-08T11:36:21.075595+00:00"
+}

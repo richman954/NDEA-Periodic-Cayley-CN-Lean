@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicModeResidual.lean",
+  "source_sha256_before": "8f4b178578089c2c60d9945e8d48e5326f8a9e2e4e4a30f2cf1d6570cb1b6b3a",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/PeriodicModeResidual.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicModeResidual.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T05:03:17.461533+00:00",
+  "runner_sha256": "1a2fb2869d63001904643f26dd031ccff7779d34f7f168ad24aa661a446ed282",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "8f4b178578089c2c60d9945e8d48e5326f8a9e2e4e4a30f2cf1d6570cb1b6b3a",
+  "elapsed_seconds": 44.95478860399999,
+  "log_sha256": "8cf188bb0e767f17bbccbc2d1668724caab89eec685ab81132f7106fd66a9723",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/20260908T050317.454557Z_PeriodicModeResidual.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/PeriodicModeResidual.olean": "8035ee155328906d9e546d85aa8697550a43c6a24ddbd99e9808d717a7043dd9"
+  },
+  "sources_unchanged": true
+}

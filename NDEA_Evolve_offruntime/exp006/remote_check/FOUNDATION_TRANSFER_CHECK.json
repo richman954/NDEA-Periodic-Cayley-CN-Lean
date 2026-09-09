@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "archive_sha256": "9647980c4bf526f2ab778c82a9f7f8a1008fd9dc47cd415397c0ad88e14fad94",
+  "source_sha256": "40386d3848f338f4ea89869a39a920e127674f5a42a471dfbd969901599a8785",
+  "artifacts": {
+    "build/lib/lean/Exp005Foundation.olean": "c07aa14a885f3d1c289aadf059898158e29b5c359bf8e0b6481772fc1b596841"
+  }
+}

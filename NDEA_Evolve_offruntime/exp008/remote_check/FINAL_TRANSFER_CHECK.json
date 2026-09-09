@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive_sha256": "d048128f208c87ee528ea2c4cbd264de2dc400414b37d04c232d513734206692",
+  "evidence_files_checked": 138,
+  "audits_checked": 90,
+  "source_sha256": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+  "result_sha256": "0dd585d54d4e2c49a023b8fb3b8c39a60197a0da7f2e7c3e30030a5f6f546136",
+  "evidence_root": "/home/richman954/NDEA_Evolve_offruntime/exp008/remote_check/downloaded_evidence/exp008_independent_evidence",
+  "qualification": "Transfer hashes and all independent audits agree with current local source; this script does not rerun Lean."
+}

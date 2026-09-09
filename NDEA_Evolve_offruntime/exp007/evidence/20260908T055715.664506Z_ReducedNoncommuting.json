@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedNoncommuting.lean",
+  "source_sha256_before": "56d1fcea52c27dafbb18c411749a5cf8545fe317ca3dbdd7a840e74d507d052c",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean/ReducedNoncommuting.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedNoncommuting.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T05:57:15.711366+00:00",
+  "runner_sha256": "97bc599c0d4647cb1f0534734b4b407289996d6d8197dc59cc84da456e965e6e",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "56d1fcea52c27dafbb18c411749a5cf8545fe317ca3dbdd7a840e74d507d052c",
+  "elapsed_seconds": 79.09831000199938,
+  "log_sha256": "e7a9f5db54b8bbe62f9e744a28cb96b31b32e50e84f9e2012cd84b8288d563ff",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp007/evidence/20260908T055715.664506Z_ReducedNoncommuting.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean/ReducedNoncommuting.olean": "86dd5ce46a0209f561357070abdebbef8204daa8b82a0609977d75537e7fdcd7"
+  },
+  "sources_unchanged": true
+}

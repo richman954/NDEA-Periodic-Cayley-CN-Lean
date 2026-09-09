@@ -1,0 +1,7 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean:179:24: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+'NDEAEvolve.Exp008.modeSymbol_consistency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.frequency_local_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.frequency_power_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.frequency_stageResidualBudget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

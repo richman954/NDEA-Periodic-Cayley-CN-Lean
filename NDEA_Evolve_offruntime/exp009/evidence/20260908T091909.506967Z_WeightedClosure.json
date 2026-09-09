@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean",
+  "source_sha256_before": "98df998a9a953fa4bdc58cd15dc3e1731a86180a0938933a81487f4568e7a970",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean/WeightedClosure.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T09:19:09.513989+00:00",
+  "runner_sha256": "abbf3f4e7876086a23f1377a1d8504b9f4ddadff64b88362739ece4577e1fc4c",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "98df998a9a953fa4bdc58cd15dc3e1731a86180a0938933a81487f4568e7a970",
+  "elapsed_seconds": 155.9452734189981,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp009/evidence/20260908T091909.506967Z_WeightedClosure.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean/WeightedClosure.olean": "d26c976574c5e519ba4c6b670c16704ab458f5a8f8977155a82e45d1c12bc7e1"
+  },
+  "sources_unchanged": true
+}

@@ -1,0 +1,21 @@
+{
+  "archive": "/content/exp012_check/final_sources_ff98d87926fe6729.tar.gz",
+  "sha256": "e0a07d45b6683fed21f61b9d40d66bca7213a2c3fc145a7439a54ff46f5589ee",
+  "combined_sha256": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "c18908470b884f6c2efea2b7dee40ca34be78f80b6d6a165b9bb71970b8512f7",
+    "lean/ClassicalUniqueness.lean": "1a90a2931740bb71e7813d71844f5be983a581bfb8549dbe12bbe9bd3e0e2744",
+    "lean/Controls.lean": "14e602688dcda03fd1ff0db427f99e8f10c8600c2d489cdc36c3c40b56491ecc",
+    "lean/EnergyConservation.lean": "58c15c9ad6624b4f94915f3e755af775bc0c7ab53b6ff729703fa5044d420818",
+    "lean/EnergyLocal.lean": "89b76b31ce9c2f273146ef2e55d6cbe32a181568bb69de2dc11ed7b5c09ec67c",
+    "lean/EnergySeparation.lean": "59ff4ab80dd2bd54615dc04d8014b5854e266e4e3832e66421a7b262f6bb5601",
+    "lean/Exp011Foundation.lean": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+    "lean/Exp012Combined.lean": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+    "make_combined.py": "6e13d4f1ed4486d0cb75a6384ef2c8fdc8168bf84142e83310f13c601b3ad23b",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "ebf6dcb0e6d4aa752046a8852fb7a6bd150bf175f999a2dc6e576187765f18d2"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp012/remote_check/final_sources_ff98d87926fe6729.tar.gz"
+}

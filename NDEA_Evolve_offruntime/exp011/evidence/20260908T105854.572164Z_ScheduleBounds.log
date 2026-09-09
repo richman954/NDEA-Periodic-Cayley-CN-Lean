@@ -1,0 +1,3 @@
+/home/richman954/NDEA_Evolve_offruntime/exp011/lean/ScheduleBounds.lean:44:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-08T08:04:31.157313+00:00",
+  "same_module_artifact_paths": true,
+  "local_artifact_count": 9868,
+  "independent_artifact_count": 9868,
+  "identical_artifact_hashes": 9868,
+  "mismatches": [],
+  "local_manifest": {
+    "path": "evidence/local_combined/DEPENDENCY_ARTIFACTS.json",
+    "sha256": "a13f61fbe0f5ad8120216e898158a0a29b27c34e892896ba13ac79d596f08a12"
+  },
+  "independent_manifest": {
+    "path": "remote_check/downloaded_evidence/exp008_independent_evidence/final_verification/DEPENDENCY_ARTIFACTS.json",
+    "sha256": "a13f61fbe0f5ad8120216e898158a0a29b27c34e892896ba13ac79d596f08a12"
+  }
+}

@@ -1,0 +1,15 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Controls.lean:56:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Controls.lean:79:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NDEAEvolve.Exp008.Controls.active_signed_superposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.Controls.admissible_multimode_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.Controls.grid_size_alias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.Controls.aliasing_breaks_naive_parseval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.Controls.empty_trajectory_retains_initial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp008.Controls.full_grid_split_is_noncommuting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.Controls.frequency_constants_increase' depends on axioms: [propext, Classical.choice, Quot.sound]

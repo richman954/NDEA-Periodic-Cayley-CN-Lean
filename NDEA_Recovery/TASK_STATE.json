@@ -1,0 +1,205 @@
+{
+  "utc": "2026-09-09T02:50:20.566256+00:00",
+  "last_updated_utc": "2026-09-09T02:50:20.566256+00:00",
+  "active_task": "Exp015 quantitative forcing/residual L2 stability",
+  "active_experiment": "/home/richman954/NDEA_Evolve_offruntime/exp015",
+  "source_frozen": false,
+  "experiment_completed": false,
+  "remaining": [
+    "Freeze and review all seven accepted modules; preserve exact source bindings.",
+    "Freeze and review exact combined source; qualify locally and on fresh Colab.",
+    "Download and validate independent evidence, seal Exp015 and make verified local Chromebook backup."
+  ],
+  "preserve": "Keep sealed experiments001\u2013014 and their packets unchanged.",
+  "qualification": "Working experiment; only actual current successful proof and packet receipts support completion.",
+  "recovery": {
+    "guide": "/home/richman954/NDEA_Recovery/START_HERE.md",
+    "policy": "/home/richman954/NDEA_Recovery/RECOVERY_POLICY.md",
+    "latest_checkpoint_pointer": "/home/richman954/NDEA_Recovery/LATEST_CHECKPOINT.json",
+    "restore_tests_passed": true,
+    "watcher_status": "Tracked foreground watcher94110 running; startup and advancing minute snapshot verified.",
+    "permanent_storage": "Verified local Chromebook copies are the chosen backup destination. Google Drive backup was canceled by the user.",
+    "off_machine_backup_receipt": "/home/richman954/NDEA_Recovery/OFF_MACHINE_BACKUP_RECEIPT.json",
+    "off_machine_copies_verified": false,
+    "qualification": "Historical Colab copy receipts record past transfers only. No verified durable off-device backup of current Exp014/Exp015 project state exists. The existing GitHub repository contains an older milestone, not these current experiments.",
+    "on_resume": "Use the local backup receipt, current task state and actual proof receipts. Keep local milestone checkpoints. Do not mount Google Drive or pursue an off-machine backup unless newly requested.",
+    "drive_backup": {
+      "authorized": false,
+      "completed": false,
+      "status": "Canceled by user; do not mount Google Drive or resume the transfer unless newly requested."
+    },
+    "off_machine_copy_availability": "Historical Colab copies are not available through a live session: fresh sessions query found none. Verified local files remain available.",
+    "local_download_folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_015901Z_e51c03",
+    "local_backup_receipt": "/home/richman954/NDEA_Recovery/LOCAL_BACKUP_RECEIPT.json",
+    "storage_preference": "Local copies on the Chromebook, explicitly selected by the user.",
+    "local_validation": {
+      "passed": true,
+      "utc": "2026-09-09T02:00:13.713893+00:00",
+      "folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_015901Z_e51c03",
+      "copied_files_hash_checked": 21,
+      "copied_recovery_payloads_verified": 286,
+      "copied_completed_release_payloads_verified": 40,
+      "copied_archive_verifiers_exit_zero": true,
+      "active_packet_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+      "supplemental_packets": [
+        {
+          "experiment": "exp013",
+          "archive": "Exp013_Verified_Review_Packet.zip",
+          "packet_receipt": "Exp013_PACKET_RECEIPT.json",
+          "qualification": "Exp013_VERIFICATION.json",
+          "packet_receipt_sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5",
+          "qualification_sha256": "2104ebcfb0a7bb6cdaa9541e56269e6ea9352a71c2c3a958c32a5e324f62ff64",
+          "archive_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+          "archive_bytes": 5573217,
+          "manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+          "payload_files_verified": 313,
+          "zip_members_verified": 314,
+          "crc_and_payload_hashes_verified": true
+        }
+      ],
+      "completed_packet_coverage": {
+        "base": "exp001\u2013exp012",
+        "supplemental": [
+          "exp013"
+        ],
+        "active": "exp014",
+        "contiguous": true
+      }
+    },
+    "resume_saving_method": "Active Exp015 watcher uses 60-second interval, maximum12hours, tracked session94110; explicit verified checkpoints before long operations and after milestones. No automatic restart after reboot.",
+    "watcher_verification": {
+      "session_id": 94110,
+      "start_snapshot_utc": "2026-09-09T02:05:07.960771+00:00",
+      "interval_snapshot_utc": "2026-09-09T02:07:08.144771+00:00",
+      "interval_archive_sha256": "3037b0c40b2fb8028318e0e2812cad8e09bb9516c035583cfa418285aeb2276c"
+    },
+    "local_metadata_fix": {
+      "after": "final packet stops existing watcher",
+      "files_to_include": [
+        "LOCAL_BACKUP_RECEIPT.json",
+        "make_local_copy.py",
+        "test_local_copy.py",
+        "LOCAL_COPY_TEST_RESULT.json"
+      ],
+      "change": "Add these names to checkpoint.py METADATA_FILES; run test_recovery.py and verify exact current metadata bytes in final snapshot.",
+      "prepared_patch": "/tmp/NDEA_checkpoint_local_metadata.patch",
+      "prepared_validator": "/tmp/NDEA_verify_checkpoint_local_metadata.py",
+      "reason": "Existing snapshots include task-state backup summaries but omit the exact local-backup receipt and publisher utilities.",
+      "status": "Complete: restore/corruption/task-selection tests passed and all four metadata files matched exact bytes in verified286-payload snapshot.",
+      "completed_utc": "2026-09-09T01:59:00.829208+00:00",
+      "utility_sha256": "6c0eb8a6f5e377021fc8ba8c27a1e1783a038ab315d8f7561a5fb95123c0b3bd",
+      "final_receipt_capture": "Completed for the Exp014 local-backup receipt; subsequent verified snapshots include the current receipt and publisher utilities."
+    },
+    "previous_completed_watcher": {
+      "active_experiment": "exp014",
+      "interval_seconds": 60.0,
+      "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp014_recovery_20260909T015707.091512Z_76c3aa27.zip",
+      "maximum_hours": 12.0,
+      "pid": 2,
+      "started_utc": "2026-09-09T00:37:45.165630+00:00",
+      "status": "stopped",
+      "stop_reason": "final_packet_receipt_captured",
+      "stopped_utc": "2026-09-09T01:57:07.355151+00:00",
+      "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+    },
+    "historical_colab_copy_was_verified": true,
+    "current_durable_off_device_backup_verified": false
+  },
+  "completed_release_backup": {
+    "passed": true,
+    "archive_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+    "archive_bytes": 39096085,
+    "manifest_sha256": "8296eb6f41d1b6b00538c8db49fe23146334680aeb394e00fee13d008720df60",
+    "payload_files": 40,
+    "zip_members": 41,
+    "crc_checked": true,
+    "all_payload_hashes_checked": true,
+    "utc": "2026-09-08T12:53:42.644762+00:00",
+    "archive": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+    "source_checks": {
+      "accepted_packet_receipts_checked": 8,
+      "exp003_exp004_delivery_receipts_checked": 2,
+      "adjacent_checksum_lines_checked": 14,
+      "original_zip_crc_checks": 12
+    },
+    "originals_unchanged": true,
+    "exact_zip_readback": true,
+    "scope": "Selected completed release/review packets for Experiments 001\u2013012, the 001\u2013007 recap, the 001\u2013008 fresh-VM recheck, explicit Exp003/004 release archives and Git bundles, and available checksum/receipt companions. This is not a backup of every historical intermediate file, current working tree, build cache, compiler installation, or account credential. Current task-state checkpoints are maintained separately.",
+    "publication": "Generation directory atomically renamed after complete validation; receipt and checksum are outside ZIP."
+  },
+  "startup_instructions": "/home/richman954/AGENTS.md",
+  "previous_completed_experiment": "exp014",
+  "previous_completed_packet": {
+    "passed": true,
+    "utc": "2026-09-09T01:56:41.286121+00:00",
+    "archive": "/home/richman954/Exp014_Verified_Review_Packet_20260909.zip",
+    "archive_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+    "archive_bytes": 2112650,
+    "manifest_entries": 262,
+    "verified_zip_files": 263,
+    "manifest_sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6",
+    "qualification": "Every ZIP member read back byte-for-byte; CRC and payload manifest hashes passed. This receipt and the neighboring checksum file are outside the ZIP to avoid a self-hash cycle."
+  },
+  "plan": "/home/richman954/NDEA_Evolve_offruntime/exp015/PLAN.md",
+  "continuation": {
+    "authorized": true,
+    "utc": "2026-09-09T02:05:07.520698+00:00",
+    "user_request": "good call, proceed",
+    "scope": "Complete proposed Exp015 residual-to-error theorem and qualification; actual discrete convergence remains later work.",
+    "current_status": "All seven modules accepted, including22controls after preserved simplification failure;50newpublictheorems total. Final source freeze, reviews and both combined qualifications pending.",
+    "colab": {
+      "session": "exp015-independent-check",
+      "vm_id": "m-s-kkb-ass1a0-1gts16oqjjhbw",
+      "boot_id": "bb7ce4d2-8e5b-4960-9ba7-5dd6feb82daa",
+      "status": "Fresh empty runtime initialized; exact environment receipt saved locally; proof deliveries pending source freeze.",
+      "allocation_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/VM_ALLOCATION.json",
+      "environment_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/ENVIRONMENT_EXPECTED.json"
+    }
+  },
+  "local_combined_result": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/local_combined/RESULT.json",
+  "independent_result": "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/downloaded_evidence/final_verification/RESULT.json",
+  "independent_transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/remote_check/FINAL_TRANSFER_CHECK.json",
+  "final_packet_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/FINAL_PACKET_RECEIPT.json",
+  "final_verification": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/FINAL_VERIFICATION.json",
+  "accepted_active_modules": [
+    "ScalarSqrtEstimate",
+    "ResidualField",
+    "SpatialL2",
+    "ForcedStability",
+    "ResidualEstimate",
+    "VariablePotentialBridge",
+    "Controls"
+  ],
+  "accepted_active_module_receipts": {
+    "ScalarSqrtEstimate": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T020804.334727Z_ScalarSqrtEstimate.json",
+    "ResidualField": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T020834.967003Z_ResidualField.json",
+    "SpatialL2": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T021809.399759Z_SpatialL2.json",
+    "ForcedStability": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T022244.427691Z_ForcedStability.json",
+    "ResidualEstimate": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T022557.243378Z_ResidualEstimate.json",
+    "VariablePotentialBridge": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T022941.122474Z_VariablePotentialBridge.json",
+    "Controls": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/20260909T024243.649302Z_Controls.json"
+  },
+  "user_steering": {
+    "utc": "2026-09-09T02:46:26.154755+00:00",
+    "request": "Zoom out: evidence-grounded proof map, option value, recovery audit and read-only Git/GitHub architecture proposal before further qualification. Adopt efficient terminal observability.",
+    "principle": "Maximum useful proof-space opened per rigorous, verifiable step.",
+    "report_fields": [
+      "barrier removed",
+      "doors opened",
+      "best next move",
+      "next barrier",
+      "recovery state"
+    ],
+    "policy": "/home/richman954/NDEA_Recovery/RECOVERY_POLICY.md",
+    "github": "GitHub backup to existing public NDEA repository now explicitly authorized; preserve its history and continue local Chromebook copies."
+  },
+  "github_backup": {
+    "authorized": true,
+    "utc": "2026-09-09T02:50:20.566256+00:00",
+    "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
+    "visibility": "public",
+    "user_request": "use the existing github you found, start backing things up there as well a locally on the chromebook",
+    "status": "Preparing additive integration and exact asset review; no remote backup completed yet.",
+    "preserve_local_backups": true
+  }
+}

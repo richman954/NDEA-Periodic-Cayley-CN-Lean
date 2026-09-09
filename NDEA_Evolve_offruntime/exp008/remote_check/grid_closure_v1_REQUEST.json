@@ -1,0 +1,15 @@
+{
+  "batch": "grid_closure_v1",
+  "archive": "/content/exp008_check/grid_closure_v1.tar.gz",
+  "sha256": "cd082b01d7d9327212c165aaa26cccdf4b617737109800311df662120b8d2d6a",
+  "modules": [
+    "FourierGrid",
+    "Orthogonality",
+    "SuperpositionClosure"
+  ],
+  "source_hashes": {
+    "FourierGrid.lean": "c62e4d0498cb5a0af95b3fca52f8407e675c7983c36b1187d7a6c15489a5c5fb",
+    "Orthogonality.lean": "f5840adbd334be3953257dfd33c7b0a4648e3598dd111429db665a2de1687671",
+    "SuperpositionClosure.lean": "a793d4731fa9c01aea6dca1ae4993a73750c426a2168920da1920f2eb130d377"
+  }
+}

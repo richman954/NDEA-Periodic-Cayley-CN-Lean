@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp014/lean/GlobalLinearEvolution.lean",
+  "source_sha256_before": "93a0f239ecb2707d4296681669fd8c5ce6b3f03bd91d6dff07a04c532b9fdac1",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean/GlobalLinearEvolution.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/lean/GlobalLinearEvolution.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T15:36:40.539765+00:00",
+  "runner_sha256": "b59d93b93235e01267b32f90cadba8302e94421abd8d42be3a958432717b5622",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "93a0f239ecb2707d4296681669fd8c5ce6b3f03bd91d6dff07a04c532b9fdac1",
+  "elapsed_seconds": 196.49711418200604,
+  "log_sha256": "eb0221efff35c0b5589b7228aaf7bf80d9b11e63be32820093daf10a6984b991",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp014/evidence/20260908T153640.533133Z_GlobalLinearEvolution.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean/GlobalLinearEvolution.olean": "c86743bbbe891cddeb4cb659e237390959cddc80e2a66c773d6ef97ab80d5229"
+  },
+  "sources_unchanged": true
+}

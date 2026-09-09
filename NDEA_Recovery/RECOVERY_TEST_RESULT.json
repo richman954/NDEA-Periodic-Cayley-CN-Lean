@@ -1,0 +1,22 @@
+{
+  "archive": "/home/richman954/NDEA_Recovery/snapshots/exp014_recovery_20260909T015805.316393Z_0ad7e5ba.zip",
+  "archive_sha256": "87250cb024cc0b585b2f544db6c07199a4a753ac222d64cc750d3af1bed7dc29",
+  "completed_utc": "2026-09-09T01:58:06.851189+00:00",
+  "outer_hash_damage_rejected": true,
+  "passed": true,
+  "payload_files_verified_and_restored": 286,
+  "payload_hash_damage_rejected": true,
+  "proof_completion_evidence": false,
+  "published_pointer_and_receipt_verified": true,
+  "scope": "Actual recovery archive readback and restored file hashes, with focused corruption/path controls; no Lean rerun or power-loss simulation.",
+  "task_selection": {
+    "old_experiment_receipt_did_not_complete_selected_task": true,
+    "outside_project_selection_rejected": true,
+    "symlink_experiment_selection_rejected": true,
+    "watcher_stopped_after_matching_task_receipt_captured": true
+  },
+  "temporary_restore_removed_after_verification": true,
+  "test_sha256": "f8261422df3d481d4e9747cb5c057bed426b4f2495b326c565fa0671a1ed8d4f",
+  "unsafe_path_rejected_before_restore": true,
+  "utility_sha256": "6c0eb8a6f5e377021fc8ba8c27a1e1783a038ab315d8f7561a5fb95123c0b3bd"
+}

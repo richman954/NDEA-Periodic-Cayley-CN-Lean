@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checked_document_links": 119,
+  "missing": [],
+  "deferred_until_seal": [
+    "PACKET_MANIFEST.json",
+    "evidence/FINAL_PACKET_RECEIPT.json"
+  ],
+  "scope": "Top-level Markdown links after excluding code spans and fences; future packet manifest/receipt checked after sealing."
+}

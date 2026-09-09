@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean",
+  "source_sha256_before": "2fbcce8942ec08dd641792c399c85efccb6575c22544b3cb1f669df8ae9c803e",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean/FourierPotential.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/lean/FourierPotential.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-09T00:50:13.190582+00:00",
+  "runner_sha256": "b59d93b93235e01267b32f90cadba8302e94421abd8d42be3a958432717b5622",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "2fbcce8942ec08dd641792c399c85efccb6575c22544b3cb1f669df8ae9c803e",
+  "elapsed_seconds": 78.76841910100006,
+  "log_sha256": "de408f723bc2d157ed9b38eaa39f232033e4e8c76b3ad51496768c4aa633f929",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp014/evidence/20260909T005013.187093Z_FourierPotential.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean/FourierPotential.olean": "86a538c71caf691bf52c09c35f659efd6490007c387f134ae11562813481793e"
+  },
+  "sources_unchanged": true
+}

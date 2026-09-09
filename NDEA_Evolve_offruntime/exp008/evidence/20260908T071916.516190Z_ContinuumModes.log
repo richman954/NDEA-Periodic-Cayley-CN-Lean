@@ -1,0 +1,16 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean:54:36: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+'NDEAEvolve.Exp008.modeGenerator_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeOrbit_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeOrbit_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeOrbit_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeOrbit_exact_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.phaseMode_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeSolution_second_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.modeSolution_schrodinger' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.finiteSolution_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.finiteSolution_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.finiteSolution_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.finiteSolution_second_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp008.finiteSolution_schrodinger' depends on axioms: [propext, Classical.choice, Quot.sound]

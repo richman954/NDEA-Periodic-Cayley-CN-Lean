@@ -1,0 +1,62 @@
+{
+  "utc": "2026-09-08T12:59:28.578687+00:00",
+  "session": "exp012-independent-check",
+  "vm_id": "m-s-kkb-usw4c1-1loxz56gsupls",
+  "expected_boot_id": "a7a2db8d-794b-4bfb-8b4c-fbd00b5140ed",
+  "files": [
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+      "remote_name": "NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+      "sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+      "bytes": 39096085
+    },
+    {
+      "local_path": "/home/richman954/Exp012_Verified_Review_Packet_20260908.zip",
+      "remote_name": "Exp012_Verified_Review_Packet_20260908.zip",
+      "sha256": "2c1347c1261c00f1f63e06b7c500235c48dfb5e9b817f25ffb23ea0edc0d596d",
+      "bytes": 2571531
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/snapshots/exp012_recovery_20260908T125730.801826Z_3145278b.zip",
+      "remote_name": "exp012_recovery_20260908T125730.801826Z_3145278b.zip",
+      "sha256": "f8dbbfb017fb6f7c16fd33d6eb2411ab8c4bba50cfffddeece42bce8303351c3",
+      "bytes": 2657252
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/checkpoint.py",
+      "remote_name": "NDEA_checkpoint.py",
+      "sha256": "d5b77bbb618eb2cc5f03ed02fb9480a5321a260e2315e2178ba8196f1a1bcdb9",
+      "bytes": 17267
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/START_HERE.md",
+      "remote_name": "NDEA_START_HERE.md",
+      "sha256": "f227c0329f3da71a56c4871eaec4fbd6661f571384461cf1d211cc1c4e90e649",
+      "bytes": 4249
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/RELEASE_ARCHIVE_TEST_RESULT.json",
+      "remote_name": "NDEA_RELEASE_ARCHIVE_TEST_RESULT.json",
+      "sha256": "8c5414c5a5e20caef93ff966fbfcf863b88bad44c147f5bdd8ece15a33595906",
+      "bytes": 1364
+    },
+    {
+      "local_path": "/home/richman954/AGENTS.md",
+      "remote_name": "NDEA_AGENTS.md",
+      "sha256": "12cc6bdd6e9c9ea978cef0c13954596e621e0c87f6b0431aa0dec9dacefc0674",
+      "bytes": 883
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/snapshots/exp012_recovery_20260908T125902.475372Z_3f4a5450.zip",
+      "remote_name": "exp012_recovery_20260908T125902.475372Z_3f4a5450.zip",
+      "sha256": "4a11472fcf18832d00a103e253a76ee6edd0dc0cadbf56ed4be6e7f75afc337a",
+      "bytes": 2658978
+    },
+    {
+      "local_path": "/home/richman954/NDEA_Recovery/LATEST_CHECKPOINT.json",
+      "remote_name": "NDEA_LATEST_CHECKPOINT.json",
+      "sha256": "ca9bc26654e6b01aeeebafd164a3196a3a038a09688db70a00a8ca8055c63757",
+      "bytes": 721
+    }
+  ]
+}

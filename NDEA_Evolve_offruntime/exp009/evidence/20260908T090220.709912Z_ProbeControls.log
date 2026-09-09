@@ -1,0 +1,8 @@
+Summable.le_tsum.{u_1, u_3} {ι : Type u_1} {α : Type u_3} {L : SummationFilter ι} [AddCommMonoid α] [Preorder α]
+  [IsOrderedAddMonoid α] [TopologicalSpace α] [OrderClosedTopology α] {f : ι → α} [L.NeBot] [L.LeAtTop]
+  (hf : Summable f L) (i : ι) (hb : ∀ (j : ι), j ≠ i → 0 ≤ f j) : f i ≤ ∑'[L] (i : ι), f i
+Summable.le_tsum'.{u_1, u_3} {ι : Type u_1} {α : Type u_3} [AddCommMonoid α] [PartialOrder α] [IsOrderedAddMonoid α]
+  [CanonicallyOrderedAdd α] [TopologicalSpace α] [OrderClosedTopology α] {f : ι → α} (hf : Summable f) (i : ι) :
+  f i ≤ ∑' (i : ι), f i
+'NDEAEvolve.Exp009.Controls.geometric_summable_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp009.Controls.geometric_infinite_support' depends on axioms: [propext, Classical.choice, Quot.sound]

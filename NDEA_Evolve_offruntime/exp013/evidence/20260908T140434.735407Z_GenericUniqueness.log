@@ -1,0 +1,7 @@
+/home/richman954/NDEA_Evolve_offruntime/exp013/lean/GenericUniqueness.lean:11:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp013.norm_sq_integral_pos_of_ne_zero`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

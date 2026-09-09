@@ -1,0 +1,5 @@
+'NDEAEvolve.Exp006.PeriodicGrid.isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.PeriodicGrid.laplacian_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.PeriodicGrid.sample_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.PeriodicGrid.sample_prev' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.PeriodicGrid.matrix_sample_stencil' depends on axioms: [propext, Classical.choice, Quot.sound]

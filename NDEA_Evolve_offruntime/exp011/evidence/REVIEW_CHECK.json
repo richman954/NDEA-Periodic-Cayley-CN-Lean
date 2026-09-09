@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T11:27:12.706326+00:00",
+  "qualification": "Independent source, numerical-data, and verification-protocol review. Current modular compiler receipts checked; this review did not rerun Lean or assert completion of the final combined checks.",
+  "current_source_hashes": {
+    "lean/Exp010Foundation.lean": "fb7b27b42d0baaca9ab8b30f9ba80bb0a5b8999986342fe8538e880bb3947ef0",
+    "lean/SolutionLipschitz.lean": "01986d7ebcbce986000c404993621bf46b12d0fe0b18bf24b163de5fdddfcaf6",
+    "lean/Reconstruction.lean": "296ab241366fd4128bf7d933ed0fb251a53792f0ebbb7c6805e3f5ab78d4f043",
+    "lean/ScheduleBounds.lean": "c3382951dc6b0668d141a38bf726cca3a6a1683077c2478045634c84a3e888db",
+    "lean/UniformConvergence.lean": "d2e5c12d7b3cff455cbe7c2dabfa792ebc496521ac0f940cced9067002b242d3",
+    "lean/Controls.lean": "e4442c347374e51125c474cc39e8a620b6e90a1d50ccd6bacec55b1e4ce0ad67"
+  },
+  "combined_source_sha256": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+  "public_catalog_total": 44,
+  "public_catalog_by_module": {
+    "SolutionLipschitz": 7,
+    "Reconstruction": 8,
+    "ScheduleBounds": 8,
+    "UniformConvergence": 6,
+    "Controls": 15
+  },
+  "public_catalog_independently_enumerated": true,
+  "accepted_modular_receipts": {
+    "SolutionLipschitz": {
+      "receipt": "evidence/20260908T105628.676226Z_SolutionLipschitz.json",
+      "receipt_sha256": "b121d85a0b18883d271f7e4336cce5ed96e0366ff23acc5af9537efe283c946f",
+      "source_sha256": "01986d7ebcbce986000c404993621bf46b12d0fe0b18bf24b163de5fdddfcaf6",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "Reconstruction": {
+      "receipt": "evidence/20260908T110702.886520Z_Reconstruction.json",
+      "receipt_sha256": "e6a0b13a3223a2bf5cf45c4bffef956091a1b950499c7116d3a597c9438ffdfe",
+      "source_sha256": "296ab241366fd4128bf7d933ed0fb251a53792f0ebbb7c6805e3f5ab78d4f043",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "ScheduleBounds": {
+      "receipt": "evidence/20260908T105854.572164Z_ScheduleBounds.json",
+      "receipt_sha256": "8c80f7490013a02cb6d6a8677dc5cd0772e91504ff0c6887ba7ead3e42798d83",
+      "source_sha256": "c3382951dc6b0668d141a38bf726cca3a6a1683077c2478045634c84a3e888db",
+      "log_sha256": "d1f7cf9e13efe94a9917c63580f5fbb5fa52b2458cdaf5fe3f6654d93602a8e9",
+      "exit_code": 0
+    },
+    "UniformConvergence": {
+      "receipt": "evidence/20260908T111633.143589Z_UniformConvergence.json",
+      "receipt_sha256": "67a356722542fd6aa6b2bd279510ce628260bb55ba5f6bd9c73542004346473b",
+      "source_sha256": "d2e5c12d7b3cff455cbe7c2dabfa792ebc496521ac0f940cced9067002b242d3",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "Controls": {
+      "receipt": "evidence/20260908T112306.548123Z_Controls.json",
+      "receipt_sha256": "ad73e3b30851d2561f7b999643cc92bdfe1e7db6c40ba56116e97725ad96caab",
+      "source_sha256": "e4442c347374e51125c474cc39e8a620b6e90a1d50ccd6bacec55b1e4ce0ad67",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    }
+  },
+  "review_sha256": "cd9027e906865e32089057269fab914852ebeb376dfa83c50e5e1b10d48c11da",
+  "reviewed_tool_hashes": {
+    "check_predecessors.py": "86abf863384c0765c78f38b8bac8f4c9d2e7e90dd37efb6f4a3ce6727fb90042",
+    "finalize.py": "5a92bf2dc70c776b3110e30e814f9e04a64706ffb01f1aec954780062168c62b",
+    "make_combined.py": "76b406af33edbe236a4db31cc808bc9e1fb4b14eb27d20d36a6661da8bf74d2e",
+    "numerical_checks.py": "927acc4c07daed99c9fa6a34943f55678d7a310d114a37b5ab1b979571070b0a",
+    "prepare_bootstrap_inputs.py": "52f36d5fc8092baec8cd054cb2939104aff11c3a6c81d404969a2d111df49ce9",
+    "prepare_final_sources.py": "981ee634a2a0aba16154a80f76f10d37053200996fe7b6d6a5c3b03e784b510a",
+    "remote_check/bootstrap.py": "83ab624c9a1c7ea293d25248c73a80aaa8a7b78c36c31aef39e2708209210b69",
+    "remote_check/bootstrap_inputs/bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "remote_check/bootstrap_inputs/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "remote_check/bootstrap_inputs/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "remote_check/check_download.py": "e9ed15eb0363e451a96604a4767885af3d0823aa6b312069462398aeb85169ea",
+    "remote_check/export_evidence.py": "5911e159e56d6dfb387de124d05fb9766b07e059a5b0912a43ddcf10de40f1d7",
+    "remote_check/initialize.py": "449f98e9f11cffaa14cafb4f510b820e6fa783d6a32c83e673f6615343600e38",
+    "remote_check/start_bootstrap.py": "a93e24eb6fec1a3043fec6b869e7c5261df4a823fb74968fb102ff9f0c63230e",
+    "remote_check/start_final.py": "80c08531f71c15d819a1378a584cc0806f605b53ee5898fa96b81057cade3189",
+    "remote_check/status.py": "a496a98168184bbe543fe8eab9e50762b90c9372e5ed11cc1b56e6f8235cd903",
+    "run_lean.py": "8152bdebc56dbd08c3d5d2004d092799f7f6b204710d77b7f046cf1dc42826e2",
+    "test_infrastructure.py": "b560f334364245d75007c27db51237aa71796a0aadaea231ccd169cf364aee31",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "5e2e4e95e28b6298db38544016fba903da85ce088b989beaecb679ddceebaaf6"
+  },
+  "reviewed_document_hashes": {
+    "MATHEMATICAL_DERIVATION.md": "8397aee55cb5ed223780d02ad40cc3146e5e7b7bd1f89a3b4bf3b271989be906",
+    "REPRODUCE.md": "d7bf6ce7f2f9f8f5f5a226c9323cae7f0cddacca638b652f4b1ad449f1b976aa",
+    "SAVED_FILES.md": "e2d6cea3d30ffb1ad2490f56a107cdf8708bff370b8f665fd70beab19a77f4e7",
+    "NUMERICAL_DIAGNOSTICS.md": "9345371cf0d1cb16aa290b08c9b7aaa998c37a9356795f1279ecf321ebe5f422",
+    "INFRASTRUCTURE_REVIEW.md": "8ebcb5516380944321179a8687ee17200efe278d40d39e84a6ef4ca76246af29"
+  },
+  "numerical_result_sha256": "d240344b8d365afdfff333eaeed495c45cb8ad0e2f626912d243f13464c24737",
+  "numerical_summary_checked": {
+    "refinement_levels": 4,
+    "off_grid_cases": 476,
+    "dense_full_spinor_node_checks": 96,
+    "dense_off_grid_extraction_checks": 32,
+    "endpoint_pairs": 4,
+    "wrong_index_controls": 8,
+    "finest_maximum_sampled_error": 0.0025736105106179416,
+    "finest_observed_order_in_cutoff": 2.898633755932784,
+    "finest_observed_order_in_mesh": 0.9662112519775947,
+    "maximum_dense_discrepancy": 2.011764731121397e-15,
+    "analytic_reference_tail": 1.6543612251060553e-24
+  },
+  "independent_numerical_review": {
+    "exact_second_weighted_moment": "23",
+    "exact_radius_80_reference_tail": "1/604462909807314587353088",
+    "saved_rational_index_and_distance_cases_checked": 476,
+    "saved_error_decompositions_checked": 476,
+    "saved_level_maxima_and_orders_checked": 4,
+    "full_numeric_suite_rerun_by_reviewer": false
+  },
+  "infrastructure_tests_receipt_sha256": "4cf8195ccbb71e73dc3ebe93bdc59d0a12f5dd2bc069e8e19eeb669afe15401c",
+  "bootstrap_delivery_bound_to_final_source": true,
+  "bootstrap_inputs_receipt_sha256": "041c32d4065350cd62818de0f209b8fb98c00ebac4641f7ab8d99796e3e3f826",
+  "blocking_findings": [],
+  "repaired_findings": [
+    "REPRODUCE.md now describes reconstruction, dense/modal, index, and tail diagnostics instead of the predecessor derivative suite."
+  ],
+  "scope_checks": [
+    "Actual full-grid Cayley powers with exact sampled initialization.",
+    "Both spin components extracted; inverse sqrt(h) retained.",
+    "Every scheduled step bounded, including final time.",
+    "Closed spatial endpoint clamps to last node; discrepancy included.",
+    "A single vanishing envelope establishes genuine TendstoUniformlyOn on the full rectangle.",
+    "Uniqueness probe excluded from all production inputs."
+  ]
+}

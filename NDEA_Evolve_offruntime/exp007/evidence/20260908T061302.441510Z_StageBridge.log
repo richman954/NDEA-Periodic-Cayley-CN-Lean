@@ -1,0 +1,4 @@
+'NDEAEvolve.Exp007.gridStageBudget_eq_exp005' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.actual_noncommuting_stage_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.lift_reference_is_sampled_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.actual_grid_noncommutes' depends on axioms: [propext, Classical.choice, Quot.sound]

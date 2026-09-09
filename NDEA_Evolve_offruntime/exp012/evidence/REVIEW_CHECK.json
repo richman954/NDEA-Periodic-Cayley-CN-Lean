@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T12:34:05.102988+00:00",
+  "qualification": "Independent source and verification-protocol review. Current modular compiler receipts checked; this review did not rerun Lean or assert completion of the final combined checks.",
+  "current_source_hashes": {
+    "lean/Exp011Foundation.lean": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+    "lean/EnergyLocal.lean": "89b76b31ce9c2f273146ef2e55d6cbe32a181568bb69de2dc11ed7b5c09ec67c",
+    "lean/EnergyConservation.lean": "58c15c9ad6624b4f94915f3e755af775bc0c7ab53b6ff729703fa5044d420818",
+    "lean/EnergySeparation.lean": "59ff4ab80dd2bd54615dc04d8014b5854e266e4e3832e66421a7b262f6bb5601",
+    "lean/ClassicalUniqueness.lean": "1a90a2931740bb71e7813d71844f5be983a581bfb8549dbe12bbe9bd3e0e2744",
+    "lean/Controls.lean": "14e602688dcda03fd1ff0db427f99e8f10c8600c2d489cdc36c3c40b56491ecc"
+  },
+  "combined_source_sha256": "ff98d87926fe6729202d77119d84e3ff3b3a3664ab607c0069a52db2c9f8547d",
+  "public_catalog_total": 46,
+  "public_catalog_by_module": {
+    "EnergyLocal": 16,
+    "EnergyConservation": 9,
+    "EnergySeparation": 3,
+    "ClassicalUniqueness": 8,
+    "Controls": 10
+  },
+  "public_catalog_independently_enumerated": true,
+  "accepted_modular_receipts": {
+    "EnergyLocal": {
+      "receipt": "evidence/20260908T120206.162361Z_EnergyLocal.json",
+      "receipt_sha256": "11d656176ad2dd091cfda448b1f1ea4700eb2d7e6bb4fe9b082744d3015a0cfc",
+      "source_sha256": "89b76b31ce9c2f273146ef2e55d6cbe32a181568bb69de2dc11ed7b5c09ec67c",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 128.88134862000152
+    },
+    "EnergyConservation": {
+      "receipt": "evidence/20260908T121741.445312Z_EnergyConservation.json",
+      "receipt_sha256": "41818a5a509042657a1868ec13404782c91861e015658e659b76ba666c55fcc8",
+      "source_sha256": "58c15c9ad6624b4f94915f3e755af775bc0c7ab53b6ff729703fa5044d420818",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 311.1914470349984
+    },
+    "EnergySeparation": {
+      "receipt": "evidence/20260908T114453.701602Z_EnergySeparation.json",
+      "receipt_sha256": "0f57572f8d219b9d28403211e83f6e9ae0fb3d2457cc2e66d92dc574f2339a25",
+      "source_sha256": "59ff4ab80dd2bd54615dc04d8014b5854e266e4e3832e66421a7b262f6bb5601",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 302.1928027059985
+    },
+    "ClassicalUniqueness": {
+      "receipt": "evidence/20260908T122320.037250Z_ClassicalUniqueness.json",
+      "receipt_sha256": "cca099b06446bf7fe61b3027edd1b37068aa3adfa2593f3e2f4b987769db7193",
+      "source_sha256": "1a90a2931740bb71e7813d71844f5be983a581bfb8549dbe12bbe9bd3e0e2744",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 198.2851768569999
+    },
+    "Controls": {
+      "receipt": "evidence/20260908T122725.810273Z_Controls.json",
+      "receipt_sha256": "aa23a3a50828ffe7888d43aef3dc1381abe259bc9ee657f55b40f6f4739e6f35",
+      "source_sha256": "14e602688dcda03fd1ff0db427f99e8f10c8600c2d489cdc36c3c40b56491ecc",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 206.16824510700098
+    }
+  },
+  "review_sha256": "7f760ae88251364efb70944c5f0ccfa2a1cde5b39dbe2a352421ff06ea0ac6fc",
+  "reviewed_tool_hashes": {
+    "check_predecessors.py": "f2e18e0d40339589a765463fb36b829bf67e6e58e3eee739867b5d8a007ead10",
+    "finalize.py": "3680b950db82c678a3d09a15fcc955e592045cc9e2476b39063a9f89e1bab691",
+    "make_combined.py": "6e13d4f1ed4486d0cb75a6384ef2c8fdc8168bf84142e83310f13c601b3ad23b",
+    "prepare_bootstrap_inputs.py": "8563945d8e4c6a93ba5138bdc6ade3e65a7cef52254b5bbbf2076963b0ad4c25",
+    "prepare_final_sources.py": "6725d0481897e08e1d789c387460221446a2f0a0b81beaedb8dca6758c5ea0f8",
+    "remote_check/bootstrap.py": "4b93106dd42b647a0f0c1f41328718072141cd1fd153dcb171b26bc866d87ec5",
+    "remote_check/bootstrap_inputs/bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "remote_check/bootstrap_inputs/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "remote_check/bootstrap_inputs/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "remote_check/check_download.py": "c8420880ff1c632a7bf14b162732f08e7830fe4532862785d5d3e5c12d68dd30",
+    "remote_check/export_evidence.py": "b3482762c4dae6c75266190d148f2587be2c0e78c51ebebbbea7fc3a227a078f",
+    "remote_check/initialize.py": "ca541a292075d71ded5b5d81af40188f3bbf58570ebe04aeeba9423b592d841d",
+    "remote_check/release_exp011_preflight.py": "77a2beea676f801119afedaed6bdd9f09434d16874b7ec91eab06fd64aa9be49",
+    "remote_check/start_bootstrap.py": "a5385c0fcb1cb7e8564f435ba14916410f330f02f9dc98fd3c0f6b981516bf62",
+    "remote_check/start_final.py": "788bf7167b4320aeffc309e6ed72b49a77a1b501ec8cdd758c6f97721ebbdc38",
+    "remote_check/status.py": "05d2436974c8f619e517514331a1c7f594e86c061e402868ab0bfdc09d52d313",
+    "run_lean.py": "79227260b2858fea7ace92360715eaaf69a80cfade29f0263f829f50a9c0262e",
+    "test_infrastructure.py": "6317f564a443206168e55d17699ef68e0fb1ac4ed51044da236d76928b96ba92",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "ebf6dcb0e6d4aa752046a8852fb7a6bd150bf175f999a2dc6e576187765f18d2"
+  },
+  "reviewed_document_hashes": {
+    "MATHEMATICAL_DERIVATION.md": "81848de63dd2099b641d776700489ce1467bcf3819d752232ca74c875bbd7714",
+    "REPRODUCE.md": "25869a7dab3db6a8aeb8300740bfe89d3e09b951135dd64fa213d6723de46d2c",
+    "SAVED_FILES.md": "494cb031b41a1d10defabe06cea7c52d764438a84b7c3a9a1659206a63605e4c",
+    "INFRASTRUCTURE_REVIEW.md": "b0eb3c3ed3e3d13e005883cb169856a4aff6a7968c52f83b2c1144630df08da8"
+  },
+  "infrastructure_tests_receipt_sha256": "54aeddd70c44d985fb9a18a7b249460a9a029401315a82cb04936e9c6f153226",
+  "bootstrap_delivery_bound_to_final_source": true,
+  "bootstrap_inputs_receipt_sha256": "89b8165059d30296d4366f3900b8c69853eb6e237b1b41f2a69079719a4ad73d",
+  "final_source_delivery_receipt_sha256": "62dc6fc6bb3e4f7f59fda55c9e0bc6f5ed3d044e11ceb9bccb659e56a77bf5c6",
+  "initial_fresh_environment_receipt_sha256": "4bb371158ed752d8f7f0ff2a0cc101187dbc1c50871e87ae8d86df4504c69954",
+  "blocking_findings": [],
+  "scope_checks": [
+    "Unchanged Exp010 classical predicate; arbitrary competing functions, without Fourier or added energy assumptions.",
+    "Actual norm-squared time derivative equals spatial flux derivative with convention density_t = flux_x.",
+    "Compact local time-space majorant supplies integral differentiation; no global time bound.",
+    "Period energy is conserved at every real interval base and between any two real times.",
+    "Continuous nonnegative integral separation covers every point including interval endpoints.",
+    "Uniqueness follows from matching at any real time; regular Fourier initial profiles supply the existence endpoint.",
+    "Existing actual reconstruction and exact sampled initialization retained on the closed space-time rectangle.",
+    "Ten exact controls include distinct data, nonzero period energy, backwards recovery, and flux sign.",
+    "No new floating-point simulation used as evidence of uniqueness."
+  ]
+}

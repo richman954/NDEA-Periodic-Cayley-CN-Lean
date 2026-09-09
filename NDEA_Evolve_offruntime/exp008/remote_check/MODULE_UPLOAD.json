@@ -1,0 +1,11 @@
+{
+  "batch": "controls_v3",
+  "archive": "/content/exp008_check/controls_v3.tar.gz",
+  "sha256": "255a60b7ef730b8587796b966f6746f897b046e3fa1023abb9f9f2f8795295a0",
+  "modules": [
+    "Controls"
+  ],
+  "source_hashes": {
+    "Controls.lean": "51732dae30719c18d67cae31a958aa3544b80199578cb390d79563c72a1f57a5"
+  }
+}

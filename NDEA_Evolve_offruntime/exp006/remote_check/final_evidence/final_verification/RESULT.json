@@ -1,0 +1,381 @@
+{
+  "passed": true,
+  "start_utc": "2026-09-08T05:18:06.470915+00:00",
+  "source_sha256_before": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "expected_audits": [
+    "NDEAEvolve.Exp006.PeriodicGrid.isHermitian",
+    "NDEAEvolve.Exp006.PeriodicGrid.laplacian_mulVec",
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_next",
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_prev",
+    "NDEAEvolve.Exp006.PeriodicGrid.matrix_sample_stencil",
+    "NDEAEvolve.Exp006.phase_norm",
+    "NDEAEvolve.Exp006.phase_zero",
+    "NDEAEvolve.Exp006.phase_add",
+    "NDEAEvolve.Exp006.phase_formula",
+    "NDEAEvolve.Exp006.phase_periodic",
+    "NDEAEvolve.Exp006.mode_periodic",
+    "NDEAEvolve.Exp006.phase_hasDerivAt",
+    "NDEAEvolve.Exp006.mode_space_hasDerivAt",
+    "NDEAEvolve.Exp006.mode_time_hasDerivAt",
+    "NDEAEvolve.Exp006.mode_second_derivative",
+    "NDEAEvolve.Exp006.mode_solves_split_schrodinger",
+    "NDEAEvolve.Exp006.mode_nonzero",
+    "NDEAEvolve.Exp006.mode_nonconstant",
+    "NDEAEvolve.Exp006.phase_centeredStencil",
+    "NDEAEvolve.Exp006.spatialSymbol_consistency",
+    "NDEAEvolve.Exp006.spatialSymbol_strictly_below_continuum",
+    "NDEAEvolve.Exp006.sin_linear_remainder",
+    "NDEAEvolve.Exp006.cos_linear_remainder",
+    "NDEAEvolve.Exp006.midpoint_temporal_remainder",
+    "NDEAEvolve.Exp006.scalarFactorResidual_midpoint",
+    "NDEAEvolve.Exp006.scalarFactorResidual_bound",
+    "NDEAEvolve.Exp006.shifted_phase_periodic",
+    "NDEAEvolve.Exp006.sampled_laplacian_eigen",
+    "NDEAEvolve.Exp006.factorResidual_component",
+    "NDEAEvolve.Exp006.actual_factorResidual_component",
+    "NDEAEvolve.Exp006.actual_factorResidual_weighted_bound",
+    "NDEAEvolve.Exp006.actual_stageResidualBudget_bound",
+    "NDEAEvolve.Exp006.reference_is_sampled_mode",
+    "NDEAEvolve.Exp006.concrete_periodic_fixed_time_error",
+    "NDEAEvolve.Exp006.concrete_periodic_mesh_family_error_tendsto_zero",
+    "NDEAEvolve.Exp006.Controls.admissible_eight_point_grid",
+    "NDEAEvolve.Exp006.Controls.zero_mesh_consistency_false",
+    "NDEAEvolve.Exp006.Controls.spatial_error_is_present",
+    "NDEAEvolve.Exp006.Controls.solution_nonconstant_and_nonzero",
+    "NDEAEvolve.Exp006.Controls.both_continuous_generators_active",
+    "NDEAEvolve.Exp006.Controls.zero_step_residual"
+  ],
+  "scope": "Independent combined source elaboration; compatible pinned library artifacts reused.",
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "dependency_pins": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "63045536fe95024e6c18fc7b48e03f506701c5bc",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "5c7542ed018c78194f1e2b903eaf6a792b74c03d",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "24b0d9dc081c5423f8eec7e866c441e5184f29d9",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e3cb2f741431ce31bf73549fb52316a57368b06f",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f46324995fca5f0483b742e4eb4daec7f4ee50d2",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fa08db58b30eb033edcdab331bba000827f9f785",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "92564e5770e4d09f2d86dfbf8ada1e9c715b384c",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_artifact_manifest_sha256": "a13f61fbe0f5ad8120216e898158a0a29b27c34e892896ba13ac79d596f08a12",
+  "dependency_artifacts": 9868,
+  "lean_path": "/content/exp006_check/final_verification/dependencies:/content/exp005_independent_check/lean-4.31.0-linux/lib/lean",
+  "command": [
+    "/content/exp005_independent_check/lean-4.31.0-linux/bin/lean",
+    "-j",
+    "1",
+    "/content/exp006_check/CombinedVerification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 141.62104990100033,
+  "log_sha256": "389660c0ab31667e4cc94f5ef191e4ab9947f774354265ed4eb0c2cf2d4ea84c",
+  "axiom_audits": {
+    "NDEAEvolve.Exp006.PeriodicGrid.isHermitian": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.laplacian_mulVec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_next": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_prev": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.matrix_sample_stencil": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_periodic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_periodic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_space_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_time_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_second_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_solves_split_schrodinger": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.mode_nonconstant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.phase_centeredStencil": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.spatialSymbol_consistency": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.spatialSymbol_strictly_below_continuum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.sin_linear_remainder": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.cos_linear_remainder": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.midpoint_temporal_remainder": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.scalarFactorResidual_midpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.scalarFactorResidual_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.shifted_phase_periodic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.sampled_laplacian_eigen": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.factorResidual_component": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.actual_factorResidual_component": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.actual_factorResidual_weighted_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.actual_stageResidualBudget_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.reference_is_sampled_mode": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.concrete_periodic_fixed_time_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.concrete_periodic_mesh_family_error_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.admissible_eight_point_grid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.zero_mesh_consistency_false": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.spatial_error_is_present": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.solution_nonconstant_and_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.both_continuous_generators_active": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NDEAEvolve.Exp006.Controls.zero_step_residual": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "source_sha256_after": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "end_utc": "2026-09-08T05:21:05.754663+00:00"
+}

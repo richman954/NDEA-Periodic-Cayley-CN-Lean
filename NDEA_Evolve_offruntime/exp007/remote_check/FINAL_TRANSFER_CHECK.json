@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive_sha256": "fe0de6ba7936fe651352c14589b5a3fa800ad1473f1d085206e47b59cb7e0308",
+  "evidence_files_checked": 118,
+  "audits_checked": 88,
+  "source_sha256": "cdb0fd44edea6e81b761af02304deada2e7ff7c9ebea1936c4e664acc1f0456c",
+  "result_sha256": "bd63046f181015a0743c251ee90186d54ca529f85951571f3d62425e0e4e8308",
+  "evidence_root": "/home/richman954/NDEA_Evolve_offruntime/exp007/remote_check/downloaded_evidence/exp007_independent_evidence",
+  "qualification": "Archive/file hashes and all independent axioms agree with current local source."
+}

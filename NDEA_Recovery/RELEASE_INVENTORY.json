@@ -1,0 +1,173 @@
+{
+  "archive": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+  "archive_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+  "inventory_path": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/INVENTORY.md",
+  "manifest": {
+    "schema": "ndea.completed_release_backup.v1",
+    "utc": "2026-09-08T12:53:42.644762+00:00",
+    "original_root": "/home/richman954",
+    "scope": "Selected completed release/review packets for Experiments 001–012, the 001–007 recap, the 001–008 fresh-VM recheck, explicit Exp003/004 release archives and Git bundles, and available checksum/receipt companions. This is not a backup of every historical intermediate file, current working tree, build cache, compiler installation, or account credential. Current task-state checkpoints are maintained separately.",
+    "files": {
+      "Exp001_Independent_Review_Packet_v1.zip": {
+        "bytes": 119227,
+        "sha256": "1704cd43f96976140b8c4e1184ba14c99e623f446a2697ec5ab7e5fba06c36b3"
+      },
+      "Exp002_Independent_Review_Packet_v1.zip": {
+        "bytes": 439513,
+        "sha256": "73559b5ad85a5504423ea28302d5ac380cd83b854647e159158aec5c37d99001"
+      },
+      "Exp005_Independent_Verification_Packet_20260908.zip": {
+        "bytes": 6576305,
+        "sha256": "3327ddb61c80a71f45685d11eb8c4f4c8e18babecc16bbef38b69e27bd9e68f6"
+      },
+      "Exp005_Independent_Verification_Packet_20260908.zip.sha256.txt": {
+        "bytes": 118,
+        "sha256": "183d4844ebdd70016e097cf625395d239f65187a3c360957bdda1da7863400f6"
+      },
+      "Exp006_Verified_Review_Packet_20260908.zip": {
+        "bytes": 1492172,
+        "sha256": "1cac6774bdff6d605b711d8a43ea497134937ffefef15371449f428d539b4284"
+      },
+      "Exp006_Verified_Review_Packet_20260908.zip.sha256.txt": {
+        "bytes": 109,
+        "sha256": "d5d8f382af8bae5b540a93d8c2cdcd4f1c35e28a2c0d69a51615aa646cf18939"
+      },
+      "Exp007_Verified_Review_Packet_20260908.zip": {
+        "bytes": 2492055,
+        "sha256": "cb527b6245b11cdeb044a97e60aa9201cf20bfc8c60dac99642d91677a7f7b5f"
+      },
+      "Exp007_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "dca4af7d840788822a2635bc555d5c526ce291f914910aeb6fac0cbd90337f08"
+      },
+      "Exp008_Verified_Review_Packet_20260908.zip": {
+        "bytes": 3036868,
+        "sha256": "8e2b429c161443901be17a585562af2ce5f920b44283044ba3e5f14bd99330a7"
+      },
+      "Exp008_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "af7d7abd760d2ebfdf2d813fbb1395facee7072b7c9935ada76ccb565159f414"
+      },
+      "Exp009_Verified_Review_Packet_20260908.zip": {
+        "bytes": 2688404,
+        "sha256": "1ecbfe8203e1082ee8e89647e01a0c90aad3f366dcdc4dc797fea43d7b6d520c"
+      },
+      "Exp009_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "3fa8e42cfd05a93f0133577a1fb9a3ffb1129301d3c11484aa1ae928237c05d3"
+      },
+      "Exp010_Verified_Review_Packet_20260908.zip": {
+        "bytes": 2357044,
+        "sha256": "91f4069711cc3ab26978d89eb9f12a2853524609e48d53c01e73eddbf74fd438"
+      },
+      "Exp010_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "0811509b48fc8010962268477efa670eed199fe0817df3bffe1fbe638fc2f13b"
+      },
+      "Exp011_Verified_Review_Packet_20260908.zip": {
+        "bytes": 2433084,
+        "sha256": "f6f52467bbed628201cc02f740a6203cb1b0ad57b3b257a8a89a1779e223cac3"
+      },
+      "Exp011_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "80d2370857663ce7939eda7be6c8810a9508d0088ef2512be24dfe28e69900eb"
+      },
+      "Exp012_Verified_Review_Packet_20260908.zip": {
+        "bytes": 2571531,
+        "sha256": "2c1347c1261c00f1f63e06b7c500235c48dfb5e9b817f25ffb23ea0edc0d596d"
+      },
+      "Exp012_Verified_Review_Packet_20260908.zip.sha256": {
+        "bytes": 109,
+        "sha256": "05cb93dfeb879c4106ece7bc5e7ba99bc0a6f46d4cffcea809c0051679c71ec7"
+      },
+      "Experiments_001-007_Recap_and_File_Index_20260908.zip": {
+        "bytes": 1486217,
+        "sha256": "8494245061005340f19a22b3f421f3f1f02b56dc49a77c51d00133ca4d12d112"
+      },
+      "Experiments_001-007_Recap_and_File_Index_20260908.zip.sha256": {
+        "bytes": 120,
+        "sha256": "fccc2ee5890d12f390c985dd12a391e982a018a779a29801359f22796de28397"
+      },
+      "Experiments_001-008_Fresh_VM_Recheck_20260908.zip": {
+        "bytes": 6469650,
+        "sha256": "95f8fc6d27975d0a59fbea3f9e0a6517369131342d8abbdecb9923606d545a4c"
+      },
+      "Experiments_001-008_Fresh_VM_Recheck_20260908.zip.sha256": {
+        "bytes": 116,
+        "sha256": "ca96a3d19866decf4e33dd094bb23dae479a577993abade3561451ffdbc78ca3"
+      },
+      "NDEA_Evolve_offruntime/exp003/final_delivery_20260906/DELIVERY_SHA256SUMS": {
+        "bytes": 446,
+        "sha256": "bfdd4fabb399e80f1075ad7334524b264439737539dd3de6ce9a9cbb6a8748b7"
+      },
+      "NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_delivery_spec.json": {
+        "bytes": 6414,
+        "sha256": "4aa1d354ec3148bae0408aa942296681070c7cc4f4b68eab40390ba668ed0700"
+      },
+      "NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_final.bundle": {
+        "bytes": 1801441,
+        "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963"
+      },
+      "NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_final_delivery_receipt.json": {
+        "bytes": 25939,
+        "sha256": "7e85765674aea361db2124c3480cb2c7a6a0f722afd6b18d4976b77368b2cdfe"
+      },
+      "NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_final_evidence.tar.gz": {
+        "bytes": 513802,
+        "sha256": "72833ff2f6a8fc5b902b9c0469dbbc532d2ae0285e113317c23ef2789923fe03"
+      },
+      "NDEA_Evolve_offruntime/exp004/releases/20260907_verified_final/DELIVERY_RECEIPT.json": {
+        "bytes": 364917,
+        "sha256": "a614552579f1c2a4df1b59c6cd351754c4ae95c950daeb5140ee72ebb2f7ef7c"
+      },
+      "NDEA_Evolve_offruntime/exp004/releases/20260907_verified_final/exp004_verified_final.bundle": {
+        "bytes": 2017632,
+        "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8"
+      },
+      "NDEA_Evolve_offruntime/exp004/releases/20260907_verified_final/exp004_verified_final_source.tar.gz": {
+        "bytes": 2558829,
+        "sha256": "de20908c171f4a0e1119fda94d122d7d69b9e5ff700d5cb6232fa4ec40ff4c65"
+      },
+      "NDEA_Evolve_offruntime/exp006/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 264,
+        "sha256": "7ae06e764b36562e2723c409d91b7d120e39335268235c7bcb2306fceffede39"
+      },
+      "NDEA_Evolve_offruntime/exp007/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 359,
+        "sha256": "96d0e56dad78637ef2fa4512496ecf376276883a1fa487859090f71aadf586b6"
+      },
+      "NDEA_Evolve_offruntime/exp008/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 578,
+        "sha256": "ae122114e73fc44b08fd410b53fa3621b834019cffa7df689f3146086754e902"
+      },
+      "NDEA_Evolve_offruntime/exp008/independent_checks/colab_r2_20260908/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 1044,
+        "sha256": "bc3cdc7b650bf6f9031cd10a59bb31a537525fb6c33ae342bbdc2b39f03a818b"
+      },
+      "NDEA_Evolve_offruntime/exp009/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 602,
+        "sha256": "888ec61b5b59d9734b851f2bff83e70908631263395c81732c512efeef5984ce"
+      },
+      "NDEA_Evolve_offruntime/exp010/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 602,
+        "sha256": "103d162b563ea7a1c33057608cb33fe3864a239c9177fd21b66b551ba0101e94"
+      },
+      "NDEA_Evolve_offruntime/exp011/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 602,
+        "sha256": "208e582f1e449f07ee1652eebe130dbbd8a3bb7cd68796f1b57d1f17c7c95eef"
+      },
+      "NDEA_Evolve_offruntime/exp012/evidence/FINAL_PACKET_RECEIPT.json": {
+        "bytes": 602,
+        "sha256": "9fa38d981e77f92fcf8fc5fe58d44f90018f68a3ce1925d7e69005b476301d21"
+      },
+      "NDEA_Recovery/archive_releases.py": {
+        "bytes": 15571,
+        "sha256": "6a1d2ea6cb031919ae19a1c8dcc9ceb92421364250a1b3e54f01bccaa6030987"
+      },
+      "_recovery/INVENTORY.md": {
+        "bytes": 6789,
+        "sha256": "083b7549e208c1815779139376c483d1545193c8a1cd096fa1fcbe0003437c2b"
+      }
+    }
+  }
+}

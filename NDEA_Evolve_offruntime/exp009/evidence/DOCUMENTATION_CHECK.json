@@ -1,0 +1,10 @@
+{
+  "checked_links": 19,
+  "unexpected_missing": [],
+  "expected_deferred_outputs": [
+    "COMPLETION_REPORT.md",
+    "PACKET_MANIFEST.json",
+    "evidence/FINAL_PACKET_RECEIPT.json",
+    "evidence/FINAL_VERIFICATION.json"
+  ]
+}

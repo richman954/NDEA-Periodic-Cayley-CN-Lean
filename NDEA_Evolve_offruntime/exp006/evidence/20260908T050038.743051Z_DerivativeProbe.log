@@ -1,0 +1,2 @@
+'NDEAEvolve.Exp006.DerivativeProbe.phase_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.DerivativeProbe.phase_hasDerivAt_real' depends on axioms: [propext, Classical.choice, Quot.sound]

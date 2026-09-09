@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean",
+  "source_sha256_before": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean/FrequencyBounds.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T07:21:28.062982+00:00",
+  "runner_sha256": "7d0a5000900d202327a4425e825ba915468436b4e26d92bea3f3975d596f40ad",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6",
+  "elapsed_seconds": 82.82337176000146,
+  "log_sha256": "f23cce6264db254ec2183adf37eb915d30e16bc4ddde200b3e585080a86f0312",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp008/evidence/20260908T072128.037182Z_FrequencyBounds.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean/FrequencyBounds.olean": "d61d32307cbba06a481a46180369a75ffdaee64b48f37021f4f138944cdc9d6f"
+  },
+  "sources_unchanged": true
+}

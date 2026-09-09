@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean",
+  "source_sha256_before": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean/ContinuumModes.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T07:19:16.538492+00:00",
+  "runner_sha256": "7d0a5000900d202327a4425e825ba915468436b4e26d92bea3f3975d596f40ad",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63",
+  "elapsed_seconds": 123.42834029400001,
+  "log_sha256": "87f08198470cec9e7752350d5c6fb1cfb35c70b102f9941837aca77a294c59b8",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp008/evidence/20260908T071916.516190Z_ContinuumModes.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean/ContinuumModes.olean": "fce0887e21a4802488e1d0158a16809a8f6768f73a87cbe92ec755825a4598df"
+  },
+  "sources_unchanged": true
+}

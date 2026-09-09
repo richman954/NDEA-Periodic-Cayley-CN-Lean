@@ -1,0 +1,13 @@
+{
+  "batch": "stage_controls_v2",
+  "archive": "/content/exp008_check/stage_controls_v2.tar.gz",
+  "sha256": "5d61b5cb119361aad87c218dbd2e7fcbb5a00e6a3a05831a5020eeeacef1e259",
+  "modules": [
+    "StageBridge",
+    "Controls"
+  ],
+  "source_hashes": {
+    "StageBridge.lean": "85f75baadcbe2c1500463cb82d35b1bede8e8e7c0ea24f0628bf4dcff38cd4c6",
+    "Controls.lean": "eedcd51a08e24c0e7cedaad30a68bd6222d44c3518722638c6c2eb65a846f804"
+  }
+}

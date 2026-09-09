@@ -1,0 +1,14 @@
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/Controls.lean:22:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NDEAEvolve.Exp007.Controls.initialSpinor_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.admissible_eight_point_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.coupling_is_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.initial_solution_is_spatially_nonconstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp007.Controls.omitted_coupling_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.zero_mesh_consistency_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.empty_trajectory_retains_initial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

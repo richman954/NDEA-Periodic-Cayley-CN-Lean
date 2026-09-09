@@ -1,0 +1,17 @@
+{
+  "utc": "2026-09-08T14:50:03.262274+00:00",
+  "session": "exp013-independent-check-r2",
+  "vm_id": "m-s-kkb-use1c2-3vyfjmsvu7xz8",
+  "previous_vm_ids": [
+    "m-s-kkb-usc1c0-1k0px308tu45q",
+    "m-s-kkb-usw4c1-1loxz56gsupls",
+    "m-s-kkb-usw3b1-3oqo9i5fec2ow",
+    "m-s-kkb-use1c1-1e742c6fpiifs",
+    "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "m-s-kkb-usc1b1-2yftnii3g1zpd",
+    "m-s-kkb-usc1c1-1p1nzzki4492q"
+  ],
+  "distinct_allocation": true,
+  "root": "/content/exp013_check",
+  "replacement_reason": "Original local and independent combined checks rejected one ambiguous control lemma name; both failed-run evidence sets were preserved before retiring the original runtime. Corrected proof is checked on a distinct fresh replacement."
+}

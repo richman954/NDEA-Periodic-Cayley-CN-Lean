@@ -1,0 +1,45 @@
+{
+  "utc": "2026-09-08T09:30:44.358131+00:00",
+  "status": "all7modules passed; local and new independent Colab combined checks running",
+  "accepted_modules": [
+    {
+      "source": "lean/InfiniteReference.lean",
+      "source_sha256": "ef31378a27fb871f22d662303a86cc8c90c1cc2ea18bb959b770d5cef71a38e1",
+      "receipt": "evidence/20260908T090305.374216Z_InfiniteReference.json"
+    },
+    {
+      "source": "lean/WeightedTail.lean",
+      "source_sha256": "59fe3f191091a88679160d4fa1cd40f419582b6540363203b7cba0c4c2614b98",
+      "receipt": "evidence/20260908T090729.683969Z_WeightedTail.json"
+    },
+    {
+      "source": "lean/CutoffSchedule.lean",
+      "source_sha256": "41604c9d77be7780e933258a640deeacfbc3ddd0823aa2663667d1fc077be8f4",
+      "receipt": "evidence/20260908T090306.121731Z_CutoffSchedule.json"
+    },
+    {
+      "source": "lean/InfiniteClosure.lean",
+      "source_sha256": "bf99f2e9c96eac54902366b7e416b1a4c7bdbb6461f0c13226858ce70b9a0272",
+      "receipt": "evidence/20260908T091621.054930Z_InfiniteClosure.json"
+    },
+    {
+      "source": "lean/WeightedClosure.lean",
+      "source_sha256": "98df998a9a953fa4bdc58cd15dc3e1731a86180a0938933a81487f4568e7a970",
+      "receipt": "evidence/20260908T091909.506967Z_WeightedClosure.json"
+    },
+    {
+      "source": "lean/ScheduleClosure.lean",
+      "source_sha256": "d11f50dace8452e6b42558b378d98b23578853e21b3598a399f6bba981cffc5f",
+      "receipt": "evidence/20260908T092156.591804Z_ScheduleClosure.json"
+    },
+    {
+      "source": "lean/Controls.lean",
+      "source_sha256": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54",
+      "receipt": "evidence/20260908T090807.153691Z_Controls.json"
+    }
+  ],
+  "source_sha256": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+  "audits": 70,
+  "remote_session": "exp009-independent-check",
+  "remote_root": "/content/exp009_check"
+}

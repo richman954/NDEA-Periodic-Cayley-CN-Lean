@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-08T12:10:27.278450+00:00",
+  "session": "exp012-independent-check",
+  "vm_id": "m-s-kkb-usw4c1-1loxz56gsupls",
+  "previous_vm_ids": [
+    "m-s-kkb-usw3b1-3oqo9i5fec2ow",
+    "m-s-kkb-use1c1-1e742c6fpiifs",
+    "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "m-s-kkb-usc1b1-2yftnii3g1zpd",
+    "m-s-kkb-usc1c1-1p1nzzki4492q"
+  ],
+  "distinct_allocation": true,
+  "root": "/content/exp012_check"
+}

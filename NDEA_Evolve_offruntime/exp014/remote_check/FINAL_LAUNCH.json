@@ -1,0 +1,22 @@
+{
+  "pid": 18544,
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-B",
+    "/content/exp014_check/final_source/verify_combined.py",
+    "--root",
+    "/content/exp014_check/final_source",
+    "--lean",
+    "/content/exp014_check/lean-4.31.0-linux/bin/lean",
+    "--mathlib",
+    "/content/exp014_check/mathlib",
+    "--other-packages",
+    "/content/exp014_check/mathlib/.lake/packages",
+    "--output",
+    "/content/exp014_check/final_verification"
+  ],
+  "source_archive_sha256": "82984ac339762e4396d4e8ca96030c358401fe97bf9d948d93e705384f42534a",
+  "runner_sha256": "1fa19aff12c7b10833e3fac39224844d59a4802273b726a5fbbd783ec5e74554",
+  "combined_sha256": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee"
+}

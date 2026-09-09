@@ -1,0 +1,23 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicGrid.lean",
+  "source_sha256_before": "674318480a8ce5fe52f6a2660fddfd4cfd0e9b2c26c7fc6ee3a2817a110c7222",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/PeriodicGrid.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicGrid.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T04:51:20.302428+00:00",
+  "exit_code": 0,
+  "source_sha256_after": "674318480a8ce5fe52f6a2660fddfd4cfd0e9b2c26c7fc6ee3a2817a110c7222",
+  "elapsed_seconds": 51.94788290099996,
+  "log_sha256": "0fe86a3d070f08bf4c546e1a015cae90b90266b1396ac1e8c4bd5168570ba51b",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/20260908T045120.299439Z_PeriodicGrid.log",
+  "sources_unchanged": true
+}

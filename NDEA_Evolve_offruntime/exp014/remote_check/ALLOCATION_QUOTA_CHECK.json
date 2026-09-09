@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-08T15:50:34.767529+00:00",
+  "new_session": "exp014-independent-check",
+  "allocation_failed": "TooManyAssignmentsError (HTTP412)",
+  "candidate_retirement": "exp013-independent-check-r2",
+  "completed_packet_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+  "packet_hash_rechecked": true,
+  "downloaded_evidence_transfer_accepted": true,
+  "scope": "Only completed Exp013 verification VM is a candidate; its sealed proof/evidence packet is preserved locally. No runtime has been stopped by this receipt."
+}

@@ -1,0 +1,67 @@
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:19:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_nonneg`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:22:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_sq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:36:8: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_zero`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:39:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_const`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:53:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.spatialL2_time_continuous`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:75:12: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ∫ (x : ℝ) in a..b, p x ^ 2 - 2 * r * (p * q) x + r ^ 2 * q x ^ 2 ∂?m.488
+in the target expression
+  0 ≤ ∫ (x : ℝ) in a..b, p x ^ 2 - 2 * r * (p x * q x) + r ^ 2 * q x ^ 2
+
+p q : ℝ → ℝ
+hp : Continuous p
+hq : Continuous q
+a b : ℝ
+hab : a ≤ b
+A : ℝ := ∫ (x : ℝ) in a..b, p x ^ 2
+B : ℝ := ∫ (x : ℝ) in a..b, q x ^ 2
+C : ℝ := ∫ (x : ℝ) in a..b, p x * q x
+hA : 0 ≤ A
+hB : 0 ≤ B
+r : ℝ
+hn : 0 ≤ ∫ (x : ℝ) in a..b, p x ^ 2 - 2 * r * (p x * q x) + r ^ 2 * q x ^ 2
+he : (fun x => (p x - r * q x) ^ 2) = fun x => p x ^ 2 - 2 * r * (p x * q x) + r ^ 2 * q x ^ 2
+⊢ 0 ≤ B * (r * r) + -2 * C * r + A
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:91:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.norm_product_integral_le`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean:97:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp015.forcingWork_pointwise_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

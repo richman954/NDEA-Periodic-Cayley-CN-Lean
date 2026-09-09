@@ -1,0 +1,240 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:605:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:606:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1143:8: warning: automatically included section variable(s) unused in theorem `_private.Exp007Foundation.0.NDEAEvolve.Exp003.norm_pow_le_with_norm_one_le`:
+  [NormedAlgebra ℂ 𝔸]
+  [CompleteSpace 𝔸]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAlgebra ℂ 𝔸] [CompleteSpace 𝔸] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1380:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1380:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1816:50: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1816:50: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:1816:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:2160:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:2353:5: warning: Variable name `hdx` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:2616:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:2885:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3212:18: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3212:54: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3214:10: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3224:46: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3225:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3225:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3232:46: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3233:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3233:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3274:37: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [lift, Fintype.sum_prod_type,̵ ̵n̵o̵r̵m̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3330:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [potential, Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3338:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3382:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3383:58: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3384:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3429:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3440:25: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3458:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3517:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3517:48: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3523:13: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3523:44: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `_root_.smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `_root_.smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3535:4: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3610:45: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3647:8: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3665:24: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3671:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3707:24: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `_root_.sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `_root_.sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3744:19: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean:3926:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NDEAEvolve.Exp007.Z_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.X_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.A_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.B_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.A_noncommutes_B' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.unitary_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Z_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.B_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.A_opNorm_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.spatialSymbol_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.spatialSymbol_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.A_difference_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Chat_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.resolvent_perturbation_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.cayley_perturbation_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.cayley_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.symmetric_perturbation_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reduced_local_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_mul_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.resolvent_mul_den' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.stage_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.num_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.step_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.liftCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.lift_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.lift_weighted_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.step_mem_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.laplacian_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.laplacian_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.scalar_add_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_step_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_step_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_mem_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_weighted_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_apply_stencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_mul_potential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_mul_hamiltonian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_noncommutes_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp007.continuumPropagator_eq_exactStepHat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.continuumPropagator_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.continuumEvolution_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.v_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.v_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_time_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_space_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_second_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.v_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.U_schrodinger' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.v_exact_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reduced_power_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reduced_power_error_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.denominator_mul_cayley' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.factorResidual_cayley_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.factorResidual_as_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.denominator_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reduced_stageResidualBudget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reference_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.concrete_noncommuting_grid_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.concrete_noncommuting_exact_initial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.concrete_noncommuting_mesh_error_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp007.gridFactorResidual_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.gridFactorResidual_weighted_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.gridStageBudget_eq_exp005' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.actual_noncommuting_stage_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.lift_reference_is_sampled_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.actual_grid_noncommutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.initialSpinor_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.admissible_eight_point_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.coupling_is_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.initial_solution_is_spatially_nonconstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp007.Controls.omitted_coupling_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.zero_mesh_consistency_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.Controls.empty_trajectory_retains_initial_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

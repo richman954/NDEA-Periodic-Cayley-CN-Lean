@@ -1,0 +1,7 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/CombinedVerification.lean",
+  "source_sha256": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "development_artifact": "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/CombinedVerification.olean",
+  "development_artifact_sha256": "eda972f3c9c69279309b7d1edce15bbfd72cbf41f99c85849cd3c1365749130d",
+  "scope": "Development may import the already checked Exp006 combined artifact; final combined proof must re-elaborate its source without project artifacts."
+}

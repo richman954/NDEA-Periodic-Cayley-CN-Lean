@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T10:21:42.002921+00:00",
+  "qualification": "Independent source, numerical-data, and verification-protocol review. Current modular compiler receipts checked; this review did not rerun Lean or assert completion of the final combined checks.",
+  "current_source_hashes": {
+    "lean/Exp009Foundation.lean": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+    "lean/Regularity.lean": "e219924f02855f9d2abc2303b56e791a7f6cb7224779736200a4881719e59299",
+    "lean/ClassicalSolution.lean": "6ec534b1c1413569f16e166fb3f3b68c15a3c83791748a68f10607d83390ed51",
+    "lean/Continuity.lean": "7e26cbb8653f1a1d8926674a3f9e4d2ebfc60abfd49eb2a7b4fa0dc8984a63a6",
+    "lean/ClassicalClosure.lean": "0084bc521a7fd4db76668d1bce8b5a0267b263878040f8f30fe51c4757ca0745",
+    "lean/Controls.lean": "9c847094a530fd8626d30178338b849e33c0a053d0d14c1a7b988e836a504a20"
+  },
+  "combined_source_sha256": "fb7b27b42d0baaca9ab8b30f9ba80bb0a5b8999986342fe8538e880bb3947ef0",
+  "public_catalog_total": 65,
+  "public_catalog_by_module": {
+    "Regularity": 19,
+    "ClassicalSolution": 11,
+    "Continuity": 10,
+    "ClassicalClosure": 7,
+    "Controls": 18
+  },
+  "public_catalog_independently_enumerated": true,
+  "accepted_modular_receipts": {
+    "Regularity": {
+      "receipt": "evidence/20260908T100642.887944Z_Regularity.json",
+      "receipt_sha256": "a2021a48a93827db6fe98d6fd74a4370a2554a9e572eb85acd8cda7b53a5ca21",
+      "source_sha256": "e219924f02855f9d2abc2303b56e791a7f6cb7224779736200a4881719e59299",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "ClassicalSolution": {
+      "receipt": "evidence/20260908T100955.079833Z_ClassicalSolution.json",
+      "receipt_sha256": "37df58e54793e4ab5db2301c1f8f10b9e4d4c58b8c2f1d755f0f910a290c32df",
+      "source_sha256": "6ec534b1c1413569f16e166fb3f3b68c15a3c83791748a68f10607d83390ed51",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "Continuity": {
+      "receipt": "evidence/20260908T101307.819389Z_Continuity.json",
+      "receipt_sha256": "87a465dbdefc1377f6dba8a90250339c063d524512b85974888b701c8f22b0c7",
+      "source_sha256": "7e26cbb8653f1a1d8926674a3f9e4d2ebfc60abfd49eb2a7b4fa0dc8984a63a6",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "ClassicalClosure": {
+      "receipt": "evidence/20260908T101552.628276Z_ClassicalClosure.json",
+      "receipt_sha256": "2b85dd3aebde5ac4a4b5bac960ea544abd155ce59b5343e22b40eee53b230fd6",
+      "source_sha256": "0084bc521a7fd4db76668d1bce8b5a0267b263878040f8f30fe51c4757ca0745",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0
+    },
+    "Controls": {
+      "receipt": "evidence/20260908T101524.658508Z_Controls.json",
+      "receipt_sha256": "7b8d5f09773a13da43aee60d26ae972de087207eb16a6c4c561c2e1947441682",
+      "source_sha256": "9c847094a530fd8626d30178338b849e33c0a053d0d14c1a7b988e836a504a20",
+      "log_sha256": "0eb0248d313e3444dc814b1d12b9d464f07d0c1d335b2a4e93fcaeda6fcec6dd",
+      "exit_code": 0
+    }
+  },
+  "review_sha256": "cd6c113cd19e97348e1035e10b0f3f595d7f520892ba9d8046a20a5c64fcbdd7",
+  "reviewed_tool_hashes": {
+    "check_predecessors.py": "652ef1ece8625b951a9378f3e20dfa6d87f17208a68b93aa7b485501913d1e6a",
+    "finalize.py": "4efd31a52a0bfbc830cba67aeb2d0ceaf15c30a8bfb88c8d66a16d7d22083a65",
+    "make_combined.py": "df2e07a835ac2e0a3dc555bd020ebd9f8b8b563957040c53da2cb47a5e18c63f",
+    "numerical_checks.py": "b752066fb7b77bbc842ba166512e7d242bae1e6590a2261fac86ca36b4d15732",
+    "prepare_bootstrap_inputs.py": "64d2ee9c0555c3cd665a5ace64a5d1d75d33e560e28a4b4651bf5ace31c20a45",
+    "prepare_final_sources.py": "f2f20309087bb5ff5f5337d505b18aadb1a9b659bed8edac1c276a7bb813299d",
+    "remote_check/bootstrap.py": "513b00b8f83f18ae7879afbb167a19164e08b043c4739a208f38831f276199bb",
+    "remote_check/bootstrap_inputs/bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "remote_check/bootstrap_inputs/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "remote_check/bootstrap_inputs/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "remote_check/check_download.py": "3bb96e7dee424a9da2cc7259fa272babdfe78679a8b669d4e539b5894b5bf43e",
+    "remote_check/export_evidence.py": "8e6a81c4a0e0c0f6d471efc1e56f4eb4acf3687981144f12c0fb2eb3d4e5f011",
+    "remote_check/initialize.py": "f4ca9c9da245f6e4966caa67082ee1c88e134178c11070cd7f94736a60c61eed",
+    "remote_check/start_bootstrap.py": "5989bd23566ddce6c5b180cbffa1ad0feed06db34eea829af65a67fb31decbb7",
+    "remote_check/start_final.py": "fbcd93c8154fcbfb74e73677e15051123b77601c5537540156fdc4eb1e9d7889",
+    "remote_check/status.py": "fc72ba27365f3f3dfe9832b075ac1a034f01b440a06af3f31d83e6eaf4273b35",
+    "run_lean.py": "1a0a02c31a73da8bc6d896d80f92fb743595b13f89bcbc0cb4aa4868493c4d83",
+    "test_infrastructure.py": "7738593c75035a6e414408b0212ee6fcda375cf9590feebf5aaddfd91aec688f",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "118bd58934414beac5529d58c98947c25057d1d6d843f6921ec511b7d0ab7971"
+  },
+  "reviewed_document_hashes": {
+    "MATHEMATICAL_DERIVATION.md": "915b6e37178bd66fb6e7d8520199f3c0a86675f4212ce74a5aa57a293d608dfa",
+    "REPRODUCE.md": "e575c5d7001bb458ee8424841004daa1527cd6976fd24ea58625d1a7af95afcb",
+    "SAVED_FILES.md": "26b4b38a5dc7f46fc327c8499aca49193d0578aed396961e0605e8e3c0d898b4",
+    "NUMERICAL_DIAGNOSTICS.md": "64777f13bcc0e6dcbd0c42b34b1d3e7816740fb86ce0a49368f81a4213a2f286"
+  },
+  "numerical_result_sha256": "5653e373773ba096deb7d2b67ab0631410d85be1228d66b2588afef9d54e62c1",
+  "numerical_summary_checked": {
+    "pde_points": 12,
+    "derivative_tail_cases": 192,
+    "finite_difference_series": 36,
+    "finite_difference_cases": 216,
+    "closed_initial_cases": 12,
+    "geometric_moment_cases": 15,
+    "sign_and_potential_controls": 36,
+    "maximum_analytic_pde_residual": 6.377745716588145e-16,
+    "maximum_periodicity_discrepancy": 1.4596747992911865e-14,
+    "minimum_finest_derivative_order": 1.937406868355524,
+    "maximum_finest_derivative_order": 2.052220264012422,
+    "maximum_derivative_tail_ratio": 0.8068632707206798,
+    "minimum_wrong_model_residual": 0.545067878145702
+  },
+  "exact_rational_diagnostic_check": {
+    "norm_mass": "3",
+    "second_weighted_moment": "23",
+    "recorded_geometric_tail_formulas_matched": 15
+  },
+  "infrastructure_tests_receipt_sha256": "bc386c7822df2fd59a0adbed05b57f57575b1094adc6eb6c1574e946fd304d1b",
+  "bootstrap_delivery_bound_to_final_source": true,
+  "bootstrap_inputs_receipt_sha256": "9ceaa2be85b0dc0a21be41f4aa8cf5a64d5f35c58f08ad91e1c0e28babbb7587",
+  "blocking_findings": [],
+  "repaired_findings": [
+    "finalize.py now checks numerical_checks.json script_sha256, matching the emitted schema."
+  ]
+}

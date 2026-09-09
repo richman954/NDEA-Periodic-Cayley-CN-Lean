@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T01:59:02.216748+00:00",
+  "selected_utc": "2026-09-09T01:59:01.371713+00:00",
+  "active_experiment": "exp014",
+  "folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_015901Z_e51c03",
+  "files_verified": 21,
+  "bytes": 49131929,
+  "manifest_sha256": "eb66984f78ad8899cf1b345ae8e49856a3468907a08233e65e68ef423023e858",
+  "checksum_sha256": "f01b0c0692d59d238a4599f8de8bb83fd28d6b00fa008fe43a336dbc94097639",
+  "current_recovery_sha256": "41930e68a7526acc32e1f09f8c60e5ac4e464c3aaa1d10c01df11bc3f1e1b93e",
+  "completed_releases_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+  "active_packet_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+  "active_packet_receipt_sha256": "4b14c15d4527c92468d38b9c003d359ba6d7ba42244eff697ca21fe02b637b09",
+  "supplemental_packets": [
+    {
+      "experiment": "exp013",
+      "archive": "Exp013_Verified_Review_Packet.zip",
+      "packet_receipt": "Exp013_PACKET_RECEIPT.json",
+      "qualification": "Exp013_VERIFICATION.json",
+      "packet_receipt_sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5",
+      "qualification_sha256": "2104ebcfb0a7bb6cdaa9541e56269e6ea9352a71c2c3a958c32a5e324f62ff64",
+      "archive_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+      "archive_bytes": 5573217,
+      "manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+      "payload_files_verified": 313,
+      "zip_members_verified": 314,
+      "crc_and_payload_hashes_verified": true
+    }
+  ],
+  "completed_packet_coverage": {
+    "base": "exp001\u2013exp012",
+    "supplemental": [
+      "exp013"
+    ],
+    "active": "exp014",
+    "contiguous": true
+  },
+  "selected_checkpoint_receipt_sha256": "a5826d9584711cf98d9c01d1bea2acb2c8c081178733a66000734cb9610badab",
+  "selected_receipts_copied_exactly": true,
+  "original_archives_unchanged": true,
+  "originals_unchanged": true,
+  "google_drive_copy_completed": false
+}

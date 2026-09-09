@@ -1,0 +1,16 @@
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ContinuumProbe.lean:30:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ContinuumProbe.lean:30:48: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ContinuumProbe.lean:36:13: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ContinuumProbe.lean:36:44: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ContinuumProbe.lean:48:4: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+'NDEAEvolve.Exp007.continuumEvolution_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

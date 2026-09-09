@@ -1,0 +1,27 @@
+{
+  "utc": "2026-09-08T05:21:58.076704+00:00",
+  "qualification": "Local final green snapshot; independent remote report is separate.",
+  "files": {
+    "lean/Exp005Foundation.lean": "40386d3848f338f4ea89869a39a920e127674f5a42a471dfbd969901599a8785",
+    "lean/PeriodicGrid.lean": "674318480a8ce5fe52f6a2660fddfd4cfd0e9b2c26c7fc6ee3a2817a110c7222",
+    "lean/PeriodicModeResidual.lean": "8f4b178578089c2c60d9945e8d48e5326f8a9e2e4e4a30f2cf1d6570cb1b6b3a",
+    "lean/Exp005ModeBridge.lean": "8c977973a96f05247a26cb5ff14e97dd2dcf90fb57f3ef14520cd2f84300fbdf",
+    "lean/Controls.lean": "6396f20d903db0a8c04f36c529f7209fcd6be693abfbc417d1dc081ee4f714e7",
+    "lean/CombinedVerification.lean": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+    "PLAN.md": "2263a4a7c95690a2cee7b360d8581acbe20a8ba30be257eec835fb47dfe9af00",
+    "README.md": "c520e755863f7dc1cf68a9207decae537c5f63d27b2223b58545d978736b3f64",
+    "MATHEMATICAL_DERIVATION.md": "dbc49794c2a213436acf492e7d278fc60d300432fd2a62b83652fdc40a73170e",
+    "FAILURE_AND_REPAIR_LOG.md": "1c9c60a0dc7122a15ac735da4642d220c8c8e2148107ce5fe77c387bf132fc60",
+    "STATUS_FINAL_LOCAL_GREEN.md": "7ff557bd08e9913837eba0d8ef2e9ca8e8af9bfc3f948a49f6aadff7da2a1b07",
+    "run_lean.py": "1a2fb2869d63001904643f26dd031ccff7779d34f7f168ad24aa661a446ed282",
+    "verify_final.py": "229fdbfd0bd42570f4db184eb92c9bac90dc63f839393665a948f5c3c3836cd6",
+    "numerical_checks.py": "014c69862a8d4bfa5d5c19a1e8263e37d6064738bf38c4998c01321792f3f6fa",
+    "evidence/FINAL_VERIFICATION.json": "cf950c10739cad06558f3a48e80bcd32065f73778afb5f5297a2e5665769a68f",
+    "evidence/EXPECTED_FINAL_THEOREMS.json": "0f9cb51ee57effe59b147a1fe65766b006485217a1d6b843768ba6f3cf4a2d92",
+    "evidence/MODULAR_GREEN_SNAPSHOT.json": "7bd5cfb467e4487f56436eee859bb45e63cc704dc98579209c0a60647b013f0c",
+    "evidence/FOUNDATION_DEVELOPMENT_IMPORT.json": "9ec0ab5719931829c4117f79a96008276a6338f738cf431f08026292c1e559cd",
+    "evidence/numerical_checks.json": "59d70c8628c96fc4850090e25728f9dd4b34d70eef3dbb51e3779a0571d533cf",
+    "evidence/20260908T051657.735387Z_CombinedVerification.json": "619666ebad48d92f29046605f1d31db931c6a0a9c44d4b9252e7db282c417dbf",
+    "evidence/20260908T051657.735387Z_CombinedVerification.log": "551299548f86ee5a850d74e92a4b5b095f7bd6264a3413f9ebf43c7e49a1860f"
+  }
+}

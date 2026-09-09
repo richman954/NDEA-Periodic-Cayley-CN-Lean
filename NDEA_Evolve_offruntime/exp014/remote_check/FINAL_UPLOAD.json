@@ -1,0 +1,28 @@
+{
+  "archive": "/content/exp014_check/final_sources_40d4c5fabfe49ad1.tar.gz",
+  "sha256": "82984ac339762e4396d4e8ca96030c358401fe97bf9d948d93e705384f42534a",
+  "combined_sha256": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+  "files": {
+    "evidence/FINAL_INPUTS.json": "35ede9df0c55144707c1dfb09306901c1e1aab5941092b11a15347924883293f",
+    "lean/ClassicalExistence.lean": "74086199b1de9959d61a09d0ab8f4ae4299d683e135fc2e0a3a062b74c574a41",
+    "lean/Controls.lean": "fff6851ac9d90257c1bb39dba6183854c87e2c2e522d7f82262da952ef48c96c",
+    "lean/Exp013GenericFoundation.lean": "dad2f80daceb0c14eaa7c68a9d7397eb6eb75da989ca4c951b5aaf1af188d959",
+    "lean/Exp014Combined.lean": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+    "lean/FourierPotential.lean": "2fbcce8942ec08dd641792c399c85efccb6575c22544b3cb1f669df8ae9c803e",
+    "lean/FourierProduct.lean": "b2045efcd619f1c588fe047608e7b11e822b70ea584a3038b6c0843ae1c473f4",
+    "lean/FourierSynthesis.lean": "52a0f4e618b309caa96a0f8d9af9133498d4040cc5f8fd95aeab557874855e88",
+    "lean/GlobalLinearEvolution.lean": "93a0f239ecb2707d4296681669fd8c5ce6b3f03bd91d6dff07a04c532b9fdac1",
+    "lean/ScalarSeries.lean": "ccf216c8e343a9d0b1b213539c8c56c23bad763257ebf5b1d9458cf32faa38e6",
+    "lean/StrongOperatorDerivative.lean": "418ca3c3ac6f4cfcd3b8a3e05230eea922a6c95656c04b806ff743abc2b90e36",
+    "lean/WeightedFourier.lean": "dbab1adb7cc5d6c4ccf2bc08b0fafd5ec1bc6f0fcdf5dfb14e61d72bbdffc582",
+    "make_combined.py": "b32fced589091805cf3f1856862e4e50e1f025d595e474ad266dd145c75ed725",
+    "predecessor_sources/GenericClassical.lean": "26198a2e7dbc815ef665c663c1c3c991cba5926a67ac1e5361530db1c4ee33ec",
+    "predecessor_sources/GenericEnergy.lean": "f1668d4704a8527839e8ffec5fff535b923c12e28285be7434ac62045d64dece",
+    "predecessor_sources/GenericUniqueness.lean": "93d1fed2c93b69ff1d9614faaef4a7150e0a392cbe9e206e88b1cfefd451cab9",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verify_combined.py": "1fa19aff12c7b10833e3fac39224844d59a4802273b726a5fbbd783ec5e74554"
+  },
+  "local_archive": "/home/richman954/NDEA_Evolve_offruntime/exp014/remote_check/final_sources_40d4c5fabfe49ad1.tar.gz"
+}

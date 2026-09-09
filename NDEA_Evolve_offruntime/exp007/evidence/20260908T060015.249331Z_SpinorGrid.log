@@ -1,0 +1,89 @@
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:76:18: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:76:54: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:78:10: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:88:46: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:89:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:89:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:96:46: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:97:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:97:35: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:138:37: warning: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  simp [lift, Fintype.sum_prod_type,̵ ̵n̵o̵r̵m̵_̵m̵u̵l̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:194:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [potential, Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:202:4: warning: This simp argument is unused:
+  Matrix.kronecker_apply
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.mulVec, dotProduct, Fintype.sum_prod_type, M̵a̵t̵r̵i̵x̵.̵k̵r̵o̵n̵e̵c̵k̵e̵r̵_̵a̵p̵p̵l̵y̵,̵ ̵Matrix.one_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:246:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:247:58: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:248:4: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:293:42: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:304:25: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean:322:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+'NDEAEvolve.Exp007.SpinorGrid.stage_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.den_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.num_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.step_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.lift_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.lift_weighted_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.step_mem_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.laplacian_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_intertwines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_step_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.potential_step_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_mem_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.symmetric_pow_weighted_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_apply_stencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.SpinorGrid.hamiltonian_noncommutes_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

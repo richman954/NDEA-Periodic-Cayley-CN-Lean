@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T15:53:00.445597+00:00",
+  "publisher_sha256": "cd47c7bf2c9dcbf86a9be5c57454c120d5f5b4e9710ac4057cb662ddd2fbe0e3",
+  "test_sha256": "181e90ee465a2d4e87fe779f8aab5dc5dd0a02ea305024fe997c0ccfa3f896de",
+  "cases": {
+    "pinned_archive_copy_and_original_verified": true,
+    "archive_receipt_hash_mismatch_rejected": true,
+    "archive_changed_between_selection_and_copy_rejected": true,
+    "watcher_pointer_advance_keeps_selected_archive_receipt_pair": true,
+    "matching_active_sealed_receipts_accepted": true,
+    "wrong_active_experiment_rejected": true,
+    "stale_sealed_packet_receipt_rejected": true,
+    "preseal_checkpoint_rejected": true,
+    "exp014_selection_includes_verified_exp013": true,
+    "missing_intermediate_experiment_rejected": true,
+    "all_intermediate_packets_selected_without_gaps": true,
+    "missing_supplemental_packet_receipt_rejected": true,
+    "unaccepted_supplemental_packet_rejected": true,
+    "unaccepted_supplemental_qualification_rejected": true,
+    "changed_supplemental_archive_rejected": true,
+    "valid_crc_but_changed_supplemental_payload_rejected": true,
+    "external_qualification_must_match_embedded_accepted_bytes": true,
+    "supplemental_archives_and_metadata_copied_exactly": true,
+    "supplemental_receipt_changed_after_selection_rejected": true,
+    "supplemental_archive_changed_after_selection_rejected": true,
+    "full_temporary_publication_includes_gap_free_packets_receipts_and_readme": true,
+    "full_publication_preserves_moving_checkpoint_pointer_selection": true
+  },
+  "checks_passed": 22,
+  "real_backup_published": false,
+  "scope": "Original eight pin/race regressions plus contiguous supplemental selection, complete sealed ZIP validation, mutated/missing/unaccepted evidence rejection, and full publication inside a temporary home. Older base/checkpoint verifiers are stubbed only in that integration fixture; supplemental validation is real. No real Downloads publication."
+}

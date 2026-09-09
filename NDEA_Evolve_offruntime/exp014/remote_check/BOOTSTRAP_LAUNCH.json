@@ -1,0 +1,19 @@
+{
+  "pid": 17545,
+  "root": "/content/exp014_check",
+  "command": [
+    "/usr/bin/python3",
+    "-u",
+    "-B",
+    "/content/exp014_bootstrap.py"
+  ],
+  "archive_sha256": "282703ece0a48347fdedf7400fde536be5fbf33961b621a3b188fa4b5264bec0",
+  "bootstrap_sha256": "ac2578a873853e8058b0dae0be653fa4202244628faa0a27975994b5ff6de1c9",
+  "input_hashes": {
+    "Combined.lean": "40d4c5fabfe49ad117ed5b442dd1e10f42a1fbf23afcc7b42a80ba9f5adb5aee",
+    "bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+  }
+}

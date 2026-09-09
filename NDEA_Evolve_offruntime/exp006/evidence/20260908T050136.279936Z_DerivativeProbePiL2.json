@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/DerivativeProbePiL2.lean",
+  "source_sha256_before": "62b79140afac0c3d1e676df04e30c96bfe0a62948256aa25d356dc7e37e57b53",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/DerivativeProbePiL2.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/DerivativeProbePiL2.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T05:01:36.287754+00:00",
+  "runner_sha256": "1a2fb2869d63001904643f26dd031ccff7779d34f7f168ad24aa661a446ed282",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "62b79140afac0c3d1e676df04e30c96bfe0a62948256aa25d356dc7e37e57b53",
+  "elapsed_seconds": 68.28060811899968,
+  "log_sha256": "8f61f63a964fac2805fed3865507aceff31fa489fcf29bd3fd46de08dfbadaab",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/20260908T050136.279936Z_DerivativeProbePiL2.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean/DerivativeProbePiL2.olean": "1a06135cbf29cb25d49fe071aa05ae1a0ff4a22bd0b5272b4ad52357c08c4cf2"
+  },
+  "sources_unchanged": true
+}

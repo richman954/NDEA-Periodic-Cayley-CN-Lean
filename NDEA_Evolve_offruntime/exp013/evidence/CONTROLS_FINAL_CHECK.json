@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T14:39:12.354298+00:00",
+  "source": "lean/Controls.lean",
+  "source_sha256": "0b297b21320d90c24c76d648666a2b3627bdbf6565c74eccb04205f41ddaf76d",
+  "public_controls": 18,
+  "catalog": [
+    "NDEAEvolve.Exp013.Controls.spatialPotential_selfadjoint",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_periodic",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_continuous",
+    "NDEAEvolve.Exp013.Controls.stationary_classical",
+    "NDEAEvolve.Exp013.Controls.stationary_nonzero",
+    "NDEAEvolve.Exp013.Controls.stationary_nonconstant",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_nonconstant",
+    "NDEAEvolve.Exp013.Controls.spatialPotential_active",
+    "NDEAEvolve.Exp013.Controls.forced_linear_classical",
+    "NDEAEvolve.Exp013.Controls.forcing_work_sign",
+    "NDEAEvolve.Exp013.Controls.forcing_changes_norm",
+    "NDEAEvolve.Exp013.Controls.same_data_different_forcing",
+    "NDEAEvolve.Exp013.Controls.zero_period_fails_separation",
+    "NDEAEvolve.Exp013.Controls.stationary_energy_conserved",
+    "NDEAEvolve.Exp013.Controls.stationary_unique",
+    "NDEAEvolve.Exp013.Controls.forcing_work_eq",
+    "NDEAEvolve.Exp013.Controls.forced_energy_formula",
+    "NDEAEvolve.Exp013.Controls.forced_energy_derivative"
+  ],
+  "accepted_receipt": "evidence/20260908T143505.507040Z_Controls.json",
+  "accepted_receipt_sha256": "db1505ba53d51a951bd71405f92149ecaa79892b6a5cb343a38d17a0a9d7d63b",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean/Controls.olean": "13ecab771929dba46793a952a82c6a495379a2af00aff32116088295a903427f"
+  },
+  "elapsed_seconds": 227.4686597320033,
+  "exit_code": 0,
+  "source_unchanged": true,
+  "qualification": "Accepted modular Lean check and current source/log/output hashes verified. Complete public axiom audits remain for the final combined checks; this receipt does not assert those checks are complete.",
+  "repair": {
+    "preserved_original": "attempts/r1/controls",
+    "change": "Qualify smul_apply as _root_.smul_apply in stationary_classical, resolving ambiguity with Matrix.smul_apply when the full source inherits open namespaces.",
+    "unchanged_catalog": true
+  }
+}

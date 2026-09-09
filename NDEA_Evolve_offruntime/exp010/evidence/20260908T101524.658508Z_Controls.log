@@ -1,0 +1,9 @@
+/home/richman954/NDEA_Evolve_offruntime/exp010/lean/Controls.lean:21:49: warning: This simp argument is unused:
+  norm_div
+
+Hint: Omit it from the simp argument list.
+  simp [regularGeometricCoefficients, norm_smul, norm_d̵i̵v̵,̵ ̵n̵o̵r̵m̵_̵pow,
+  ̵  ̵ ̵ ̵Exp007.Controls.initialSpinor_norm,
+      Real.norm_eq_abs, abs_of_nonneg (Exp009.frequencyWeight_nonneg 2 m)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

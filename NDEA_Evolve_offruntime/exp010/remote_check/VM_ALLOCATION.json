@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-08T10:07:34.108658+00:00",
+  "session": "exp010-independent-check",
+  "vm_id": "m-s-kkb-use1c1-1e742c6fpiifs",
+  "previous_vm_ids": [
+    "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "m-s-kkb-usc1b1-2yftnii3g1zpd",
+    "m-s-kkb-usc1c1-1p1nzzki4492q"
+  ],
+  "distinct_allocation": true,
+  "root": "/content/exp010_check"
+}

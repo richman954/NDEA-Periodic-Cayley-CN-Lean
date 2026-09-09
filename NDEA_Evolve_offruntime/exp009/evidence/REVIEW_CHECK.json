@@ -1,0 +1,107 @@
+{
+  "schema": "ndea.exp009.bounded-review.v1",
+  "passed": true,
+  "utc": "2026-09-08T09:13:02.241182+00:00",
+  "qualification": "Completed mathematical and verification-code review, exact source/catalog reconstruction, accepted local and fresh independent combined checks, full receiving acceptance, and 21 targeted bootstrap mutation checks. Trusted compiler/core/external artifacts remain within the recorded trust boundary.",
+  "reviewed_tool_hashes": {
+    "make_combined.py": "20ccfe55e1b3b7c8090d1605f615b4e5f711d78d21b6f35dd1755be10ae48b1f",
+    "verify_combined.py": "9d5affc4c26adbc7878611b1bf94d01276bc24918f6e3f5eb35dbd3f22a2a83c",
+    "remote_check/start_final.py": "a1acd9aca1bb9d78186aa095e4e23fdb59b471b1d5a52446e111cffcf4f1bbb8",
+    "remote_check/export_evidence.py": "8237ada6ae58f91c22a30acbed71638ea11c98703b6e1eae74f14c13a3997cfa",
+    "remote_check/check_download.py": "cfbc9cafc7464719d6e4936f88ab5d60af688b6cf950e1b94a84fc9f89fd61c7",
+    "check_predecessors.py": "c4781dd04e5f212d3ca14b0c02a2b2a9555b0062309cdbb8985f97a11431e005",
+    "remote_check/bootstrap.py": "b381aea1cad921a426a8c62c8675aa11562d2c1f0c4dbf9c17544a0eb940694a",
+    "remote_check/start_bootstrap.py": "47c53d789e95ea1d1a45527f5da84737abcbeb5d1ec30672085643ea5735a90a",
+    "remote_check/initialize.py": "3975271dff8b3f2fc61a374083cc630b2eb2727c3b2d993ba381caf96c45ca13"
+  },
+  "current_source_hashes": {
+    "lean/Exp008Foundation.lean": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+    "lean/InfiniteReference.lean": "ef31378a27fb871f22d662303a86cc8c90c1cc2ea18bb959b770d5cef71a38e1",
+    "lean/WeightedTail.lean": "59fe3f191091a88679160d4fa1cd40f419582b6540363203b7cba0c4c2614b98",
+    "lean/CutoffSchedule.lean": "41604c9d77be7780e933258a640deeacfbc3ddd0823aa2663667d1fc077be8f4",
+    "lean/InfiniteClosure.lean": "bf99f2e9c96eac54902366b7e416b1a4c7bdbb6461f0c13226858ce70b9a0272",
+    "lean/WeightedClosure.lean": "98df998a9a953fa4bdc58cd15dc3e1731a86180a0938933a81487f4568e7a970",
+    "lean/ScheduleClosure.lean": "d11f50dace8452e6b42558b378d98b23578853e21b3598a399f6bba981cffc5f",
+    "lean/Controls.lean": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54"
+  },
+  "public_catalog_counts": {
+    "InfiniteReference": 18,
+    "WeightedTail": 8,
+    "CutoffSchedule": 22,
+    "InfiniteClosure": 7,
+    "WeightedClosure": 1,
+    "ScheduleClosure": 4,
+    "Controls": 10
+  },
+  "public_catalog_total": 70,
+  "independent_catalog_matches": true,
+  "reviewed_hardening_repairs": [
+    "Canonical archive member spelling enforced before remote extraction.",
+    "Current project stems checked for forbidden external-cache artifacts.",
+    "Receiving checker pins axiom parser and verifies accepted runner hashes.",
+    "Fresh replacement runtime receipt and distinct allocation/boot metadata bound to acceptance.",
+    "Exact bootstrap input archive/files, worker/launch pins, command/log history and final compiler/library pins validated.",
+    "VM receipt chronology checked separately from local allocation metadata timestamp."
+  ],
+  "math_scope_findings": [
+    "Both full-reference endpoint tails retained.",
+    "Full arbitrary initial grid error retained.",
+    "Growing cutoff consistency constants controlled by schedule.",
+    "Terminal schedule time equals one.",
+    "Classical differentiability of the infinite reference is not asserted from l1 alone."
+  ],
+  "controls_acceptance": {
+    "receipt": "evidence/20260908T090807.153691Z_Controls.json",
+    "receipt_sha256": "cfe9ef5eafb224fb179507d84d23f402bc8960b7f5eef4253ed72532ed0ed923",
+    "exit_code": 0,
+    "elapsed_seconds": 112.5610670040005,
+    "source_sha256": "1bd7122751b4ba8ceb36a55e3d66bba7b552959ab631d4d0d7e73f9d7a2bce54",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sources_unchanged": true,
+    "public_declarations": 10
+  },
+  "review_sha256": "f4d473b651b53b9a148f751871d3d5d980284019dc180696ecefe93f6ba9ea3f",
+  "updated_utc": "2026-09-08T09:38:46.591778+00:00",
+  "fresh_bootstrap_acceptance": {
+    "passed": true,
+    "vm_id": "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "boot_id": "99a6359d-eedf-49db-be73-d9b65de3bf31",
+    "session": "exp009-independent-check",
+    "fresh_root": true,
+    "bootstrap_source_sha256": "b381aea1cad921a426a8c62c8675aa11562d2c1f0c4dbf9c17544a0eb940694a",
+    "bootstrap_input_archive_sha256": "7907f0667815b639fc2e2bc8beec4512ee57e419c107e4ff7642531cd4362864",
+    "bootstrap_input_files_verified": 6,
+    "commands_verified": 57,
+    "cache_client_modules_built": 10,
+    "dependency_packages": 9,
+    "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "bootstrap_start_utc": "2026-09-08T09:25:17.545864+00:00",
+    "bootstrap_end_utc": "2026-09-08T09:26:55.958613+00:00"
+  },
+  "final_combined_acceptance": {
+    "source_sha256": "8cbf781d91f3cd0cc5f6669586c55a4c4613d6f3e9f322e10fbafff39991e8c8",
+    "audits_verified": 70,
+    "local_receipt": "evidence/local_combined/RESULT.json",
+    "local_receipt_sha256": "7463dcc346b4831bf05a3b1b25434d2485e08de098ec345359eff7d4f75a91ec",
+    "local_elapsed_seconds": 414.8782003369997,
+    "independent_receipt": "remote_check/downloaded_evidence/final_verification/RESULT.json",
+    "independent_receipt_sha256": "47765426dbc42e8837e399cb7eca04fa5827870df6590c7971bfb69887a0df6b",
+    "independent_elapsed_seconds": 202.96761377000007,
+    "dependency_artifacts_agree": 9868
+  },
+  "receiving_acceptance": {
+    "receipt": "remote_check/FINAL_TRANSFER_CHECK.json",
+    "receipt_sha256": "1440645abf5b1aa0f363688f7317b7d4b0fa85b04d82051b2314c41301774946",
+    "passed": true,
+    "verified_payload_files": 91,
+    "receiver_sha256": "cfbc9cafc7464719d6e4936f88ab5d60af688b6cf950e1b94a84fc9f89fd61c7"
+  },
+  "bootstrap_mutation_checks": {
+    "receipt": "evidence/RECEIVER_BOOTSTRAP_VALIDATION.json",
+    "receipt_sha256": "58c2d20c24ce5638ef6fa5fe824db1e0693e6136ee0565d76ac686138e40562b",
+    "script": "evidence/receiver_bootstrap_mutation_checks.py",
+    "script_sha256": "8154c09baa6d7c74d290c11c6a1308f7da236e7866bd9913045e97721c42744b",
+    "passed": true,
+    "negative_cases_rejected": 21
+  }
+}

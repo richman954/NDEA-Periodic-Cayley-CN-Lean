@@ -1,0 +1,7 @@
+{
+  "same_module_artifact_paths": true,
+  "local_artifacts": 9868,
+  "independent_artifacts": 9868,
+  "identical_artifact_hashes": 9868,
+  "qualification": "Cross-environment comparison; each complete verifier separately checks immutability during its run."
+}

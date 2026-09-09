@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive": "/content/exp008_check/exp008_independent_evidence_20260908T080301Z.tar.gz",
+  "archive_sha256": "d048128f208c87ee528ea2c4cbd264de2dc400414b37d04c232d513734206692",
+  "archive_bytes": 920229,
+  "files": 138,
+  "manifest_sha256": "ea9c9f05441b8aa56d33509ff75bba5248dee445352edcedff31228c7c2db01b",
+  "combined_sha256": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+  "stamp": "20260908T080301Z"
+}

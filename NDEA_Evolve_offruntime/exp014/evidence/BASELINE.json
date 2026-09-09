@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T15:20:35.860237+00:00",
+  "exp013_packet_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+  "exp013_manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+  "exp013_payloads_verified": 313,
+  "exp013_combined_sha256": "b14e205da846e45c0ac506e9319a0f351e5148232ee4fc608193709734cd4788"
+}

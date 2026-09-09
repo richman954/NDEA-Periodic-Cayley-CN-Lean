@@ -1,0 +1,13 @@
+{
+  "batch": "scalar_continuum_v1",
+  "archive": "/content/exp008_check/scalar_continuum_v1.tar.gz",
+  "sha256": "91618e3119988ad23e237c72dc30496f7f25d98c97c5e762fc39526a796d2875",
+  "modules": [
+    "FrequencyBounds",
+    "ContinuumModes"
+  ],
+  "source_hashes": {
+    "FrequencyBounds.lean": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6",
+    "ContinuumModes.lean": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63"
+  }
+}

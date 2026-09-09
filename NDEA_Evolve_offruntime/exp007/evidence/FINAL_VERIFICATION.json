@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-08T06:24:16.031412+00:00",
+  "source_sha256": "cdb0fd44edea6e81b761af02304deada2e7ff7c9ebea1936c4e664acc1f0456c",
+  "production_theorems": 81,
+  "controls": 7,
+  "total_audits": 88,
+  "local_result": "evidence/local_combined/RESULT.json",
+  "local_result_sha256": "d59419481ba7fcd8bd3a1f1eabc0f5be40fb73b68391cb0dfec6c4097c2ab810",
+  "independent_result": "remote_check/downloaded_evidence/exp007_independent_evidence/final_verification/RESULT.json",
+  "independent_result_sha256": "bd63046f181015a0743c251ee90186d54ca529f85951571f3d62425e0e4e8308",
+  "local_elapsed_seconds": 289.0221814859997,
+  "independent_elapsed_seconds": 162.2503428770001,
+  "local_modular_receipts": {
+    "ReducedNoncommuting": "evidence/20260908T055715.664506Z_ReducedNoncommuting.json",
+    "SpinorGrid": "evidence/20260908T060015.249331Z_SpinorGrid.json",
+    "ContinuumSpinor": "evidence/20260908T060447.855291Z_ContinuumSpinor.json",
+    "ReducedClosure": "evidence/20260908T060431.947498Z_ReducedClosure.json",
+    "FullClosure": "evidence/20260908T061024.803754Z_FullClosure.json",
+    "StageBridge": "evidence/20260908T061302.441510Z_StageBridge.json",
+    "Controls": "evidence/20260908T061546.776441Z_Controls.json"
+  },
+  "independent_transfer_checked": true,
+  "dependency_artifacts_per_combined_run": 9868,
+  "identical_cross_environment_dependency_hashes": 9868,
+  "qualification": "All project source re-elaborated. Pinned compatible external library artifacts reused; Lean and Mathlib were not rebuilt from source.",
+  "scope": "One spatial Fourier mode with noncommuting constant internal matrices; arbitrary numerical grid initialization retained through its initial error."
+}

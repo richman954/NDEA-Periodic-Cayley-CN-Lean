@@ -1,0 +1,15 @@
+{
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp011/remote_check/bootstrap_inputs.tar.gz",
+  "archive_sha256": "a00499828867da3b225b9bfaa1b2f2f3e79ec0a45238d84814eee425dd9d84c6",
+  "bootstrap_sha256": "83ab624c9a1c7ea293d25248c73a80aaa8a7b78c36c31aef39e2708209210b69",
+  "start_bootstrap_sha256": "a93e24eb6fec1a3043fec6b869e7c5261df4a823fb74968fb102ff9f0c63230e",
+  "files": {
+    "Combined.lean": "6e516d1a5cbd1eae23feddcb9b26a29c12a15a6a0d45928c891acd9be453e3e5",
+    "bootstrap_colab.py": "fc71e6c1453d81e5f9b23d39e45a5ab154ffedb0e3cae3ac36ee6b1bae6d1c67",
+    "lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057",
+    "verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb"
+  },
+  "payload_files": 6,
+  "qualification": "Exact final-source dependency roots and pinned helpers for a fresh Experiment 011 CPU VM. No network call or compiled project artifact in this preparation."
+}

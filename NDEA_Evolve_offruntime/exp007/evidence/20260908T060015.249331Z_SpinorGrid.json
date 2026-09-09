@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean",
+  "source_sha256_before": "a9f9f181472cfe1edc9774156fa8cbd8e801549a35471480cabff75171185d1f",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean/SpinorGrid.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/lean/SpinorGrid.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T06:00:15.284743+00:00",
+  "runner_sha256": "97bc599c0d4647cb1f0534734b4b407289996d6d8197dc59cc84da456e965e6e",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "a9f9f181472cfe1edc9774156fa8cbd8e801549a35471480cabff75171185d1f",
+  "elapsed_seconds": 83.51123430200005,
+  "log_sha256": "757020fff7bfc93626b5fc2ded899564fa57134a4909490b5c1551804634f516",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp007/evidence/20260908T060015.249331Z_SpinorGrid.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp007/build/lib/lean/SpinorGrid.olean": "268280e60fcfa132ee24e3b40ff8f7d682e7b84e2fe0ede2ea516a66be24d08a"
+  },
+  "sources_unchanged": true
+}

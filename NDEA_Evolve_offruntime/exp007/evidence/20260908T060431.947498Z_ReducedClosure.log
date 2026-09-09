@@ -1,0 +1,14 @@
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedClosure.lean:33:8: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedClosure.lean:51:24: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedClosure.lean:57:17: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp007/lean/ReducedClosure.lean:93:24: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+'NDEAEvolve.Exp007.reduced_power_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp007.reduced_stageResidualBudget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

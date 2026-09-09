@@ -1,0 +1,14 @@
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean:43:19: warning: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean:58:34: warning: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [superpositionLift, modeLiftCLM, modeLiftLinear, modeLift,
+  ̵  ̵ ̵ ̵finiteSolution, modeSolution,̵ ̵m̵u̵l̵_̵a̵s̵s̵o̵c̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean:69:8: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-09T02:15:40.223668+00:00",
+  "session": "exp015-independent-check",
+  "vm_id": "m-s-kkb-ass1a0-1gts16oqjjhbw",
+  "previous_vm_ids": [
+    "m-s-kkb-use1c2-3vyfjmsvu7xz8",
+    "m-s-kkb-usc1c0-1k0px308tu45q",
+    "m-s-kkb-usw4c1-1loxz56gsupls",
+    "m-s-kkb-usw3b1-3oqo9i5fec2ow",
+    "m-s-kkb-use1c1-1e742c6fpiifs",
+    "m-s-kkb-usc1a1-d4w1b6hb9jym",
+    "m-s-kkb-usc1b1-2yftnii3g1zpd",
+    "m-s-kkb-usc1c1-1p1nzzki4492q",
+    "m-s-kkb-use4c0-3g3ru54zvgn9o"
+  ],
+  "distinct_allocation": true,
+  "root": "/content/exp015_check",
+  "qualification": "New CPU runtime; ID observed through live status. Empty initial project paths and boot identity recorded before proof input upload."
+}

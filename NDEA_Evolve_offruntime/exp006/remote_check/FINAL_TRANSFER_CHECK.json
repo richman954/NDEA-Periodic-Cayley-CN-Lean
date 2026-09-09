@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archive_sha256": "2f7b33ec4f5902bfac0cbe25b3a50978519cc96a7048da86a6e3aa164a814f0a",
+  "evidence_files_verified": 22,
+  "local_and_remote_source_sha256": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "axiom_audits_verified": 41,
+  "remote_elapsed_seconds": 141.62104990100033,
+  "scope": "Transfer hashes and agreement with local checked source/audits; no Lean rerun by this script."
+}

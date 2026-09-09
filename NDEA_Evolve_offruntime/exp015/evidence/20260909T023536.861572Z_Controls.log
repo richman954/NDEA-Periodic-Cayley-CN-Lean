@@ -1,0 +1,55 @@
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:42:49: error: unsolved goals
+t x : ℝ
+⊢ deriv (fun s => ↑s) t = 1
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:43:21: warning: This simp argument is unused:
+  controls_linear_time_derivative
+
+Hint: Omit it from the simp argument list.
+  simp [pdeResidual, c̵o̵n̵t̵r̵o̵l̵s̵_̵l̵i̵n̵e̵a̵r̵_̵t̵i̵m̵e̵_̵d̵e̵r̵i̵v̵a̵t̵i̵v̵e̵,̵ ̵controls_linear_slice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:57:2: error: Type mismatch: After simplification, term
+  spatialL2_const (↑t) b 1
+    (Mathlib.Meta.NormNum.isNat_le_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+      (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one) (Eq.refl true))
+ has type
+  @Eq ℝ (spatialL2 (fun x => ↑t) b 1) |t|
+but is expected to have type
+  @Eq ℝ (spatialL2 (linearField t) b 1) |t|
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:107:4: error: Type mismatch: After simplification, term
+  differentiableAt_const 0
+ has type
+  DifferentiableAt ℝ (fun x => 0) x
+but is expected to have type
+  DifferentiableAt ℝ (deriv (constantField c t)) x
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:114:4: error: Type mismatch: After simplification, term
+  continuous_const
+ has type
+  Continuous fun x => 0
+but is expected to have type
+  Continuous fun p => deriv (constantField c p.1) p.2
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:117:4: error: Type mismatch: After simplification, term
+  continuous_const
+ has type
+  Continuous fun x => 0
+but is expected to have type
+  Continuous fun p => deriv (deriv (constantField c p.1)) p.2
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:122:47: error: unsolved goals
+c : ℂ
+t x : ℝ
+⊢ deriv (deriv (constantField c t)) x = 0
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:127:2: error: Type mismatch: After simplification, term
+  spatialL2_const c b 1
+    (Mathlib.Meta.NormNum.isNat_le_true (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)
+      (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one) (Eq.refl true))
+ has type
+  @Eq ℝ (spatialL2 (fun x => c) b 1) ‖c‖
+but is expected to have type
+  @Eq ℝ (spatialL2 (constantField c t) b 1) ‖c‖
+/home/richman954/NDEA_Evolve_offruntime/exp015/lean/Controls.lean:168:2: error: Type mismatch: After simplification, term
+  h
+ has type
+  @LE.le ℝ Real.instLE (spatialL2 (fun x => 0) 0 1)
+    (spatialL2 (fun x => 0) 0 1 + ∫ (r : ℝ) in s..t, spatialL2 (pdeResidual 0 0 r) 0 1)
+but is expected to have type
+  @LE.le ℝ Real.instLE (spatialL2 0 0 1) (spatialL2 0 0 1 + ∫ (r : ℝ) in s..t, spatialL2 (pdeResidual 0 0 r) 0 1)

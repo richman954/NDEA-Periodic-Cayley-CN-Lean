@@ -1,0 +1,257 @@
+{
+  "passed": true,
+  "utc": "2026-09-08T05:19:39.367339+00:00",
+  "scope": "Concrete nonzero periodic first Fourier mode, commuting A=B=negative centered Laplacian; actual Exp005 residual and fixed-time bridge.",
+  "expected_theorem_count": 41,
+  "audited_theorem_count": 41,
+  "axioms": {
+    "NDEAEvolve.Exp006.PeriodicGrid.isHermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.laplacian_mulVec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_next": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.sample_prev": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.PeriodicGrid.matrix_sample_stencil": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_add": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_periodic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_periodic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_hasDerivAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_space_hasDerivAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_time_hasDerivAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_second_derivative": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_solves_split_schrodinger": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_nonzero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.mode_nonconstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.phase_centeredStencil": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.spatialSymbol_consistency": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.spatialSymbol_strictly_below_continuum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.sin_linear_remainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.cos_linear_remainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.midpoint_temporal_remainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.scalarFactorResidual_midpoint": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.scalarFactorResidual_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.shifted_phase_periodic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.sampled_laplacian_eigen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.factorResidual_component": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.actual_factorResidual_component": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.actual_factorResidual_weighted_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.actual_stageResidualBudget_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.reference_is_sampled_mode": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.concrete_periodic_fixed_time_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.concrete_periodic_mesh_family_error_tendsto_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.admissible_eight_point_grid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.zero_mesh_consistency_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.spatial_error_is_present": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.solution_nonconstant_and_nonzero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.both_continuous_generators_active": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp006.Controls.zero_step_residual": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/Exp005Foundation.lean": "40386d3848f338f4ea89869a39a920e127674f5a42a471dfbd969901599a8785",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicGrid.lean": "674318480a8ce5fe52f6a2660fddfd4cfd0e9b2c26c7fc6ee3a2817a110c7222",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/PeriodicModeResidual.lean": "8f4b178578089c2c60d9945e8d48e5326f8a9e2e4e4a30f2cf1d6570cb1b6b3a",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/Exp005ModeBridge.lean": "8c977973a96f05247a26cb5ff14e97dd2dcf90fb57f3ef14520cd2f84300fbdf",
+    "/home/richman954/NDEA_Evolve_offruntime/exp006/lean/Controls.lean": "6396f20d903db0a8c04f36c529f7209fcd6be693abfbc417d1dc081ee4f714e7"
+  },
+  "frozen_foundation_reproduction_sha256": "40386d3848f338f4ea89869a39a920e127674f5a42a471dfbd969901599a8785",
+  "frozen_combiner_sha256": "e7afd919e2e7a49113aaadf76ea5039f7dc0c97edc3ec3cff6d75d2b8b6f2e4c",
+  "combined_sha256": "af3d14716b492f6485dd1bcf88c3c99cd13440a219f89b27b5258531d7f96c52",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp006/evidence/20260908T051657.735387Z_CombinedVerification.json",
+  "receipt_sha256": "619666ebad48d92f29046605f1d31db931c6a0a9c44d4b9252e7db282c417dbf",
+  "log_sha256": "551299548f86ee5a850d74e92a4b5b095f7bd6264a3413f9ebf43c7e49a1860f",
+  "verifier_sha256": "229fdbfd0bd42570f4db184eb92c9bac90dc63f839393665a948f5c3c3836cd6",
+  "project_artifacts_excluded_from_final_import_path": true,
+  "external_imports": [
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+    "Mathlib.Algebra.Ring.Periodic",
+    "Mathlib.Analysis.CStarAlgebra.Matrix",
+    "Mathlib.Analysis.Normed.Algebra.Exponential",
+    "Mathlib.Analysis.Normed.Group.Continuity",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv",
+    "Mathlib.Analysis.SpecificLimits.Basic",
+    "Mathlib.Analysis.SpecificLimits.Normed",
+    "Mathlib.LinearAlgebra.Matrix.Hermitian",
+    "Mathlib.LinearAlgebra.Matrix.Permutation",
+    "Mathlib.LinearAlgebra.Matrix.PosDef",
+    "Mathlib.Logic.Equiv.Fin.Rotate",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.GCongr",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Module",
+    "Mathlib.Tactic.NoncommRing",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring"
+  ],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f"
+}

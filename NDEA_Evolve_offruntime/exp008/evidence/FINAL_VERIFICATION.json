@@ -1,0 +1,584 @@
+{
+  "passed": true,
+  "completed_utc": "2026-09-08T08:04:31.157313+00:00",
+  "source_sha256": "5fbcbcb39be7d68145f1c74f7210f45f5e067cea68a43a49342cd40e040752a0",
+  "production_theorems": 83,
+  "controls": 7,
+  "total_audits": 90,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "reconstruction_verified": true,
+  "local_result": "evidence/local_combined/RESULT.json",
+  "local_result_sha256": "682c0ba40c4d8438d5ef9d96fdf308fed89f3dc0ebc222a80d0ad13c6850b1a0",
+  "independent_result": "remote_check/downloaded_evidence/exp008_independent_evidence/final_verification/RESULT.json",
+  "independent_result_sha256": "0dd585d54d4e2c49a023b8fb3b8c39a60197a0da7f2e7c3e30030a5f6f546136",
+  "local_elapsed_seconds": 381.08496104799997,
+  "independent_elapsed_seconds": 278.87824364399967,
+  "local_modular_receipts": {
+    "FrequencyBounds": {
+      "path": "evidence/20260908T072128.037182Z_FrequencyBounds.json",
+      "sha256": "abb7f4983d8b323a077841068ef321a646f9283a79f6dff5862f5822d8cc0305",
+      "source_sha256": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6",
+      "log": {
+        "path": "evidence/20260908T072128.037182Z_FrequencyBounds.log",
+        "sha256": "f23cce6264db254ec2183adf37eb915d30e16bc4ddde200b3e585080a86f0312"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.modeSymbol_consistency": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_local_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_power_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_stageResidualBudget_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 82.82337176000146
+    },
+    "ContinuumModes": {
+      "path": "evidence/20260908T071916.516190Z_ContinuumModes.json",
+      "sha256": "9ad0a7a2f56d2918649145b3c320daa20d50e3cc1653342b82adf6e848f323d9",
+      "source_sha256": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63",
+      "log": {
+        "path": "evidence/20260908T071916.516190Z_ContinuumModes.log",
+        "sha256": "87f08198470cec9e7752350d5c6fb1cfb35c70b102f9941837aca77a294c59b8"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.modeGenerator_isHermitian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_initial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_hasDerivAt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_exact_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.phaseMode_periodic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeSolution_second_derivative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeSolution_schrodinger": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_initial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_periodic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_time_hasDerivAt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_second_derivative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_schrodinger": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 123.42834029400001
+    },
+    "FourierGrid": {
+      "path": "evidence/20260908T072815.119165Z_FourierGrid.json",
+      "sha256": "44e2892e4f12ca350d223109e525b5dfe3f7719c030a1eb331ad1ec4f0edbd3a",
+      "source_sha256": "c62e4d0498cb5a0af95b3fca52f8407e675c7983c36b1187d7a6c15489a5c5fb",
+      "log": {
+        "path": "evidence/20260908T072815.119165Z_FourierGrid.log",
+        "sha256": "3330f1dc670b3492c6e133ee8e04fe86e536b5dffadef45d10c79298e46197bc"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 183.4746002740012
+    },
+    "Orthogonality": {
+      "path": "evidence/20260908T073507.475654Z_Orthogonality.json",
+      "sha256": "54c6820c971d6a2c4bd289655752499bc390878d90166c48fa1527ad7964be55",
+      "source_sha256": "f5840adbd334be3953257dfd33c7b0a4648e3598dd111429db665a2de1687671",
+      "log": {
+        "path": "evidence/20260908T073507.475654Z_Orthogonality.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 127.54916502099877
+    },
+    "SuperpositionClosure": {
+      "path": "evidence/20260908T073855.753619Z_SuperpositionClosure.json",
+      "sha256": "52e9c8cc13761d76dc9364cbf099a5f4de1cf5cd96669be07a2b610f0c1660dc",
+      "source_sha256": "a793d4731fa9c01aea6dca1ae4993a73750c426a2168920da1920f2eb130d377",
+      "log": {
+        "path": "evidence/20260908T073855.753619Z_SuperpositionClosure.log",
+        "sha256": "a0213a6e36175bf65bdf3a0d571404efc8b40eeccc4779ca61c67eb290ad6525"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 142.5660327429996
+    },
+    "StageBridge": {
+      "path": "evidence/20260908T074410.114413Z_StageBridge.json",
+      "sha256": "16869896d60cc27397e4de10597fa763d745edca1393212be3ce49f3f0c4cf21",
+      "source_sha256": "85f75baadcbe2c1500463cb82d35b1bede8e8e7c0ea24f0628bf4dcff38cd4c6",
+      "log": {
+        "path": "evidence/20260908T074410.114413Z_StageBridge.log",
+        "sha256": "0be6fb4dfe24fc535ac5dd7a00d115479780c4165120c653f7dcda8d48ad4267"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.gridFactorResidual_superposition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.gridFactorResidual_superposition_weighted_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_final_stage_residual_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.actual_superposition_stage_budget": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 93.17883647000053
+    },
+    "Controls": {
+      "path": "evidence/20260908T075140.816938Z_Controls.json",
+      "sha256": "6bce331cd9984fc90a65d2e964d47d389ee6ef8d711326620b64f625e05cb4fb",
+      "source_sha256": "51732dae30719c18d67cae31a958aa3544b80199578cb390d79563c72a1f57a5",
+      "log": {
+        "path": "evidence/20260908T075140.816938Z_Controls.log",
+        "sha256": "fbfcf4bce371514095338d5571cf279685421515a7534c1c9eb2f8cd6d289e3e"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.Controls.active_signed_superposition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.admissible_multimode_grid": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.grid_size_alias": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.aliasing_breaks_naive_parseval": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.empty_trajectory_retains_initial_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.full_grid_split_is_noncommuting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.frequency_constants_increase": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 129.45851275099994
+    }
+  },
+  "independent_modular_receipts": {
+    "FrequencyBounds": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/RESULT.json",
+      "sha256": "fed27df3addbb66b196146bbd3f73f2f9987e622a6bce2b2e680a23b8a0d5f2f",
+      "batch": "scalar_continuum_v1",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/source/FrequencyBounds.lean",
+        "sha256": "97cd20e3dd29cc9b3e663239fb79dd9aa70e721b5e3fed1dd65fa766c2a094c6"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/FrequencyBounds.log",
+        "sha256": "2f4af8cfb17f9003a8b8b0dc8e399b87a13b86412af1dac0fdab86e4f45e9959"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_scalar_continuum_v1.py",
+        "sha256": "de0d7bf3e59f916fdaa87b4498716a98acb6e5ce98fb6b631c00031ed05df670"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.modeSymbol_consistency": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_local_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_power_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_stageResidualBudget_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 20.55397061399981
+    },
+    "ContinuumModes": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/RESULT.json",
+      "sha256": "fed27df3addbb66b196146bbd3f73f2f9987e622a6bce2b2e680a23b8a0d5f2f",
+      "batch": "scalar_continuum_v1",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/source/ContinuumModes.lean",
+        "sha256": "9d0f3b6a75aa17a62b023743676f348740ae391fad326aee7fe8d6edf4c65e63"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/scalar_continuum_v1/ContinuumModes.log",
+        "sha256": "175be93d10c8cb5e2672e2476a011f337fd539fae8adccf709e66cf48c04d680"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_scalar_continuum_v1.py",
+        "sha256": "de0d7bf3e59f916fdaa87b4498716a98acb6e5ce98fb6b631c00031ed05df670"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.modeGenerator_isHermitian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_initial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_hasDerivAt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeOrbit_exact_step": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.phaseMode_periodic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeSolution_second_derivative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.modeSolution_schrodinger": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_initial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_periodic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_time_hasDerivAt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_second_derivative": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.finiteSolution_schrodinger": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 12.169521071999952
+    },
+    "FourierGrid": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/RESULT.json",
+      "sha256": "cb0670fb1946e3a2419060c8bb65b3a9ae6de0facdf9a3944b836af0a02c0f2e",
+      "batch": "grid_closure_v1",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/source/FourierGrid.lean",
+        "sha256": "c62e4d0498cb5a0af95b3fca52f8407e675c7983c36b1187d7a6c15489a5c5fb"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/FourierGrid.log",
+        "sha256": "1e8189632b4a72fc1ae927b3aacafbd4bb228160221c80b2083c60d8962fd003"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_grid_closure_v1.py",
+        "sha256": "fc032b7a751ba18392122731d086cac1bbbe8c33ac01dc71bb92fc596494f6c8"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 8.751450679999834
+    },
+    "Orthogonality": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/RESULT.json",
+      "sha256": "cb0670fb1946e3a2419060c8bb65b3a9ae6de0facdf9a3944b836af0a02c0f2e",
+      "batch": "grid_closure_v1",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/source/Orthogonality.lean",
+        "sha256": "f5840adbd334be3953257dfd33c7b0a4648e3598dd111429db665a2de1687671"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/Orthogonality.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_grid_closure_v1.py",
+        "sha256": "fc032b7a751ba18392122731d086cac1bbbe8c33ac01dc71bb92fc596494f6c8"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 6.645258491999812
+    },
+    "SuperpositionClosure": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/RESULT.json",
+      "sha256": "cb0670fb1946e3a2419060c8bb65b3a9ae6de0facdf9a3944b836af0a02c0f2e",
+      "batch": "grid_closure_v1",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/source/SuperpositionClosure.lean",
+        "sha256": "a793d4731fa9c01aea6dca1ae4993a73750c426a2168920da1920f2eb130d377"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/grid_closure_v1/SuperpositionClosure.log",
+        "sha256": "7d9bb9402cfba3d41cb2ed660874719667dfe237e922dca6592f5a4e0f28edcc"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_grid_closure_v1.py",
+        "sha256": "fc032b7a751ba18392122731d086cac1bbbe8c33ac01dc71bb92fc596494f6c8"
+      },
+      "axiom_audits": {},
+      "elapsed_seconds": 6.241693402000237
+    },
+    "StageBridge": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/stage_controls_v2/RESULT.json",
+      "sha256": "b5c7a5f508d28c579836be52dfb5c9428d3c319c96c9e721c2ccf1e6c94c7210",
+      "batch": "stage_controls_v2",
+      "batch_passed": false,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/stage_controls_v2/source/StageBridge.lean",
+        "sha256": "85f75baadcbe2c1500463cb82d35b1bede8e8e7c0ea24f0628bf4dcff38cd4c6"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/stage_controls_v2/StageBridge.log",
+        "sha256": "618419213d130701f70c77b2ee84b3fef34d5adaadbb9db03c4346fc3d3b66c0"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_stage_controls_v2.py",
+        "sha256": "f7e7e2c23a309506b853d50b8638806ca15095f6443064c1de6531f6fb63987e"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.gridFactorResidual_superposition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.gridFactorResidual_superposition_weighted_norm": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.frequency_final_stage_residual_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.actual_superposition_stage_budget": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 6.947836782000195
+    },
+    "Controls": {
+      "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/controls_v3/RESULT.json",
+      "sha256": "a32144b19c283e43dfbb7c1afe8c18ba348628af29fc46e777e0b367badc6121",
+      "batch": "controls_v3",
+      "batch_passed": true,
+      "module_exit_code": 0,
+      "source": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/controls_v3/source/Controls.lean",
+        "sha256": "51732dae30719c18d67cae31a958aa3544b80199578cb390d79563c72a1f57a5"
+      },
+      "log": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/development/batches/controls_v3/Controls.log",
+        "sha256": "d91cd80469e23129c12d9b5a2fa3d9aee3e5b320557471d2e7f35c696213bd0b"
+      },
+      "runner": {
+        "path": "remote_check/downloaded_evidence/exp008_independent_evidence/run_modules_controls_v3.py",
+        "sha256": "ed045ead338c208de8c391bd7ad0cc10ac2e888ebd36bda849ed9037a172fa60"
+      },
+      "axiom_audits": {
+        "NDEAEvolve.Exp008.Controls.active_signed_superposition": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.admissible_multimode_grid": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.grid_size_alias": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.aliasing_breaks_naive_parseval": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.empty_trajectory_retains_initial_error": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.full_grid_split_is_noncommuting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "NDEAEvolve.Exp008.Controls.frequency_constants_increase": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 8.423046985999463
+    }
+  },
+  "local_modular_total_seconds": 882.4788593130015,
+  "independent_modular_total_seconds": 69.7327780279993,
+  "independent_transfer_checked": true,
+  "transfer": {
+    "path": "remote_check/FINAL_TRANSFER_CHECK.json",
+    "sha256": "ea34354638fd8246b70817b6eb29d9da0e916f095950e3827fcf8807a767266d"
+  },
+  "transferred_evidence_files": 138,
+  "final_inputs": {
+    "path": "evidence/FINAL_INPUTS.json",
+    "sha256": "0c98b3b4f3cfcedc9e9f8d6cf62a38eac5be68122307963232a46ca697392e0e"
+  },
+  "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "verifier_pins": {
+    "run_lean.py": "7d0a5000900d202327a4425e825ba915468436b4e26d92bea3f3975d596f40ad",
+    "verify_combined.py": "c9f0ee95367aa08129ad401b9e638707dfa85cd26058fbe8c38655ff4706231a",
+    "make_combined.py": "9b6b9edbe615c9ffb7afe878d6d876a596073024e15155b62ee92ae8d1d8be99",
+    "remote_check/start_modules.py": "dce4e2de237982e5dd12d18cd313d6fefc6a8a3c5ab1295e9438f055b14bc66f",
+    "remote_check/bootstrap_inputs/lake-manifest.json": "8b502ab62ab6af3f90f3d7c43a55f25af4eb0f762da7937414bf3a89df0d3158",
+    "verification_tools/verify_exp005.py": "fb33175f0ae151e50a1887d5093dac7010beaf990e936f0fd813e7b6e425fffb",
+    "verification_tools/lean_import_closure.py": "12d648a6fca9b35c69d400d4695a97b5957fe50cb0a96038ef813ad6fba58057"
+  },
+  "finalizer_sha256": "ff1a43c323c5782947f68a03d0d0d12a8d2eed8add78228ef50f62ea03247b15",
+  "dependency_artifacts_per_combined_run": 9868,
+  "identical_cross_environment_dependency_hashes": 9868,
+  "numeric_receipt": {
+    "path": "evidence/numerical_checks.json",
+    "sha256": "ce51d960568195fc3cd3667a103b22fdbcb74162d8fb624fa7c405d6bf437fef"
+  },
+  "predecessor_receipt": {
+    "path": "evidence/PREDECESSOR_PRESERVATION.json",
+    "sha256": "215f26b3c0fa82e25276d04d1ba5bc64fbedd8dd4162114a63831e7690caaa62"
+  },
+  "numerical_stage_cases": 60,
+  "numerical_stage_equations": 180,
+  "numerical_global_checks": 20,
+  "predecessor_manifest_entries": {
+    "exp005_frozen": 889,
+    "exp006_local_verified": 21,
+    "exp006_final_packet": 99,
+    "exp007_final_packet": 217
+  },
+  "qualification": "All project source re-elaborated in both combined runs. Pinned compatible external artifacts reused; compiler and libraries were not rebuilt from source.",
+  "scope": "Fixed finite signed Fourier spectrum for constant noncommuting spinor matrices; alias-free periodic grids; arbitrary numerical initial error retained.",
+  "cross_environment_dependencies": {
+    "path": "evidence/CROSS_ENVIRONMENT_DEPENDENCIES.json",
+    "sha256": "55886c074bcc7a82281d1d92ba738a73de70adba88fb2b3d84b6ff055d3c0808"
+  }
+}

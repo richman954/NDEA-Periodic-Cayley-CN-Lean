@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-08T15:22:21.683046+00:00",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "inspection": "Pinned source inspection only; no Lean invocation or newly proved existence theorem.",
+  "source_sha256": {
+    "Mathlib/Analysis/ODE/PicardLindelof.lean": "e6ddb9809ef4ca016e33a6bd1e740be393d62137ff533c218d159681169845d5",
+    "Mathlib/Analysis/ODE/ExistUnique.lean": "4f1157b37d261f3e7365c00528000e6f33435dda69cd8a85980adafc6ce9ae98",
+    "Mathlib/Analysis/Normed/Operator/BanachSteinhaus.lean": "6d0581073ecc08e835cfef2e682860586c10307b2ce991ddb81240a5b3664570",
+    "Mathlib/Analysis/Normed/Operator/Basic.lean": "7916f3ff385725baa5e9c246ed05980d5890e29e2905ee41db0595096d863563",
+    "Mathlib/Analysis/Normed/Group/Bounded.lean": "5e93b1cc169d5d5a4c0f7361ef09b0b481c881d3f32b0067deb6c62d90c3ed78",
+    "Mathlib/Topology/EMetricSpace/Lipschitz.lean": "f94ad482bdf55f9150f7a0c83c1bf04503493ff9c8ec82badf04c9b48a731d5f",
+    "Mathlib/Topology/MetricSpace/Contracting.lean": "4686b24665e9287346c8c8060047f5e0de2ab6a0a23228a6fadb9c97095e5397",
+    "Mathlib/Geometry/Manifold/IntegralCurve/UniformTime.lean": "357f004fa8b5cff524d24fe78d56192e6b7b2e998faaff9413cd84761efb537e"
+  }
+}

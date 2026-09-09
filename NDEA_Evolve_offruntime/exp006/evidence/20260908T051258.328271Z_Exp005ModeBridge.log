@@ -1,0 +1,8 @@
+'NDEAEvolve.Exp006.sampled_laplacian_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.actual_factorResidual_component' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.actual_factorResidual_weighted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.actual_stageResidualBudget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.concrete_periodic_fixed_time_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp006.concrete_periodic_mesh_family_error_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp011/lean/SolutionLipschitz.lean",
+  "source_sha256_before": "01986d7ebcbce986000c404993621bf46b12d0fe0b18bf24b163de5fdddfcaf6",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp011/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean/SolutionLipschitz.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp011/lean/SolutionLipschitz.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-08T10:56:28.687770+00:00",
+  "runner_sha256": "8152bdebc56dbd08c3d5d2004d092799f7f6b204710d77b7f046cf1dc42826e2",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "01986d7ebcbce986000c404993621bf46b12d0fe0b18bf24b163de5fdddfcaf6",
+  "elapsed_seconds": 158.18648315500104,
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp011/evidence/20260908T105628.676226Z_SolutionLipschitz.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean/SolutionLipschitz.olean": "cf1c859b503efc60590a019b96f690740c361a591ec541d6f7d0b880a28f382d"
+  },
+  "sources_unchanged": true
+}
