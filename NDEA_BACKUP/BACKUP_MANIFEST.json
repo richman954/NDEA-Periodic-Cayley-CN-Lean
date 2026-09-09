@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "created_utc": "2026-09-09T03:06:29.546616+00:00",
-  "qualification": "Transport and recovery backup; source Git commits and original proof receipts have separate meanings. Exp015 was incomplete at this checkpoint.",
+  "qualification": "Byte-preserving recovery transport. Original accepted receipts separately qualify sealed Exp001\u2013015. Earlier Exp015 WIP remains explicitly historical; the sealed recovery checkpoint is not itself a new Lean check.",
   "archives": [
     {
       "name": "Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
@@ -261,38 +261,74 @@
           "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7"
         }
       ]
+    },
+    {
+      "name": "Exp015_Verified_Review_Packet_20260909.zip",
+      "bytes": 2171185,
+      "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+      "kind": "packets",
+      "parts": [
+        {
+          "path": "packets/Exp015_Verified_Review_Packet_20260909.zip/part-0000",
+          "bytes": 2171185,
+          "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71"
+        }
+      ]
+    },
+    {
+      "name": "Exp015_SEALED_RECOVERY_20260909T034451Z.zip",
+      "bytes": 2518822,
+      "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+      "kind": "recovery",
+      "parts": [
+        {
+          "path": "checkpoints/Exp015_SEALED_RECOVERY_20260909T034451Z.zip",
+          "bytes": 2518822,
+          "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845"
+        }
+      ]
     }
   ],
   "companions": [
-    {
-      "path": "checkpoints/Exp015_WORK_IN_PROGRESS_CHECKPOINT_RECEIPT.json",
-      "bytes": 521,
-      "sha256": "162717900ab3f61cdeb6c6293a51884754104441d17e5bae6c9d820649b16d36"
-    },
-    {
-      "path": "NDEA_STARTUP_INSTRUCTIONS.md",
-      "bytes": 1714,
-      "sha256": "ecc91fb614791001fc90274964941a196ecb0a6bf746a5b94e3eb38a06b94826"
-    },
-    {
-      "path": "verify_backup.py",
-      "bytes": 3711,
-      "sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2391,
-      "sha256": "f48460f74135ec6978c61b03b8c38a5babdeaac067b7f7fcf7607b2e68ca4721"
-    },
     {
       "path": "BACKUP_RESTORE_TEST.json",
       "bytes": 411,
       "sha256": "b5b48950a3a269de01002a3f14ca824d062bac7399981b5a0b35607de25d1d73"
     },
     {
+      "path": "NDEA_STARTUP_INSTRUCTIONS.md",
+      "bytes": 5409,
+      "sha256": "351a646a80e9fe1fa09abebe5a43c67699d2c0ebe92641019c21353677d19ac6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3045,
+      "sha256": "69cd5e50c91119d8270ceb656604391f5493d078374aa0a6663be47f30867369"
+    },
+    {
+      "path": "RELEASE_ASSET_REVIEW.json",
+      "bytes": 1048975,
+      "sha256": "8b8e28beedc6774a36ec89bcb1fa762a49aa06505d48b309478ae6da1e8744a0"
+    },
+    {
+      "path": "checkpoints/Exp015_SEALED_RECOVERY_RECEIPT.json",
+      "bytes": 721,
+      "sha256": "f7ace12eaaabd8a8dab63519fba03237b2a0314c03c651ddbd063a3221921efc"
+    },
+    {
+      "path": "checkpoints/Exp015_WORK_IN_PROGRESS_CHECKPOINT_RECEIPT.json",
+      "bytes": 521,
+      "sha256": "162717900ab3f61cdeb6c6293a51884754104441d17e5bae6c9d820649b16d36"
+    },
+    {
       "path": "receipts/COMPLETED_001-012_ARCHIVE_RECEIPT.json",
       "bytes": 1381,
       "sha256": "c307a03bfaf133b00ab102ffa1d3d1996f71c0bc4823ce9c4e0c2b41d7f5225d"
+    },
+    {
+      "path": "receipts/FINAL_CHECKPOINT_PUBLIC_REVIEW.json",
+      "bytes": 7150,
+      "sha256": "f8dcb74bcfeb52ccab491d2d2fc8bfafcfe4fc55d8b29df632165beac1ef67fa"
     },
     {
       "path": "receipts/exp013_FINAL_PACKET_RECEIPT.json",
@@ -325,14 +361,41 @@
       "sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6"
     },
     {
-      "path": "RELEASE_ASSET_REVIEW.json",
-      "bytes": 1048975,
-      "sha256": "8b8e28beedc6774a36ec89bcb1fa762a49aa06505d48b309478ae6da1e8744a0"
+      "path": "receipts/exp015_FINAL_PACKET_RECEIPT.json",
+      "bytes": 602,
+      "sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e"
+    },
+    {
+      "path": "receipts/exp015_FINAL_VERIFICATION.json",
+      "bytes": 6472,
+      "sha256": "fc9c6dc0930bbc458955fe71d9864dbd729bba65efdeb9cafe63476ba0f49962"
+    },
+    {
+      "path": "receipts/exp015_INDEPENDENT_PACKET_READBACK.json",
+      "bytes": 2376,
+      "sha256": "5eb7af6ce230768b68d3e999b3f9114ebda6e89f7a77d54d90928f233c8c10e8"
+    },
+    {
+      "path": "receipts/exp015_PACKET_MANIFEST.json",
+      "bytes": 26395,
+      "sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740"
+    },
+    {
+      "path": "receipts/exp015_PUBLIC_BACKUP_REVIEW.json",
+      "bytes": 5237,
+      "sha256": "573594bac892d5a4fa29798e66f04c89adf0ecbde404727cc8206710cd81cbac"
+    },
+    {
+      "path": "verify_backup.py",
+      "bytes": 3711,
+      "sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39"
     }
   ],
   "coverage": {
-    "completed_packets": "Exp001\u2013Exp014",
-    "active_checkpoint": "Exp015 all7modularaccepted, before finalqualification at02:50UTC",
-    "historical_bundles": 11
-  }
+    "completed_packets": "Exp001\u2013Exp015",
+    "active_checkpoint": "Sealed Exp015 + recovery metadata as of2026-09-09T03:44:51UTC",
+    "historical_bundles": 11,
+    "historical_wip_retained": true
+  },
+  "updated_utc": "2026-09-09T03:46:33.996837+00:00"
 }

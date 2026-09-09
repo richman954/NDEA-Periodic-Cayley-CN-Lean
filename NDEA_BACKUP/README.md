@@ -40,3 +40,14 @@ This initial archive branch therefore stores only selected compact canonical
 packets/checkpoints, excluding the multi-gigabyte compiler/build caches. Future
 GitHub releases can carry the same bytes and manifests without changing the
 existing evidence chain. The original main branch and history remain intact.
+
+## Sealed Exp015 update
+
+This generation adds the sealed Exp015 packet (50 local and independent audits),
+its original verification/packet receipts and independent packet readback.
+The 03:44:51 UTC recovery checkpoint also captures fixed recovery metadata.
+The earlier 02:50 work-in-progress checkpoint remains historical and unverified.
+Use the SEALED_RECOVERY checkpoint for resuming completed Exp015. No Exp016
+research is included. Git/source branches identify bytes; original accepted
+receipts establish proof qualification. Do not edit those receipts to add Git SHAs.
+The curated dev/variable-potential branch is the intended active source layer.

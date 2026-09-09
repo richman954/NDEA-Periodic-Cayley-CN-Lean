@@ -1,0 +1,15 @@
+{
+  "active_experiment": "exp015",
+  "archive": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+  "archive_bytes": 2518822,
+  "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+  "final_packet_receipt_captured": true,
+  "kind": "recovery_checkpoint_receipt",
+  "payload_files_verified": 289,
+  "proof_completion_evidence": false,
+  "published_utc": "2026-09-09T03:44:51.308873+00:00",
+  "reason": "manual",
+  "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.json",
+  "receipt_sha256": "1d7a99c3796b7782d35bdea5499742d9444ee79b8db2fec522b9089261cb9760",
+  "task_state_present": true
+}

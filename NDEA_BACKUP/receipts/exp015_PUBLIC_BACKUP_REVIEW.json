@@ -1,0 +1,101 @@
+{
+  "kind": "public_release_asset_visibility_review",
+  "utc": "2026-09-09T03:31:15.086710+00:00",
+  "review_complete": true,
+  "public_eligibility": "eligible_for_user_authorized_public_project_backup",
+  "sealed_assets_unchanged": true,
+  "assets": [
+    {
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip",
+      "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+      "bytes": 2171185,
+      "unchanged": true
+    }
+  ],
+  "statistics": {
+    "occurrences": 332,
+    "occurrence_bytes": 9789359,
+    "unique_files": 138,
+    "unique_bytes": 5120495,
+    "unique_text_files": 134
+  },
+  "identity_metadata_counts": {
+    "files_with_local_username_path": 36,
+    "files_with_runtime_identifiers": 12
+  },
+  "finding_counts": {
+    "colab_connection_context": 2
+  },
+  "findings": [
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip::exp015/PACKET_MANIFEST.json",
+      "sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip::exp015/evidence/remote_prequalification_retry.log",
+      "sha256": "5a846ef16bb6f402f743bcba449a7bb324b301c0b57e393569a06c8951a0e8f6"
+    }
+  ],
+  "archives": [
+    {
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip",
+      "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+      "kind": "zip",
+      "members": 215,
+      "uncompressed_bytes": 5059074,
+      "crc_readback_passed": true
+    },
+    {
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip::exp015/remote_check/bootstrap_inputs.tar.gz",
+      "sha256": "2b241d475047b2bdf4b06094786fb837f2455dd5e92f23d24d296bcafd0cab05",
+      "kind": "tar",
+      "members": 6,
+      "uncompressed_bytes": 172862
+    },
+    {
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip::exp015/remote_check/exp015_independent_evidence_20260909T032818Z.tar.gz",
+      "sha256": "a3675e21f27ebce496bf06d924f0e46a2ed58443cf5d2429232a6b820cd8b163",
+      "kind": "tar",
+      "members": 93,
+      "uncompressed_bytes": 2001477
+    },
+    {
+      "path": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip::exp015/remote_check/final_sources_ef99d7098209d790.tar.gz",
+      "sha256": "97ec6476764f8f3040b1f765e800cb8624d2f7eee3c2bf7e273d420ddb5a8c95",
+      "kind": "tar",
+      "members": 17,
+      "uncompressed_bytes": 384761
+    }
+  ],
+  "git_bundles": [],
+  "errors": [],
+  "method": "Recursively read archive members, verify ZIP CRC, scan text and binary bytes for credential patterns, extract PDF text, clone bundles locally and scan every stored blob/commit/tag plus every historical tree path. SHA deduplication links repeated identical bytes. No matched values are emitted. No network or sealed-source mutations. No proof rerun.",
+  "qualification": "Bounded pattern/path review and manual adjudication, with exact accepted-packet binding. No credential evidence found; no claim that arbitrary hidden secrets are impossible. Independent proof-receipt readback is saved separately. No Lean rerun or sealed-source edits.",
+  "inventory_file": "/home/richman954/NDEA_GitHub_Backup/EXP015_RELEASE_ASSET_CONTENT_INVENTORY.json",
+  "review_script_sha256": "3c7552d9e88236ff74d2528534a08ea4da8ef7f7087d871cefaf60e89abb7792",
+  "eligible_for_authorized_public_backup": true,
+  "adjudicated_utc": "2026-09-09T03:31:59.060592+00:00",
+  "credential_pattern_matches": 0,
+  "sensitive_account_file_path_matches": 0,
+  "embedded_cache_directory_path_matches": 0,
+  "unsafe_archive_path_matches": 0,
+  "accepted_receipt_binding": {
+    "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp015/evidence/FINAL_PACKET_RECEIPT.json",
+    "receipt_sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e",
+    "archive_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+    "bytes": 2171185,
+    "payloads": 214,
+    "members": 215,
+    "manifest_sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740"
+  },
+  "inventory_sha256": "cf6b43e2a7ef99e2a4746203af7567abe7b3d1f5f2592be5f7459dfbedced857",
+  "independent_final_readback_sha256": "5eb7af6ce230768b68d3e999b3f9114ebda6e89f7a77d54d90928f233c8c10e8",
+  "manual_adjudication": {
+    "connection_context": "Two flags: packet manifest referring to network log names, and a DNS-resolution traceback for the temporary Colab VM hostname. No literal credential patterns or authentication data found.",
+    "metadata_visibility": "Intentional local username paths and VM/boot/session provenance IDs remain in exact sealed evidence, within authorized project-backup scope.",
+    "payload_types": "Only source/docs/JSON/log text and three nested tar.gz archives.332 recursively visited occurrences,138 distinct byte payloads,134 distinct text files; no images, PDFs, Gitbundles, compiler/dependency caches or opaque binary leaf payloads.",
+    "recommendation": "Publish this exact sealed archive and accepted companions under existing authorization; preserve bytes and SHA256."
+  }
+}

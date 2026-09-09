@@ -1,0 +1,130 @@
+{
+  "kind": "public_release_asset_visibility_review",
+  "utc": "2026-09-09T03:45:37.622421+00:00",
+  "review_complete": true,
+  "public_eligibility": "eligible",
+  "sealed_assets_unchanged": true,
+  "assets": [
+    {
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+      "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+      "bytes": 2518822,
+      "unchanged": true
+    }
+  ],
+  "statistics": {
+    "occurrences": 407,
+    "occurrence_bytes": 11798709,
+    "unique_files": 205,
+    "unique_bytes": 7127428,
+    "unique_text_files": 199,
+    "unique_binary_files": 2
+  },
+  "identity_metadata_counts": {
+    "files_with_local_username_path": 72,
+    "files_with_runtime_identifiers": 18
+  },
+  "finding_counts": {
+    "colab_connection_context": 12
+  },
+  "findings": [
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/RESUME_STATUS.md",
+      "sha256": "d1cc8cb4cf1fc22afd0b85826818f15c834262bdb3ae85b691294dfaeb0b09df"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/WORKING_ROADMAP.md",
+      "sha256": "13b03e52f2cb54ba8a4a09df05db961815954fdede66118cb4a3210c010873d0"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/exp015/PACKET_MANIFEST.json",
+      "sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/exp015/evidence/remote_prequalification_retry.log",
+      "sha256": "5a846ef16bb6f402f743bcba449a7bb324b301c0b57e393569a06c8951a0e8f6"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/RECOVERY_TEST_RESULT.json",
+      "sha256": "7a3ee59959b0c9140be6a99788776d81940f28f754957e20dda395b7efc2405b"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/RECOVERY_METADATA_FIX_RESULT.json",
+      "sha256": "c2123cfc94feba09febfb94dac018867d4cee67adbd9d11c89e3d985018aae43"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/SOURCE_CANDIDATES.json",
+      "sha256": "0027795707573837cb735c6a235710286099b36a27a244b9b7c3e5f6f0b3239f"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/SOURCE_UPLOAD.json",
+      "sha256": "7facfd9f69a597cb6de11cd69bc20cef81dd6a7ee238ea7c86c2a9a25450f3f0"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/logs/RECOVERY_METADATA_FIX_TEST.log",
+      "sha256": "f17c50f5e404416e9ebcea07bb82e74cc58ac9086e6540365827776f627cc394"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/logs/SOURCE_ROOT_diff.log",
+      "sha256": "0edfa6a3a2c13c8173a98da97d72c3efcd625e4cd5f7b2fa10cf3b0ebfcadf46"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Recovery/github_evidence/repair_exp015_colab_proxy.py",
+      "sha256": "96dd257205c6e203e38fb7ff11c94663eff4a7916c7a33f725d11201ce7ddeac"
+    },
+    {
+      "kind": "colab_connection_context",
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::CHECKPOINT_MANIFEST.json",
+      "sha256": "051624d7f7861834de3a8f86d5b6aa431df295aa97d1096ce6b84dd72af149b8"
+    }
+  ],
+  "archives": [
+    {
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+      "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+      "kind": "zip",
+      "members": 290,
+      "uncompressed_bytes": 6720787,
+      "crc_readback_passed": true
+    },
+    {
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/exp015/remote_check/bootstrap_inputs.tar.gz",
+      "sha256": "2b241d475047b2bdf4b06094786fb837f2455dd5e92f23d24d296bcafd0cab05",
+      "kind": "tar",
+      "members": 6,
+      "uncompressed_bytes": 172862
+    },
+    {
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/exp015/remote_check/exp015_independent_evidence_20260909T032818Z.tar.gz",
+      "sha256": "a3675e21f27ebce496bf06d924f0e46a2ed58443cf5d2429232a6b820cd8b163",
+      "kind": "tar",
+      "members": 93,
+      "uncompressed_bytes": 2001477
+    },
+    {
+      "path": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip::NDEA_Evolve_offruntime/exp015/remote_check/final_sources_ef99d7098209d790.tar.gz",
+      "sha256": "97ec6476764f8f3040b1f765e800cb8624d2f7eee3c2bf7e273d420ddb5a8c95",
+      "kind": "tar",
+      "members": 17,
+      "uncompressed_bytes": 384761
+    }
+  ],
+  "git_bundles": [],
+  "errors": [],
+  "method": "Recursively read archive members, verify ZIP CRC, scan text and binary bytes for credential patterns, extract PDF text, clone bundles locally and scan every stored blob/commit/tag plus every historical tree path. SHA deduplication links repeated identical bytes. No matched values are emitted. No network or sealed-source mutations. No proof rerun.",
+  "qualification": "Pattern and path review reduces accidental disclosure risk; manual candidate adjudication remains required. SHA checks preserve exact candidate bytes; this is not a mathematical qualification.",
+  "inventory_file": "/home/richman954/NDEA_GitHub_Backup/FINAL_CHECKPOINT_ASSET_CONTENT_INVENTORY.json",
+  "review_script_sha256": "4dc6be903d73c5850ef3153e57bd54ba7e02f17efea83d739ab5cdbb01813715",
+  "adjudication": "12 context flags reviewed: documentation, file-name inventories/diffs, metadata tests, plain DNS retry evidence and proxy-refresh source referencing SDK token fields but containing no token values. No credential-pattern or unsafe-path findings. Local username and non-secret runtime identifiers retained as provenance. Pattern review is not a guarantee against unknown secret formats."
+}
