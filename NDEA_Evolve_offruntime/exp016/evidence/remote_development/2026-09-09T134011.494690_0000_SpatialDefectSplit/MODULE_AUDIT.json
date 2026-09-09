@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-09T13:46:14.092491+00:00",
+  "module": "SpatialDefectSplit",
+  "source_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
+  "receipt_sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
+  "full_log_sha256": "39da45345524354303bf9416c44f3edd9a7c71c653c527d6b940774ced911315",
+  "compiler_exit_code": 0,
+  "explicit_transitive_axiom_reports": 9,
+  "all_reported_axioms_standard": true,
+  "warnings": 0,
+  "errors": 0,
+  "independent_qualification": false,
+  "source_and_imports_unchanged": true,
+  "scope": "actual sampled stencil and potential defect split; finite and partial slab analytical certificate, not mesh refinement"
+}

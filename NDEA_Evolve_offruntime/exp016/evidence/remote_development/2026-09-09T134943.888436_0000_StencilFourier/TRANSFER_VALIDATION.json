@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "StencilFourier",
+  "archive_sha256": "17eb5ad839491789fc2aa0813274bd0429aefe98d23719d0d231eda4a8004109",
+  "source_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json",
+  "receipt_sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/StencilFourier.olean",
+  "artifact_sha256": "270636e072675db89e669e3538aed9493f6fe707800d4decfc0cb05870fb5210",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:50:43.092882+00:00"
+}

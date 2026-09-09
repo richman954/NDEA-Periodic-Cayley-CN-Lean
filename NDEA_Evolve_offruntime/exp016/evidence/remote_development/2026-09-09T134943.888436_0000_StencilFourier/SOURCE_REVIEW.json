@@ -1,0 +1,10 @@
+{
+  "module": "StencilFourier",
+  "source_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
+  "reviewer": "/root/exp014_resume",
+  "reviewer_authored_this_module": false,
+  "source_review_passed": true,
+  "compiler_runs_by_reviewer": false,
+  "findings": "The actual centered positive Laplacian multiplier is lambda_h(m). The continuum second derivative contributes minus m squared, so the defect sign is lambda_h(m)-m squared. Normalized DFT Parseval yields sqrt(2*pi)*h^2*sqrt(sum((m^4*norm(a_m))^2)). Arbitrary interval base, all resolved frequencies, M=0, negative and zero frequencies are covered. Mesh equality supplies h>0. Coefficient Kronecker orientation, reversed arguments in the nondivisibility lemma, and explicit CLM rewrite agree. No mathematical or definite remaining Lean API blocker found.",
+  "scope_limit": "Pointwise-in-state consistency. No uniform fourth-moment bound or refinement limit is asserted; the fourth moment may grow with mesh. Full Exp016 independent qualification remains pending."
+}

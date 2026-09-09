@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "FullBandSymbol",
+  "archive_sha256": "529a9d6b46fb9d4806f490653735484b0b9be485cc5b7c8b92c050d91f2a4349",
+  "source_sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json",
+  "receipt_sha256": "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FullBandSymbol.olean",
+  "artifact_sha256": "5a5d203721b423fbe1f15edfb9a8a54be384f85551c813f6ccdd0f6c77610a5d",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:41:42.845505+00:00"
+}

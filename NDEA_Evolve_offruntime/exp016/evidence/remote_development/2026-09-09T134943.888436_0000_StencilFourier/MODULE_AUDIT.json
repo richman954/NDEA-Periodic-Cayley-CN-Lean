@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "module": "StencilFourier",
+  "audit_count": 6,
+  "audit_names": [
+    "fourierCoefficient_modeLift",
+    "gridState_eq_modeLift_sum",
+    "fourierCoefficient_gridKinetic",
+    "fourierReconstruction_gridKinetic",
+    "sampledStencilDefect_eq_synthesis",
+    "sampledStencilDefect_spatialL2_le"
+  ],
+  "warning_count": 0,
+  "error_count": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
+  "receipt_sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
+  "log_sha256": "8db1ecaedd9b5f6420d28588f4856e04d3516dfd2d6b45e2dc2932dddea9472a",
+  "runner_matches_current": true,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false
+}

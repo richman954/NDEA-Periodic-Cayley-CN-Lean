@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-09T13:47:40.261481+00:00",
+  "baseline_sha256": "99dbd671360caf5c4614c6536bd3e6074e0a48e25b0f2605e9a9053b4f48fd2a",
+  "payloads_checked": 789,
+  "mismatches": [],
+  "passed": true,
+  "proof_rerun": false,
+  "scope": "read-only byte comparison of sealed Exp013\u2013015 payloads"
+}

@@ -1,0 +1,8 @@
+'NDEAEvolve.Exp016.sampledSeparatedBudget_le_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSeparatedBudgetSequence_le_quantitative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_quantitative_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_partialSlab_quantitative_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

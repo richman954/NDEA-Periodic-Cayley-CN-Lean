@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "WeightedCoefficientBridge",
+  "archive_sha256": "b5f41d92c147298fd02e1c15330a5db061fe141c3875c707c87cd68b1d3e607a",
+  "source_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json",
+  "receipt_sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/WeightedCoefficientBridge.olean",
+  "artifact_sha256": "54e931972dc79d5f1453ff6de7abbff2fff8acca4f19766c46acee8cf3971794",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:39:54.008471+00:00"
+}

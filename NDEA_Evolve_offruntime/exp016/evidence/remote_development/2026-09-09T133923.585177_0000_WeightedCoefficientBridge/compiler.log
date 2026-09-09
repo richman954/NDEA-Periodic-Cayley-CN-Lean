@@ -1,0 +1,6 @@
+'NDEAEvolve.Exp016.physicalFourierCoefficient_weightedSynthesis' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.physicalFourierCoefficient_potentialProduct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

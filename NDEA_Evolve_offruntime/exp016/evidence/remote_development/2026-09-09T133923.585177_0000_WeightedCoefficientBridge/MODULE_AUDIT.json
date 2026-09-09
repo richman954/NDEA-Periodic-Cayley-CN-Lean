@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T13:40:37.481842+00:00",
+  "module": "WeightedCoefficientBridge",
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedCoefficientBridge.lean",
+  "source_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json",
+  "receipt_sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log",
+  "log_sha256": "727cf42444d363853a8cae315b0e9562142a04a427f963826f2cf4c832b2017f",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/WeightedCoefficientBridge.olean",
+  "artifact_sha256": "54e931972dc79d5f1453ff6de7abbff2fff8acca4f19766c46acee8cf3971794",
+  "exit_code": 0,
+  "elapsed_seconds": 6.789321863998339,
+  "lock_wait_seconds": 1.7089998436858878e-05,
+  "axiom_audits": {
+    "NDEAEvolve.Exp016.physicalFourierCoefficient_weightedSynthesis": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.physicalFourierCoefficient_potentialProduct": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "audits": 2,
+  "errors": 0,
+  "warnings": 0,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false,
+  "assumptions": "Same complete complex Hilbert fiber and FourierState as Exp014; RegularPotential only for the product. No additional coefficient decay, Hermitian symmetry, finite-band representation, or grid assumption.",
+  "scope": "Exact physical continuum coefficient of the actual weighted synthesis; exact all-integer convolution coefficient of the actual potential product. The pointwise series is dominated by the sealed summable coefficient norms.",
+  "exclusions": "No sampled-grid coefficient identity, aliasing formula, spatial refinement, convergence, or independent qualification.",
+  "compiler_attempts": 1,
+  "preceding_transport_failure": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/results/WeightedCoefficientBridge_20260909T1317_transport.json"
+}

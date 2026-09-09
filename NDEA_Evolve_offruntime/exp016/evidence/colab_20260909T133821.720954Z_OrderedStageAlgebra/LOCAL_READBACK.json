@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T13:40:01.472085+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T133821.720954Z_OrderedStageAlgebra_colab.zip",
+  "archive_sha256": "58934f34643096881217c17763e1f0122b809d290a1ebde4bc7ab4208a24b941",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json",
+  "receipt_sha256": "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb",
+  "log_sha256": "12b1f0ea1fa04a1416e9ef8ed603438329f4f3d60e5050b12cbce3fd5d212190",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "6b549c19f1a55cf96ed1b1872458536b0ebab3689d11efb75309964c9dc1e8d9",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/OrderedStageAlgebra.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.ordered_internalMeanDefect_residual_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.ordered_internalMeanDefect_exact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.ordered_quadraticVelocity_exact": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 2,
+  "independent_qualification": false
+}

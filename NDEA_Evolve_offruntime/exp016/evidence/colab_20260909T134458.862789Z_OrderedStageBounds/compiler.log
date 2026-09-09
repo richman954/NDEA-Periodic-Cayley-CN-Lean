@@ -1,0 +1,8 @@
+'NDEAEvolve.Exp016.orderedCayleyEndpoint_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleyInternalDefect_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleyInternalDefect_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleySplitDefect_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayley_quadraticVelocity_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayley_second_generator_velocity_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

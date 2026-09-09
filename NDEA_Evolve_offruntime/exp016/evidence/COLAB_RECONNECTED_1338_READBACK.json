@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-09T13:38:00.168414+00:00",
+  "purpose": "read-only recovery of existing development runtime; no proof rerun",
+  "source_and_artifact_files_checked": 40,
+  "mismatches": [],
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "bootstrap_passed": true,
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "client_exit_code": 0,
+  "recovered_existing_vm": true,
+  "vm_restart": false,
+  "checker_source_sha256": "c75e6a7f98ee159e247aee2fb6a584edfcc2815cc860c24a981db0e44a72bdad",
+  "provenance": "Actual successful direct colab exec output surfaced in transcript; this additive receipt records that readback, not a new check."
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "SpatialDefectSplit",
+  "archive_sha256": "618d6a70045d58dc5fec758440281d1e6a846b878f3aa0e4654709e11ee3c1cd",
+  "source_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json",
+  "receipt_sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SpatialDefectSplit.olean",
+  "artifact_sha256": "2ca2db1a181f754d4616bbaf97c29d6d746c04ad89f179923e917cd374012eae",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:40:42.986339+00:00"
+}

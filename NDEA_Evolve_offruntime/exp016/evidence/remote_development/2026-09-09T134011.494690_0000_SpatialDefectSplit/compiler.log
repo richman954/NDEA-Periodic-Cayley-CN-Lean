@@ -1,0 +1,15 @@
+'NDEAEvolve.Exp016.RegularSynthesis.spatialDefect_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.stencilDefect_apply_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.potentialDefect_apply_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.RegularSynthesis.spatialDefect_split_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampled_generator_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledStencilDefect_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledPotentialDefect_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_spatialDefect_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_spatialDefect_spatialL2_le' depends on axioms: [propext, Classical.choice, Quot.sound]

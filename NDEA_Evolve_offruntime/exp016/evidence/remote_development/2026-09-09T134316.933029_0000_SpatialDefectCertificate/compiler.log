@@ -1,0 +1,5 @@
+'NDEAEvolve.Exp016.sampledResidualBudget_le_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledQuadratic_residual_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledBudgetSequence_le_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_separated_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_partialSlab_separated_error' depends on axioms: [propext, Classical.choice, Quot.sound]

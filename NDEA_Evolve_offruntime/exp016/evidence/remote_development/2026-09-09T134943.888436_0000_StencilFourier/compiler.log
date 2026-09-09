@@ -1,0 +1,6 @@
+'NDEAEvolve.Exp016.fourierCoefficient_modeLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridState_eq_modeLift_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierCoefficient_gridKinetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierReconstruction_gridKinetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledStencilDefect_eq_synthesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledStencilDefect_spatialL2_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T13:49:41.630847+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T134458.862789Z_OrderedStageBounds_colab.zip",
+  "archive_sha256": "a104b03153b40e83a30b1c15f1cc3eed6d6a26d196a14ab7226856c0a36831a7",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json",
+  "receipt_sha256": "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067",
+  "log_sha256": "f5c8561e866894293dbeaf4d7d007c20d66cbc3966b9614368349c4c57cdcd98",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "96133af4c4bd92cd03e937fd7f3ec2ce5994cd3fb33fcedbe820211a8ee2f096",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/OrderedStageBounds.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.orderedCayleyEndpoint_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.orderedCayleyInternalDefect_expansion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.orderedCayleyInternalDefect_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.orderedCayleySplitDefect_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.orderedCayley_quadraticVelocity_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.orderedCayley_second_generator_velocity_norm_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 0,
+  "independent_qualification": false
+}

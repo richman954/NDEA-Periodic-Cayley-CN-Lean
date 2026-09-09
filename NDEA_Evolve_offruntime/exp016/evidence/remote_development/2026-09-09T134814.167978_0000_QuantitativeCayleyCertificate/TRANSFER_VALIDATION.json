@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "QuantitativeCayleyCertificate",
+  "archive_sha256": "b8689f9228810fca427c068fa65040a05e07edafb4fa664b941ef5b0b7e9f416",
+  "source_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json",
+  "receipt_sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuantitativeCayleyCertificate.olean",
+  "artifact_sha256": "ce989ff245c3b57a00e5cbf23f77b104dec2d1d63b3451fe256932ac78dc2c20",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:50:15.270623+00:00"
+}

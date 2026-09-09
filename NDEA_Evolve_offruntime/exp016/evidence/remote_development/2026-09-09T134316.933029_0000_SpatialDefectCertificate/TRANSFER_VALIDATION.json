@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "SpatialDefectCertificate",
+  "archive_sha256": "919dea31ac96107168783380d1f0743a28624ac4c9308f46c1954c6b666d356b",
+  "source_sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json",
+  "receipt_sha256": "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SpatialDefectCertificate.olean",
+  "artifact_sha256": "ef38518ebd6b5572ed2ee8e8faf988ecc90316a0b4709cb429d88d4e340d1368",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:44:05.956760+00:00"
+}

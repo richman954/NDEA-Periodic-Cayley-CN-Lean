@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-09T13:50:15.434535+00:00",
+  "module": "QuantitativeCayleyCertificate",
+  "source_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
+  "receipt_sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
+  "full_log_sha256": "92df489935a8634fd9f99cdcce3505aa94b95089860aaa24fd8b012a60ab792c",
+  "compiler_exit_code": 0,
+  "explicit_transitive_axiom_reports": 4,
+  "all_reported_axioms_standard": true,
+  "warnings": 0,
+  "errors": 0,
+  "independent_qualification": false,
+  "scope": "actual finite/partial trajectory certificate with explicit ordered temporal operator norms and separate actual spatial defects; no uniform refinement claim"
+}
