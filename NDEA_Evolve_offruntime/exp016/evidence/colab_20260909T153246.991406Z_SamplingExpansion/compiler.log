@@ -1,0 +1,9 @@
+'NDEAEvolve.Exp016.initial_modeLift_terms_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_eq_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.initial_discrepancy_terms_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_reconstruction_eq_tsum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_reconstruction_sub_synth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "InitializationCertificate",
+  "archive_sha256": "7817a511e6b337713f5650c3fe3457018efa153dd19be1a879ad5f714f95bef2",
+  "source_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json",
+  "receipt_sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/InitializationCertificate.olean",
+  "artifact_sha256": "b8db06db8529f30d062014d38b4a2651052798b41637b678a4652d5371804355",
+  "independent_qualification": false,
+  "utc": "2026-09-09T15:38:25.244880+00:00"
+}

@@ -1,0 +1,10 @@
+'NDEAEvolve.Exp016.sampledInitialState_error_norm_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_spatialL2_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.initialCoefficientTail_le_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_spatialL2_le_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_weighted_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_weighted_norm_le_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.initialization_spatialL2_le_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.initialization_spatialL2_le_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]

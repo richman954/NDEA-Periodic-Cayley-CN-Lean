@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "InitialSamplingLimit",
+  "archive_sha256": "8dc44d7ea756b8533e3f95f93cc2813628880ba58bcd7fafb5e6f203417e8801",
+  "source_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json",
+  "receipt_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/InitialSamplingLimit.olean",
+  "artifact_sha256": "3eaac7d9c2531c9cc4cc13041bcaaf8c7c2a85d622fa3961740a5f446e15bfef",
+  "independent_qualification": false,
+  "utc": "2026-09-09T15:40:20.230600+00:00"
+}

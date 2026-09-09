@@ -1,0 +1,6 @@
+'NDEAEvolve.Exp016.sampledInitialState_spatialL2_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledInitialSampling_spatialL2_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

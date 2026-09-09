@@ -1,0 +1,8 @@
+'NDEAEvolve.Exp016.independentTarget_initialization_le_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledInitializationBudget_exact_samples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_initialized_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_partialSlab_initialized_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

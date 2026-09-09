@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T15:33:22.345380+00:00",
+  "archive_sha256": "f2efcc90a3bc6f069e6f3e58eea391912a9bdb883f7bab538f37078f93d8a347",
+  "all_evidence_payload_hashes_verified": 69,
+  "all_command_logs_verified": 57,
+  "local_matching_mathlib_root_artifacts": 60,
+  "project_files_verified_remotely": 196,
+  "accepted_exp016_modules_restored": 37,
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "restore_readback_sha256": "d84853dbd12cf375c9c9c7d7f498bb1d7d564511ac9f38a15e722820b95ecafa",
+  "vm_id": "m-s-kkb-usc1c0-3nv3p0bo2kg3y",
+  "boot_id": "97b97bbe-7331-4611-bc2f-53078c9daeec",
+  "independent_qualification": false,
+  "record_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/recovery_1526/LOCAL_RESTORE_READBACK.json",
+  "record_source_sha256": "25993422155c4f5dac12fb9e95e01321707379c1b6f24da822ac7783bf1252d4",
+  "qualification": "Imported-artifact development restore only; no accepted theorem rerun and no independent qualification.",
+  "compiler_pin": "Lean 4.31.0; e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_pin": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "complete_local_evidence": "remote_dev/recovery_1526/recovery_1526_evidence.zip"
+}

@@ -1,0 +1,226 @@
+{
+  "utc": "2026-09-09T15:42:17.046452+00:00",
+  "development_only": true,
+  "independent_qualification": false,
+  "sealed": false,
+  "new_modules": [
+    {
+      "module": "SamplingExpansion",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean",
+      "source_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json",
+      "receipt_sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log",
+      "log_sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
+      "artifact_sha256": "34d0c74ddfbe8a299aa8c9e28ac0e0b0c5c748748efa0f8c6a69a6aea75864df",
+      "compiler_exit": 0,
+      "elapsed_seconds": 12.821030848999953,
+      "lock_wait_seconds": 2.24300000581934e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.initial_modeLift_terms_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_eq_tsum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.initial_discrepancy_terms_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_reconstruction_eq_tsum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_reconstruction_sub_synth": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/LOCAL_READBACK.json",
+      "transfer_receipt_sha256": "cf8a8e4fa0375becee4f22c11a888ddb256e28f04041b87f3bdb7316fa817bb8"
+    },
+    {
+      "module": "InitialSamplingBounds",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
+      "source_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json",
+      "receipt_sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log",
+      "log_sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
+      "artifact_sha256": "b2229984136f3912a76bddb9a10eba03ac8c50bec10bac5a81ad150f0f92b4b6",
+      "compiler_exit": 0,
+      "elapsed_seconds": 5.7451077480000095,
+      "lock_wait_seconds": 2.1479999986695475e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.sampledInitialState_error_norm_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_spatialL2_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.initialCoefficientTail_le_weighted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_spatialL2_le_weighted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_weighted_norm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitialState_weighted_norm_le_state": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.initialization_spatialL2_le_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.initialization_spatialL2_le_weighted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "6bfb8e1ad6e69d58631e44fb7da8c960c5fb683673564e8a547af8ffbec11bb6"
+    },
+    {
+      "module": "InitialSamplingLimit",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean",
+      "source_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json",
+      "receipt_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log",
+      "log_sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
+      "artifact_sha256": "3eaac7d9c2531c9cc4cc13041bcaaf8c7c2a85d622fa3961740a5f446e15bfef",
+      "compiler_exit": 0,
+      "elapsed_seconds": 3.3266695120000804,
+      "lock_wait_seconds": 1.9710000060513266e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.sampledInitialState_spatialL2_tendsto_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.scheduledInitialSampling_spatialL2_tendsto_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "f37e5d7475d817541a9781dd665f92e2d6a3c741dc9f4af0e62a17893321f00b"
+    },
+    {
+      "module": "InitialSamplingControls",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
+      "source_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json",
+      "receipt_sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log",
+      "log_sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
+      "artifact_sha256": "4797a49b1a36bb2d1a19fc6db1443469f4b0e1bcb1ff2714d62bd094b3e40537",
+      "compiler_exit": 0,
+      "elapsed_seconds": 4.692883470999959,
+      "lock_wait_seconds": 2.0499999891399057e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.sampledInitialState_exact_of_resolved_support": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.Controls.unresolvedModeOneState": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.Controls.unresolved_mode_one_initialization": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "48699f618d711491af499437c597e6dc3dae6d671abfbedd90fb51318d34f19c"
+    },
+    {
+      "module": "InitializationCertificate",
+      "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
+      "source_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json",
+      "receipt_sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log",
+      "log_sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
+      "artifact_sha256": "b8db06db8529f30d062014d38b4a2651052798b41637b678a4652d5371804355",
+      "compiler_exit": 0,
+      "elapsed_seconds": 3.778376517000197,
+      "lock_wait_seconds": 1.7650000017965795e-05,
+      "sources_unchanged": true,
+      "imports_unchanged": true,
+      "explicit_transitive_axiom_audits": {
+        "NDEAEvolve.Exp016.independentTarget_initialization_le_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledInitializationBudget_exact_samples": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledCayley_gridTime_initialized_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampledCayley_partialSlab_initialized_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "errors": 0,
+      "warnings": 0,
+      "transfer_receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/TRANSFER_VALIDATION.json",
+      "transfer_receipt_sha256": "10a067172deb828fa8973936715df07d57c35ee0e8e5da1f2a72e88c99a34a56"
+    }
+  ],
+  "sealed_predecessor_readback": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_INIT.json",
+  "sealed_predecessor_readback_sha256": "c76ac147d9454cb62c84839aad490d7d0cedd6d3f324f00a32f00483f41881f4",
+  "scope": "Actual initialization sampling series, tail and weighted rate, uniform physical-grid initial norm, arbitrary mismatch, actual ordered grid/partial certificate consumer, initialization-only refinement limit and resolved/unresolved controls. No solver convergence claim."
+}

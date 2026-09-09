@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T15:34:26.793966+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T153246.991406Z_SamplingExpansion_colab.zip",
+  "archive_sha256": "899f5f0b8b3e378a75e80bcb22e729a2c5a3de92b4b9ec34354beb830a42042a",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json",
+  "receipt_sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
+  "log_sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "34d0c74ddfbe8a299aa8c9e28ac0e0b0c5c748748efa0f8c6a69a6aea75864df",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SamplingExpansion.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.initial_modeLift_terms_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledInitialState_eq_tsum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.initial_discrepancy_terms_summable": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledInitialState_reconstruction_eq_tsum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledInitialState_reconstruction_sub_synth": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 0,
+  "independent_qualification": false
+}

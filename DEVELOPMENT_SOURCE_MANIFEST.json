@@ -14,6 +14,10 @@
       "FullBandSymbol",
       "GridAlias",
       "IndependentTarget",
+      "InitialSamplingBounds",
+      "InitialSamplingControls",
+      "InitialSamplingLimit",
+      "InitializationCertificate",
       "OneNodeCosine",
       "OrderedStageAlgebra",
       "OrderedStageBounds",
@@ -29,6 +33,7 @@
       "RegularSynthesis",
       "SampledCayleyCertificate",
       "SampledPotential",
+      "SamplingExpansion",
       "SlabError",
       "SpatialDefectCertificate",
       "SpatialDefectSplit",
@@ -39,9 +44,9 @@
       "TargetBinding",
       "WeightedCoefficientBridge"
     ],
-    "accepted_property_theorem_declaration_count": 224,
-    "catalog": "NDEA_Evolve_offruntime/exp016/ALIAS_CHECKPOINT.json",
-    "catalog_sha256": "bd88305cfa91c9fc9aa0b493c0bc0e60f294ba8b5d50059122d333b5d7933693",
+    "accepted_property_theorem_declaration_count": 245,
+    "catalog": "NDEA_Evolve_offruntime/exp016/INIT_CHECKPOINT.json",
+    "catalog_sha256": "22d29cbff52eaa9e539efd65d6839325013611ec50557c6549c97313464b3d10",
     "experiment": "exp016",
     "pending_modules": [],
     "qualification": {
@@ -494,6 +499,31 @@
       "to": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectSplit.lean"
     },
     {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean",
+      "import": "PotentialDefectExpansion",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
+      "import": "PotentialAlias",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
+      "import": "GridAlias",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
+      "import": "SampledCayleyCertificate",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
+      "import": "StencilFourier",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean"
+    },
+    {
       "from": "NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean",
       "import": "SpatialDefectCertificate",
       "to": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectCertificate.lean"
@@ -524,26 +554,6 @@
       "to": "NDEA_Evolve_offruntime/exp016/lean/QuadraticNorm.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
-      "import": "PotentialAlias",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean"
-    },
-    {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
-      "import": "GridAlias",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean"
-    },
-    {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
-      "import": "SampledCayleyCertificate",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean"
-    },
-    {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
-      "import": "StencilFourier",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean"
-    },
-    {
       "from": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean",
       "import": "PotentialDefectExpansion",
       "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean"
@@ -569,14 +579,14 @@
       "to": "NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
-      "import": "PotentialAliasBounds",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean"
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
+      "import": "InitialSamplingBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
-      "import": "OneNodeCosine",
-      "to": "NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean"
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
+      "import": "AliasTailCertificate",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean"
     },
     {
       "from": "NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean",
@@ -589,14 +599,49 @@
       "to": "NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean"
     },
     {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
+      "import": "SamplingExpansion",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
+      "import": "PotentialAliasBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean",
+      "import": "InitialSamplingBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
+      "import": "InitialSamplingBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
+      "import": "OneNodeCosine",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
+      "import": "PotentialAliasBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
+      "import": "OneNodeCosine",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean"
+    },
+    {
       "from": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
       "import": "ResidualField",
       "to": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
     }
   ],
   "active_development_unresolved_imports": [],
-  "base_commit": "17fc478e845ac72f96deecbdb5a1ee92f06f905a",
-  "base_tree": "5a0e677a1e455862a041734ca45d6a690217f096",
+  "base_commit": "04dd1fa09b18a5f167206f5c15d507a92687f990",
+  "base_tree": "2523f4a37f2d6c7ca8b4c96b6ae52ea59ab697c6",
   "files": [
     {
       "bytes": 1185,
@@ -5824,7 +5869,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "99dbd671360caf5c4614c6536bd3e6074e0a48e25b0f2605e9a9053b4f48fd2a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/BASELINE.json"
       },
@@ -5867,6 +5912,17 @@
       "target": "NDEA_Evolve_offruntime/exp016/DEVELOPMENT_SNAPSHOT.json"
     },
     {
+      "bytes": 97784,
+      "git_blob_sha1": "e6c39b1e94753bb1e2ff513360d8ad419f0f891b",
+      "git_mode": "100644",
+      "origin": {
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "generated_exact_source_development_acceptance_catalog"
+      },
+      "sha256": "22d29cbff52eaa9e539efd65d6839325013611ec50557c6549c97313464b3d10",
+      "target": "NDEA_Evolve_offruntime/exp016/INIT_CHECKPOINT.json"
+    },
+    {
       "bytes": 19643,
       "git_blob_sha1": "ecd9e7a1ca27acb40a95435cc721edadbf701beb",
       "git_mode": "100644",
@@ -5879,16 +5935,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/MODULAR_ACCEPTANCE.json"
     },
     {
-      "bytes": 2794,
-      "git_blob_sha1": "b9acfba55a51aaffb62738048542547dcc8d15c4",
+      "bytes": 2907,
+      "git_blob_sha1": "bca56ab78dc43aecb454c68eec2de9dc179b85e9",
       "git_mode": "100644",
       "origin": {
-        "captured_sha256": "e001134cb982459acdaee36b0df62288c8ac9de7ce3d54af079ca32c217f2887",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_sha256": "fdc99df5528f4b0a240a7f478d9292e7695cb68406235673af296a93a6c800ef",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/NEXT_STEPS.md"
       },
-      "sha256": "e001134cb982459acdaee36b0df62288c8ac9de7ce3d54af079ca32c217f2887",
+      "sha256": "fdc99df5528f4b0a240a7f478d9292e7695cb68406235673af296a93a6c800ef",
       "target": "NDEA_Evolve_offruntime/exp016/NEXT_STEPS.md"
     },
     {
@@ -5897,7 +5953,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a7679a46b3e6a8b0577912957c7143ca4dde77bd5ead866b21e385ff30991498",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/NUMERICAL_PINS.json"
       },
@@ -5905,16 +5961,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/NUMERICAL_PINS.json"
     },
     {
-      "bytes": 20471,
-      "git_blob_sha1": "444057daf5c26312938ceb2962bfddc362cd48cb",
+      "bytes": 21231,
+      "git_blob_sha1": "0645a7265b30c99e92c823e53de5d82f3451855c",
       "git_mode": "100644",
       "origin": {
-        "captured_sha256": "275076afe0a0d7a93df9f82ce921d720ff090a0a3cfe57f81e18400c74c3d415",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_sha256": "d5466a95b7776bcb7a9ef99b202779ea7000b34747e7c83da5ab8e895ee19280",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/PLAN.md"
       },
-      "sha256": "275076afe0a0d7a93df9f82ce921d720ff090a0a3cfe57f81e18400c74c3d415",
+      "sha256": "d5466a95b7776bcb7a9ef99b202779ea7000b34747e7c83da5ab8e895ee19280",
       "target": "NDEA_Evolve_offruntime/exp016/PLAN.md"
     },
     {
@@ -5923,7 +5979,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "82703fc6c3a285525fd14b8ee518396e6de0b0225b1926324aecefe88c625f62",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/STARTUP_MILESTONE.md"
       },
@@ -5947,7 +6003,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "940f26cd418b13f69b1c7fae731062e6437714c3e01cf7e5ed08c338ae5573fa",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/AFFINE_MODULE_PROPOSAL.md"
       },
@@ -5960,7 +6016,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "959ecc0070c55fc8fe63fd9a4f93dc67045ebf93c61637a61e23405940f58d14",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/DENSITY_PERTURBATION_OPTION.md"
       },
@@ -5973,7 +6029,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bcccc3df603926d7b4e32edc3c6b776c34f54b3ff5c2b78265bcfbc6a274efa4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/EXISTING_NUMERICAL_API.md"
       },
@@ -5986,7 +6042,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2adabd24c8c7cb72e70ed6f45bf09e3d134710e325275643e266590db05a6ee5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/EXTERNAL_RELEASE_ASSESSMENT.md"
       },
@@ -5999,7 +6055,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "62245c5ecfa8e24c69f0d39e24bca5ffa852070f2e31218425fc22d6d03cdad7",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/EXTERNAL_RELEASE_READBACK.json"
       },
@@ -6012,7 +6068,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d8e69318d6519b3c0c79e81dec28c5c6864c2420249ac26e2a0022e8b1749f85",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/FOURIER_RECONSTRUCTION.md"
       },
@@ -6025,7 +6081,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "687d7a89167c0c48cf7c6c1e6e8591b165c4a8ddf7fbf0bf46459b1e6ba1a0b6",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/FourierCoefficientBridge_TRANSFER.md"
       },
@@ -6038,7 +6094,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d2a4c495190b303011c8a8b395756079b88aa3a6e9845203141e6576b95a293d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/INDEPENDENT_TARGET_SPEC.md"
       },
@@ -6046,12 +6102,25 @@
       "target": "NDEA_Evolve_offruntime/exp016/design/INDEPENDENT_TARGET_SPEC.md"
     },
     {
+      "bytes": 3859,
+      "git_blob_sha1": "af3117211404dbb127de7d8698478c53807593ab",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "267ede0f0e82b74cd3ce9f3757ba1ac6b62fa5ea2f03603f8d8366f26927d56f",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/INITIAL_SAMPLING_MILESTONE.md"
+      },
+      "sha256": "267ede0f0e82b74cd3ce9f3757ba1ac6b62fa5ea2f03603f8d8366f26927d56f",
+      "target": "NDEA_Evolve_offruntime/exp016/design/INITIAL_SAMPLING_MILESTONE.md"
+    },
+    {
       "bytes": 4522,
       "git_blob_sha1": "ebf70b06c1d09dfb9aaa910cbf54dd9b3d300ed7",
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3f411086909cd0e881972713530b5725268983450b1bd28643577b78efd37125",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/POTENTIAL_ALIAS_MILESTONE.md"
       },
@@ -6064,7 +6133,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9f6b94eaf0ae1347cfa9e832c4a51329c6c073c428c457fd67e6af77e935184b",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/RECONSTRUCTION_COMPARISON.md"
       },
@@ -6077,7 +6146,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b8e30eb61754675d626a2fd5dbbf210510f7e114288b2f786a36237bebc3e222",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/REGULAR_SYNTHESIS_INTERFACE.md"
       },
@@ -6090,7 +6159,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "02969c9522c80ebd6401f5321dfab7d3e572a917cadd4ebbc5ef51f10289e995",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "mathematical_design_or_source_review_not_kernel_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/SPLIT_DEFECT_REVIEW.md"
       },
@@ -6103,7 +6172,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "60150dca6b31a5bda3e9b6e9d2c08fd3253c1b2164077908b99f271c6d1b8948",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/MANUSCRIPT_MANIFEST.json"
       },
@@ -6116,7 +6185,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "61bff9e82c731731ca1350c1c2370c9b77acde2387d46b413e7577cf4937f683",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/REUSE_MAP.md"
       },
@@ -6129,7 +6198,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b760993391a46afafc2aabe5922720745f9bedab99592b7551a282eabb1496c4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/SOURCE_MANIFEST.json"
       },
@@ -6142,7 +6211,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a822e184ec17968f1363d67c8c4c082455e94634bb8e4c82d06aa7e55c4d0503",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/TRUST_REVIEW.json"
       },
@@ -6155,7 +6224,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/UPSTREAM_LICENSE.txt"
       },
@@ -6232,7 +6301,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json"
       },
@@ -6245,7 +6314,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log"
       },
@@ -6258,7 +6327,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json"
       },
@@ -6271,7 +6340,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log"
       },
@@ -6284,7 +6353,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json"
       },
@@ -6297,7 +6366,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69c738f0dea2463701011f48b7f3c71a51382fcd31784228f5853f672fd6a888",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.log"
       },
@@ -6310,7 +6379,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json"
       },
@@ -6323,7 +6392,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3ffd778f3aa3448d88759e2e567a4f2f7db21f1f4068dd9a44c8d5abfdb9e921",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.log"
       },
@@ -6336,7 +6405,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json"
       },
@@ -6349,7 +6418,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log"
       },
@@ -6362,7 +6431,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.json"
       },
@@ -6375,7 +6444,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2920505c4127fd61534220d66258f8b0334d235c7f367f543fe51b68d7a09d92",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.log"
       },
@@ -6388,7 +6457,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_local_modular_receipt",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.json"
       },
@@ -6401,7 +6470,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0d28adcdef123bf6f68fcaf6a93b21ebf792e3c6509090dd013bcf6730513e36",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "complete_matching_local_compiler_log",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.log"
       },
@@ -6414,7 +6483,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "da0e21c6fa82b5a9b309e8afb23a077b5b76faee2bbb1e6255005ad7e9984532",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/ALIAS_MILESTONE_LOCAL.json"
       },
@@ -6427,7 +6496,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9e0d651a5efa0bc3bf2e9765bd30de9ce7e17c63a84883a296a7eb5110c892b2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/ALIAS_RUNTIME_READBACK_1440.json"
       },
@@ -6440,7 +6509,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "064f3cd6e6b80f29188dcc7e5f4cf0641b67cff47446527641a0f0ab52cca8e8",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/COLAB_REBIND_1216.json"
       },
@@ -6453,7 +6522,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "78180d82aa82b8427d1911050734e208836740b264efc785140a1e5bb14d9338",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/COLAB_REBIND_1328.json"
       },
@@ -6466,7 +6535,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7d56c39c1b26035781c43dc605232ef38bd67112d46229a70417b632b008d5e2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/COLAB_REBIND_20260909T143947_024640Z.json"
       },
@@ -6479,7 +6548,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b92a3ad3df01333d1b47f870bbd4a7dc7ebba93b70f8f716ebab1e3d6b5b94ac",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/COLAB_RECONNECTED_1338_READBACK.json"
       },
@@ -6492,7 +6561,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2fae4de46f0304a5b487bb08ca9f2e25bc6f5b5a5e0f19f42cfe62e84be2f3e9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/COLAB_RECONNECTED_READBACK.log"
       },
@@ -6505,7 +6574,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_KERNEL_RESTART.log"
       },
@@ -6518,7 +6587,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fb8de22f354f65c6a56a8bc39589b2420b6fd994db89ad30fb82eed1b34e3bce",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_KERNEL_RESTART_READBACK.log"
       },
@@ -6531,7 +6600,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ef2f6930024ffd53a8dfbd5cb9b0bfdf27129b5f2cfdedb4d62a4f7f6e42fbdc",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "dependency_cache_restoration_provenance_not_mathematical_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/LOCAL_CACHE_MATCH.json"
       },
@@ -6544,7 +6613,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4144eb0bef9f8654fd4b8e88ee8c383238b51f9b6232b5cff00ab10a3b22c204",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "dependency_cache_restoration_provenance_not_mathematical_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/RESULT.json"
       },
@@ -6557,7 +6626,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f18df5a3a197f186471f96d2768763c44d5f8bc99c96c48f74c7e377f14d1d11",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "dependency_cache_restoration_provenance_not_mathematical_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/TRANSFER_VALIDATION.json"
       },
@@ -6570,7 +6639,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "cc8c7afd4c613998053a9b1f85e38b9db514e35896debc588d8759b4e8c1e115",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "dependency_cache_restoration_provenance_not_mathematical_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/cache.log"
       },
@@ -6583,7 +6652,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "354a1dbc4284c90ed3e4b8bf4f10641b45d8931e252fcc17c2eedde763d04d49",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "dependency_cache_restoration_provenance_not_mathematical_acceptance",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/executed_restore_helper.py"
       },
@@ -6591,12 +6660,38 @@
       "target": "NDEA_Evolve_offruntime/exp016/evidence/FourierCoefficientBridge_dependency_restore/executed_restore_helper.py"
     },
     {
+      "bytes": 10998,
+      "git_blob_sha1": "66379054ae3c3435582ccc28ebfee2e7ef26a9dc",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "1a4b944535e76991c49b0ced15380e76787fc947e4136e8f6bddf3ba535fe715",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "development_document_or_small_pinned_runner",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_MILESTONE_LOCAL.json"
+      },
+      "sha256": "1a4b944535e76991c49b0ced15380e76787fc947e4136e8f6bddf3ba535fe715",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_MILESTONE_LOCAL.json"
+    },
+    {
+      "bytes": 1281,
+      "git_blob_sha1": "ce9ed87c8f1d75bcc5b1485b23b8ea8e760013cc",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "cdc981a72f021c740eecee00a9acb9287c8ee4cf51d0b8601c84375de0c22acc",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "development_document_or_small_pinned_runner",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_RUNTIME_READBACK.json"
+      },
+      "sha256": "cdc981a72f021c740eecee00a9acb9287c8ee4cf51d0b8601c84375de0c22acc",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_RUNTIME_READBACK.json"
+    },
+    {
       "bytes": 330,
       "git_blob_sha1": "45cd3d6aa33e08aef75273f49a2a3d39e070c7cb",
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d79aef42f1d0459599fe02c8d5fd34895066ee16540f749f81479e0f36251bb7",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_0616.json"
       },
@@ -6609,7 +6704,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "c373e6dd30513f07a23eeca12ed884762223c71acf9a204c9b94fb9d8bec03d1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_1226.json"
       },
@@ -6622,7 +6717,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "167a27e0dcf32d51c8851ef836064c2348f42c48e5192a8c113347b4b08926ad",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_1348.json"
       },
@@ -6635,12 +6730,25 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "62cd000a7d2c6a0fa92aac9f43373368ad651dd26d0d2fbf1382d38693636890",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_ALIAS.json"
       },
       "sha256": "62cd000a7d2c6a0fa92aac9f43373368ad651dd26d0d2fbf1382d38693636890",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_ALIAS.json"
+    },
+    {
+      "bytes": 613,
+      "git_blob_sha1": "b92d82cb751644ac6cf49f0eba1cf9cc50abb0eb",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "c76ac147d9454cb62c84839aad490d7d0cedd6d3f324f00a32f00483f41881f4",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "development_document_or_small_pinned_runner",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_INIT.json"
+      },
+      "sha256": "c76ac147d9454cb62c84839aad490d7d0cedd6d3f324f00a32f00483f41881f4",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/SEALED_PREDECESSOR_READBACK_INIT.json"
     },
     {
       "bytes": 307,
@@ -6662,7 +6770,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/IndependentTarget.lean"
       },
@@ -6675,7 +6783,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "09031f8db0fc00acf57a032103ff7a2c0f3538bcf7a1b77ddea73b47854482bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/LOCAL_READBACK.json"
       },
@@ -6688,7 +6796,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json"
       },
@@ -6701,7 +6809,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/compiler.log"
       },
@@ -6714,7 +6822,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9e4875283a9a504c2b742c9ab534c0a17a3843d77ffe1ac8b2232859baf3e7e7",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/driver.log"
       },
@@ -6727,7 +6835,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/run_module.py"
       },
@@ -6740,7 +6848,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1f69d1ba3861563013ff6cb67e874067e0b55d45bc6371a9d9111b397d580cce",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/LOCAL_READBACK.json"
       },
@@ -6753,7 +6861,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json"
       },
@@ -6766,7 +6874,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/SynthesizedSlabError.lean"
       },
@@ -6779,7 +6887,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "cdff5aade63b8aca95cdcf20b2b55a1313b1a18717214a5f48f3a11490b780cc",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/compiler.log"
       },
@@ -6792,7 +6900,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/run_module.py"
       },
@@ -6805,7 +6913,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "eb97cd1819e18f72a50299884e4b1d4a8711298231079b70221d2bf5a28d5615",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/LOCAL_READBACK.json"
       },
@@ -6818,7 +6926,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/OneNodeCosine.lean"
       },
@@ -6831,7 +6939,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json"
       },
@@ -6844,7 +6952,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d5742ffb56fb3eb6b734394be9e8a5e8787d798e555f0ba4d4b6b8162fb5406d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/compiler.log"
       },
@@ -6857,7 +6965,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/run_module.py"
       },
@@ -6870,7 +6978,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d91584d726bf33e6e797180cb995de8b60e7932405b5099e9c8ab60755765fb2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/LOCAL_READBACK.json"
       },
@@ -6883,7 +6991,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json"
       },
@@ -6896,7 +7004,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/SampledCayleyCertificate.lean"
       },
@@ -6909,7 +7017,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2cc33974ef0ba8d49f243264a1e4b2ac9eeebf4128429b0738247eb6f16533f5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/compiler.log"
       },
@@ -6922,7 +7030,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/run_module.py"
       },
@@ -6935,7 +7043,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "191e3bb00a1cc033c131a9e1b3345add3ab81a5ddc5f700c661e5881028a1725",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/LOCAL_READBACK.json"
       },
@@ -6948,7 +7056,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/OrderedStageAlgebra.lean"
       },
@@ -6961,7 +7069,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json"
       },
@@ -6974,7 +7082,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "12b1f0ea1fa04a1416e9ef8ed603438329f4f3d60e5050b12cbce3fd5d212190",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/compiler.log"
       },
@@ -6987,7 +7095,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/run_module.py"
       },
@@ -7000,7 +7108,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f2ff75e8986138990e7107059732d50d3756aae61ae4b5933e4775eb35aac411",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/LOCAL_READBACK.json"
       },
@@ -7013,7 +7121,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/OrderedStageBounds.lean"
       },
@@ -7026,7 +7134,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json"
       },
@@ -7039,7 +7147,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f5c8561e866894293dbeaf4d7d007c20d66cbc3966b9614368349c4c57cdcd98",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/compiler.log"
       },
@@ -7052,7 +7160,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/run_module.py"
       },
@@ -7065,7 +7173,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ab55d24c634c741d440a9386d9d40488e327a9a5addebd3e9b45f38c326453a9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/LOCAL_READBACK.json"
       },
@@ -7078,7 +7186,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/PotentialAlias.lean"
       },
@@ -7091,7 +7199,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json"
       },
@@ -7104,7 +7212,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/compiler.log"
       },
@@ -7117,7 +7225,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/run_module.py"
       },
@@ -7125,12 +7233,77 @@
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/run_module.py"
     },
     {
+      "bytes": 1776,
+      "git_blob_sha1": "5fea0d6a94d4b277bce19e78ee54a924549817a4",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "cf8a8e4fa0375becee4f22c11a888ddb256e28f04041b87f3bdb7316fa817bb8",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/LOCAL_READBACK.json"
+      },
+      "sha256": "cf8a8e4fa0375becee4f22c11a888ddb256e28f04041b87f3bdb7316fa817bb8",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/LOCAL_READBACK.json"
+    },
+    {
+      "bytes": 25247,
+      "git_blob_sha1": "cae51aa21212455f8b293a9a457c88d6d43dbc14",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json"
+      },
+      "sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json"
+    },
+    {
+      "bytes": 5690,
+      "git_blob_sha1": "bc38a9bbda9931c6e8472548ec8c9f1d35a3c45b",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/SamplingExpansion.lean"
+      },
+      "sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/SamplingExpansion.lean"
+    },
+    {
+      "bytes": 582,
+      "git_blob_sha1": "ba86d36dfa8034b3b694b8813ccfd4be55323aab",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log"
+      },
+      "sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/run_module.py"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/run_module.py"
+    },
+    {
       "bytes": 17775,
       "git_blob_sha1": "ed8384bf99b597e1f423561554150c5b804a5c14",
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RESULT.json"
       },
@@ -7143,7 +7316,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1335c94ca420eb6c905ea5479beaf87a2af405486e194759d46d9b6dff3ca425",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RegularSynthesis.lean"
       },
@@ -7156,7 +7329,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7a7b6c789f0f05bd239eae2bd6ed25af9d5e979730cb5da25250044f69f9e448",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/TRANSFER_VALIDATION.json"
       },
@@ -7169,7 +7342,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ab6d12ebc121d81630301e207e422783682dd86eb97cde63e0d7d2d4eff677f2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/compiler.log"
       },
@@ -7182,7 +7355,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b62678fbf26d23e66a9e8586b1a367c697a5c627784e90d6d2949d5210cdb0d9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/run_module.py"
       },
@@ -7195,7 +7368,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/FourierNorm.lean"
       },
@@ -7208,7 +7381,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json"
       },
@@ -7221,7 +7394,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "c95af3a7cb3b5618cedf2abf053e7d0cfeb94639eb928e95d4f518b47ef67c43",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/TRANSFER_VALIDATION.json"
       },
@@ -7234,7 +7407,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3e0a2d1fa6902c83f3a442ed3204d190b77248d67d3868cd8bf5961e246566fa",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/compiler.log"
       },
@@ -7247,7 +7420,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b62678fbf26d23e66a9e8586b1a367c697a5c627784e90d6d2949d5210cdb0d9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/run_module.py"
       },
@@ -7260,7 +7433,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/FourierSynthesisRegular.lean"
       },
@@ -7273,7 +7446,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json"
       },
@@ -7286,7 +7459,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1da4271a26e649f8b8312c091302f4b65967313c1e74f46e978fc7a2fdb70397",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/TRANSFER_VALIDATION.json"
       },
@@ -7299,7 +7472,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "61890b76deb84293ac264b55c0c87c86b162bdab45c886845a4eb8a10d3ddad4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/compiler.log"
       },
@@ -7312,7 +7485,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/run_module.py"
       },
@@ -7325,7 +7498,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4c1a6ec0d168cfbea7f75257c133e29a7a522a7f3295d5107194db3dcf9d5104",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/QuadraticNorm.lean"
       },
@@ -7338,7 +7511,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/RESULT.json"
       },
@@ -7351,7 +7524,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4b8a4e062ef1f835eaca6f03cb4ace5ef4b19e65dc4a4f5d2e6f019c6f4db208",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/TRANSFER_VALIDATION.json"
       },
@@ -7364,7 +7537,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/compiler.log"
       },
@@ -7377,7 +7550,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/run_module.py"
       },
@@ -7390,7 +7563,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6ec65e91c28df4fc40c73a7e4a878141f16dc0f369ac8ecbd8505c98c26cb5f7",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/MODULE_AUDIT.json"
       },
@@ -7403,7 +7576,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/QuadraticPDEBudget.lean"
       },
@@ -7416,7 +7589,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json"
       },
@@ -7429,7 +7602,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f02eccbf9552acc136beb594321dceb0eef9d5e637bf5dfb097a85147db9ff29",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/TRANSFER_VALIDATION.json"
       },
@@ -7442,7 +7615,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b98e3cc3ebeeff398d3c08979d0ff18dbcbae87f754832aa3e899c27df55e587",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/compiler.log"
       },
@@ -7455,7 +7628,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/run_module.py"
       },
@@ -7468,7 +7641,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/QuadraticNormAudit.lean"
       },
@@ -7481,7 +7654,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json"
       },
@@ -7494,7 +7667,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f0c00fda1d64469f6e8b2be325a3002fcaeecd7a6017e1351c27d66afaf7ac35",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/TRANSFER_VALIDATION.json"
       },
@@ -7507,7 +7680,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5c63ea69fae3fc497d4f691ed78cf5af8f046a5d80db0d2bd5f881de56c032cc",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/compiler.log"
       },
@@ -7520,7 +7693,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/run_module.py"
       },
@@ -7533,7 +7706,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/ActualCayleySynthesis.lean"
       },
@@ -7546,7 +7719,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json"
       },
@@ -7559,7 +7732,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f58ef3b4bb54c6547f1a449a7ee562192ba1b38520353288d3843d16b2fdf2eb",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/TRANSFER_VALIDATION.json"
       },
@@ -7572,7 +7745,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "09b0cb9396e849646b3a34f89a1f27f9977df0250fecce660119aca961f44801",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/compiler.log"
       },
@@ -7585,7 +7758,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/run_module.py"
       },
@@ -7598,7 +7771,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6f3bb644f28570ffccc169ff940ff025d8fb23eeda3bf81ce676db48b6b7d220",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/MODULE_AUDIT.json"
       },
@@ -7611,7 +7784,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json"
       },
@@ -7624,7 +7797,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/SampledPotential.lean"
       },
@@ -7637,7 +7810,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b891a69a5e671ae5df57dfca596e62fc3162d9132a0854c87702cc0e94d7f4bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/TRANSFER_VALIDATION.json"
       },
@@ -7650,7 +7823,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "991817e9fd3f9b6a352bad9e82f4f889da451430caa294694c2a167b9b5793d1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/compiler.log"
       },
@@ -7663,7 +7836,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/run_module.py"
       },
@@ -7676,7 +7849,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/RESULT.json"
       },
@@ -7689,7 +7862,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e82537c2d6bcedfcd322012644d098cd17c8f8beca5279eee70329ba5abbdb38",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/TRANSFER_VALIDATION.json"
       },
@@ -7702,7 +7875,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "20d749118fe1f0f788de93397f296252d3c2b56858c177a76198d9b0c89eace3",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/TargetBinding.lean"
       },
@@ -7715,7 +7888,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "94489c4f17f812e13cc7b81acbe347c4fb54c98c9d164779d2ce4bb2265af64a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/compiler.log"
       },
@@ -7728,7 +7901,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/run_module.py"
       },
@@ -7741,7 +7914,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/ActualCayleyCertificate.lean"
       },
@@ -7754,7 +7927,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6bb24029dfe5cfe7994f8e338e953b4ab8b2dd328bf68f4647262b15d09b5d9c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/MODULE_AUDIT.json"
       },
@@ -7767,7 +7940,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json"
       },
@@ -7780,7 +7953,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "48de63f484a129577abdd703664a0f30b52c9dcb4914eb3f77f2c39b5b49eeba",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/TRANSFER_VALIDATION.json"
       },
@@ -7793,7 +7966,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "806710206c03ce5126797bfdfaadb4b58c8c65ea3d0ebfc194790e8feca086c2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/compiler.log"
       },
@@ -7806,7 +7979,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/run_module.py"
       },
@@ -7819,7 +7992,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/FourierCoefficientBridge.lean"
       },
@@ -7832,7 +8005,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5f587bd7383c4eddeb28604ac6f80aac9eed0c44a5b42a7e585193d44bc558e1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/MODULE_AUDIT.json"
       },
@@ -7845,7 +8018,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json"
       },
@@ -7858,7 +8031,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2e68bb1c461651e3b48344c336e37251ab1d5a827283e606c4fdf7040ec4eae1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/TRANSFER_VALIDATION.json"
       },
@@ -7871,7 +8044,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5617f8c805fa9a118163fa5037661c3d208d0647f048dccf6157aeb88615244d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/compiler.log"
       },
@@ -7884,7 +8057,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/run_module.py"
       },
@@ -7897,7 +8070,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fcf19070634318ae126e258a7bbc3ccda87dfcf2ba2a4b6ca0a0b202a75d5b57",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/MODULE_AUDIT.json"
       },
@@ -7910,7 +8083,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json"
       },
@@ -7923,7 +8096,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a2d52cbd3fb4fde59dd5163ac0a7b59114247de6a54209e667df7cae3cd95a8e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/TRANSFER_VALIDATION.json"
       },
@@ -7936,7 +8109,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/WeightedCoefficientBridge.lean"
       },
@@ -7949,7 +8122,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "727cf42444d363853a8cae315b0e9562142a04a427f963826f2cf4c832b2017f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log"
       },
@@ -7962,7 +8135,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/run_module.py"
       },
@@ -7975,7 +8148,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "953697223d9cd3c3a850c8ec12e79b20b105551bbf1d9569b12cf77b716bc3b5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/MODULE_AUDIT.json"
       },
@@ -7988,7 +8161,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json"
       },
@@ -8001,7 +8174,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/SpatialDefectSplit.lean"
       },
@@ -8014,7 +8187,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "828deb9398ca624b47dda258e0177056077274791bc8dae436193449d90151a4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/TRANSFER_VALIDATION.json"
       },
@@ -8027,7 +8200,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "39da45345524354303bf9416c44f3edd9a7c71c653c527d6b940774ced911315",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/compiler.log"
       },
@@ -8040,7 +8213,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/run_module.py"
       },
@@ -8053,7 +8226,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/FullBandSymbol.lean"
       },
@@ -8066,7 +8239,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d4e7ce740a1b625d268d51342ca98d6d45e948c528960eab3e722fce266a444c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/MODULE_AUDIT.json"
       },
@@ -8079,7 +8252,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json"
       },
@@ -8092,7 +8265,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9b3a15b109e87c05076bd60150c0ec8bca4698a26e6a653caccd8eab43e0a831",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/TRANSFER_VALIDATION.json"
       },
@@ -8105,7 +8278,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7f95fc712149686c7aa05d0cff18070d72b8843c12f9f0f597b4da159420a641",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/compiler.log"
       },
@@ -8118,7 +8291,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/run_module.py"
       },
@@ -8131,7 +8304,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "db80a4e4f18848e09ffea3c740c3826281761f40908f948ab318d2e69da9701b",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/MODULE_AUDIT.json"
       },
@@ -8144,7 +8317,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json"
       },
@@ -8157,7 +8330,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/SpatialDefectCertificate.lean"
       },
@@ -8170,7 +8343,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1da801d5aa9d060a3c89c4c15407c878167e0b5d886a02cb322a1bd98b76468e",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/TRANSFER_VALIDATION.json"
       },
@@ -8183,7 +8356,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "99e3fa521098ca791b0c7ef87af3b6cbadaae4035d81946e11021db0504c41e0",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/compiler.log"
       },
@@ -8196,7 +8369,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/run_module.py"
       },
@@ -8209,7 +8382,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f60cd1f65deefeb4bd4e63343c41efdd36b05371fcdbc0ce7bde9cd2bb5fee85",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/MODULE_AUDIT.json"
       },
@@ -8222,7 +8395,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/QuantitativeCayleyCertificate.lean"
       },
@@ -8235,7 +8408,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json"
       },
@@ -8248,7 +8421,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "349d458da74572d4fb0c11f2481786855a602a09d0538c141922b08eb6930ea9",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/TRANSFER_VALIDATION.json"
       },
@@ -8261,7 +8434,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "92df489935a8634fd9f99cdcce3505aa94b95089860aaa24fd8b012a60ab792c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/compiler.log"
       },
@@ -8274,7 +8447,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/run_module.py"
       },
@@ -8287,7 +8460,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f88bd8235b6d862dad513078e4dc216eadc006ab208bc169bafbc9cbbf19d37b",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/MODULE_AUDIT.json"
       },
@@ -8300,7 +8473,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json"
       },
@@ -8313,7 +8486,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "077f3d904f8ebfa068af1bd5c43287a8ee8f51cf892f974591d39033adb43f8f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/SOURCE_REVIEW.json"
       },
@@ -8326,7 +8499,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/StencilFourier.lean"
       },
@@ -8339,7 +8512,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "65f96d84719f954eb4a5b69e7695faaccab99e6bf54c1d74b53e1b7b6fd3ee13",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/TRANSFER_VALIDATION.json"
       },
@@ -8352,7 +8525,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8db1ecaedd9b5f6420d28588f4856e04d3516dfd2d6b45e2dc2932dddea9472a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/compiler.log"
       },
@@ -8365,7 +8538,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/run_module.py"
       },
@@ -8378,7 +8551,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/FourierTailBounds.lean"
       },
@@ -8391,7 +8564,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json"
       },
@@ -8404,7 +8577,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a76aa4084a754ec35b4c08017f9576fcc2e10bc68e145d30fcae4230c2671016",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/TRANSFER_VALIDATION.json"
       },
@@ -8417,7 +8590,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "66f5f464d7448bd2580db4805281c5c45cda928690aa5d8df2957d698785cda0",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log"
       },
@@ -8430,7 +8603,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/run_module.py"
       },
@@ -8443,7 +8616,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/GridAlias.lean"
       },
@@ -8456,7 +8629,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "c3efef9e4d7b9230b2f9c91e312d00ea7b69bdb70f47d1f6c89f3ae05110c7cb",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/MODULE_AUDIT.json"
       },
@@ -8469,7 +8642,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json"
       },
@@ -8482,7 +8655,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "eac067f0bca2f900ec39b46c9c6ecd7553224e3ae63487cc958e148f3b5d9bea",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/TRANSFER_VALIDATION.json"
       },
@@ -8495,7 +8668,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log"
       },
@@ -8508,7 +8681,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/run_module.py"
       },
@@ -8521,7 +8694,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "75cb2ee2ac38d3d495d4dac693ddf7d706c929adb6ad3841cef222f0177dbfce",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/MODULE_AUDIT.json"
       },
@@ -8534,7 +8707,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/PotentialDefectExpansion.lean"
       },
@@ -8547,7 +8720,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json"
       },
@@ -8560,7 +8733,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "61772be3f6102b75e47a8830c3d3795fe991e29c86daf7969ca51d949fef91ed",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/TRANSFER_VALIDATION.json"
       },
@@ -8573,7 +8746,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log"
       },
@@ -8586,7 +8759,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/run_module.py"
       },
@@ -8599,7 +8772,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/PotentialAliasBounds.lean"
       },
@@ -8612,7 +8785,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json"
       },
@@ -8625,7 +8798,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ddd8d722ebff8ee8a69d3d85c2c06dcc1771453023a8897dbf7121f414fadaaf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/TRANSFER_VALIDATION.json"
       },
@@ -8638,7 +8811,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e14530e368033bee5263d8400b5c3d2b00eb7469a4dfd6267df03660fb82b6e5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log"
       },
@@ -8651,7 +8824,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/run_module.py"
       },
@@ -8664,7 +8837,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/AliasTailCertificate.lean"
       },
@@ -8677,7 +8850,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json"
       },
@@ -8690,7 +8863,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "863b5df734faf54b84efff5fc2646187d2e04fe5e83a1a3c8e48e9b681c197ad",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/TRANSFER_VALIDATION.json"
       },
@@ -8703,7 +8876,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "59c373477ff6a0abaa70b9fad347bde96731c929e1c4c45b14b71cd770429967",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/compiler.log"
       },
@@ -8716,7 +8889,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/run_module.py"
       },
@@ -8729,7 +8902,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/AliasTailControls.lean"
       },
@@ -8742,7 +8915,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6f8dfbd398bc598bcad72ff4fb1cf0c5ca99c126302dce533df925c3cea82114",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/MODULE_AUDIT.json"
       },
@@ -8755,7 +8928,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json"
       },
@@ -8768,7 +8941,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8c16b0f72efd7e6da5b9e458a496b90f0834d545b2aa8dd93e46d11923e3151c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/TRANSFER_VALIDATION.json"
       },
@@ -8781,7 +8954,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log"
       },
@@ -8794,12 +8967,298 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "completed_matching_development_evidence",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/run_module.py"
       },
       "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/run_module.py"
+    },
+    {
+      "bytes": 7748,
+      "git_blob_sha1": "067887b9c3c48ae06464592c547a8166366a018d",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/InitialSamplingBounds.lean"
+      },
+      "sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/InitialSamplingBounds.lean"
+    },
+    {
+      "bytes": 25500,
+      "git_blob_sha1": "ab9ba1d6538abad1e56f660be4e1339794720f6b",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json"
+      },
+      "sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json"
+    },
+    {
+      "bytes": 907,
+      "git_blob_sha1": "1cdd971556bee640838287963654be9fd302c0d6",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6bfb8e1ad6e69d58631e44fb7da8c960c5fb683673564e8a547af8ffbec11bb6",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/TRANSFER_VALIDATION.json"
+      },
+      "sha256": "6bfb8e1ad6e69d58631e44fb7da8c960c5fb683673564e8a547af8ffbec11bb6",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/TRANSFER_VALIDATION.json"
+    },
+    {
+      "bytes": 938,
+      "git_blob_sha1": "8eaf4b11951eb8383af9fe471f7c981616999097",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log"
+      },
+      "sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/run_module.py"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/run_module.py"
+    },
+    {
+      "bytes": 4014,
+      "git_blob_sha1": "b412c360f4a290783f2ee8771e208f780661d6a7",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/InitializationCertificate.lean"
+      },
+      "sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/InitializationCertificate.lean"
+    },
+    {
+      "bytes": 25871,
+      "git_blob_sha1": "2a4fdb9c1def39bdead1a99efe635b4781fad9a7",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json"
+      },
+      "sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json"
+    },
+    {
+      "bytes": 923,
+      "git_blob_sha1": "5cc2900bbddb13abb32dbfc47a009d68fee694f5",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "10a067172deb828fa8973936715df07d57c35ee0e8e5da1f2a72e88c99a34a56",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/TRANSFER_VALIDATION.json"
+      },
+      "sha256": "10a067172deb828fa8973936715df07d57c35ee0e8e5da1f2a72e88c99a34a56",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/TRANSFER_VALIDATION.json"
+    },
+    {
+      "bytes": 490,
+      "git_blob_sha1": "c4323fcc779e0fbd927aef91be2c245a04cdf76f",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log"
+      },
+      "sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/run_module.py"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/run_module.py"
+    },
+    {
+      "bytes": 4195,
+      "git_blob_sha1": "530ee8d7b830ede29e9872cee3df511395eff57b",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/InitialSamplingControls.lean"
+      },
+      "sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/InitialSamplingControls.lean"
+    },
+    {
+      "bytes": 806,
+      "git_blob_sha1": "7954a711e8a4f7f427650b537bd5f19e05e0077d",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "1f9676b0525b3f7336848f5d3e8124fa1b0f31f6fff3221e42ca288aa3ee6eef",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/MODULE_AUDIT.json"
+      },
+      "sha256": "1f9676b0525b3f7336848f5d3e8124fa1b0f31f6fff3221e42ca288aa3ee6eef",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/MODULE_AUDIT.json"
+    },
+    {
+      "bytes": 26108,
+      "git_blob_sha1": "13e7ce8e84808835d4af1136f4f82c4894eed784",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json"
+      },
+      "sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json"
+    },
+    {
+      "bytes": 915,
+      "git_blob_sha1": "4174f1e3dcc61f5a80e27d7d6a35ffc27c2c0174",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "48699f618d711491af499437c597e6dc3dae6d671abfbedd90fb51318d34f19c",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/TRANSFER_VALIDATION.json"
+      },
+      "sha256": "48699f618d711491af499437c597e6dc3dae6d671abfbedd90fb51318d34f19c",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/TRANSFER_VALIDATION.json"
+    },
+    {
+      "bytes": 363,
+      "git_blob_sha1": "e41be80a8836d474423463b4f4db00d3e2408793",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log"
+      },
+      "sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/run_module.py"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/run_module.py"
+    },
+    {
+      "bytes": 2676,
+      "git_blob_sha1": "a48b867f11572b4278ec90a882884c2cb04de9ce",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/InitialSamplingLimit.lean"
+      },
+      "sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/InitialSamplingLimit.lean"
+    },
+    {
+      "bytes": 1309,
+      "git_blob_sha1": "cc810c26188ed6fa5c07dadc63a8e539646f0900",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "1fa2d52e4c80492aac6c95b3e2f56833a42958e3d0dab2a5a8965ab6a8f26043",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/MODULE_AUDIT.json"
+      },
+      "sha256": "1fa2d52e4c80492aac6c95b3e2f56833a42958e3d0dab2a5a8965ab6a8f26043",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/MODULE_AUDIT.json"
+    },
+    {
+      "bytes": 26224,
+      "git_blob_sha1": "a14ddd59147fdcc94242639a972b1cdc27849f68",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json"
+      },
+      "sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json"
+    },
+    {
+      "bytes": 903,
+      "git_blob_sha1": "18e9c0637361e8df86ecc396f95ab3c98aec4641",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "f37e5d7475d817541a9781dd665f92e2d6a3c741dc9f4af0e62a17893321f00b",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/TRANSFER_VALIDATION.json"
+      },
+      "sha256": "f37e5d7475d817541a9781dd665f92e2d6a3c741dc9f4af0e62a17893321f00b",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/TRANSFER_VALIDATION.json"
+    },
+    {
+      "bytes": 253,
+      "git_blob_sha1": "d66cdd3f96db70ee9ab3de7ec40efff9e49d6d6e",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log"
+      },
+      "sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "completed_matching_development_evidence",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/run_module.py"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/run_module.py"
     },
     {
       "bytes": 6413,
@@ -8810,7 +9269,7 @@
           "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0"
         ],
         "captured_sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ActualCayleyCertificate.lean",
@@ -8828,7 +9287,7 @@
           "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e"
         ],
         "captured_sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ActualCayleySynthesis.lean",
@@ -8846,7 +9305,7 @@
           "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc"
         ],
         "captured_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
@@ -8864,7 +9323,7 @@
           "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0"
         ],
         "captured_sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean",
@@ -8882,7 +9341,7 @@
           "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414"
         ],
         "captured_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
@@ -8900,7 +9359,7 @@
           "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647"
         ],
         "captured_sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierCoefficientBridge.lean",
@@ -8918,7 +9377,7 @@
           "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e"
         ],
         "captured_sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierNorm.lean",
@@ -8936,7 +9395,7 @@
           "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3"
         ],
         "captured_sha256": "d371e36b98114f56cef229021e2f0d0aa0f12c42f77e5d7faf28bdcc2a8f3000",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
@@ -8954,7 +9413,7 @@
           "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf"
         ],
         "captured_sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierSynthesisRegular.lean",
@@ -8972,7 +9431,7 @@
           "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c"
         ],
         "captured_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierTailBounds.lean",
@@ -8990,7 +9449,7 @@
           "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e"
         ],
         "captured_sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FullBandSymbol.lean",
@@ -9008,7 +9467,7 @@
           "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33"
         ],
         "captured_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
@@ -9026,7 +9485,7 @@
           "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889"
         ],
         "captured_sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "independently_authored_target_definitions_only_no_property_theorem",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/IndependentTarget.lean",
@@ -9034,6 +9493,78 @@
       },
       "sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
       "target": "NDEA_Evolve_offruntime/exp016/lean/IndependentTarget.lean"
+    },
+    {
+      "bytes": 7748,
+      "git_blob_sha1": "067887b9c3c48ae06464592c547a8166366a018d",
+      "git_mode": "100644",
+      "origin": {
+        "accepted_receipt_hashes": [
+          "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88"
+        ],
+        "captured_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "current_exp016_source_snapshot",
+        "kind_of_module": "property_module",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
+        "status": "matching_completed_development_acceptance"
+      },
+      "sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean"
+    },
+    {
+      "bytes": 4195,
+      "git_blob_sha1": "530ee8d7b830ede29e9872cee3df511395eff57b",
+      "git_mode": "100644",
+      "origin": {
+        "accepted_receipt_hashes": [
+          "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49"
+        ],
+        "captured_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "current_exp016_source_snapshot",
+        "kind_of_module": "property_module",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
+        "status": "matching_completed_development_acceptance"
+      },
+      "sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean"
+    },
+    {
+      "bytes": 2676,
+      "git_blob_sha1": "a48b867f11572b4278ec90a882884c2cb04de9ce",
+      "git_mode": "100644",
+      "origin": {
+        "accepted_receipt_hashes": [
+          "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78"
+        ],
+        "captured_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "current_exp016_source_snapshot",
+        "kind_of_module": "property_module",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean",
+        "status": "matching_completed_development_acceptance"
+      },
+      "sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean"
+    },
+    {
+      "bytes": 4014,
+      "git_blob_sha1": "b412c360f4a290783f2ee8771e208f780661d6a7",
+      "git_mode": "100644",
+      "origin": {
+        "accepted_receipt_hashes": [
+          "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181"
+        ],
+        "captured_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "current_exp016_source_snapshot",
+        "kind_of_module": "property_module",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
+        "status": "matching_completed_development_acceptance"
+      },
+      "sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean"
     },
     {
       "bytes": 9262,
@@ -9044,7 +9575,7 @@
           "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca"
         ],
         "captured_sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean",
@@ -9062,7 +9593,7 @@
           "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb"
         ],
         "captured_sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OrderedStageAlgebra.lean",
@@ -9080,7 +9611,7 @@
           "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067"
         ],
         "captured_sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OrderedStageBounds.lean",
@@ -9098,7 +9629,7 @@
           "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d"
         ],
         "captured_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
@@ -9116,7 +9647,7 @@
           "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d"
         ],
         "captured_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean",
@@ -9134,7 +9665,7 @@
           "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a"
         ],
         "captured_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
@@ -9152,7 +9683,7 @@
           "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd"
         ],
         "captured_sha256": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean",
@@ -9170,7 +9701,7 @@
           "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a"
         ],
         "captured_sha256": "4c1a6ec0d168cfbea7f75257c133e29a7a522a7f3295d5107194db3dcf9d5104",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticNorm.lean",
@@ -9188,7 +9719,7 @@
           "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8"
         ],
         "captured_sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "separate_axiom_audit_only",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticNormAudit.lean",
@@ -9206,7 +9737,7 @@
           "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1"
         ],
         "captured_sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticPDEBudget.lean",
@@ -9224,7 +9755,7 @@
           "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d"
         ],
         "captured_sha256": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
@@ -9242,7 +9773,7 @@
           "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455"
         ],
         "captured_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean",
@@ -9260,7 +9791,7 @@
           "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae"
         ],
         "captured_sha256": "1335c94ca420eb6c905ea5479beaf87a2af405486e194759d46d9b6dff3ca425",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/RegularSynthesis.lean",
@@ -9278,7 +9809,7 @@
           "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32"
         ],
         "captured_sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean",
@@ -9296,7 +9827,7 @@
           "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363"
         ],
         "captured_sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean",
@@ -9304,6 +9835,24 @@
       },
       "sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean"
+    },
+    {
+      "bytes": 5690,
+      "git_blob_sha1": "bc38a9bbda9931c6e8472548ec8c9f1d35a3c45b",
+      "git_mode": "100644",
+      "origin": {
+        "accepted_receipt_hashes": [
+          "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac"
+        ],
+        "captured_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
+        "kind": "current_exp016_source_snapshot",
+        "kind_of_module": "property_module",
+        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean",
+        "status": "matching_completed_development_acceptance"
+      },
+      "sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean"
     },
     {
       "bytes": 5885,
@@ -9314,7 +9863,7 @@
           "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e"
         ],
         "captured_sha256": "02b88b6e07caa92642f2d5b2de4b132f2a30678ba4d0bf282a96e22c087be4e7",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SlabError.lean",
@@ -9332,7 +9881,7 @@
           "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732"
         ],
         "captured_sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialDefectCertificate.lean",
@@ -9350,7 +9899,7 @@
           "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d"
         ],
         "captured_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialDefectSplit.lean",
@@ -9368,7 +9917,7 @@
           "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046"
         ],
         "captured_sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
@@ -9386,7 +9935,7 @@
           "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67"
         ],
         "captured_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
@@ -9404,7 +9953,7 @@
           "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594"
         ],
         "captured_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean",
@@ -9422,7 +9971,7 @@
           "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee"
         ],
         "captured_sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SynthesizedSlabError.lean",
@@ -9440,7 +9989,7 @@
           "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c"
         ],
         "captured_sha256": "20d749118fe1f0f788de93397f296252d3c2b56858c177a76198d9b0c89eace3",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/TargetBinding.lean",
@@ -9458,7 +10007,7 @@
           "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c"
         ],
         "captured_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "current_exp016_source_snapshot",
         "kind_of_module": "property_module",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedCoefficientBridge.lean",
@@ -9489,7 +10038,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0e9c05415148b25e2444fa17a30482968b43aea0125fcc0f8d15d807e901140d",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/accept_result.py"
       },
@@ -9502,7 +10051,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "377e390980bab7d34556217db82129c583cc4935812785c36681f4ad814535e6",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/prepare_check.py"
       },
@@ -9515,7 +10064,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3d2334e92a5101fb740d77bf29a3b0b251c22d23a58beb4f0e811ece2fbe1c40",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "later_corrected_dependency_helper_separate_from_original_executed_helper",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/restore_FourierCoefficientBridge_dependency_v2.py"
       },
@@ -9528,7 +10077,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/run_module.py"
       },
@@ -9541,7 +10090,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/run_lean.py"
       },
@@ -9554,7 +10103,7 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "53d0702ac0d319bcb76096adf1f5ef107cdac4e40ff44b8692908a099e052e32",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "development_document_or_small_pinned_runner",
         "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/run_lean_timed.py"
       },
@@ -9562,16 +10111,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/run_lean_timed.py"
     },
     {
-      "bytes": 12587,
-      "git_blob_sha1": "4512c1f1ae9b8b4012c69310a726ac6b40df55d8",
+      "bytes": 12643,
+      "git_blob_sha1": "9b25c61f6eb83609b66058271ec56506b79285a6",
       "git_mode": "100644",
       "origin": {
-        "base_commit": "17fc478e845ac72f96deecbdb5a1ee92f06f905a",
-        "captured_utc": "2026-09-09T14:54:41.889661+00:00",
+        "base_commit": "04dd1fa09b18a5f167206f5c15d507a92687f990",
+        "captured_utc": "2026-09-09T15:47:48.251294+00:00",
         "kind": "updated_development_progress_document",
-        "previous_sha256": "24b74e11d017f1bc603a0c3c99917374d2f42d9d536c2453b335cb1ae586c1d1"
+        "previous_sha256": "3029b84e2ec4ead1d63e7978fe50b4e4437e9787a5805c518a1692d04101b2ec"
       },
-      "sha256": "3029b84e2ec4ead1d63e7978fe50b4e4437e9787a5805c518a1692d04101b2ec",
+      "sha256": "98e4dc8dea345501c79742625f1ad70e4d798f1e0af9c1c7b8a29078d4b4282b",
       "target": "README.md"
     },
     {
@@ -10417,10 +10966,10 @@
       }
     }
   },
-  "previous_source_manifest_sha256": "490069b72b74719df4089a94114daa48e50cb4bfe1d0ad0211bfba9f51dd925f",
-  "purpose": "Curated exact Exp016 alias and tail development checkpoint; incomplete and unsealed",
+  "previous_source_manifest_sha256": "001374f57a5defba70ad765bae88fa1ff60e570588170cb8cf82422e1a28fb86",
+  "purpose": "Curated exact Exp016 initialization development checkpoint; incomplete and unsealed",
   "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
   "schema_version": 1,
   "target_branch": "dev/variable-potential",
-  "utc": "2026-09-09T14:54:41.889661+00:00"
+  "utc": "2026-09-09T15:47:48.251294+00:00"
 }

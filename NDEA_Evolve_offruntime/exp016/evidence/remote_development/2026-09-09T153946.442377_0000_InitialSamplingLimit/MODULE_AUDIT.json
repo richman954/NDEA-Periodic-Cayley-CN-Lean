@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T15:41:01.148524+00:00",
+  "module": "InitialSamplingLimit",
+  "source_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
+  "receipt_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+  "log_sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.sampledInitialState_spatialL2_tendsto_zero",
+    "NDEAEvolve.Exp016.scheduledInitialSampling_spatialL2_tendsto_zero"
+  ],
+  "explicit_axiom_audit_count": 2,
+  "axioms_within_standard_three": true,
+  "warnings": 0,
+  "errors": 0,
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "direct_project_dependency_source_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+  "direct_project_dependency_artifact_sha256": "b2229984136f3912a76bddb9a10eba03ac8c50bec10bac5a81ad150f0f92b4b6",
+  "source_unchanged": true,
+  "import_artifacts_unchanged": true,
+  "artifact_sha256": "3eaac7d9c2531c9cc4cc13041bcaaf8c7c2a85d622fa3961740a5f446e15bfef",
+  "independent_qualification": false,
+  "scope": "Actual initial interpolation L2 tends to zero, general expanding cutoff and explicit M_j=j+1; no solver convergence or Exp016 sealing."
+}

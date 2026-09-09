@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "module": "InitialSamplingControls",
+  "audit_count": 3,
+  "audit_names": [
+    "NDEAEvolve.Exp016.sampledInitialState_exact_of_resolved_support",
+    "NDEAEvolve.Exp016.Controls.unresolvedModeOneState",
+    "NDEAEvolve.Exp016.Controls.unresolved_mode_one_initialization"
+  ],
+  "warning_count": 0,
+  "error_count": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
+  "receipt_sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
+  "log_sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
+  "runner_matches_current": true,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false
+}

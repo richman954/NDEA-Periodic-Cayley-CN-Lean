@@ -1,0 +1,7 @@
+'NDEAEvolve.Exp016.sampledInitialState_exact_of_resolved_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.Controls.unresolvedModeOneState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.Controls.unresolved_mode_one_initialization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
