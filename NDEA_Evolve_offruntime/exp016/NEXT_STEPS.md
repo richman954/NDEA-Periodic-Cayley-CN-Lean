@@ -1,0 +1,15 @@
+# Exp016 continuation after the reconstruction startup modules
+
+This is a work plan, not verification evidence. Preserve Exp013–015 and reuse the exact BASELINE/NUMERICAL_PINS sources. Exp016 is not sealed. The normative endpoint and assumptions are in PLAN.md.
+
+1. Finish the currently queued module checks and inspect their actual receipts. Do not repeat accepted checks merely because a session has changed. A receipt binds only its recorded source SHA-256; compiler failures are retained with their source snapshots.
+2. Add the centered quadratic coefficient bound on a positive slab: absolute offset at most k/2, correction norm at most k²/8. Keep the exact endpoint defect explicit. Consume the quadratic identities in the actual ordered-stage algebra; do not replace the product by a single Cayley factor.
+3. Complete the finite Fourier synthesis calculus: actual first/second spatial derivative formulas, continuity and periodicity. Package only the evaluation/derivative maps needed by this concrete consumer as a regular-synthesis interface. Apply it to the polynomial slab extension to prove the actual Exp015 regularity predicate.
+4. Prove continuum finite-sum Parseval using integral orthogonality of integer phases. Combine it with the existing discrete alias-free Parseval on the full centered odd band and the new inverse-DFT sampling theorem. Derive exactly spatialL2(S_h y)=sqrt(h)*norm(y), including N=1 where applicable; do not replace this by a pointwise inverse bound.
+5. Define the sampled block potential, prove Hermiticity and the specialization to the old Z/X split. Prove the stencil/synthesis and potential interpolation discrepancies as actual expressions. Keep the factor order in the stronger eta identity and derive its bounds using saved unitary stages.
+6. Prove the synthesized quadratic PDE residual identity and the explicit PLAN slab budget using the actual integral-based spatialL2 rules. Apply Exp015 against Exp014's solution and telescope finite positive time slabs with arbitrary initial mismatch.
+7. Add exact controls for endpoint recovery, nonzero initial mismatch, nonzero macro midpoint defect despite exact stage solves, and the saved constant-potential numerical consumer. Complete the planned review, audit catalog, isolated combined and independent fresh-runtime qualification, transfer, finalizer and immutable packet gates before any verified milestone label.
+
+The next experiment must derive initial interpolation and accumulated spatial-defect vanishing along actual refinements. Full-band M*h<=1 is false on the chosen grid family; old small-band estimates cannot be applied wholesale. Uniform sampled-potential/initial weighted norms and any stronger graph regularity must be proved under explicit hypotheses. Exp016 does not assume residual-to-zero as a shortcut to that theorem.
+
+Recovery: inspect WATCHER_STATUS.json and the timestamped LATEST_CHECKPOINT.json, not a PID alone. The current watcher is manual startup, not a boot service. Meaningful development commits go to dev/variable-potential; source backups and theorem qualification remain distinct.

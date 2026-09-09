@@ -56,6 +56,7 @@ no extra term in this argument. This makes no distributional-derivative claim.
 | Existing piecewise constant field | Exact saved numerical output; discontinuous at generic cell/slab interfaces | Existing pointwise transfer loses a factor `1/sqrt(h)`; cannot be inserted into classical residual theorem | Keep as a later output-transfer target, never assert it is classically regular |
 | Trigonometric synthesis + affine time | Spatially smooth and periodic; exact slab endpoints; grid-node fidelity requires sampling/inversion proof or an already tracked finite band | Transparent spatial aliasing; residual contains `-tau*H*v`, whose L1 time estimate can lose the second-order temporal rate | Lowest-cost regular baseline; prove its basic field/derivative lemmas and reuse them |
 | Trigonometric synthesis + quadratic time | Same endpoint values; correction is a global polynomial on each slab | Actual endpoint defect plus a `k^2/8` temporal residual term; no assumption that splitting defect vanishes | Recommended: modest polynomial/linear-map algebra above affine, substantially stronger certificate |
+| Trigonometric synthesis + cubic Hermite time | Exact state endpoints and chosen slopes `-i*H*Uj`; fixed-grid slabs can join with a continuous time derivative | Can preserve temporal accuracy, but its residual has additional endpoint-defect/operator terms; all must be derived | Viable global-C1 alternative. Formal piecewise gluing and interval indexing add cost; reuse the quadratic construction first and revisit if global smooth output becomes a concrete consumer |
 | Exact semidiscrete flow `S(exp(-i*(t-t_n)*H_h) U_n)` | Smooth interior, starts at the numerical state; generally does **not** end at the next Cayley state | Interior temporal defect is zero, but the endpoint jump is the full exponential-versus-split-step defect; spatial commutator remains | Useful later alternative; exponential regularity and local step estimates add cost without eliminating consistency work |
 | Continuous rational Cayley stage path | `C_A(s/4) C_B(s/2) C_A(s/4) U_n` matches both endpoints and uses the actual method | Derivative has resolvent/product/noncommutator terms; selfadjointness makes real-parameter denominators invertible | Faithful but more derivative and cancellation machinery than a polynomial; not the first choice |
 | Periodic C2 local spline/Hermite synthesis | Can interpolate grid values; ordinary piecewise linear or merely C1 reconstructions are insufficient | Avoids Fourier aliasing, but needs uniform reconstruction stability and a new stencil-versus-second-derivative estimate; arbitrary smoothing does not preserve nodes | Serious future local-mesh branch; existing Fourier infrastructure makes it more expensive now |
@@ -63,6 +64,17 @@ no extra term in this argument. This makes no distributional-derivative claim.
 Affine interpolation of accurate nodal values may itself be second-order
 accurate. The issue is that integrating its residual **norm** can discard the
 cancellation needed to prove that order; no contradiction is intended.
+
+A cubic Hermite path deserves separate consideration from spatial splines. For
+fixed H, choose both endpoint slopes from `-i*H*Uj`; they agree across adjacent
+slabs, so a global C1 path is mathematically available. This does not avoid
+proving endpoint defects or spatial consistency. It adds a piecewise-gluing
+proof and extra residual terms. The chosen slabwise quadratic route directly
+uses Exp015 on arbitrary intervals and already avoids derivative-jump claims.
+It is also a useful precursor: its endpoint derivative differs from the desired
+slope by `-i*d` at both ends. An endpoint-vanishing cubic correction can later
+repair those slopes. This is an opened construction, not a checked theorem or
+an asserted rate.
 
 ## Exact split-stage identity: first reusable theorem
 

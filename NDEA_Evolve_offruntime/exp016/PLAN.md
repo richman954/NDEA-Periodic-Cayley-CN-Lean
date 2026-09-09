@@ -8,6 +8,8 @@ Use finite trigonometric spatial synthesis and a quadratic time reconstruction o
 
 The quadratic correction cancels the affine reconstruction's leading temporal variation residual and retains a genuine fixed-grid O(k²) temporal certificate for the actual symmetric Cayley method. This assertion is an algebraic design calculation until the corresponding Lean theorem passes. It is not yet an O(h²+k²) PDE convergence claim. Exact semidiscrete flow reconstruction adds exponential machinery; local spline reconstruction adds substantial spatial interface work. The selected correction requires only low-degree polynomial calculus beyond the affine foundation.
 
+A trigonometric/cubic-Hermite time path is another serious option: choosing endpoint slopes from the same static grid generator permits global C1 gluing. It adds gluing/indexing and endpoint-defect residual work. The quadratic slab already supplies a precursor to that construction, so keeping a slabwise theorem does not close the Hermite route. The expanded comparison records this option without changing the chosen endpoint.
+
 The natural experiment boundary is a numerical-to-continuum certificate, including full odd-grid Fourier interpolation/norm fidelity and an actual finite-grid consumer. The finite-band constant-potential recurrence supplies an early concrete consumer/control before the full interpolation adapter is complete. Spatial consistency under refinement, and the resulting broader variable-potential convergence theorem, form the next experiment: they require a distinct Fourier aliasing/commutator and discrete-regularity argument. We do not hide that argument inside an assumption that the residual vanishes.
 
 ## Exact proposed Exp016 endpoint

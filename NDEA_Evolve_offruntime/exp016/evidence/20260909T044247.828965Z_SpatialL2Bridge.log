@@ -1,0 +1,13 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean:12:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.spatialL2_smul`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean:19:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.spatialL2_neg`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

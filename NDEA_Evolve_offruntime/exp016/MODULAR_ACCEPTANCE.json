@@ -36,6 +36,131 @@
       "sources_unchanged": true,
       "warnings": 7
     },
+    "FourierReconstruction": {
+      "axiom_audits_performed_by_this_modular_receipt": true,
+      "axiom_print_scope": "Seven explicit #print axioms outputs in this accepted local module log, checked against the exact source directives and standard allowed axiom names; not a combined or independent qualification.",
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 267.0854296109992,
+      "exit_code": 0,
+      "explicit_axiom_print_count": 7,
+      "explicit_axiom_prints_verified": {
+        "NDEAEvolve.Exp016.fourierReconstruction_at_node": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_injective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierReconstruction_periodic": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.fourierSynthesis_periodic": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.oddFourier_kernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.oddFrequency_injective": [
+          "propext",
+          "Quot.sound"
+        ],
+        "NDEAEvolve.Exp016.sampleSolution_fourierReconstruction": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.log",
+      "log_sha256": "3ffd778f3aa3448d88759e2e567a4f2f7db21f1f4068dd9a44c8d5abfdb9e921",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FourierReconstruction.olean": "0adbcefac6c62e599c48d074c5ca3a4bd6c4d6599c320196547a4f7d1edbde05"
+      },
+      "public_theorem_declaration_count": 7,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.oddFrequency_injective",
+        "NDEAEvolve.Exp016.oddFourier_kernel",
+        "NDEAEvolve.Exp016.fourierReconstruction_at_node",
+        "NDEAEvolve.Exp016.sampleSolution_fourierReconstruction",
+        "NDEAEvolve.Exp016.fourierReconstruction_injective",
+        "NDEAEvolve.Exp016.fourierSynthesis_periodic",
+        "NDEAEvolve.Exp016.fourierReconstruction_periodic"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json",
+      "receipt_sha256": "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
+      "source_sha256": "d371e36b98114f56cef229021e2f0d0aa0f12c42f77e5d7faf28bdcc2a8f3000",
+      "sources_unchanged": true,
+      "warnings": 1
+    },
+    "QuadraticTime": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 120.77875912799936,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log",
+      "log_sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticTime.olean": "400c7e82b92885b3c9f4da914fe244272fed2104bba00a5f758279f94616c84c"
+      },
+      "public_theorem_declaration_count": 10,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.quadraticCorrection_hasDerivAt",
+        "NDEAEvolve.Exp016.quadraticTime_hasDerivAt",
+        "NDEAEvolve.Exp016.quadraticTime_derivative",
+        "NDEAEvolve.Exp016.quadraticTime_left",
+        "NDEAEvolve.Exp016.quadraticTime_right",
+        "NDEAEvolve.Exp016.quadraticSlab_left",
+        "NDEAEvolve.Exp016.quadraticSlab_right",
+        "NDEAEvolve.Exp016.quadraticTime_gridResidual",
+        "NDEAEvolve.Exp016.quadraticSlab_hasDerivAt",
+        "NDEAEvolve.Exp016.quadraticSlab_gridResidual"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json",
+      "receipt_sha256": "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
+      "source_sha256": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
+      "sources_unchanged": true,
+      "warnings": 2
+    },
+    "SpatialL2Bridge": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 261.24552862699966,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.log",
+      "log_sha256": "69c738f0dea2463701011f48b7f3c71a51382fcd31784228f5853f672fd6a888",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SpatialL2Bridge.olean": "f574d76136b8501e0cd7fc7ac96ee136ad933f7abd5c2d4e388dbaec607c8d9c"
+      },
+      "public_theorem_declaration_count": 4,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.spatialL2_smul",
+        "NDEAEvolve.Exp016.spatialL2_neg",
+        "NDEAEvolve.Exp016.spatialL2_add_le",
+        "NDEAEvolve.Exp016.spatialL2_sub_triangle"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json",
+      "receipt_sha256": "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
+      "source_sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1",
+      "sources_unchanged": true,
+      "warnings": 2
+    },
     "SplitDefect": {
       "axiom_audits_performed_by_this_modular_receipt": false,
       "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
@@ -63,32 +188,66 @@
       "warnings": 5
     }
   },
-  "captured_utc": "2026-09-09T04:47:34.874169+00:00",
-  "excluded_current_work": [
-    "Fourier draft modules",
-    "QuadraticTime draft",
-    "SpatialL2 draft modules"
-  ],
+  "base_commit": "f2297842efd35d7a42cc83b6815d21278eceddb5",
+  "base_tree": "d4c1d7936fd6913f52b9a9a1f72d2c468aa37114",
+  "captured_utc": "2026-09-09T05:04:59.299700+00:00",
+  "excluded_current_work": [],
   "experiment": "exp016",
   "git_binding": "After publication an external readback receipt binds the real commit/tree to DEVELOPMENT_SOURCE_MANIFEST.json SHA256 and exact payload hashes. No own-commit/self-hash cycle is introduced.",
+  "metadata_correction": {
+    "description": "Correct the FourierReconstruction per-module axiom-report flag to match all seven explicit standard-axiom outputs in its unchanged accepted source and log.",
+    "utc": "2026-09-09T05:09:30.849343+00:00"
+  },
+  "omitted_current_modules": {},
+  "preparation_status": "Prepared: all three queued foundation additions accepted; full Exp016 remains incomplete",
   "project_import_edges": [
     {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
-      "import": "ResidualField",
-      "to": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
+      "from": "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
+      "import": "Orthogonality",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/Orthogonality.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean",
-      "import": "GenericClassical",
-      "to": "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean"
+      "from": "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
+      "import": "Reconstruction",
+      "to": "NDEA_Evolve_offruntime/exp011/lean/Reconstruction.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
-      "import": "StageBridge",
-      "to": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean"
+      "from": "NDEA_Evolve_offruntime/exp011/lean/Reconstruction.lean",
+      "import": "SolutionLipschitz",
+      "to": "NDEA_Evolve_offruntime/exp011/lean/SolutionLipschitz.lean"
     },
     {
-      "from": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean",
+      "from": "NDEA_Evolve_offruntime/exp011/lean/Reconstruction.lean",
+      "import": "ClassicalClosure",
+      "to": "NDEA_Evolve_offruntime/exp010/lean/ClassicalClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/ClassicalClosure.lean",
+      "import": "Continuity",
+      "to": "NDEA_Evolve_offruntime/exp010/lean/Continuity.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/ClassicalClosure.lean",
+      "import": "WeightedClosure",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/ClassicalClosure.lean",
+      "import": "ScheduleClosure",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/ScheduleClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/ScheduleClosure.lean",
+      "import": "InfiniteClosure",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/InfiniteClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/ScheduleClosure.lean",
+      "import": "CutoffSchedule",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/CutoffSchedule.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/CutoffSchedule.lean",
       "import": "SuperpositionClosure",
       "to": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean"
     },
@@ -126,9 +285,89 @@
       "from": "NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean",
       "import": "Exp007Foundation",
       "to": "NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/InfiniteClosure.lean",
+      "import": "InfiniteReference",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/InfiniteReference.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/InfiniteReference.lean",
+      "import": "SuperpositionClosure",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean",
+      "import": "InfiniteClosure",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/InfiniteClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean",
+      "import": "WeightedTail",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/WeightedTail.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp009/lean/WeightedTail.lean",
+      "import": "InfiniteReference",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/InfiniteReference.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/Continuity.lean",
+      "import": "ClassicalSolution",
+      "to": "NDEA_Evolve_offruntime/exp010/lean/ClassicalSolution.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/ClassicalSolution.lean",
+      "import": "Regularity",
+      "to": "NDEA_Evolve_offruntime/exp010/lean/Regularity.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp010/lean/Regularity.lean",
+      "import": "WeightedTail",
+      "to": "NDEA_Evolve_offruntime/exp009/lean/WeightedTail.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp011/lean/SolutionLipschitz.lean",
+      "import": "Continuity",
+      "to": "NDEA_Evolve_offruntime/exp010/lean/Continuity.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
+      "import": "SpatialL2",
+      "to": "NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean",
+      "import": "GenericEnergy",
+      "to": "NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean",
+      "import": "GenericClassical",
+      "to": "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
+      "import": "StageBridge",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean",
+      "import": "SuperpositionClosure",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+      "import": "ResidualField",
+      "to": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean",
+      "import": "GenericClassical",
+      "to": "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean"
     }
   ],
-  "public_theorem_declaration_count": 18,
+  "public_theorem_declaration_count": 39,
   "qualification": {
     "combined_axiom_audit": false,
     "combined_check": false,
@@ -146,14 +385,31 @@
     "NDEA_Evolve_offruntime/exp008/lean/Orthogonality.lean",
     "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean",
     "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/CutoffSchedule.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/InfiniteClosure.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/InfiniteReference.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/ScheduleClosure.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/WeightedClosure.lean",
+    "NDEA_Evolve_offruntime/exp009/lean/WeightedTail.lean",
+    "NDEA_Evolve_offruntime/exp010/lean/ClassicalClosure.lean",
+    "NDEA_Evolve_offruntime/exp010/lean/ClassicalSolution.lean",
+    "NDEA_Evolve_offruntime/exp010/lean/Continuity.lean",
+    "NDEA_Evolve_offruntime/exp010/lean/Regularity.lean",
+    "NDEA_Evolve_offruntime/exp011/lean/Reconstruction.lean",
+    "NDEA_Evolve_offruntime/exp011/lean/SolutionLipschitz.lean",
     "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean",
+    "NDEA_Evolve_offruntime/exp013/lean/GenericEnergy.lean",
     "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean",
+    "NDEA_Evolve_offruntime/exp015/lean/SpatialL2.lean",
     "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+    "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
+    "NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
+    "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
     "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean"
   ],
   "schema_version": 1,
   "source_to_receipt_hashes_verified": true,
   "staging_performed_proof_runs": false,
-  "status": "TWO LOCAL MODULAR ACCEPTS; EXP016 INCOMPLETE AND UNSEALED",
+  "status": "5 LOCAL MODULAR ACCEPTS; EXP016 INCOMPLETE AND UNSEALED",
   "unresolved_project_imports": []
 }

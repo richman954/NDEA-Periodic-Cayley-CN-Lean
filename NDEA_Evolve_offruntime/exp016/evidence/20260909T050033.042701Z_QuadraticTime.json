@@ -1,0 +1,28 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
+  "source_sha256_before": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticTime.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-09T05:00:33.047839+00:00",
+  "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 0,
+  "source_sha256_after": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
+  "elapsed_seconds": 120.77875912799936,
+  "log_sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log",
+  "output_sha256": {
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/QuadraticTime.olean": "400c7e82b92885b3c9f4da914fe244272fed2104bba00a5f758279f94616c84c"
+  },
+  "sources_unchanged": true
+}
