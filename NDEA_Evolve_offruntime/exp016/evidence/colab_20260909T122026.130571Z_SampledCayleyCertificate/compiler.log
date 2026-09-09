@@ -1,0 +1,9 @@
+'NDEAEvolve.Exp016.operatorPotentialMatrix_represents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.operatorPotentialMatrix_isHermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_operatorPotential_nodeValue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_operatorPotential_splitB_isHermitian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampled_operatorPotential_stencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_partialSlab_error' depends on axioms: [propext, Classical.choice, Quot.sound]

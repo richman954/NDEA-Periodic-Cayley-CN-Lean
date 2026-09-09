@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "FourierCoefficientBridge",
+  "archive_sha256": "6918bce5273cebba798587bfa79256f55e767ab80f111b8b547e863f5d5f7c4d",
+  "source_sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json",
+  "receipt_sha256": "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/FourierCoefficientBridge.olean",
+  "artifact_sha256": "7cf94d2e4aef2fd3ca4c53bfe69c13a76b2cd2b4dbcb12e0b0d9e5a54a0a0661",
+  "independent_qualification": false,
+  "utc": "2026-09-09T13:00:37.830471+00:00"
+}

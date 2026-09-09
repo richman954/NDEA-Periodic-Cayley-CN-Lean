@@ -1,0 +1,16 @@
+{
+  "source_manifest_sha256": "b760993391a46afafc2aabe5922720745f9bedab99592b7551a282eabb1496c4",
+  "source_snapshot_build": "not run",
+  "comparator_documentation": {
+    "repository": "https://github.com/leanprover/comparator",
+    "commit": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+    "path": "/home/richman954/NDEA_External_Inspection/NavierStokesAndEuler_8937a8f4/ComparatorREADME.md",
+    "sha256": "0ff3fcb2d7fa16b659e6ce3bd53127ab82577aebc951b3e601e277c55ec80eda"
+  },
+  "execution": {
+    "ordinary_upstream_lean": "not run",
+    "comparator": "not run",
+    "nanoda": "not run"
+  },
+  "security_decision": "No prepared isolated unprivileged credential-free environment meeting pinned Comparator requirements; do not substitute existing root Colab or fake-landrun."
+}

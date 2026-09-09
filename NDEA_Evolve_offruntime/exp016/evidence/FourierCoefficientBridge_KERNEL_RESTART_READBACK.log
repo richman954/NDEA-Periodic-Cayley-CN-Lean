@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-09T12:56:06.303813+00:00",
+  "purpose": "readback after Python kernel restart; VM/project retained",
+  "source_artifact_files_checked": 42,
+  "mismatches": [],
+  "pending_compiler_or_runner_processes": [],
+  "check_lock_available": true,
+  "addcircle_sha256": "a761463c2031389bcc8b6337af146ee284f72cdf1724a6ee22febae515dd8cc1",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
+}

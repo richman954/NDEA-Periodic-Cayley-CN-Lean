@@ -1,0 +1,281 @@
+{
+  "schema": "ndeaevolve.external_reference.v1",
+  "retrieved_utc": "2026-09-09T12:10:10.915750+00:00",
+  "repository": "https://github.com/openai/NavierStokesAndEuler",
+  "commit": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "tree": "8163a2fac282a90cc60b5afbc1f0dc7b2e5c6755",
+  "local_source": "/home/richman954/NDEA_External/navier-stokes-euler/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "upstream_main_observed": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+  "upstream_observation": "GitHub git/ref/heads/main readback during acquisition; no newer revision observed",
+  "toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover/comparator.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "19e111e2141cf333c7daff0f64c5f24acc91dd2e",
+      "name": "Comparator",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "85e3a25e006c35636f0e53b0e9296caca2685bc0",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4export",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "name": "lean4export",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "complete_tracked_snapshot": true,
+  "tracked_files": 2496,
+  "tracked_bytes": 32461273,
+  "all_git_blob_hashes_match": true,
+  "git_fsck": "passed --full --strict",
+  "working_tree": "clean detached HEAD",
+  "catalog": {
+    "path": "/home/richman954/NDEA_External/navier-stokes-euler/TRACKED_SOURCE_SHA256.json",
+    "sha256": "f1293987293d24e07d33a5a4795528384a1869201ad4e980b31403a5438ef34d"
+  },
+  "audit_log": {
+    "path": "/home/richman954/NDEA_External/navier-stokes-euler/ACQUISITION_READBACK.log",
+    "sha256": "a396da92a0f015a443a65f9823248b9d37c5294a503affe2ddbb719819dbd27e"
+  },
+  "relevant_files": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "bytes": 2018,
+      "git_blob_sha1": "7605002090afc6e2603ba2f624d41af1c6da5149",
+      "sha256": "2ca277a62b6bb6ce34686303c9c777e56d5b460160004a49a28e4e72086d781e"
+    },
+    {
+      "path": "formalization.yaml",
+      "mode": "100644",
+      "bytes": 4379,
+      "git_blob_sha1": "01270e9f666b0400b60d032204e02e6d684cee98",
+      "sha256": "6c6d30c58c70a0a04fa41a08a50ba7eb7e8a96a7f604a30b4bec6b921ea87dc3"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "bytes": 11358,
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "lean-toolchain",
+      "mode": "100644",
+      "bytes": 29,
+      "git_blob_sha1": "b814d987e0c93cb99938be934d9b277778495ba1",
+      "sha256": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+    },
+    {
+      "path": "lakefile.toml",
+      "mode": "100644",
+      "bytes": 662,
+      "git_blob_sha1": "9ebc030daf98b40aeb90636ef2016d791ad5dd3a",
+      "sha256": "97b2804da5b9a2cd0aaf44ce42b7c39e9947beff9d2ac01a11e0d3d867af1c09"
+    },
+    {
+      "path": "lake-manifest.json",
+      "mode": "100644",
+      "bytes": 3810,
+      "git_blob_sha1": "f07a8454cb6200d90bcc4371bc9965e9f8f46c7d",
+      "sha256": "5ec1dc8e009008d0efb9601cd38f6ba54e753fd538b0e5f8c3e6c5ec72ee1e09"
+    },
+    {
+      "path": "NavierStokes/SmoothFourierData.lean",
+      "mode": "100644",
+      "bytes": 28366,
+      "git_blob_sha1": "1de68214bc1f62781e3fbaac44f294a25d97886d",
+      "sha256": "980b746ca551345d88351dd961d30b69876c68c84f0c758445593025d9dbc642"
+    },
+    {
+      "path": "NavierStokes/SmoothParameterIntegral.lean",
+      "mode": "100644",
+      "bytes": 15349,
+      "git_blob_sha1": "0cfed6e22e91b010463290147978f1b95bf89816",
+      "sha256": "354cd9ec9630c3436bfa1b867dfc12ac0f978932ca91d2571d973fe91c7d2b7a"
+    },
+    {
+      "path": "NavierStokes/PeriodicIntegration.lean",
+      "mode": "100644",
+      "bytes": 15757,
+      "git_blob_sha1": "610db4074c9bb6bea3780296158f3f786ccfb33f",
+      "sha256": "4f637ee61edc17fd3e99da4c407f13a9c749bf7e6f6a2c49a85396e7a56eec1a"
+    },
+    {
+      "path": "ComparatorChallenges/README.md",
+      "mode": "100644",
+      "bytes": 665,
+      "git_blob_sha1": "bbe080b9fa8fd091617914290eb815e831cf16b2",
+      "sha256": "f28c5f581d7bbc9504db467b88686a89ad5a94e4fd38b48a1866ae6224b5a1d8"
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.json",
+      "mode": "100644",
+      "bytes": 375,
+      "git_blob_sha1": "b5fd32b1211faf7d282dac09d70be5527da9f486",
+      "sha256": "7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8"
+    },
+    {
+      "path": "ComparatorChallenges/NavierStokes.lean",
+      "mode": "100644",
+      "bytes": 13031,
+      "git_blob_sha1": "673fb19e26e60818d446363afd953f618719f99b",
+      "sha256": "0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61"
+    },
+    {
+      "path": "NavierStokes/ComparatorDefinitions.lean",
+      "mode": "100644",
+      "bytes": 10979,
+      "git_blob_sha1": "d92c81ac99c1139e54c181c97d9021e975e23b7a",
+      "sha256": "8d90e0f9eee14f8b01773852083a02fd58bda59d4de2abb60d1787bbc9f6ebf4"
+    },
+    {
+      "path": "NavierStokes/ComparatorSolution.lean",
+      "mode": "100644",
+      "bytes": 1359,
+      "git_blob_sha1": "cc232068cd384dbbddce2753b1fc4a4017c0f2d7",
+      "sha256": "52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227"
+    },
+    {
+      "path": "NavierStokes/ComparatorR3Theorem.lean",
+      "mode": "100644",
+      "bytes": 2000,
+      "git_blob_sha1": "eb98522380b91b209421bf7519f34bc68ba95c1d",
+      "sha256": "bcf984eb9f9b70d2f0a3850b146bccef918b36d27831f607b5c1aed14aab92a3"
+    },
+    {
+      "path": "NavierStokes/ComparatorTheorem.lean",
+      "mode": "100644",
+      "bytes": 2818,
+      "git_blob_sha1": "8105493534a5007c689c59e22bc252623bcbe901",
+      "sha256": "94b2218013c242e55b8726523ca1151bc1bd5e2b55a5d6d0909cd867bf5e1f59"
+    }
+  ],
+  "license": "Apache-2.0 source license; preserve per-file notices. Manuscript redistribution not established.",
+  "execution": {
+    "upstream_build": "not run",
+    "comparator": "not run",
+    "nanoda": "not run"
+  },
+  "ndea_environment_changed": false,
+  "external_checkout_in_routine_snapshots": false
+}

@@ -1,0 +1,32 @@
+/content/exp016_dev/project/exp016/lean/OneNodeCosine.lean:142:28: warning: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.one_apply, m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵ ̵← Finset.mul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/content/exp016_dev/project/exp016/lean/OneNodeCosine.lean:142:39: warning: This simp argument is unused:
+  ← Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  simp [Matrix.one_apply, mul_assoc,̵ ̵←̵ ̵F̵i̵n̵s̵e̵t̵.̵m̵u̵l̵_̵s̵u̵m̵]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NDEAEvolve.Exp016.OneNodeCosine.spinor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.coefficients_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.coefficients_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.potential_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.matrixPotential_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.potential_matches_matrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.potential_nonconstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.reference_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.A_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.B_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.gridInitial_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.reconstruction_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.spatial_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.spatial_defect_at_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.spatial_defect_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.OneNodeCosine.actual_slab_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]

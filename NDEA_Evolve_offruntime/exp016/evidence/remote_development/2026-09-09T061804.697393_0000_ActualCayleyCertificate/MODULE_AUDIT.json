@@ -1,0 +1,89 @@
+{
+  "utc": "2026-09-09T06:19:30.845819+00:00",
+  "module": "ActualCayleyCertificate",
+  "passed": true,
+  "qualification": "incremental development compiler check; independent combined qualification pending",
+  "independent_qualification": false,
+  "exit_code": 0,
+  "compiler_seconds": 6.395745003999764,
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ActualCayleyCertificate.lean",
+  "source_sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json",
+  "receipt_sha256": "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/compiler.log",
+  "log_sha256": "806710206c03ce5126797bfdfaadb4b58c8c65ea3d0ebfc194790e8feca086c2",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/ActualCayleyCertificate.olean",
+  "artifact_sha256": "0af26da4e0e9976851f4e9e0ec5f3eee26b3c68ea656f93ed8aba2b617a4af80",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/results/ActualCayleyCertificate_20260909T061804.zip",
+  "archive_sha256": "150290ec5c5d8997bf9cdaee278215c0c64809a4ace142c2408770466b97b22c",
+  "source_unchanged": true,
+  "imports_unchanged": true,
+  "audit_count": 6,
+  "substantive_certificate_theorems": 2,
+  "definitional_recurrence_equations": 4,
+  "audits": [
+    {
+      "name": "NDEAEvolve.Exp016.actualCayleyTrajectory_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.actualCayleyTrajectory_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.actualCayleyTime_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.actualCayleyTime_succ",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.actualCayley_gridTime_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "name": "NDEAEvolve.Exp016.actualCayley_partialSlab_error",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [],
+  "scope": {
+    "trajectory": "Nat.rec from arbitrary initial grid data using the exact ordered A(k/4), B(k/2), A(k/4) Cayley endpoint.",
+    "times": "Nat.rec cumulative step lengths from time zero.",
+    "endpoint": "L2 error of independent rawFourier target at cumulative time N is at most unrestricted initial mismatch plus sum_j<N k_j*computed actualFourierResidualBudget_j.",
+    "partial_slab": "Independent actualCayleyFourierSlab target at t in the Nth slab adds (t-time_N)*computed actualFourierResidualBudget_N.",
+    "hypotheses": "Full odd grid and exact mesh relation; A,B Hermitian; Exp014 RegularPotential and HermitianFourierPotential; arbitrary Fourier initial state and numerical initial state; positive traversed time steps.",
+    "assumed_recurrence": false,
+    "assumed_residual_bound": false,
+    "assumed_nodal_matching": false,
+    "assumed_initial_matching": false,
+    "grid_matrices_identified_with_sampled_potential": false,
+    "spatial_discrepancy": "Explicit in every computed budget; no relation between general A,B and continuum potential is silently assumed.",
+    "spatial_refinement_proved": false
+  }
+}

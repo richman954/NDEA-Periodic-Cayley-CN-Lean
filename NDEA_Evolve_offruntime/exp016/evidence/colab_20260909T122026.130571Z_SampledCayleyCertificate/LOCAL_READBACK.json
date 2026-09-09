@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T12:22:27.864620+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T122026.130571Z_SampledCayleyCertificate_colab.zip",
+  "archive_sha256": "748c97128b461d051b67da3784b5c05c32723fe19120df3afe566fd30ee2d3e4",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json",
+  "receipt_sha256": "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32",
+  "log_sha256": "2cc33974ef0ba8d49f243264a1e4b2ac9eeebf4128429b0738247eb6f16533f5",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "0c2ed5b7b40a8938d9a5c062cced70d73829cbf2282696474af733ae8426d290",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SampledCayleyCertificate.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.operatorPotentialMatrix_represents": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.operatorPotentialMatrix_isHermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampled_operatorPotential_nodeValue": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampled_operatorPotential_splitB_isHermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampled_operatorPotential_stencil": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledCayley_gridTime_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.sampledCayley_partialSlab_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 0,
+  "independent_qualification": false
+}

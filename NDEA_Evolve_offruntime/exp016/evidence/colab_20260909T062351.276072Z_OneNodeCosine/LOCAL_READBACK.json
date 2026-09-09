@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T06:25:08.912174+00:00",
+  "purpose": "Development proof archive readback and local artifact installation",
+  "source_sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5",
+  "archive": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T062351.276072Z_OneNodeCosine_colab.zip",
+  "archive_sha256": "0425e5549246b6455d97e5f283d25eb113a1bb0aa819b47bd1219b878875de80",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json",
+  "receipt_sha256": "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca",
+  "log_sha256": "d5742ffb56fb3eb6b734394be9e8a5e8787d798e555f0ba4d4b6b8162fb5406d",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "output_sha256": "c8b5a7177ad3d7b39c2e166611389bc211691f72dcfc113957b4197e8cd5dba2",
+  "local_output": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/OneNodeCosine.olean",
+  "axiom_reports": {
+    "NDEAEvolve.Exp016.OneNodeCosine.spinor_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.coefficients_regular": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.coefficients_hermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.potential_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.matrixPotential_hermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.potential_matches_matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.potential_nonconstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.reference_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.A_hermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.B_hermitian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.gridInitial_ne_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.reconstruction_initial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.spatial_defect": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.spatial_defect_at_pi": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.spatial_defect_nonzero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "NDEAEvolve.Exp016.OneNodeCosine.actual_slab_certificate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "warnings": 2,
+  "independent_qualification": false
+}

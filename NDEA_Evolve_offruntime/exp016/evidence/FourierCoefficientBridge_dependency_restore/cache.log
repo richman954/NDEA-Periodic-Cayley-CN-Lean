@@ -1,0 +1,6 @@
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+Attempting to download 228 file(s) from leanprover-community/mathlib4 cache
+Downloaded: 1 file(s) [attempted 1/228 = 0%, 2 KB/s], Decompressed: 0[KDownloaded: 52 file(s) [attempted 52/228 = 22%, 304 KB/s], Decompressed: 0[KDownloaded: 98 file(s) [attempted 98/228 = 42%, 386 KB/s], Decompressed: 1[KDownloaded: 143 file(s) [attempted 143/228 = 62%, 756 KB/s], Decompressed: 1[KDownloaded: 205 file(s) [attempted 205/228 = 89%, 334 KB/s], Decompressed: 1[KDownloaded: 226 file(s) [attempted 226/228 = 99%, 575 KB/s], Decompressed: 1[KDownloaded: 228 file(s) [attempted 228/228 = 100%, 575 KB/s], Decompressed: 1[K
+Decompressed 228 file(s)
+Already decompressed 2895 file(s)

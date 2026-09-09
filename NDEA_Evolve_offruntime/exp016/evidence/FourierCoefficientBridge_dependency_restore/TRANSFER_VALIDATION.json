@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive_sha256": "25100b83419993d80e866c4cf5f5f55c41406a1aa8f644fe53b706e78ab9b7f3",
+  "receipt_sha256": "4144eb0bef9f8654fd4b8e88ee8c383238b51f9b6232b5cff00ab10a3b22c204",
+  "log_sha256": "cc8c7afd4c613998053a9b1f85e38b9db514e35896debc588d8759b4e8c1e115",
+  "new_olean_count": 228,
+  "script": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/restore_FourierCoefficientBridge_dependency.py",
+  "script_sha256": "354a1dbc4284c90ed3e4b8bf4f10641b45d8931e252fcc17c2eedde763d04d49",
+  "independent_qualification": false
+}

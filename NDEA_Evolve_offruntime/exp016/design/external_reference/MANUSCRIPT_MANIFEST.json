@@ -1,0 +1,17 @@
+{
+  "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+  "checked_utc": "2026-09-09T12:10:51.266996+00:00",
+  "retrieval": "curl -fL, one attempt, exit 0",
+  "pdf": "/home/richman954/NDEA_External/navier-stokes-euler/navier-stokes.pdf",
+  "bytes": 2959204,
+  "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+  "reader": "pypdf 6.9.1, strict=True, isolated pdf-tools venv",
+  "pages": 166,
+  "pages_with_searchable_text": 166,
+  "text": "/home/richman954/NDEA_External/navier-stokes-euler/navier-stokes-pages.txt",
+  "text_sha256": "5fab714ba30a033ce27949e15cf0bb0c89ba51bc135f91fdbb6be50bfcc95ebc",
+  "page_reference_convention": "1-based PDF page numbers, explicit separators in extracted text",
+  "warnings": [],
+  "public_redistribution_permission": "not established; PDF and extracted text excluded from public Git",
+  "role": "supporting reference, not proof verification"
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-09T12:26:15.301062+00:00",
+  "baseline_sha256": "99dbd671360caf5c4614c6536bd3e6074e0a48e25b0f2605e9a9053b4f48fd2a",
+  "payload_files_checked": 789,
+  "mismatches": [],
+  "passed": true,
+  "scope": "Read-only sealed Exp013\u2013015 payload-byte comparison. No proof rerun."
+}
