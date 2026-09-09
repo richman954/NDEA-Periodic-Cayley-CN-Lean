@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "module": "PotentialStability",
+  "prepared_manifest_sha256": "3d3f422a36c170ff988606d9af2e1e2491c128b993415cdbc4a0acf5be195774",
+  "source_sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23",
+  "receipt_sha256": "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7",
+  "artifact_sha256": "633212d66b84a4c4d12ace4bf5a34f1095d83082a9216141994a32c0d1c610c5",
+  "explicit_axiom_audit_count": 5,
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.sampledCayleyTrajectory_potential_perturbation",
+    "NDEAEvolve.Exp016.sampledCayleyTrajectory_potential_spatialL2_le",
+    "NDEAEvolve.Exp016.sampledCayleyTrajectory_sampled_potential_spatialL2_le",
+    "NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_spatialL2_le_tail",
+    "NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_spatialL2_le_weighted"
+  ],
+  "standard_axioms_only": true,
+  "warning_count": 1,
+  "expected_project_imports": {
+    "SampledPotentialBounds": {
+      "source": "exp016/lean/SampledPotentialBounds.lean",
+      "source_sha256": "b6bd1493cd3e954f100094be0aa3513ccc341d43d4a985777baaf04094294c9b",
+      "artifact": "exp016/build/lib/lean/SampledPotentialBounds.olean",
+      "artifact_sha256": "8c33eeb4117214937c709a2d326f915c4d0bc1f7cad3d67a2ee9b411e7f75801"
+    },
+    "CayleyPerturbation": {
+      "source": "exp016/lean/CayleyPerturbation.lean",
+      "source_sha256": "6c3f37c945912f8983c1db9001410e9b87da9eac3755127f41a8385e7f1f83ff",
+      "artifact": "exp016/build/lib/lean/CayleyPerturbation.olean",
+      "artifact_sha256": "4566a22ae19240c513275b463ced69e226055972d6e083b37db04c76aa74c135"
+    },
+    "PotentialCutoff": {
+      "source": "exp016/lean/PotentialCutoff.lean",
+      "source_sha256": "b6964deb1ced3b127060458c572b7d3c68cea33b6ba291de7f2f22bee93bdf5a",
+      "artifact": "exp016/build/lib/lean/PotentialCutoff.olean",
+      "artifact_sha256": "497234d0da3c5f411ef80399109671d94c8973da1c9553caf159d9c703d072d9"
+    },
+    "InitialSamplingBounds": {
+      "source": "exp016/lean/InitialSamplingBounds.lean",
+      "source_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
+      "artifact": "exp016/build/lib/lean/InitialSamplingBounds.olean",
+      "artifact_sha256": "b2229984136f3912a76bddb9a10eba03ac8c50bec10bac5a81ad150f0f92b4b6"
+    }
+  },
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runtime_readback_sha256": "7b04c0e86470f77caeee4364e7c9426dc5a042278f8c59396fee98311215073e",
+  "helper_sha256": "774e8f1de7671ac158b6c572e098b5add109f1bbe41fce9af2217bc4dcf149ea",
+  "independent_qualification": false,
+  "scope": "Source-bound incremental development with pinned restored imports, not independent qualification."
+}

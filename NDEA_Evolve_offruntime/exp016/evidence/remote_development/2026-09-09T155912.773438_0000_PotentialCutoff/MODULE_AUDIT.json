@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "module": "PotentialCutoff",
+  "audit_count": 6,
+  "audit_names": [
+    "NDEAEvolve.Exp016.potentialCutoff",
+    "NDEAEvolve.Exp016.potentialCutoff_regular",
+    "NDEAEvolve.Exp016.potentialCutoff_hermitian",
+    "NDEAEvolve.Exp016.potentialCutoff_difference_norm_sum",
+    "NDEAEvolve.Exp016.operatorPotential_cutoff_norm_le_tail",
+    "NDEAEvolve.Exp016.operatorPotential_cutoff_norm_le_weighted"
+  ],
+  "warning_count": 2,
+  "warning_scope": "Unused CompleteSpace H section variable in potentialCutoff_regular and potentialCutoff_difference_norm_sum; full warning text retained in compiler.log.",
+  "error_count": 0,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "source_sha256": "b6964deb1ced3b127060458c572b7d3c68cea33b6ba291de7f2f22bee93bdf5a",
+  "receipt_sha256": "7ede124c841597e2faf9e22c064d0a8e1c73cd442dfaba2b80cc0dfccf77e870",
+  "log_sha256": "204340adced4a954707fa877e548d4c4ba5ef652483870aaf588e01371cd5506",
+  "runner_matches_current": true,
+  "sources_unchanged": true,
+  "imports_unchanged": true,
+  "independent_qualification": false
+}

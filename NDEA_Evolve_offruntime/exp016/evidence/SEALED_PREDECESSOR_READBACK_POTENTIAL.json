@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-09T16:06:24.656524+00:00",
+  "passed": true,
+  "baseline_sha256": "99dbd671360caf5c4614c6536bd3e6074e0a48e25b0f2605e9a9053b4f48fd2a",
+  "experiments": {
+    "exp013": {
+      "payload_files_verified": 313,
+      "all_payload_sha256_match": true,
+      "final_packet_receipt_unchanged": true,
+      "packet_manifest_unchanged": true,
+      "archive_sha256_matches": true
+    },
+    "exp014": {
+      "payload_files_verified": 262,
+      "all_payload_sha256_match": true,
+      "final_packet_receipt_unchanged": true,
+      "packet_manifest_unchanged": true,
+      "archive_sha256_matches": true
+    },
+    "exp015": {
+      "payload_files_verified": 214,
+      "all_payload_sha256_match": true,
+      "final_packet_receipt_unchanged": true,
+      "packet_manifest_unchanged": true,
+      "archive_sha256_matches": true
+    }
+  }
+}

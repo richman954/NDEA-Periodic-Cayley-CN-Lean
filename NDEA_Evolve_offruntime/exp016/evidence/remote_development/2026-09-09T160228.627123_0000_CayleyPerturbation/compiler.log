@@ -1,0 +1,13 @@
+'NDEAEvolve.Exp016.step_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.step_resolvent_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.resolvent_opNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.resolvent_difference_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.step_perturbation_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleyEndpoint_sub_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleyEndpoint_potential_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.actualCayleyTrajectory_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.actualCayleyTrajectory_potential_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

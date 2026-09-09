@@ -1,0 +1,13 @@
+/content/exp016_dev/project/exp016/lean/SampledPotentialBounds.lean:62:2: warning: 'change ‖operatorOf (W ((i.val : ℝ) * h) - Exp007.Z)‖ ≤ _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NDEAEvolve.Exp016.grid_norm_sq_eq_sum_nodeValue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledBlock_apply_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledBlock_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSplitB_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSplitB_sub_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSplitB_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_operatorPotential_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_operatorPotential_splitB_opNorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

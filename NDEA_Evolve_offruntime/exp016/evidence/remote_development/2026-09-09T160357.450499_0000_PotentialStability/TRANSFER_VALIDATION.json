@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "PotentialStability",
+  "archive_sha256": "104dca78ee2dc1e2018e78ebdf50e75f40211e8fadcfd84524fb30d45b7a3a99",
+  "source_sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/RESULT.json",
+  "receipt_sha256": "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/PotentialStability.olean",
+  "artifact_sha256": "633212d66b84a4c4d12ace4bf5a34f1095d83082a9216141994a32c0d1c610c5",
+  "independent_qualification": false,
+  "utc": "2026-09-09T16:04:22.095890+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T15:57:28.022675+00:00",
+  "accepted_source_artifact_hashes_verified": 84,
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_pin": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "boot_id": "97b97bbe-7331-4611-bc2f-53078c9daeec",
+  "compiler_started": false,
+  "files_written_remotely": false,
+  "independent_qualification": false
+}

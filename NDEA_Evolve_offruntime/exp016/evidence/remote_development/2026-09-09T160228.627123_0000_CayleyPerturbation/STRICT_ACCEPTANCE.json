@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "module": "CayleyPerturbation",
+  "scope": "incremental development acceptance; imported accepted artifacts; not independent qualification",
+  "audit_count": 9,
+  "warning_count": 0,
+  "error_count": 0,
+  "only_standard_axioms": true,
+  "source_sha256": "6c3f37c945912f8983c1db9001410e9b87da9eac3755127f41a8385e7f1f83ff",
+  "receipt_sha256": "a14b001ee917ced2d69875a8691df0cbea974949f68809baf53e6c3b70f8f8ba",
+  "log_sha256": "b89951cf6474ebeabfd089148b994c0154d00384542796b1cbb7d52b402805f8",
+  "output_sha256": "4566a22ae19240c513275b463ced69e226055972d6e083b37db04c76aa74c135",
+  "runner_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+  "elapsed_seconds": 17.092969767999875,
+  "sources_unchanged": true,
+  "imports_unchanged": true
+}

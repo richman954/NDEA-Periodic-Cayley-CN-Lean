@@ -1,0 +1,20 @@
+/content/exp016_dev/project/exp016/lean/PotentialStability.lean:27:4: warning: 'change
+  ‖operatorOf (operatorPotentialMatrix v ((i.val : ℝ) * h) - operatorPotentialMatrix w ((i.val : ℝ) * h))‖ ≤
+    δ' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_potential_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_potential_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_sampled_potential_spatialL2_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_spatialL2_le_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_spatialL2_le_weighted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
