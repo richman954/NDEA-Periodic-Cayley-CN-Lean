@@ -389,6 +389,11 @@
       "path": "verify_backup.py",
       "bytes": 3711,
       "sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39"
+    },
+    {
+      "path": "receipts/GIT_VERIFICATION_BINDING.json",
+      "bytes": 57143,
+      "sha256": "070f50a243068a2173d55d8bf809e2fca327778382ed401c0413d542db8900ca"
     }
   ],
   "coverage": {
