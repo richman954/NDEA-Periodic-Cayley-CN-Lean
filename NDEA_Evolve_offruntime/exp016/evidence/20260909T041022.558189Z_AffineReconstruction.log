@@ -1,0 +1,51 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:23:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_left`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:27:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_right`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:33:2: error: Type mismatch: After simplification, term
+  HasDerivAt.div_const (HasDerivAt.sub_const t₀ (hasDerivAt_id t)) k
+ has type
+  @HasDerivAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ NormedDivisionRing.toNormedRing.toAddCommGroup
+    (NormedAlgebra.toNormedSpace ℝ).toModule PseudoMetricSpace.toUniformSpace.toTopologicalSpace ⋯
+    (fun x => (id x - t₀) / k) k⁻¹ t
+but is expected to have type
+  @HasDerivAt ℝ DenselyNormedField.toNontriviallyNormedField ℝ Real.instAddCommGroup Semiring.toModule
+    PseudoMetricSpace.toUniformSpace.toTopologicalSpace ⋯ (affineTimeWeight t₀ k) k⁻¹ t
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:36:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_time_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:44:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_space_hasDerivAt`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:79:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_continuous`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:87:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.affineProfile_periodic`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean:135:0: warning: automatically included section variable(s) unused in theorem `NDEAEvolve.Exp016.synthesis_affineProfile`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

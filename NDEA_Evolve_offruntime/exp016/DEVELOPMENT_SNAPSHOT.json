@@ -1,0 +1,115 @@
+{
+  "accepted_modules": {
+    "AffineReconstruction": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 355.33877838400076,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log",
+      "log_sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/AffineReconstruction.olean": "75044f1d402bab4328728de1bfaa45d7242fa6beb046c5c0b61a0aec591578a6"
+      },
+      "public_theorem_declaration_count": 14,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.affineProfile_left",
+        "NDEAEvolve.Exp016.affineProfile_right",
+        "NDEAEvolve.Exp016.affineTimeWeight_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_time_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_time_derivative",
+        "NDEAEvolve.Exp016.affineProfile_space_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_space_derivative",
+        "NDEAEvolve.Exp016.affineProfile_second_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_second_derivative",
+        "NDEAEvolve.Exp016.affineProfile_continuous",
+        "NDEAEvolve.Exp016.affineProfile_periodic",
+        "NDEAEvolve.Exp016.affineProfile_regular",
+        "NDEAEvolve.Exp016.affineProfile_pdeResidual",
+        "NDEAEvolve.Exp016.synthesis_affineProfile"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json",
+      "receipt_sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+      "source_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
+      "sources_unchanged": true,
+      "warnings": 7
+    },
+    "SplitDefect": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 404.2151056349994,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log",
+      "log_sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SplitDefect.olean": "bcf332fcf4eddaff3fa9e9bd0e92bc6961e941a18bac2080200801e5dd37e1ef"
+      },
+      "public_theorem_declaration_count": 4,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.ordered_stage_midpoint_defect",
+        "NDEAEvolve.Exp016.stageResidual_eq_gridFactorResidual",
+        "NDEAEvolve.Exp016.stageResidual_actual_cayley_zero",
+        "NDEAEvolve.Exp016.actual_symmetric_midpoint_defect"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json",
+      "receipt_sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
+      "source_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
+      "sources_unchanged": true,
+      "warnings": 5
+    }
+  },
+  "base_commit": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+  "base_tree": "fc977fc92eef5f9eb9077b9f3266ad8098453617",
+  "captured_utc": "2026-09-09T04:47:34.874169+00:00",
+  "combined_verified": false,
+  "completed_failed_attempts": [
+    {
+      "checked_source_sha256": "aa962539dbf21f2973a9f7c80420044303d14c1d3561aa6d12f154a531f9d70e",
+      "corrected_draft_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
+      "exit_code": 1,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T040959.454479Z_SplitDefect.log",
+      "log_sha256": "d7152b146e1e58eff020f97b26b905b710cc2f1ed4e4cf2df421586bec8a2c38",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T040959.454479Z_SplitDefect.json",
+      "receipt_sha256": "38f433565ae7d154fdc757b646532baefca82beb21b79af9517fd4eefddb69ff"
+    },
+    {
+      "checked_source_sha256": "28915e574648c8e5fe318c3f3c85c0a316543030cca01a9a4c458fd76e7cfed3",
+      "corrected_draft_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
+      "exit_code": 1,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041022.558189Z_AffineReconstruction.log",
+      "log_sha256": "a4b4cac1504ef413ccf4dc8ca87253683560cd82f0d7d9133fb3a69033358ba2",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041022.558189Z_AffineReconstruction.json",
+      "receipt_sha256": "37b3ae58862ebbbf2144adc0efc7d77a7963b03148578d8649aa3b3de97bf4ba"
+    }
+  ],
+  "experiment": "exp016",
+  "experiment_completed": false,
+  "independently_verified": false,
+  "limitations": [
+    "The two accepted modules do not complete the planned Exp016 reconstruction/residual endpoint.",
+    "Combined axiom audit, full combined check, independent qualification and sealing are not included or claimed.",
+    "Failed receipts bind earlier source hashes and remain historical diagnostics.",
+    "In-flight Fourier/Quadratic/SpatialL2 drafts and their incomplete evidence, builds, probes and attempts are excluded.",
+    "The machine-pinned runner uses cached project artifacts and absolute local paths; it is not a portable or independent qualification workflow.",
+    "Staging performed no new proof checks or GitHub writes."
+  ],
+  "modular_acceptance_binding": "NDEA_Evolve_offruntime/exp016/MODULAR_ACCEPTANCE.json",
+  "modular_acceptance_binding_sha256": "413dd2f1ad061e6dee2bd8f23d014c89dd750eb2ec485580901178d202d989e2",
+  "previous_accepted_milestone": {
+    "combined_sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+    "experiment": "exp015",
+    "packet_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+    "unchanged": true
+  },
+  "proof_acceptance_claim": true,
+  "proof_acceptance_scope": "Only the two named local module elaboration receipts.",
+  "schema_version": 1,
+  "scope": "Exactly SplitDefect and AffineReconstruction, their local acceptance evidence, existing design/pins and one required sealed predecessor source. No full Exp016 qualification or convergence claim.",
+  "sealed": false,
+  "status": "TWO LOCAL MODULAR ACCEPTS / EXP016 INCOMPLETE / UNSEALED"
+}

@@ -1,0 +1,49 @@
+# Exp016 — regular reconstruction and actual discrete-residual certificates
+
+Status: authorized and in progress; no completion or independent qualification claimed. Exp013–015 are immutable. BASELINE.json records their read-only source/packet audit and exact Exp015 combined-source pin. The current curated Git baseline is8021c836fb6eb43dd18a70fdb71c0e5c147e8a10; main is unchanged.
+
+## Chosen architecture and why
+
+Use finite trigonometric spatial synthesis and a quadratic time reconstruction on each time slab. First establish affine-profile derivative/regularity lemmas and exact ordered-stage defect algebra; both have immediate consumers in the quadratic construction. Never assert that a globally stitched piecewise polynomial satisfies Exp015 global classical regularity. Each slab is a globally defined polynomial extension; apply Exp015 separately and accumulate endpoint errors. Endpoint interpolation removes value-jump terms. Variable positive step lengths fit the same local interface.
+
+The quadratic correction cancels the affine reconstruction's leading temporal variation residual and retains a genuine fixed-grid O(k²) temporal certificate for the actual symmetric Cayley method. This assertion is an algebraic design calculation until the corresponding Lean theorem passes. It is not yet an O(h²+k²) PDE convergence claim. Exact semidiscrete flow reconstruction adds exponential machinery; local spline reconstruction adds substantial spatial interface work. The selected correction requires only low-degree polynomial calculus beyond the affine foundation.
+
+The natural experiment boundary is a numerical-to-continuum certificate, including full odd-grid Fourier interpolation/norm fidelity and an actual finite-grid consumer. The finite-band constant-potential recurrence supplies an early concrete consumer/control before the full interpolation adapter is complete. Spatial consistency under refinement, and the resulting broader variable-potential convergence theorem, form the next experiment: they require a distinct Fourier aliasing/commutator and discrete-regularity argument. We do not hide that argument inside an assumption that the residual vanishes.
+
+## Exact proposed Exp016 endpoint
+
+1. Grid: N=2M+1 positive odd periodic nodes x_j=j*h, h=2*pi/N, with fiber C² and the existing full-grid EuclideanSpace convention Fin N × Fin2. The first actual legacy instance uses N=n+1 and its existing centered periodic Laplacian; the odd-grid restriction is for the unambiguous centered full Fourier interpolation, not for Cayley wellposedness.
+2. Potential: the actual static selfadjoint matrix field V(x), specializing to the Exp014 solution class with second weighted absolute Fourier moments and Hermitian coefficient symmetry. Preserve the old split by A_h=L_h⊗I+I⊗Z and B_h=diag_j(V(x_j)−Z). The old constant V=Z+X reduces to the existing A_h/B_h definitions; prove that identity. General finite Hermitian matrices support the algebra. A sampled-potential approximation is a later explicit extra mismatch, never silently substituted.
+3. Scheme: y1=C_A(k/4)y0, y2=C_B(k/2)y1, y3=C_A(k/4)y2, C_G(a)=(I−iaG)(I+iaG)^−1 using the exact existing definition and action order. Positive k; no commutativity assumption. Reuse denominator invertibility, stage uniqueness and unitarity. Retain measured denominator residuals r1,r2,r3 for the inexact-stage interface.
+4. Spatial synthesis: S_h y(x)=sum_{m=−M}^M exp(imx) a_m(y), where a_m(y)=N^−1 sum_j exp(−imx_j)y_j. Prove sampling recovers every grid value, actual first/second spatial derivative formulas, periodicity, and ||S_h y||L2=sqrt(h)||y||. This is the faithful norm bridge; no pointwise inverse bound is silently substituted for L2.
+5. Time reconstruction: H=A+B, m=(y0+y3)/2, v=(y3−y0)/k, tau=t−(t0+k/2), Q(t)=m+tau*v−(i/2)(tau²−k²/4)H v, w(t,x)=S_h Q(t)(x). Prove endpoints, all Exp015.IsRegularPeriodicField requirements and residual continuity under the actual potential assumptions.
+6. Exact discrete defect: eta=(y1+y2)/2−m; d=i*v−H*m. Prove d=(i/k)(r1+r2+r3)+(A/2+B)eta. Exact solves cancel r1/r2/r3, not eta. Preserve AB order in the stronger identity eta=(k²/32)A²(y0+y1+y2+y3)+(k²/8)AB(y1+y2).
+7. Actual continuum mismatch: C_h z=S_h(H_h z)−[−partial_xx(S_h z)+V*S_h z]. Prove R_V[w]=S_h d+(i/2)(tau²−k²/4)S_h(H_h²v)+C_h Q(t). This is a derivative identity for the actual reconstruction, not a stipulated forcing.
+8. Quantitative slab certificate: on t in[t0,t0+k], prove
+   ||R_V[w](t)||L2 <= sqrt(h)(||d||+k²||H²v||/8)+||C_h m||L2+(k/2)||C_h v||L2+(k²/8)||C_h(Hv)||L2.
+   The C_h terms are actual spatial consistency expressions, with their exact Fourier/stencil/potential representation exposed. They are not assumed small. The old band consistency hypothesis M*h<=1 fails for the full centered representative band as the grid grows; do not apply those old estimates to every DFT mode. A separate global symbol estimate or frequency split is required for the later refinement proof. For exact Hermitian stages retain graph-norm expressions and prove the coarser fixed-grid bound
+   ||d|| <= (k²/16)||A||(||A||+2||B||)²||y0||,
+   ||H²v|| <= (||A||+||B||)³||y0||.
+   The interval bound follows from k>0 and polynomial inequalities. Sharper integrated constants are optional if low-cost; correctness and reusable structure take precedence.
+9. Apply Exp015 to Exp014's actual unique solution, retaining arbitrary initial mismatch ||S_h y_initial−u(0)||L2. For a finite actual trajectory and positive steps, derive endpoint error <= initial error + sum_j k_j*B_j, where B_j is the explicit derived certificate above. Prove needed L2 triangle/norm transfer and slab accumulation. No matching-to-reference initialization hypothesis is inserted.
+10. Concrete controls: endpoint recovery, zero step only where division-free algebra permits it, nonzero initial error retained, exact Cayley solves with nonzero macro CN defect, correct factor-order/AB dependence, a constant/finite-mode legacy case recovering existing definitions and bounds. Controls are theorem checks, not substitutes for the general proof.
+
+If a listed submodule proves unexpectedly broad, retain this interface boundary and record a narrower exact accepted endpoint before any seal. Do not silently remove numerical fidelity, norm transfer or the actual Cayley consumer from the experiment.
+
+## Refinement and full convergence: explicit next obligation
+
+The first proposed refinement family is N_q=2(q+1)+1, h_q=2*pi/N_q, T=1, J_q=N_q^4, k_q=1/J_q. This makes the coarse fixed-grid temporal k²*O(h^−6) bound tend to zero if the sampled-potential norm and sqrt(h_q)||y_initial,q|| stay uniformly bounded, which must also be proved. Unitarity propagates the latter bound but does not supply it. The first convergence consumer initializes with actual samples of Exp014 data; prove interpolation convergence and this weighted bound from its Fourier hypotheses. The certificate itself retains arbitrary numerical initial states, and later controlled perturbations add their full initial mismatch. This does not establish the spatial part: C_h acts badly on arbitrary highest-frequency data. A Fourier aliasing/commutator estimate plus suitable uniform discrete regularity, or a rigorous density-and-stability argument, must derive the spatial certificate's vanishing and the initial interpolation error's vanishing.
+
+The follow-on convergence theorem must start from these actual iterates and Exp014-compatible data, prove the initial and accumulated spatial defects tend to zero, then apply the Exp016 certificate. It may first restrict to an explicitly stated stronger weighted Fourier class if required; such added regularity must be written as a new assumption and proved sufficient. We do not claim here that Exp014's second moments imply every higher discrete graph-norm bound, nor that this proposed schedule already closes the proof. The exact first convergence assumptions and rate will be fixed by the spatial argument, not by expected order labels.
+
+This division opens the most immediate reusable proof space: other methods can provide a reconstruction and exact step defect, while reusing regularity, norm transfer, slabwise Exp015 application and initialization handling. Inexact solves, potential approximations and variable steps appear as explicit future consumers. They are opened paths, not all completed theorems.
+
+## Verification and finish criteria
+
+- Each module checked with pinned Lean, exact source/log/runner hashes, no sorry or extra axioms, explicit audit catalog and unchanged-source checks.
+- Independent review of actual statements, recurrence order, assumptions, norm normalization, endpoint conventions and complete defect accounting; meaningful exact controls.
+- Reconstruct combined source from pinned predecessors/new modules; isolated local qualification and independent fresh-runtime qualification excluding project artifacts; accepted artifact/source/catalog/transfer checks.
+- Finalizer gates bind source, tests, reviews, receipts and packet; read back the sealed packet and verify predecessor baseline unchanged.
+- Frequent verified local snapshots; manual saves before long/risky work; source milestone commits on dev/variable-potential with remote readback. Heavy accepted archives belong to the archive layer. A Git checkpoint is not proof qualification.
+
+Startup watcher: tracked session61987, complete output NDEA_Recovery/EXP016_WATCHER.log, interval60seconds/up to12hours. Verified advancing04:07:38→04:08:38UTC. It must be re-established after reboot; no autostart is claimed.

@@ -1,0 +1,15 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean:30:4: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean:42:41: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean:43:4: warning: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean:43:35: warning: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean:44:4: warning: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).

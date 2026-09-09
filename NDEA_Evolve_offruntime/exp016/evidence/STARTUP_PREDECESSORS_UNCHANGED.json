@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-09T04:44:19.109025+00:00",
+  "baseline_sha256": "99dbd671360caf5c4614c6536bd3e6074e0a48e25b0f2605e9a9053b4f48fd2a",
+  "sealed_payloads_verified": {
+    "exp013": 313,
+    "exp014": 262,
+    "exp015": 214
+  },
+  "all_baseline_payloads_unchanged": true,
+  "proof_requalification": false
+}

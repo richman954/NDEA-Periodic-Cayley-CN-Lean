@@ -1,0 +1,159 @@
+{
+  "accepted_modules": {
+    "AffineReconstruction": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 355.33877838400076,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log",
+      "log_sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/AffineReconstruction.olean": "75044f1d402bab4328728de1bfaa45d7242fa6beb046c5c0b61a0aec591578a6"
+      },
+      "public_theorem_declaration_count": 14,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.affineProfile_left",
+        "NDEAEvolve.Exp016.affineProfile_right",
+        "NDEAEvolve.Exp016.affineTimeWeight_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_time_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_time_derivative",
+        "NDEAEvolve.Exp016.affineProfile_space_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_space_derivative",
+        "NDEAEvolve.Exp016.affineProfile_second_hasDerivAt",
+        "NDEAEvolve.Exp016.affineProfile_second_derivative",
+        "NDEAEvolve.Exp016.affineProfile_continuous",
+        "NDEAEvolve.Exp016.affineProfile_periodic",
+        "NDEAEvolve.Exp016.affineProfile_regular",
+        "NDEAEvolve.Exp016.affineProfile_pdeResidual",
+        "NDEAEvolve.Exp016.synthesis_affineProfile"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json",
+      "receipt_sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+      "source_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
+      "sources_unchanged": true,
+      "warnings": 7
+    },
+    "SplitDefect": {
+      "axiom_audits_performed_by_this_modular_receipt": false,
+      "compiler_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "elapsed_seconds": 404.2151056349994,
+      "exit_code": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log",
+      "log_sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
+      "output_artifacts_in_source_snapshot": false,
+      "output_sha256": {
+        "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/SplitDefect.olean": "bcf332fcf4eddaff3fa9e9bd0e92bc6961e941a18bac2080200801e5dd37e1ef"
+      },
+      "public_theorem_declaration_count": 4,
+      "public_theorem_declarations": [
+        "NDEAEvolve.Exp016.ordered_stage_midpoint_defect",
+        "NDEAEvolve.Exp016.stageResidual_eq_gridFactorResidual",
+        "NDEAEvolve.Exp016.stageResidual_actual_cayley_zero",
+        "NDEAEvolve.Exp016.actual_symmetric_midpoint_defect"
+      ],
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json",
+      "receipt_sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
+      "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
+      "source_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
+      "sources_unchanged": true,
+      "warnings": 5
+    }
+  },
+  "captured_utc": "2026-09-09T04:47:34.874169+00:00",
+  "excluded_current_work": [
+    "Fourier draft modules",
+    "QuadraticTime draft",
+    "SpatialL2 draft modules"
+  ],
+  "experiment": "exp016",
+  "git_binding": "After publication an external readback receipt binds the real commit/tree to DEVELOPMENT_SOURCE_MANIFEST.json SHA256 and exact payload hashes. No own-commit/self-hash cycle is introduced.",
+  "project_import_edges": [
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+      "import": "ResidualField",
+      "to": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean",
+      "import": "GenericClassical",
+      "to": "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
+      "import": "StageBridge",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean",
+      "import": "SuperpositionClosure",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean",
+      "import": "ContinuumModes",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean",
+      "import": "Orthogonality",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/Orthogonality.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/Orthogonality.lean",
+      "import": "FourierGrid",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/FourierGrid.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/FourierGrid.lean",
+      "import": "Exp007Foundation",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/FourierGrid.lean",
+      "import": "FrequencyBounds",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean",
+      "import": "Exp007Foundation",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean",
+      "import": "Exp007Foundation",
+      "to": "NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean"
+    }
+  ],
+  "public_theorem_declaration_count": 18,
+  "qualification": {
+    "combined_axiom_audit": false,
+    "combined_check": false,
+    "convergence_claim": false,
+    "independent_check": false,
+    "local_module_elaboration": true,
+    "packet_sealed": false
+  },
+  "reproduction": "run_lean.py is the current machine-pinned development runner and imports cached project artifacts through historical absolute paths. This is not yet the independent isolated Exp016 qualification workflow; another checkout/machine cannot run it unchanged merely from this thin source snapshot.",
+  "resolved_project_source_files": [
+    "NDEA_Evolve_offruntime/exp008/lean/ContinuumModes.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/Exp007Foundation.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/FourierGrid.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/FrequencyBounds.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/Orthogonality.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/StageBridge.lean",
+    "NDEA_Evolve_offruntime/exp008/lean/SuperpositionClosure.lean",
+    "NDEA_Evolve_offruntime/exp013/lean/GenericClassical.lean",
+    "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean",
+    "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+    "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean"
+  ],
+  "schema_version": 1,
+  "source_to_receipt_hashes_verified": true,
+  "staging_performed_proof_runs": false,
+  "status": "TWO LOCAL MODULAR ACCEPTS; EXP016 INCOMPLETE AND UNSEALED",
+  "unresolved_project_imports": []
+}
