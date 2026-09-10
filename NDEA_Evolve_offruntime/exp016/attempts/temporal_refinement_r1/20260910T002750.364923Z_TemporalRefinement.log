@@ -1,0 +1,49 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/TemporalRefinement.lean:71:35: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/TemporalRefinement.lean:117:2: error: Type mismatch: After simplification, term
+  Tendsto.const_mul (√(2 * Real.pi) * ‖a‖) (scheduledTemporalCoefficient_tendsto_zero v)
+ has type
+  @Tendsto ℕ ℝ
+    (fun x => √(2 * Real.pi) * ‖a‖ * (temporalStepSize x ^ 2 * physicalTemporalCoefficient (initialSamplingMesh x) v))
+    atTop (𝓝 0)
+but is expected to have type
+  @Tendsto ℕ ℝ (scheduledTemporalBound v a) atTop (𝓝 0)
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/TemporalRefinement.lean:200:4: error: Type mismatch: After simplification, term
+  scheduledInitialSampling_spatialL2_tendsto_zero a b
+ has type
+  Tendsto
+    (fun j =>
+      Exp015.spatialL2
+        (fun x =>
+          fourierReconstruction (initialSamplingCutoff j) (initialSamplingMesh j)
+              (sampledInitialState (initialSamplingCutoff j) (initialSamplingMesh j) a) x -
+            Exp014.synth a x)
+        b (2 * Real.pi))
+    atTop (𝓝 0)
+but is expected to have type
+  Tendsto (scheduledInitialError a b) atTop (𝓝 0)
+'NDEAEvolve.Exp016.temporalGridSize_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalStepCount_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalStepSize_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalSchedule_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalSchedule_mesh_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalSchedule_time_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalSchedule_sum_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.physicalTemporalCoefficient_rescaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalGridSize_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledTemporalCoefficient_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledTemporalBound_tendsto_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledSampledTemporalSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledSampledTemporalSum_tendsto_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledNonspatialBudget_tendsto_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

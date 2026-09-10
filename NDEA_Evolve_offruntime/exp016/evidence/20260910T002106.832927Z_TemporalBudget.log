@@ -1,0 +1,13 @@
+'NDEAEvolve.Exp016.temporalOperatorCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.temporalOperatorCoefficient_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.physicalTemporalCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampled_temporalOperatorCoefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledQuantitativeBudget_eq_temporal_add_spatial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledTemporalSum_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledTemporalSum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledTemporalSum_le_physical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledCayley_gridTime_explicitTemporal_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

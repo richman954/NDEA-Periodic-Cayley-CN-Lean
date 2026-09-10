@@ -1,3 +1,34 @@
+## Current Exp016 continuation — actual temporal refinement, September 10, 2026 UTC
+
+Resume all 53 accepted development modules in TASK_STATE. TemporalBudget and
+TemporalRefinement passed the unchanged Lean 4.31.0/Mathlib environment with
+24 transitive standard-axiom reports, zero warnings and zero errors.
+Read exp016/design/TEMPORAL_MILESTONE.md and
+exp016/evidence/TEMPORAL_MILESTONE_LOCAL.json for exact source/receipt bindings.
+
+The actual temporal sum is bounded by rho*C(h,v)*sum(k_j^3), using concrete
+A/B bounds and unitarity. On M=q+1, N=2M+1, h=2*pi/N, J=N^4, k=1/J, the actual
+final time is exactly 1 and the temporal contribution tends to zero.
+The actual time-1 PDE error is bounded by initialization error, a proved
+vanishing temporal bound, and the unchanged computed spatial sum. The first
+two terms together tend to zero; spatial refinement and solver convergence
+remain unproved. Exp016 is unsealed, with full qualification still pending.
+
+Next: prove the centered alias frequency/weight inequality, then a
+mesh-independent weighted sampled-potential multiplication bound and actual
+Cayley stage propagation for fixed Fourier cutoffs. Read
+exp016/design/NEXT_SPATIAL_ROUTE.md. This is a proposed route; finite input
+support does not imply an invariant solution band, and the full Exp014 class
+is not silently strengthened to fourth moments.
+
+All 51 prior accepted module bindings, 124 preexisting project artifacts and
+789 sealed Exp013–015 payloads remain unchanged. The failed first refinement
+attempt is preserved separately. No Lean or Colab proof job remains running.
+Watcher session 27367 continues minute snapshots; it has no reboot autostart.
+Use the latest dated manual checkpoint and Git readback receipt for exact
+coverage. No dependency pin, main, or sealed predecessor was changed.
+Historical entries below record earlier milestones, not current pending work.
+
 ## Current Exp016 continuation — physical-grid kinetic assembly, September 10, 2026 UTC
 
 51 source-bound development modules are accepted. KineticAssembly closes
@@ -22,6 +53,10 @@ restart. Latest dated checkpoint/Git readback receipts determine exact coverage.
 The pinned external transfer already removes the continuum/DFT coefficient
 identification gap and is consumed by WeightedCoefficientBridge. No further
 upstream port is justified for the current barrier; Comparator was not run.
+Git `a68a567cbef7a9d3ded041e565fe38d9697cd788` is fully read back: 740 tree
+files and all 51 accepted source/receipt/log bindings match the frozen milestone.
+Main/archive heads remain unchanged. Read EXP016_REBOOT_GIT_BINDING.json in
+NDEA_Recovery/github_evidence; this is backup coverage, not proof qualification.
 Historical milestone entries below are retained for continuity.
 
 ## Historical Exp016 continuation — continuum/cutoff transfer, September 9, 2026

@@ -1,3 +1,7 @@
+# Current development checkpoint — actual temporal refinement
+
+53 development modules are accepted. The actual accumulated temporal contribution tends to zero for N=2(q+1)+1, h=2*pi/N, J=N^4 and k=1/J. The actual time-1 PDE certificate retains its spatial sum. See [source/receipt catalog](NDEA_Evolve_offruntime/exp016/TEMPORAL_CHECKPOINT.json) and [pinned reference reuse delivery](NDEA_Evolve_offruntime/exp016/design/external_reference/RESUMED_REFERENCE_DELIVERY.md). Exp016 remains unsealed; full combined/independent qualification and spatial refinement are pending. The sections below retain earlier checkpoint history.
+
 # Current development checkpoint — recovered Exp016
 
 51 development modules are accepted, including the actual fixed-Z bound `||op(sampledSplitA)|| <= 4/h^2 + 1` on the positive physical odd grid. See [source/receipt catalog](NDEA_Evolve_offruntime/exp016/REBOOT_CHECKPOINT.json) and [pinned reference reuse delivery](NDEA_Evolve_offruntime/exp016/design/external_reference/RESUMED_REFERENCE_DELIVERY.md). Exp016 remains unsealed; full combined/independent qualification and spatial refinement are pending. The sections below retain earlier checkpoint history.

@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "reason": "Exit 1: two eta-expansion/simplification wrapper errors and one style warning. Failed theorem dependency reports contain sorryAx; not production acceptance.",
+  "files_sha256": {
+    "TemporalRefinement.lean": "c01a17d060e45bc015a8b9eb6aea6dd7582a0131b5ed9e91de100ea2426d9e0c",
+    "20260910T002750.364923Z_TemporalRefinement.json": "a715e581766869e8bc6e9431aefe6d720f6a9ec61c3e384b165cfe416d47bf75",
+    "20260910T002750.364923Z_TemporalRefinement.log": "64dbad1cae0ec8152b4d9d352f12ba53b1992ac44b21eb77e2804aba0ad60bca"
+  }
+}
