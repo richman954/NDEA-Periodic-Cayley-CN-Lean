@@ -1,0 +1,53 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialWeightedCutoff.lean:40:17: error: Function expected at
+  modeLiftCLM
+but this term has type
+  ?m.1
+
+Note: Expected a function because this term is being applied to the argument
+  (2 * M)
+
+Hint: The identifier `modeLiftCLM` is unknown, and Lean's `autoImplicit` option causes an unknown identifier to be treated as an implicitly bound variable with an unknown type. However, the unknown type cannot be a function, and a function is what Lean expects here. This is often the result of a typo or a missing `import` or `open` statement.
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialWeightedCutoff.lean:43:19: error: Function expected at
+  modeLiftCLM
+but this term has type
+  x✝
+
+Note: Expected a function because this term is being applied to the argument
+  (2 * M)
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialWeightedCutoff.lean:66:35: error: unsolved goals
+p M : ℕ
+h : ℝ
+hmesh : ↑(2 * M + 1) * h = 2 * Real.pi
+s : Finset ℤ
+c : ℤ → E 2
+⊢ Sort ?u.34
+
+p M : ℕ
+h : ℝ
+hmesh : ↑(2 * M + 1) * h = 2 * Real.pi
+s : Finset ℤ
+c : ℤ → E 2
+⊢ ?m.29
+'NDEAEvolve.Exp016.finiteInitialCoefficients_weighted_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.coefficient_finiteInitialState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_finite_eq_sum' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.finiteInitialWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_finite_fourierWeightedNorm_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.coefficient_initialStateCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.cutoffInitialWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_cutoff_fourierWeightedNorm_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_doubleCutoff_fourierWeightedNorm_eventually_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

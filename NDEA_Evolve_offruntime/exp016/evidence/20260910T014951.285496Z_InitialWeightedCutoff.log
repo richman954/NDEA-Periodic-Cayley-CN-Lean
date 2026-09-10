@@ -1,0 +1,17 @@
+'NDEAEvolve.Exp016.finiteInitialCoefficients_weighted_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.coefficient_finiteInitialState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_finite_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.finiteInitialWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_finite_fourierWeightedNorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.coefficient_initialStateCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.cutoffInitialWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledInitialState_cutoff_fourierWeightedNorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_doubleCutoff_fourierWeightedNorm_eventually_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

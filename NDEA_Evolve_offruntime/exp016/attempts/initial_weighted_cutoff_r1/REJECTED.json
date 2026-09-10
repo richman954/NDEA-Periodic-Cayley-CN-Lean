@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "compiler_exit": 1,
+  "source_sha256": "501edb0dd2a52fc3f5b602aed8efb0bf16405c1989f4b1facefad149da0925ab",
+  "files_sha256": {
+    "InitialWeightedCutoff.lean": "501edb0dd2a52fc3f5b602aed8efb0bf16405c1989f4b1facefad149da0925ab",
+    "20260910T014456.033115Z_InitialWeightedCutoff.json": "5a825ee3718aeb1056a10ba5f777a670d512ae399ed634d32be323584771eb67",
+    "20260910T014456.033115Z_InitialWeightedCutoff.log": "08068db3f90b7f0e7b179cd8992424421fe6bcd00e068e6dabb40c1fe0701f9c"
+  },
+  "reason": "Missing open NDEAEvolve.Exp008.FourierGrid caused unknown modeLiftCLM and dependent script failures. The sorryAx reports belong only to this rejected attempt. No output artifact accepted."
+}

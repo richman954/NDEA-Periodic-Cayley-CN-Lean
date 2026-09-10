@@ -1,114 +1,57 @@
-# Next spatial obligation: uniform initial moments and spatial defect bounds
+# Next spatial obligation: actual quadratic slab estimates
 
-Current status, September 10, 2026 01:35 UTC: WeightedGridStages and
-WeightedCayleyPropagation are accepted, in addition to AliasWeights and
-WeightedSampledPotential. Read WEIGHTED_CAYLEY_MILESTONE.md and its receipt.
-The actual ordered trajectory satisfies W_p(y_j)<=exp(2*K_B*sum|k_i|)*W_p(y_0)
-under |k_i|*K_B<=1, with K_B=K_V+1. The saved schedule eventually meets this
-restriction for every prefix to time 1. Its initial amplitude remains explicit.
+Current accepted state: 59 development modules. InitialWeightedCutoff and
+WeightedSpatialMoments close the finite initial weighted bound and the fourth
+moment/tail-to-spatial-budget bridge. Read INITIAL_WEIGHTED_MILESTONE.md and
+its source-bound receipt. All previous numerical and continuum definitions,
+sealed predecessors, pins and qualification gates are preserved.
 
-The next best small proof is a uniform initial W_2 bound for actual samples of
-a fixed finite initial-data cutoff. Construct it using sealed Exp014.ofCoefficients
-and prove its coefficient identity. SamplingExpansion.sampledInitialState_eq_tsum
-then reduces to a finite sum; AliasWeights.fourierWeightedNorm_sum_le and
-fourierWeightedNorm_modeLift_le give the finite weighted coefficient bound.
-Because aliases decrease weights, the initial estimate needs no cutoff<=M
-condition. Feed scheduledCayley_cutoff_fourierWeightedNorm_eventually_le to obtain
-the actual uniform evolved fourth weighted sum, without assuming an invariant
-finite solution band or strengthening the full Exp014 class.
+## Accepted inputs and immediate consumer
 
-After that, prove the fourth-frequency l2 and low/high l1 bounds required by
-StencilFourier and PotentialAliasBounds for the actual endpoints, slab mean,
-velocity and generator-velocity. Prove scheduledSpatialSum vanishing, then
-discharge the approximation quantifiers. These remain open. The reconstruction,
-recurrence, data class and qualification gates are unchanged.
+For each fixed initial-data and Hermitian potential cutoff, actual samples
+initialize an actual ordered Cayley trajectory whose W_2 is uniformly bounded
+at every prefix to time 1, eventually on the saved schedule. The complete
+sampledSpatialDefectBudget at an arbitrary grid state y is at most C_sp*W_2(y),
+where the explicit spatialFourthWeightCoefficient is
 
-The design discussion below is retained as historical rationale. Its alias,
-multiplication, A/Z and Cayley propagation steps are now accepted; future-tense
-claims about them describe the earlier plan, not the current recovery state.
+`sqrt(2*pi)*h^2 + 2*sqrt(2*pi)*(T_v(M-L)+A_v/(1+L)^4)`.
 
-## Comparison and recommendation
+The physical mesh, full normalized complex-spinor DFT, strict tail and inclusive
+low cutoff L<=M are unchanged. The initial cutoff need not be resolved by M.
+Higher initial moments are finite only after the explicit cutoff.
 
-| Candidate | Existing support | Missing proof and decision |
-|---|---|---|
-| Propagate a weighted absolute Fourier norm of the actual numerical states | GridAlias gives the unique centered representative and exact mode alias; PotentialAlias gives the actual product alias sum; StencilFourier gives the fourth-moment stencil defect; Exp014.weight_add_le supplies submultiplicative weights | Prove that folding cannot increase absolute frequency, then a mesh-independent weighted multiplication bound and actual Cayley stage growth. Recommended next route for each fixed finite cutoff. |
-| Compare the scheme directly with a sampled higher-regularity continuum solution | Exp014 solution and Exp015 error estimates, plus paired cutoff stability | Requires additional continuum regularity and local truncation proofs before reconnecting to the existing certificate. Retain as an alternative if numerical weighted propagation proves too costly. |
-| Use only L2 stability or assume an invariant finite band | L2 stability is already proved | Insufficient: the existing top-frequency counterexamples prevent this inference. Finite potential support does not preserve finite solution support. Reject this shortcut. |
+## Recommended next proof
 
-The strongest immediate small lemma is the centered representative weight
-inequality. If `N=2M+1`, `r` is the actual odd-grid representative and
-`N` divides `ell-oddFrequency M r`, prove
-`|oddFrequency M r| <= |ell|`. Existing GridAlias proves existence, uniqueness,
-band membership and exact reconstruction, but does not expose this minimum
-absolute-frequency estimate. Combine it with sealed `Exp014.weight_add_le`;
-do not edit that predecessor or confuse grid aliases with upstream aliases.
+The remaining actual sampledSpatialStageBudget in TemporalBudget.lean is
+`B_sp(mean)+(k/2)*B_sp(velocity)+(k^2/8)*B_sp(G*velocity)`.
+Here mean=(y+y3)/2, velocity=(y3-y)/k, and G=op A+op B for the actual ordered
+endpoint y3. Keep k>0 explicit and use the accepted weighted triangle/scalar
+identities to bound W_2(mean) and k*W_2(velocity) by the endpoint weights.
 
-## Intended consumer and proof sequence
+For G, KineticSymbolBound.fourierCoefficient_gridKinetic_norm_le already gives
+the actual kinetic coefficient bound 4/h^2. Sum it against the nonnegative
+weights and combine with WeightedSampledPotential's finite-cutoff bound.
+SampledPotential.sampledSplit_sum proves cancellation of the actual Z terms:
+the sum is gridKinetic plus sampledBlock of V_R. This should yield the explicit
+weighted G bound 4/h^2+K_V, without proving a new surrogate operator estimate.
 
-Write the proposed numerical fourth weighted norm as
+Substituting these bounds should give
+`B_stage <= C_sp*(1+k*K_G/8)*(W_2(y)+W_2(y3))`.
+This is a proposed next theorem, not an accepted estimate. Then consume the
+accepted uniform endpoint bound and the actual sum of step sizes, exactly 1.
+This route reuses the existing certificate and requires no extra smooth gluing
+or stronger continuum regularity theorem.
 
-`W4(y) = sum_r (1+|oddFrequency M r|)^4 * ||fourierCoefficient M h y r||`.
+## Refinement and next barrier
 
-For the folded representative of `m+ell`, the desired weight bound is
-`w4(fold(m+ell)) <= w4(m)*w4(ell)`. Prove it from minimum absolute frequency,
-the triangle inequality and the existing squared weight inequality. This is
-the missing arithmetic input to the actual sampled-potential product estimate
+Choose, for example, L=floor(M/2), and prove L and M-L tend to infinity.
+The accepted potential tail estimate uses exactly the original second moment;
+it controls T_v(M-L). Prove C_sp tends to zero and k*K_G remains controlled
+on M=q+1, h=2*pi/(2M+1), J=(2M+1)^4, k=1/J. Then prove the actual
+scheduledSpatialSum tends to zero for fixed cutoffs and feed scheduledCayley_error_le.
 
-`W4(P_V y) <= (sum_ell w4(ell)*||v_ell||) * W4(y)`.
-
-The first target uses a fixed symmetric finite potential cutoff, so the fourth
-weighted coefficient sum is finite. The full Exp014 hypothesis only provides
-second weighted moments; do not assert a finite fourth potential moment for
-that whole class. The original class should later follow through the already
-accepted mesh-independent numerical/continuum cutoff transfer and a justified
-initial-data approximation transfer.
-
-Next prove that each actual A Cayley stage preserves W4 mode by mode. The
-kinetic symbol is scalar on each spinor mode and the fixed Z block is Hermitian.
-This must follow from the actual coefficient identities and actual stage solve,
-not from an assumed diagonal surrogate. For B, the proposed weighted operator
-bound K4 and the actual denominator equation should give resolvent control
-when `alpha*K4<1`. The Cayley factor is then bounded by
-`(1+alpha*K4)/(1-alpha*K4)`, where `alpha=k/2` for the B-full stage.
-Prove a uniform finite-time product bound under an explicit eventually valid
-step restriction. Preserve A-half/B-full/A-half order throughout.
-
-For fixed finite initial data cutoff, prove a uniform initial W4 bound once
-the expanding grid resolves it. No invariant solution band is needed if the
-weighted norm is propagated. All constants may depend on the fixed data and
-potential cutoffs, but must be independent of the numerical grid.
-
-## How this could close the existing spatial certificate
-
-W4 controls the fourth-frequency l2 moment in the stencil bound and the low/high
-coefficient l1 terms in the potential alias bound. For actual endpoint states,
-use the definitions of the mean and velocity to control W4(mean) and k*W4(velocity).
-The k²*generator-velocity term also requires the proved kinetic symbol bound
-and weighted potential multiplication; its possible factor k*h^-2 tends to
-zero on the current k=N^-4 schedule. These are obligations to prove explicitly.
-
-After those estimates, prove that `scheduledSpatialSum` tends to zero for each
-fixed smooth cutoff, then discharge the approximation quantifiers using the
-existing stability results. Until then, the actual time-1 error certificate
-retains its entire spatial sum. Temporal refinement is not solver convergence.
-
-## Historical stage interfaces inspected before the propagation proof
-
-The sealed Exp008 theorem
-`NDEAEvolve.Exp008.FourierGrid.hamiltonian_step_modeLift` already intertwines
-the actual grid Cayley factor with the two-component mode Cayley factor for
-`modeSymbol m h * I + K`. It requires the physical mesh identity and a Hermitian
-constant K, and applies to every integer mode. Set K to the actual Z block;
-combine it with the accepted full-grid mode expansion and coefficient extraction
-to prove weighted A-stage preservation. This avoids reproving a resolvent
-intertwining theorem or substituting a different kinetic operator.
-
-For the B stage, retain `sampledSplitB = sampledBlock(V) - potential(Z)`.
-The finite-cutoff multiplication bound alone controls only sampledBlock(V).
-Prove the constant Z block's coefficient action and its coefficient-one weighted
-bound, then use the triangle inequality to obtain K_B = K_V + 1.
-The actual equation is `stageResidual (op B) alpha u (step alpha B u) = 0`,
-already proved in SplitDefect. It gives the weighted Cayley estimate with
-`alpha = k/2` for B and `|alpha|*K_B < 1`; weighted triangle and complex-scalar
-homogeneity must be established explicitly. The A stages use `alpha = k/4`.
-No weighted propagation theorem is claimed by this interface review.
+Only after this smooth-cutoff convergence proof can the baseline theorem's
+potential and initial-data approximation quantifiers be discharged. Finite
+potential support does not imply an invariant solution band. Temporal or
+endpoint spatial estimates alone are not full solver convergence. Quadratic
+between-grid-time transfer and full independent qualification remain separate.

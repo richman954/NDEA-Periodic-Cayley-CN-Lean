@@ -2,17 +2,16 @@
 
 Status: authorized and in progress; no completion or independent qualification claimed. Exp013–015 are immutable. BASELINE.json records their read-only source/packet audit and exact Exp015 combined-source pin. The startup Git baseline was 8021c836fb6eb43dd18a70fdb71c0e5c147e8a10. The five-module source checkpoint was 2454fac4f3a63e2ad9a6663c8a8f950091dff0ad. The finite-trajectory source checkpoint is ed85977115113da7ca4c4a82b811e21d8965794a (fresh remote readback passed); later current source-bound receipts take precedence. Main is unchanged.
 
-Current continuation (2026-09-10T01:35 UTC): 57 accepted development modules.
-WeightedGridStages and WeightedCayleyPropagation prove actual A preservation,
-B weighted growth including -Z, and actual ordered trajectory propagation.
-The stated step restriction eventually holds on the saved refinement schedule;
-every prefix to time 1 has a grid-independent factor times its initial W_p.
-Read design/WEIGHTED_CAYLEY_MILESTONE.md and its source-bound receipt.
-Next: bound actual sampled finite-cutoff initial W_2, derive evolved spatial
-moments/tails and prove scheduledSpatialSum vanishing; see
-design/NEXT_SPATIAL_ROUTE.md. Initial weighted amplitudes remain explicit.
-No compiler job remains. Exp016 is unsealed; approximation quantifiers,
-full qualification and solver convergence remain pending.
+Current continuation (2026-09-10T02:00 UTC): 59 accepted development modules.
+InitialWeightedCutoff supplies an actual finite-cutoff initial weighted bound
+and its scheduled numerical trajectory consumer. WeightedSpatialMoments bounds
+the fourth moment, low/high sums and actual spatial-defect budget by W_2,
+retaining an explicit scalar coefficient. Both passed 19 standard-axiom reports
+with no warnings or errors. Read design/INITIAL_WEIGHTED_MILESTONE.md.
+Next: the actual quadratic mean/velocity/generator-velocity spatial estimates,
+then scalar-coefficient and scheduledSpatialSum vanishing; see
+design/NEXT_SPATIAL_ROUTE.md. No Lean job remains. Exp016 is unsealed;
+approximation quantifiers, full qualification and solver convergence are pending.
 
 ## Chosen architecture and why
 

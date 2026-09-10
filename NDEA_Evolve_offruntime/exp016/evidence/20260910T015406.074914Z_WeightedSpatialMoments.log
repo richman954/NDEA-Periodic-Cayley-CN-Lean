@@ -1,0 +1,18 @@
+'NDEAEvolve.Exp016.frequencyWeight_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequency_fourth_le_frequencyWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridFourthCoefficientMoment_le_fourierWeightedNorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.gridLowCoefficientNorm_le_fourierWeightedNorm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.gridTailCoefficientNorm_le_fourthWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.potentialAliasTailBudget_le_fourthWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialFourthWeightCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSpatialTailBudget_le_fourthWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSpatialDefectBudget_le_fourthWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_doubleCutoff_spatialBudget_eventually_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
