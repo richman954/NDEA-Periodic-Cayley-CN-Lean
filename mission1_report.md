@@ -1,22 +1,23 @@
-## Mission 1 Findings
+## Mission 1: Independent repository and theorem audit (Updated)
 
-1. **Active experiment and newest mathematical frontier:**
-   - The project is at a "sealed" milestone `PeriodicCayleyCNAnalyticClosureV1` based on the audit files from `2026-08-30`.
-   - No `sorry`, `admit`, or custom `axiom` are present in the transitive closure of `NDEAMathlibGate`.
-   - The headline result `periodic_cayley_cn_convergence_of_smooth_solution` limits explicit explicit remainder estimates to smooth, periodic $C^4$ space and $C^3$ time bounded functions.
-2. **Strongest current development-accepted headline results:**
-   - `PeriodicCayleyCNAnalyticClosureV1.periodic_cayley_cn_convergence_of_smooth_solution`
-   - `PeriodicCayleyCNGridFamilyConvergenceV1.asymptoticErrorBound_tendsto_zero`
-   - `PeriodicCayleyCNGridFamilyConvergenceV1.error_tendsto_zero_of_explicit_bound`
-   - `PeriodicCayleyCNGridFamilyConvergenceV1.exact_initialization_error_tendsto_zero`
-3. **Module qualification and receipts:**
-   - The latest commit is from `2026-08-30T11:05:05-04:00`.
-   - Audit files match the release date (`2026-08-30`). The build succeeded with 0 exit code on 53 files.
-   - Everything appears up-to-date and successfully sealed.
-4. **Duplicate lemmas / Pinned Mathlib:**
-   - Currently, there is a large number of custom basic finite-stack tools (e.g., `CayleyInverseNativeComplexLiftV1R2`, `CayleyDeterminantCompassV2R`), which could overlap with newer Mathlib versions, but the project is explicitly pinned to Lean 4.31 (an older snapshot) so we do not attempt to upgrade Mathlib.
-5. **Issues by rank:**
-   - **CRITICAL**: None.
-   - **IMPORTANT**: No explicit mismatch found. The implementation strictly uses standard spatial definitions (e.g., `PeriodicLaplacian1DSpatialConsistencyV1`).
-   - **CLEANUP**: Several warnings about flexible tactics (e.g., `simp [...] at ...`) and unnecessary sequential focuses (`tac1 <;> tac2`) were flagged during the lake build.
-   - **NO ISSUE**: The milestone is cleanly proven and verified.
+**1. Active experiment and newest mathematical frontier:**
+- The active experiment is `exp016`, located in `NDEA_Evolve_offruntime/exp016`.
+- The current development frontier contains 62 modular development acceptances (as listed in `NDEA_Recovery/TASK_STATE.json`).
+- Actual fixed-cutoff spatial residual and time-1 solver convergence have been proven.
+- Approximation/uniform horizon drafts and full qualification are pending. The milestone is currently *unsealed*.
+
+**2. Strongest current development-accepted headline results:**
+- `BaselineTimeOneConvergence` (and related spatial refinement receipts).
+- Fixed-cutoff spatial residual modules.
+*(Specific lemma names are stored in `NDEA_Evolve_offruntime/exp016/lean` which was successfully recovered based on `TASK_STATE.json`).*
+
+**3. Module qualification and receipts:**
+- 62 modules are bound to original receipts.
+- There are six unverified follow-on drafts.
+- This checkpoint is a byte preservation state, not combined or independent qualification. Therefore, many modules are development-accepted but lack combined/independent qualification.
+
+**4. Issues by rank:**
+- **CRITICAL**: None. The mathematical state is tracked accurately.
+- **IMPORTANT**: The repository holds unverified follow-on drafts that should not be automatically labeled as verified.
+- **CLEANUP**: There are numerous logs and metadata JSONs (`WATCHER_*`, `*_ACCEPTED.json`) that can be safely grouped into a single save-point archive rather than tracking directly in the main tree.
+- **NO ISSUE**: The recovery task properly distinguishes between development-accepted files and fully sealed un-drafted math.

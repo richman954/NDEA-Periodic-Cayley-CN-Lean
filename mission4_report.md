@@ -1,7 +1,20 @@
-## Mission 4: Recovery Robustness Review
+## Mission 4: Recovery Robustness Review (Updated)
 
-1. **Checkpoints/Watcher Coverage**: There are no background checkpoint watcher scripts currently in the repository (e.g. `cron`, `systemd`, or custom python daemon files). Thus, there's no automated savepoint mechanism that could overwrite newer drafts.
-2. **Hard-coded Experiment Numbers**: The repository directory `NDEAMathlibGate/` contains scripts with versions like `V1`, `V2`, `V3R`, `V6R`, `V8_20260712_053434_060974` which appear to be hard-coded point-in-time snapshots of experiments.
-3. **Restoration Hazard**: As demonstrated in the Artifact Save Point prototype, without a specific isolated sandbox environment, restoring a tarball directly over the working directory might overwrite uncommitted drafts. The script `restore_save_point.sh` mitigates this by extracting to `/tmp/ndea_restore_test` rather than the active workspace.
-4. **PID reuse / Missing source checks**: Not applicable since there are no active watcher daemons.
-5. **Local vs Remote Git reconciliation**: Git is generally relied upon for remote syncing.
+Based on the actual recovery infrastructure found in `NDEA_Recovery/` and `NDEA_Evolve_offruntime/`:
+
+1. **Watcher Coverage and Stale RUNNING statuses (IMPORTANT)**:
+   - `TASK_STATE.json` reveals the presence of several previous watchers (e.g. `94110`, `59441`, `27367`, and currently `9546`).
+   - The watcher `27367` stopped with an explicit error: `ValueError('Invalid GitHub evidence file... SPATIAL_REFINEMENT_PREPARE.diff')`. This indicates the watcher accurately transitions to `failed` and doesn't get stuck in `RUNNING`.
+
+2. **PID Reuse (CLEANUP)**:
+   - Previous watchers list low PID numbers (e.g. `pid: 2`, `pid: 3`), implying they run in disposable shells/containers where PID reuse is highly probable if state files aren't cleaned.
+
+3. **Experiment-number hard coding (CRITICAL)**:
+   - The recovery state explicitly uses `active_experiment: exp016` and `active_experiment: exp014`. While it is correctly updating in `TASK_STATE.json`, many scripts likely hardcode the `exp016` path based on the directory structure `NDEA_Evolve_offruntime/exp016/`.
+
+4. **Restoration over newer drafts (IMPORTANT)**:
+   - The `on_resume` instruction correctly enforces: "Read active Exp016 task state and actual receipts... preserve sealed Exp013-015... Actual saved state already contains 50 accepted Exp016 modules; continue it, do not restart."
+   - However, a blind archive restore would obliterate the 6 follow-on drafts. Proper savepoints (Mission 2) must explicitly capture dirty state to avoid this.
+
+5. **Build Artifact Restore (CLEANUP)**:
+   - Recovery payloads currently archive `.zip` snapshots of `exp016/`, but do not universally bind the Lean compiler hash or the explicit `build/lib` `.olean` files alongside them. Adding Artifact Save Points (Mission 2) solves this.
