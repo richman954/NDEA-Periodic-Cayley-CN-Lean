@@ -1,0 +1,48 @@
+{
+  "utc": "2026-09-10T01:26:16.250042+00:00",
+  "passed": true,
+  "module": "WeightedGridStages",
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedGridStages.lean",
+  "source_sha256": "8ff03d880d61fd7ec268eb0f1a4cb882fb1ed78e065277f3a7f0102a2b631922",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/WeightedGridStages.olean",
+  "artifact_sha256": "8b096c48d95408528cf5038a5e9e44b170f031d818c54d04635f33c09d8aeb12",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T011949.617500Z_WeightedGridStages.json",
+  "receipt_sha256": "a6d73c505a1f87ff2f70ffb97776d1f4ef09c8c13ce2752d0ac1f8801413bd49",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T011949.617500Z_WeightedGridStages.log",
+  "log_sha256": "3fef0fac970a7117560907b48fa0f96e7c28c0b21eac5d77e131f79f09815abc",
+  "compiler_exit": 0,
+  "elapsed_seconds": 243.64267738000035,
+  "explicit_axiom_reports": 13,
+  "axiom_dependencies": {
+    "NDEAEvolve.Exp016.fourierWeightedNorm_zero": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_add_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_neg": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_sub_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_smul": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierCoefficient_of_mode_intertwining": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierCoefficient_potential_const": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierCoefficient_hamiltonian_step": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_hamiltonian_step": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_sampledSplitA_step": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_potential_const_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_potential_Z_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_sampledSplitB_cutoff_le": "propext,\n Classical.choice,\n Quot.sound"
+  },
+  "warnings": 1,
+  "warning_messages": [
+    "`ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead"
+  ],
+  "errors": 0,
+  "warning_review": {
+    "classification": "Deprecated name for the same proved lemma; retained warning-only success.",
+    "pinned_mathlib_source": "Mathlib/Topology/Algebra/Module/ContinuousLinearMap/Basic.lean:887",
+    "declaration": "@[deprecated (since := \"2026-05-20\")] protected alias sub_apply := _root_.sub_apply",
+    "proof_source_changed_after_check": false
+  },
+  "previous_accepted_modules_unchanged": 55,
+  "preexisting_import_artifacts_unchanged": 128,
+  "qualification": "Modular pinned development acceptance; no combined or fresh independent qualification.",
+  "sealed": false,
+  "comparator_run": false,
+  "additional_independent_kernel_run": false
+}

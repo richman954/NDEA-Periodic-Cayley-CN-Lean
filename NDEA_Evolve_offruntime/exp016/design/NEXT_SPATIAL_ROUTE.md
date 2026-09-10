@@ -1,13 +1,31 @@
-# Next spatial obligation: weighted numerical Fourier control
+# Next spatial obligation: uniform initial moments and spatial defect bounds
 
-Current status, September 10, 2026 UTC: AliasWeights and
-WeightedSampledPotential now prove the centered alias inequalities and the
-mesh-independent weighted multiplication bound for each fixed finite cutoff.
-Read WEIGHTED_SPATIAL_MILESTONE.md and its source-bound receipt. The remaining
-stage propagation and refinement route below is proposed, not accepted Lean
-mathematics. The reconstruction, recurrence, data class and qualification gates
-remain unchanged. Earlier future-tense descriptions of the first two steps
-are retained to explain the route's design.
+Current status, September 10, 2026 01:35 UTC: WeightedGridStages and
+WeightedCayleyPropagation are accepted, in addition to AliasWeights and
+WeightedSampledPotential. Read WEIGHTED_CAYLEY_MILESTONE.md and its receipt.
+The actual ordered trajectory satisfies W_p(y_j)<=exp(2*K_B*sum|k_i|)*W_p(y_0)
+under |k_i|*K_B<=1, with K_B=K_V+1. The saved schedule eventually meets this
+restriction for every prefix to time 1. Its initial amplitude remains explicit.
+
+The next best small proof is a uniform initial W_2 bound for actual samples of
+a fixed finite initial-data cutoff. Construct it using sealed Exp014.ofCoefficients
+and prove its coefficient identity. SamplingExpansion.sampledInitialState_eq_tsum
+then reduces to a finite sum; AliasWeights.fourierWeightedNorm_sum_le and
+fourierWeightedNorm_modeLift_le give the finite weighted coefficient bound.
+Because aliases decrease weights, the initial estimate needs no cutoff<=M
+condition. Feed scheduledCayley_cutoff_fourierWeightedNorm_eventually_le to obtain
+the actual uniform evolved fourth weighted sum, without assuming an invariant
+finite solution band or strengthening the full Exp014 class.
+
+After that, prove the fourth-frequency l2 and low/high l1 bounds required by
+StencilFourier and PotentialAliasBounds for the actual endpoints, slab mean,
+velocity and generator-velocity. Prove scheduledSpatialSum vanishing, then
+discharge the approximation quantifiers. These remain open. The reconstruction,
+recurrence, data class and qualification gates are unchanged.
+
+The design discussion below is retained as historical rationale. Its alias,
+multiplication, A/Z and Cayley propagation steps are now accepted; future-tense
+claims about them describe the earlier plan, not the current recovery state.
 
 ## Comparison and recommendation
 
@@ -74,7 +92,7 @@ fixed smooth cutoff, then discharge the approximation quantifiers using the
 existing stability results. Until then, the actual time-1 error certificate
 retains its entire spatial sum. Temporal refinement is not solver convergence.
 
-## Concrete next-stage interfaces inspected September 10
+## Historical stage interfaces inspected before the propagation proof
 
 The sealed Exp008 theorem
 `NDEAEvolve.Exp008.FourierGrid.hamiltonian_step_modeLift` already intertwines

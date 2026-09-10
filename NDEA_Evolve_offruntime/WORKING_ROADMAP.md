@@ -1,3 +1,35 @@
+## Current Exp016 continuation — actual weighted Cayley propagation, September 10, 2026 UTC
+
+Resume all 57 accepted development modules in TASK_STATE. WeightedGridStages
+and WeightedCayleyPropagation passed the unchanged Lean 4.31.0/Mathlib pins
+with 23 transitive standard-axiom reports, zero errors and two reviewed
+style/deprecation warnings. Read exp016/design/WEIGHTED_CAYLEY_MILESTONE.md
+and exp016/evidence/WEIGHTED_CAYLEY_MILESTONE_LOCAL.json for exact bindings.
+
+The actual A factors preserve the weighted DFT sum. With K_B=K_V+1, including
+-Z, the actual A-half/B-full/A-half trajectory satisfies
+W_p(y_j)<=exp(2*K_B*sum_{i<j}|k_i|)*W_p(y_0) when |k_i|*K_B<=1.
+That step restriction eventually holds on the saved N,h,J,k schedule, and
+every prefix j<=J then has the same exp(2*K_B) factor. The initial weighted
+amplitude remains explicit. This is fixed finite Hermitian potential-cutoff
+propagation; no stronger moments for the full Exp014 class are assumed.
+
+Next: prove a uniform initial W_2 bound for actual samples of finite initial
+data cutoffs, feed the accepted scheduled propagation theorem, and derive
+actual fourth moments/tails and scheduledSpatialSum vanishing. Read
+exp016/design/NEXT_SPATIAL_ROUTE.md. Solver convergence, approximation
+quantifiers, full combined/fresh independent qualification and sealing remain
+pending. Exp016 has not been restarted and no sealed proof was rerun.
+
+All 55 earlier source/evidence/artifact bindings, 128 existing import artifacts,
+and 789 sealed Exp013–015 payloads/packet hashes remain unchanged. Both Lean
+sessions completed. Only watcher session 27367 continues minute snapshots;
+it has no reboot autostart. Main, sealed sources and dependency pins remain
+unchanged. The new Git checkpoint is pending readback; the earlier 55-module
+coverage at 80535fdea41bd707aac810c650608da0c635cfda remains verified.
+Use the latest dated local/Git receipts for exact coverage.
+Historical entries below describe earlier states and then-pending work.
+
 ## Current Exp016 continuation — weighted sampled-potential control, September 10, 2026 UTC
 
 Resume all 55 accepted development modules in TASK_STATE. AliasWeights and
@@ -24,7 +56,13 @@ and sealed predecessors are preserved. The failed first alias attempt remains
 separate rejected evidence. All Lean sessions have completed; only automatic
 watcher session 27367 continues minute snapshots. No dependency pin, main or
 sealed predecessor changed. Use dated local/Git readback receipts for exact
-backup coverage; a new Git checkpoint follows the local milestone.
+backup coverage. Git 80535fdea41bd707aac810c650608da0c635cfda protects the
+frozen 01:10:37 UTC weighted milestone on dev/variable-potential. Fresh readback
+matched all 777 tree files and all 55 source/receipt/log bindings; main/archive
+heads remain unchanged. Read EXP016_WEIGHTED_SPATIAL_GIT_BINDING.json in
+NDEA_Recovery/github_evidence. The final manual checkpoint captures this later
+Git/recovery metadata. The last verified watcher interval was published at
+2026-09-10T01:13:38.287699+00:00; all 55 accepted sources match.
 Historical entries below describe earlier accepted states and pending work.
 
 ## Current Exp016 continuation — actual temporal refinement, September 10, 2026 UTC

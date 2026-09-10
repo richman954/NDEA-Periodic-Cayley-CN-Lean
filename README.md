@@ -1,3 +1,7 @@
+# Current development checkpoint — actual weighted Cayley propagation
+
+57 development modules are accepted. The actual kinetic/Z Cayley factors preserve the weighted DFT sum, and finite-cutoff sampled B stages have an explicit mesh-independent growth bound. The actual ordered trajectory satisfies W(y_j) <= exp(2*K_B*sum(abs(k_i)))*W(y_0) under the stated step restriction, which eventually holds on the saved refinement schedule. See [source/receipt catalog](NDEA_Evolve_offruntime/exp016/WEIGHTED_CAYLEY_CHECKPOINT.json) and [the mathematical scope](NDEA_Evolve_offruntime/exp016/design/WEIGHTED_CAYLEY_MILESTONE.md). Exp016 remains unsealed; uniform initial moments, spatial refinement and full combined/independent qualification remain pending. The sections below retain earlier checkpoint history.
+
 # Current development checkpoint — weighted sampled-potential control
 
 55 development modules are accepted. Centered grid aliases cannot increase the frequency weight. Actual sampled multiplication by a fixed finite Fourier cutoff is bounded in the fourth weighted absolute DFT sum, with a constant independent of the numerical grid. See [source/receipt catalog](NDEA_Evolve_offruntime/exp016/WEIGHTED_SPATIAL_CHECKPOINT.json) and [the mathematical scope](NDEA_Evolve_offruntime/exp016/design/WEIGHTED_SPATIAL_MILESTONE.md). Exp016 remains unsealed; actual weighted Cayley propagation, spatial refinement, and full combined/independent qualification remain pending. The sections below retain earlier checkpoint history.

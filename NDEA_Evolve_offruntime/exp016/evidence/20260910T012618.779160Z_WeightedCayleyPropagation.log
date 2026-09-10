@@ -1,0 +1,23 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedCayleyPropagation.lean:146:16: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NDEAEvolve.Exp016.fourierWeightedNorm_cayley_step_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.weightedCayleyFactor_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_cayley_step_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_sampledSplitB_step_cutoff_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.orderedCayleyEndpoint_cutoff_fourierWeightedNorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_fourierWeightedNorm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.sampledCayleyTrajectory_cutoff_fourierWeightedNorm_le_horizon' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.temporalStepSize_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.eventually_temporalStepSize_mul_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_cutoff_fourierWeightedNorm_eventually_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
