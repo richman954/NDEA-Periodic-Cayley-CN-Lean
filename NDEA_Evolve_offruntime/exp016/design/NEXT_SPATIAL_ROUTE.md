@@ -1,8 +1,13 @@
 # Next spatial obligation: weighted numerical Fourier control
 
-This is a proposed proof route, not accepted Lean mathematics. It follows the
-actual temporal-certificate work and preserves the existing reconstruction,
-recurrence, data class and qualification gates.
+Current status, September 10, 2026 UTC: AliasWeights and
+WeightedSampledPotential now prove the centered alias inequalities and the
+mesh-independent weighted multiplication bound for each fixed finite cutoff.
+Read WEIGHTED_SPATIAL_MILESTONE.md and its source-bound receipt. The remaining
+stage propagation and refinement route below is proposed, not accepted Lean
+mathematics. The reconstruction, recurrence, data class and qualification gates
+remain unchanged. Earlier future-tense descriptions of the first two steps
+are retained to explain the route's design.
 
 ## Comparison and recommendation
 
@@ -68,3 +73,24 @@ After those estimates, prove that `scheduledSpatialSum` tends to zero for each
 fixed smooth cutoff, then discharge the approximation quantifiers using the
 existing stability results. Until then, the actual time-1 error certificate
 retains its entire spatial sum. Temporal refinement is not solver convergence.
+
+## Concrete next-stage interfaces inspected September 10
+
+The sealed Exp008 theorem
+`NDEAEvolve.Exp008.FourierGrid.hamiltonian_step_modeLift` already intertwines
+the actual grid Cayley factor with the two-component mode Cayley factor for
+`modeSymbol m h * I + K`. It requires the physical mesh identity and a Hermitian
+constant K, and applies to every integer mode. Set K to the actual Z block;
+combine it with the accepted full-grid mode expansion and coefficient extraction
+to prove weighted A-stage preservation. This avoids reproving a resolvent
+intertwining theorem or substituting a different kinetic operator.
+
+For the B stage, retain `sampledSplitB = sampledBlock(V) - potential(Z)`.
+The finite-cutoff multiplication bound alone controls only sampledBlock(V).
+Prove the constant Z block's coefficient action and its coefficient-one weighted
+bound, then use the triangle inequality to obtain K_B = K_V + 1.
+The actual equation is `stageResidual (op B) alpha u (step alpha B u) = 0`,
+already proved in SplitDefect. It gives the weighted Cayley estimate with
+`alpha = k/2` for B and `|alpha|*K_B < 1`; weighted triangle and complex-scalar
+homogeneity must be established explicitly. The A stages use `alpha = k/4`.
+No weighted propagation theorem is claimed by this interface review.

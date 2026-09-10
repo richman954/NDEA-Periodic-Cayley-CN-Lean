@@ -1,3 +1,32 @@
+## Current Exp016 continuation — weighted sampled-potential control, September 10, 2026 UTC
+
+Resume all 55 accepted development modules in TASK_STATE. AliasWeights and
+WeightedSampledPotential passed the unchanged Lean 4.31.0/Mathlib environment
+with 18 transitive standard-axiom reports, zero errors and one reviewed
+deprecated-name warning. Read exp016/design/WEIGHTED_SPATIAL_MILESTONE.md and
+exp016/evidence/WEIGHTED_SPATIAL_MILESTONE_LOCAL.json for exact source bindings.
+
+The centered alias cannot increase absolute frequency or its weight. Actual
+sampled multiplication by each fixed finite potential cutoff now satisfies
+W_p(P_(V_R)y) <= K_(p,R,v)*W_p(y), with the original normalized DFT and no grid
+factor or R<=M restriction. p=2 is the fourth weight. Grid states are arbitrary;
+no invariant solution band or fourth moment for the full Exp014 class is assumed.
+
+Next: actual A/Z weighted preservation using sealed Exp008's mode intertwiner,
+then B weighted growth including the -Z term and actual denominator equation.
+Propagate the ordered trajectory, derive the spatial moments/tails and discharge
+refinement/approximation quantifiers. Read exp016/design/NEXT_SPATIAL_ROUTE.md.
+The actual time-1 error certificate still retains its spatial sum; full solver
+convergence, combined/fresh independent qualification and sealing are pending.
+
+The original 53 accepted source/evidence/artifact bindings, 126 import artifacts
+and sealed predecessors are preserved. The failed first alias attempt remains
+separate rejected evidence. All Lean sessions have completed; only automatic
+watcher session 27367 continues minute snapshots. No dependency pin, main or
+sealed predecessor changed. Use dated local/Git readback receipts for exact
+backup coverage; a new Git checkpoint follows the local milestone.
+Historical entries below describe earlier accepted states and pending work.
+
 ## Current Exp016 continuation — actual temporal refinement, September 10, 2026 UTC
 
 Resume all 53 accepted development modules in TASK_STATE. TemporalBudget and
@@ -27,6 +56,13 @@ attempt is preserved separately. No Lean or Colab proof job remains running.
 Watcher session 27367 continues minute snapshots; it has no reboot autostart.
 Use the latest dated manual checkpoint and Git readback receipt for exact
 coverage. No dependency pin, main, or sealed predecessor was changed.
+Git `342ca89e6ba9ca7e2073db8870e54674cef465fa` now protects the frozen
+00:39:55 UTC temporal milestone on dev/variable-potential. Fresh readback matched
+all 758 tree files and 53 source/receipt/log bindings. Main/archive heads remain
+unchanged. Read NDEA_Recovery/github_evidence/EXP016_TEMPORAL_GIT_BINDING.json.
+The watcher interval published at 00:43:07 UTC was verified with all 53 sources.
+Only automatic watcher session 27367 remains running; all proof and Git jobs
+have completed. The final dated manual checkpoint captures this later metadata.
 Historical entries below record earlier milestones, not current pending work.
 
 ## Current Exp016 continuation — physical-grid kinetic assembly, September 10, 2026 UTC

@@ -1,0 +1,42 @@
+{
+  "utc": "2026-09-10T01:08:15.329283+00:00",
+  "passed": true,
+  "module": "WeightedSampledPotential",
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedSampledPotential.lean",
+  "source_sha256": "7724ee352eacf9d6af7bc30f237c14252522e6448dc50bcfdb9a4535a04eaaa7",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/WeightedSampledPotential.olean",
+  "artifact_sha256": "694bb852d212c0a6e702bb58d33c65e056fef62c107bac96fba0542087c0e73c",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T010421.237392Z_WeightedSampledPotential.json",
+  "receipt_sha256": "7db64c9fd8856178dbd276dc6c7e43767790c3039b56d072ebba3281fae2490f",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T010421.237392Z_WeightedSampledPotential.log",
+  "log_sha256": "e2f522e49c412def9cffe9e9885197f6033fd51ecc1168defe48d3ad4964da0e",
+  "compiler_exit": 0,
+  "elapsed_seconds": 181.1948171670001,
+  "explicit_axiom_reports": 7,
+  "axiom_dependencies": {
+    "NDEAEvolve.Exp016.finitePotential_regular": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.sampledPotential_on_modeLift_finset": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.finitePotentialWeight_nonneg": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_potential_mode_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_sampledPotential_le": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.cutoffPotentialWeight_nonneg": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.fourierWeightedNorm_sampledPotential_cutoff_le": "propext,\n Classical.choice,\n Quot.sound"
+  },
+  "warnings": 1,
+  "warning_messages": [
+    "`ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead"
+  ],
+  "errors": 0,
+  "warning_review": {
+    "classification": "Deprecated name for the same proved lemma; retained warning-only success.",
+    "pinned_mathlib_source": "Mathlib/Topology/Algebra/Module/ContinuousLinearMap/Basic.lean:343",
+    "declaration": "@[deprecated (since := \"2026-05-20\")] protected alias zero_apply := _root_.zero_apply",
+    "proof_source_changed_after_check": false
+  },
+  "previous_accepted_modules_unchanged": 53,
+  "preexisting_import_artifacts_unchanged": 126,
+  "qualification": "Modular pinned development acceptance; no combined or fresh independent qualification.",
+  "sealed": false,
+  "comparator_run": false,
+  "additional_independent_kernel_run": false
+}

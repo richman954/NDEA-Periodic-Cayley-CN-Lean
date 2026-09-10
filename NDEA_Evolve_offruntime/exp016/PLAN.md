@@ -2,14 +2,16 @@
 
 Status: authorized and in progress; no completion or independent qualification claimed. Exp013–015 are immutable. BASELINE.json records their read-only source/packet audit and exact Exp015 combined-source pin. The startup Git baseline was 8021c836fb6eb43dd18a70fdb71c0e5c147e8a10. The five-module source checkpoint was 2454fac4f3a63e2ad9a6663c8a8f950091dff0ad. The finite-trajectory source checkpoint is ed85977115113da7ca4c4a82b811e21d8965794a (fresh remote readback passed); later current source-bound receipts take precedence. Main is unchanged.
 
-Current continuation (2026-09-10T00:38 UTC): 53 accepted development modules.
-TemporalBudget and TemporalRefinement prove the explicit actual temporal sum
-bound and its vanishing for the recorded schedule, at exact time 1. The actual
-PDE error certificate retains its spatial sum; initial-plus-temporal terms
-are proved to vanish. Read design/TEMPORAL_MILESTONE.md and its source-bound
-receipt. Next: alias weights, weighted multiplication/stage propagation and
-actual spatial-sum vanishing; see design/NEXT_SPATIAL_ROUTE.md. No compiler job
-remains. Exp016 is unsealed and full qualification/solver convergence are pending.
+Current continuation (2026-09-10T01:08 UTC): 55 accepted development modules.
+AliasWeights and WeightedSampledPotential prove centered alias weight control
+and the actual finite-cutoff sampled multiplication bound in the fourth
+weighted DFT sum, with a constant independent of the grid. Read
+design/WEIGHTED_SPATIAL_MILESTONE.md and its source-bound receipt. The actual
+time-1 PDE certificate already has vanishing initial-plus-temporal terms and
+retains its spatial sum. Next: actual A/Z preservation and B-stage weighted
+growth, numerical propagation and spatial-sum vanishing; see
+design/NEXT_SPATIAL_ROUTE.md. No compiler job remains. Exp016 is unsealed;
+full qualification and solver convergence are pending.
 
 ## Chosen architecture and why
 

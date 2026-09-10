@@ -1,0 +1,567 @@
+{
+  "accepted_module_count": 55,
+  "base_commit": "342ca89e6ba9ca7e2073db8870e54674cef465fa",
+  "base_tree": "b4aff908ea6d09dad872f9d6f113d183c293bd71",
+  "modules": {
+    "ActualCayleyCertificate": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/compiler.log",
+      "log_sha256": "806710206c03ce5126797bfdfaadb4b58c8c65ea3d0ebfc194790e8feca086c2",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json",
+      "receipt_sha256": "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/ActualCayleyCertificate.lean",
+      "source_sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639"
+    },
+    "ActualCayleySynthesis": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/compiler.log",
+      "log_sha256": "09b0cb9396e849646b3a34f89a1f27f9977df0250fecce660119aca961f44801",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json",
+      "receipt_sha256": "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/ActualCayleySynthesis.lean",
+      "source_sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882"
+    },
+    "AffineReconstruction": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log",
+      "log_sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json",
+      "receipt_sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
+      "source_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf"
+    },
+    "AliasTailCertificate": {
+      "axiom_report_count": 5,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/compiler.log",
+      "log_sha256": "59c373477ff6a0abaa70b9fad347bde96731c929e1c4c45b14b71cd770429967",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json",
+      "receipt_sha256": "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean",
+      "source_sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59"
+    },
+    "AliasTailControls": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log",
+      "log_sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json",
+      "receipt_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
+      "source_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f"
+    },
+    "AliasWeights": {
+      "axiom_report_count": 11,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260910T005923.091644Z_AliasWeights.log",
+      "log_sha256": "bb0f5e9f0d1ef81fc6af3952f77b5b139af83a151a66f42a1d174b8024aeeb9f",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260910T005923.091644Z_AliasWeights.json",
+      "receipt_sha256": "c194f16ba706e5b1ff51357380d770bbf218587acc8b08e42dd64d5b077c1d8b",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/AliasWeights.lean",
+      "source_sha256": "d08415815901fd965fc874e7251d829e84502ef92c06804c334f74d10e8894cd"
+    },
+    "CayleyPerturbation": {
+      "axiom_report_count": 9,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/compiler.log",
+      "log_sha256": "b89951cf6474ebeabfd089148b994c0154d00384542796b1cbb7d52b402805f8",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/RESULT.json",
+      "receipt_sha256": "a14b001ee917ced2d69875a8691df0cbea974949f68809baf53e6c3b70f8f8ba",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/CayleyPerturbation.lean",
+      "source_sha256": "6c3f37c945912f8983c1db9001410e9b87da9eac3755127f41a8385e7f1f83ff"
+    },
+    "ContinuumPotentialStability": {
+      "axiom_report_count": 3,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/compiler.log",
+      "log_sha256": "a04e0a2219ea0e18bc86a152fdc9b9eb557b64d0105bbb92eda4687afaed3832",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/RESULT.json",
+      "receipt_sha256": "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/ContinuumPotentialStability.lean",
+      "source_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750"
+    },
+    "FourierCoefficientBridge": {
+      "axiom_report_count": 4,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/compiler.log",
+      "log_sha256": "5617f8c805fa9a118163fa5037661c3d208d0647f048dccf6157aeb88615244d",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json",
+      "receipt_sha256": "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierCoefficientBridge.lean",
+      "source_sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918"
+    },
+    "FourierNorm": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/compiler.log",
+      "log_sha256": "3e0a2d1fa6902c83f3a442ed3204d190b77248d67d3868cd8bf5961e246566fa",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json",
+      "receipt_sha256": "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierNorm.lean",
+      "source_sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae"
+    },
+    "FourierReconstruction": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.log",
+      "log_sha256": "3ffd778f3aa3448d88759e2e567a4f2f7db21f1f4068dd9a44c8d5abfdb9e921",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json",
+      "receipt_sha256": "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
+      "source_sha256": "d371e36b98114f56cef229021e2f0d0aa0f12c42f77e5d7faf28bdcc2a8f3000"
+    },
+    "FourierSynthesisRegular": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/compiler.log",
+      "log_sha256": "61890b76deb84293ac264b55c0c87c86b162bdab45c886845a4eb8a10d3ddad4",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json",
+      "receipt_sha256": "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierSynthesisRegular.lean",
+      "source_sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096"
+    },
+    "FourierTailBounds": {
+      "axiom_report_count": 4,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log",
+      "log_sha256": "66f5f464d7448bd2580db4805281c5c45cda928690aa5d8df2957d698785cda0",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json",
+      "receipt_sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FourierTailBounds.lean",
+      "source_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026"
+    },
+    "FullBandSymbol": {
+      "axiom_report_count": 1,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/compiler.log",
+      "log_sha256": "7f95fc712149686c7aa05d0cff18070d72b8843c12f9f0f597b4da159420a641",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json",
+      "receipt_sha256": "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/FullBandSymbol.lean",
+      "source_sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996"
+    },
+    "GridAlias": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log",
+      "log_sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json",
+      "receipt_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
+      "source_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4"
+    },
+    "IndependentTarget": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/compiler.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json",
+      "receipt_sha256": "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/IndependentTarget.lean",
+      "source_sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288"
+    },
+    "InitialSamplingBounds": {
+      "axiom_report_count": 8,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log",
+      "log_sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json",
+      "receipt_sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
+      "source_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3"
+    },
+    "InitialSamplingControls": {
+      "axiom_report_count": 3,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log",
+      "log_sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json",
+      "receipt_sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
+      "source_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22"
+    },
+    "InitialSamplingLimit": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log",
+      "log_sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json",
+      "receipt_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean",
+      "source_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45"
+    },
+    "InitializationCertificate": {
+      "axiom_report_count": 4,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log",
+      "log_sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json",
+      "receipt_sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
+      "source_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97"
+    },
+    "KineticAssembly": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.log",
+      "log_sha256": "30c7e7a149dc6daa9356d0678b9a0e658ba4cc4041fceb7f136c0f948a29d634",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.json",
+      "receipt_sha256": "964decbc28054f3414a4da0bfa3f03d319b4a0e149f18eb3b6f238400e61d2f8",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean",
+      "source_sha256": "e2452dc2b18153b7595984b43f7ca56748cbdb1d870325d342cfa8450e97a9ae"
+    },
+    "KineticSymbolBound": {
+      "axiom_report_count": 3,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/compiler.log",
+      "log_sha256": "ef243c666c869a54ae99a0ec9baca3f3433be19490caeadb542f0b4f4ff49aa9",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/RESULT.json",
+      "receipt_sha256": "34290568ebf12d7e512cc121d07d4a9b56faa37378642cc8e995c45b3685a48c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/KineticSymbolBound.lean",
+      "source_sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142"
+    },
+    "OneNodeCosine": {
+      "axiom_report_count": 16,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/compiler.log",
+      "log_sha256": "d5742ffb56fb3eb6b734394be9e8a5e8787d798e555f0ba4d4b6b8162fb5406d",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json",
+      "receipt_sha256": "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean",
+      "source_sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5"
+    },
+    "OrderedStageAlgebra": {
+      "axiom_report_count": 3,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/compiler.log",
+      "log_sha256": "12b1f0ea1fa04a1416e9ef8ed603438329f4f3d60e5050b12cbce3fd5d212190",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json",
+      "receipt_sha256": "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/OrderedStageAlgebra.lean",
+      "source_sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791"
+    },
+    "OrderedStageBounds": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/compiler.log",
+      "log_sha256": "f5c8561e866894293dbeaf4d7d007c20d66cbc3966b9614368349c4c57cdcd98",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json",
+      "receipt_sha256": "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/OrderedStageBounds.lean",
+      "source_sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34"
+    },
+    "PotentialAlias": {
+      "axiom_report_count": 5,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/compiler.log",
+      "log_sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json",
+      "receipt_sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
+      "source_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03"
+    },
+    "PotentialAliasBounds": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log",
+      "log_sha256": "e14530e368033bee5263d8400b5c3d2b00eb7469a4dfd6267df03660fb82b6e5",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json",
+      "receipt_sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean",
+      "source_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f"
+    },
+    "PotentialCutoff": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/compiler.log",
+      "log_sha256": "204340adced4a954707fa877e548d4c4ba5ef652483870aaf588e01371cd5506",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/RESULT.json",
+      "receipt_sha256": "7ede124c841597e2faf9e22c064d0a8e1c73cd442dfaba2b80cc0dfccf77e870",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialCutoff.lean",
+      "source_sha256": "b6964deb1ced3b127060458c572b7d3c68cea33b6ba291de7f2f22bee93bdf5a"
+    },
+    "PotentialDefectExpansion": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log",
+      "log_sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json",
+      "receipt_sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
+      "source_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac"
+    },
+    "PotentialErrorTransfer": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/compiler.log",
+      "log_sha256": "81a3a8797d0757eb36ba4564a91ecfb729470401e946d88cccb4ff7062fed124",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/RESULT.json",
+      "receipt_sha256": "ceb03e5dc8485353a51e4dce3b30e23e59b94e22f571b65193b6a8efc5ece46a",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialErrorTransfer.lean",
+      "source_sha256": "4d83f7f9651c3bf143a5f3a99ea804c4db887ec9999c4d6af319c87d764765bd"
+    },
+    "PotentialStability": {
+      "axiom_report_count": 5,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/compiler.log",
+      "log_sha256": "a10691065419f4b06a4e6b4b440f5cfe8fc00d9e6f61ce40e60767172522f86a",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/RESULT.json",
+      "receipt_sha256": "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/PotentialStability.lean",
+      "source_sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23"
+    },
+    "QuadraticCayleyBridge": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.log",
+      "log_sha256": "0d28adcdef123bf6f68fcaf6a93b21ebf792e3c6509090dd013bcf6730513e36",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.json",
+      "receipt_sha256": "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean",
+      "source_sha256": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130"
+    },
+    "QuadraticNorm": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/compiler.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/RESULT.json",
+      "receipt_sha256": "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticNorm.lean",
+      "source_sha256": "4c1a6ec0d168cfbea7f75257c133e29a7a522a7f3295d5107194db3dcf9d5104"
+    },
+    "QuadraticNormAudit": {
+      "axiom_report_count": 9,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/compiler.log",
+      "log_sha256": "5c63ea69fae3fc497d4f691ed78cf5af8f046a5d80db0d2bd5f881de56c032cc",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json",
+      "receipt_sha256": "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticNormAudit.lean",
+      "source_sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d"
+    },
+    "QuadraticPDEBudget": {
+      "axiom_report_count": 4,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/compiler.log",
+      "log_sha256": "b98e3cc3ebeeff398d3c08979d0ff18dbcbae87f754832aa3e899c27df55e587",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json",
+      "receipt_sha256": "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticPDEBudget.lean",
+      "source_sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2"
+    },
+    "QuadraticTime": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log",
+      "log_sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json",
+      "receipt_sha256": "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
+      "source_sha256": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc"
+    },
+    "QuantitativeCayleyCertificate": {
+      "axiom_report_count": 4,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/compiler.log",
+      "log_sha256": "92df489935a8634fd9f99cdcce3505aa94b95089860aaa24fd8b012a60ab792c",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json",
+      "receipt_sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean",
+      "source_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8"
+    },
+    "RegularSynthesis": {
+      "axiom_report_count": 10,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/compiler.log",
+      "log_sha256": "ab6d12ebc121d81630301e207e422783682dd86eb97cde63e0d7d2d4eff677f2",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RESULT.json",
+      "receipt_sha256": "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/RegularSynthesis.lean",
+      "source_sha256": "1335c94ca420eb6c905ea5479beaf87a2af405486e194759d46d9b6dff3ca425"
+    },
+    "SampledCayleyCertificate": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/compiler.log",
+      "log_sha256": "2cc33974ef0ba8d49f243264a1e4b2ac9eeebf4128429b0738247eb6f16533f5",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json",
+      "receipt_sha256": "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean",
+      "source_sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5"
+    },
+    "SampledPotential": {
+      "axiom_report_count": 9,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/compiler.log",
+      "log_sha256": "991817e9fd3f9b6a352bad9e82f4f889da451430caa294694c2a167b9b5793d1",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json",
+      "receipt_sha256": "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean",
+      "source_sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1"
+    },
+    "SampledPotentialBounds": {
+      "axiom_report_count": 8,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/compiler.log",
+      "log_sha256": "e7c460e43f23f2f1dcaa2fd550b350efff3289df6966899509fcee5db14e534c",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/RESULT.json",
+      "receipt_sha256": "b86b848ce4cc4b84ee13b63d23018c47585d8275c7e4e2f78ec2bb33ad834e32",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SampledPotentialBounds.lean",
+      "source_sha256": "b6bd1493cd3e954f100094be0aa3513ccc341d43d4a985777baaf04094294c9b"
+    },
+    "SamplingExpansion": {
+      "axiom_report_count": 5,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log",
+      "log_sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json",
+      "receipt_sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean",
+      "source_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649"
+    },
+    "SlabError": {
+      "axiom_report_count": 3,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.log",
+      "log_sha256": "2920505c4127fd61534220d66258f8b0334d235c7f367f543fe51b68d7a09d92",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.json",
+      "receipt_sha256": "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SlabError.lean",
+      "source_sha256": "02b88b6e07caa92642f2d5b2de4b132f2a30678ba4d0bf282a96e22c087be4e7"
+    },
+    "SpatialDefectCertificate": {
+      "axiom_report_count": 5,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/compiler.log",
+      "log_sha256": "99e3fa521098ca791b0c7ef87af3b6cbadaae4035d81946e11021db0504c41e0",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json",
+      "receipt_sha256": "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectCertificate.lean",
+      "source_sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff"
+    },
+    "SpatialDefectSplit": {
+      "axiom_report_count": 9,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/compiler.log",
+      "log_sha256": "39da45345524354303bf9416c44f3edd9a7c71c653c527d6b940774ced911315",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json",
+      "receipt_sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectSplit.lean",
+      "source_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46"
+    },
+    "SpatialL2Bridge": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.log",
+      "log_sha256": "69c738f0dea2463701011f48b7f3c71a51382fcd31784228f5853f672fd6a888",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json",
+      "receipt_sha256": "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
+      "source_sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1"
+    },
+    "SpatialL2Operator": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/compiler.log",
+      "log_sha256": "4a8f0965a7502c251a8458e64c381e5a1ddd6b852eb73537de815aa249849399",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/RESULT.json",
+      "receipt_sha256": "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Operator.lean",
+      "source_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8"
+    },
+    "SplitDefect": {
+      "axiom_report_count": 0,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log",
+      "log_sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json",
+      "receipt_sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
+      "source_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96"
+    },
+    "StencilFourier": {
+      "axiom_report_count": 6,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/compiler.log",
+      "log_sha256": "8db1ecaedd9b5f6420d28588f4856e04d3516dfd2d6b45e2dc2932dddea9472a",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json",
+      "receipt_sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean",
+      "source_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3"
+    },
+    "SynthesizedSlabError": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/compiler.log",
+      "log_sha256": "cdff5aade63b8aca95cdcf20b2b55a1313b1a18717214a5f48f3a11490b780cc",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json",
+      "receipt_sha256": "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/SynthesizedSlabError.lean",
+      "source_sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079"
+    },
+    "TargetBinding": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/compiler.log",
+      "log_sha256": "94489c4f17f812e13cc7b81acbe347c4fb54c98c9d164779d2ce4bb2265af64a",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/RESULT.json",
+      "receipt_sha256": "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/TargetBinding.lean",
+      "source_sha256": "20d749118fe1f0f788de93397f296252d3c2b56858c177a76198d9b0c89eace3"
+    },
+    "TemporalBudget": {
+      "axiom_report_count": 9,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260910T002106.832927Z_TemporalBudget.log",
+      "log_sha256": "f2d9c22fceeb2b0f05ca9db46dcc654d895e8f52bb44eb47b968883c7b81c2ec",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260910T002106.832927Z_TemporalBudget.json",
+      "receipt_sha256": "0bc183f36a0dd9113978037a90625ff759478b11150a1a71792c5078a249e3aa",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/TemporalBudget.lean",
+      "source_sha256": "3b3424eef3246e0686e50a854efff123e48d733e105fc714c57aa9b2d470a5d3"
+    },
+    "TemporalRefinement": {
+      "axiom_report_count": 15,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260910T003342.122048Z_TemporalRefinement.log",
+      "log_sha256": "e13d5cb8e8927d87c834de3959d8d2bc752846ebf8ccf88d4e2c6464cd7390ef",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260910T003342.122048Z_TemporalRefinement.json",
+      "receipt_sha256": "146891c004db11c60645e46df9b5e531be7bd8699c7ab00fb2fc9731363516b6",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/TemporalRefinement.lean",
+      "source_sha256": "5f2c5c7260b6d8bb8c5ec51726b53aa331792bb2b58eff7ea3f70d65c8982b98"
+    },
+    "WeightedCoefficientBridge": {
+      "axiom_report_count": 2,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log",
+      "log_sha256": "727cf42444d363853a8cae315b0e9562142a04a427f963826f2cf4c832b2017f",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json",
+      "receipt_sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/WeightedCoefficientBridge.lean",
+      "source_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd"
+    },
+    "WeightedSampledPotential": {
+      "axiom_report_count": 7,
+      "compiler_exit": 0,
+      "log": "NDEA_Evolve_offruntime/exp016/evidence/20260910T010421.237392Z_WeightedSampledPotential.log",
+      "log_sha256": "e2f522e49c412def9cffe9e9885197f6033fd51ecc1168defe48d3ad4964da0e",
+      "receipt": "NDEA_Evolve_offruntime/exp016/evidence/20260910T010421.237392Z_WeightedSampledPotential.json",
+      "receipt_sha256": "7db64c9fd8856178dbd276dc6c7e43767790c3039b56d072ebba3281fae2490f",
+      "source": "NDEA_Evolve_offruntime/exp016/lean/WeightedSampledPotential.lean",
+      "source_sha256": "7724ee352eacf9d6af7bc30f237c14252522e6448dc50bcfdb9a4535a04eaaa7"
+    }
+  },
+  "next_step": "Weighted triangle/scalar properties and actual A/Z stage preservation via sealed Exp008 mode intertwining; include -Z in the B bound and use its actual denominator equation for weighted Cayley growth, then trajectory propagation.",
+  "qualification": {
+    "combined_check": false,
+    "development_only": true,
+    "independent_qualification": false,
+    "sealed": false
+  },
+  "snapshot": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T011037.881262Z_d319360d.zip",
+  "snapshot_sha256": "d366229148b70c5b1bcec007407155061d13f7b8a41895ad237e4b5063e9a0f0",
+  "utc": "2026-09-10T01:10:49.379752+00:00"
+}

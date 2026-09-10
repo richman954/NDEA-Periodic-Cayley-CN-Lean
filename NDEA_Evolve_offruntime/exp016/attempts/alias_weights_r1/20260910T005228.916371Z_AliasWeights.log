@@ -1,0 +1,28 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasWeights.lean:65:4: error: Type mismatch
+  pow_le_pow_left₀
+    (le_of_lt
+      (Right.add_pos_of_nonneg_of_pos (abs_nonneg ↑(oddFrequency M r))
+        (Mathlib.Meta.Positivity.pos_of_isNat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one)
+          (Eq.refl (Nat.ble 1 1)))))
+    (add_le_add_left (gridAlias_abs_le M ell r hr) 1) 2
+has type
+  (|↑(oddFrequency M r)| + 1) ^ 2 ≤ (|↑ell| + 1) ^ 2
+but is expected to have type
+  (1 + |↑(oddFrequency M r)|) ^ 2 ≤ (1 + |↑ell|) ^ 2
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasWeights.lean:84:24: warning: Variable name `r` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasWeights.lean:112:2: error: `simp` made no progress
+'NDEAEvolve.Exp016.oddFrequency_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridAlias_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyWeight_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyWeight_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridAlias_frequencyWeight_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridAlias_frequencyWeight_add_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_modeLift_eq' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_modeLift_le' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

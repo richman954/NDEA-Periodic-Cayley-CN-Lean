@@ -1,0 +1,26 @@
+{
+  "utc": "2026-09-10T01:07:12.338161+00:00",
+  "passed": true,
+  "checkpoint": {
+    "active_experiment": "exp016",
+    "archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T010618.233814Z_57a4b4f8.zip",
+    "archive_bytes": 34255567,
+    "archive_sha256": "49c23d3ff96791dfb623944e55e33fb81ea219a7f4d5ad833d8f4abae6539f72",
+    "final_packet_receipt_captured": false,
+    "kind": "recovery_checkpoint_receipt",
+    "payload_files_verified": 1385,
+    "proof_completion_evidence": false,
+    "published_utc": "2026-09-10T01:06:22.559104+00:00",
+    "reason": "watch_interval",
+    "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T010618.233814Z_57a4b4f8.json",
+    "receipt_sha256": "3c5800b987104ec60e99101c77ab5ad47cecfc58de0829e6f79cf44f9fb4a0ff",
+    "task_state_present": true
+  },
+  "accepted_sources_matched": 54,
+  "frozen_candidate_source_sha256": "7724ee352eacf9d6af7bc30f237c14252522e6448dc50bcfdb9a4535a04eaaa7",
+  "proof_check_session": 26095,
+  "watcher_session": 27367,
+  "watcher_command": "python3 -u -B /home/richman954/NDEA_Recovery/checkpoint.py --watch --interval 60 --hours 12",
+  "cwd": "/home/richman954",
+  "qualification": "Recovery copy only; WeightedSampledPotential check still running."
+}

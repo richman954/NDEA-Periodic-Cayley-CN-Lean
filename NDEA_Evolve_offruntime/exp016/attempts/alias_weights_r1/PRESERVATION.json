@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "reason": "Two proof-script errors and one unused-variable warning; sorryAx in failed reports is rejected.",
+  "files": {
+    "AliasWeights.lean": "559177a4cd085b6c258c7ad1a7b9648d0b035f890d155a4aaef1c6ea1d26d804",
+    "20260910T005228.916371Z_AliasWeights.json": "2e72fc753dd235b4fb01b2e5c5535cf65846e90ddb61da6dfc716e7f48c0f7fd",
+    "20260910T005228.916371Z_AliasWeights.log": "41bffc0b0732f86f2f388dd3eb8be233d60c04cf8c5e7f4679c75276a0dabf49"
+  }
+}
