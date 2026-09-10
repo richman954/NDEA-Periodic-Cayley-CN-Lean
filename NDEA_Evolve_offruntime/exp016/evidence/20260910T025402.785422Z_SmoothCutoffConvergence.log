@@ -1,0 +1,7 @@
+'NDEAEvolve.Exp016.scheduledSpatialSum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.scheduledSpatialSum_doubleCutoff_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledCayley_doubleCutoff_error_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

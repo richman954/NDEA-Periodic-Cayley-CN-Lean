@@ -1,0 +1,30 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialScalarRefinement.lean:53:2: error: Type mismatch: After simplification, term
+  Tendsto.const_mul (2 * Real.pi) hi
+ has type
+  @Tendsto ℕ ℝ (fun x => 2 * Real.pi * ((fun n => (↑n)⁻¹) ∘ temporalGridSize) x) atTop (𝓝 0)
+but is expected to have type
+  @Tendsto ℕ ℝ initialSamplingMesh atTop (𝓝 0)
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialScalarRefinement.lean:93:2: error: Type mismatch: After simplification, term
+  temporalStep_generatorCoefficient_rescaled (↑(temporalGridSize q)) K hn
+ has type
+  @Eq ℝ ((↑(2 * initialSamplingCutoff q + 1) ^ 4)⁻¹ * (4 / (2 * Real.pi / ↑(2 * initialSamplingCutoff q + 1)) ^ 2 + K))
+    (Real.pi⁻¹ ^ 2 * (↑(2 * initialSamplingCutoff q + 1))⁻¹ ^ 2 + K * (↑(2 * initialSamplingCutoff q + 1))⁻¹ ^ 4)
+but is expected to have type
+  @Eq ℝ ((↑(2 * initialSamplingCutoff q + 1) ^ 4)⁻¹ * (4 / (2 * Real.pi / ↑(2 * initialSamplingCutoff q + 1)) ^ 2 + K))
+    (Real.pi⁻¹ ^ 2 * ((fun n => (↑n)⁻¹) ∘ temporalGridSize) q ^ 2 + K * ((fun n => (↑n)⁻¹) ∘ temporalGridSize) q ^ 4)
+'NDEAEvolve.Exp016.spatialLowCutoff_le' depends on axioms: [propext]
+'NDEAEvolve.Exp016.spatialLowCutoff_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialCutoffGap_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyNormTail_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.initialSamplingMesh_tendsto_zero' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialFourthWeightCoefficient_tendsto_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.temporalStep_generatorCoefficient_rescaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledStep_generatorCoefficient_tendsto_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

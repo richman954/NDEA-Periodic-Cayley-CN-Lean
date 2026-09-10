@@ -1,0 +1,8 @@
+{
+  "source_sha256": "fb11e13adbec55622ae214ce9e70d13b587575c2c7c448e0b22616ef18b9218c",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T024719.549744Z_SmoothCutoffConvergence.json",
+  "compiler_exit": 1,
+  "reason": "Missing import PotentialErrorTransfer, which owns sampledCayleySolutionError.",
+  "next_attempt": "Add explicit accepted import; definition and existing source-bound receipt already inspected.",
+  "mathematical_statement_changed": false
+}

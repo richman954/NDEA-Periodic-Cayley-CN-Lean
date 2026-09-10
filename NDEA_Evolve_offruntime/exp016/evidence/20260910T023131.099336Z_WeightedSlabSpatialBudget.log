@@ -1,0 +1,12 @@
+'NDEAEvolve.Exp016.fourierWeightedNorm_gridKinetic_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_sampledGenerator_cutoff_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_quadraticMean_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_quadraticVelocity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSpatialStageBudget_cutoff_le_fourthWeight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledSpatialSum_doubleCutoff_eventually_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

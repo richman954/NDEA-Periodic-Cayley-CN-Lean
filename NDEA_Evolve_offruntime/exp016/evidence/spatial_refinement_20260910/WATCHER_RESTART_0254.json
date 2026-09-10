@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "job": {
+    "purpose": "Persistent verified recovery snapshots",
+    "command": "set -o pipefail\npython3 -u -B /home/richman954/NDEA_Recovery/checkpoint.py --watch --interval 60 --hours 12 2>&1 | tee /home/richman954/NDEA_Recovery/EXP016_WATCHER_20260910T0254.log",
+    "session_id": 9546,
+    "pid": 3,
+    "pid_scope": "watcher execution namespace; host PID unavailable",
+    "cwd": "/home/richman954",
+    "environment": "local",
+    "started_utc": "2026-09-10T02:53:26.840014+00:00",
+    "observed_utc": "2026-09-10T02:54:02.640914+00:00",
+    "status": "running; startup full archive and every current Lean source read back; interval advance pending",
+    "log": "/home/richman954/NDEA_Recovery/EXP016_WATCHER_20260910T0254.log",
+    "latest_receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T025326.878342Z_50a7ab4d.json",
+    "latest_archive_sha256": "28c96235f83f7cb2abf9b83dfc07ec576c81c662a5a69277c08fb0d1e495a73b",
+    "next_inspection": "Verify advancing interval while current proof runs."
+  },
+  "startup_checkpoint": {
+    "active_experiment": "exp016",
+    "archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T025326.878342Z_50a7ab4d.zip",
+    "archive_bytes": 34515234,
+    "archive_sha256": "28c96235f83f7cb2abf9b83dfc07ec576c81c662a5a69277c08fb0d1e495a73b",
+    "final_packet_receipt_captured": false,
+    "kind": "recovery_checkpoint_receipt",
+    "payload_files_verified": 1504,
+    "proof_completion_evidence": false,
+    "published_utc": "2026-09-10T02:53:28.964179+00:00",
+    "reason": "watch_start",
+    "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T025326.878342Z_50a7ab4d.json",
+    "receipt_sha256": "06ed9e2d2de9c1728437970141e0c35bff0e0c96505df016140066b9958f64f1",
+    "task_state_present": true
+  },
+  "payloads_verified": 1504,
+  "cause": "Unsupported .diff Git-evidence suffix; preserved bytes as .diff.txt, without relaxing checkpoint policy."
+}

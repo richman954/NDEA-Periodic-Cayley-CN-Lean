@@ -1,0 +1,129 @@
+--- TASK_STATE before recovery
++++ TASK_STATE after reconciliation
+@@ -124,6 +124,36 @@
+   ],
+   "active_experiment": "/home/richman954/NDEA_Evolve_offruntime/exp016",
+   "active_task": "Exp016 regular reconstruction and actual discrete-residual bridge",
++  "blocker_ledger": [
++    {
++      "attempts": [],
++      "consumer": "sampledSpatialStageBudget, then scheduledSpatialSum",
++      "missing": "generator weighted bound with actual Z cancellation; exact k/2 and k^2/8 accounting",
++      "next_attack": "Sum kinetic coefficient inequality against nonnegative weights; combine sampled finite potential bound, triangle/scalar identities.",
++      "obligation": "Bound the actual quadratic slab spatial budget using W_2(mean), W_2(velocity), and W_2(G velocity).",
++      "resolution": "source-bound accepted slab theorem and scheduled sum consumer",
++      "source": "new WeightedSlabSpatialBudget.lean, consuming WeightedSpatialMoments and KineticSymbolBound"
++    },
++    {
++      "consumer": "scheduledCayley_error_le",
++      "missing": "expanding low-cutoff scalar spatial coefficient limit and scheduled k*h^-2 control",
++      "next_attack": "L=floor(M/2), potential tails, inverse-grid powers.",
++      "obligation": "Prove scheduledSpatialSum vanishes for fixed initial/potential cutoffs.",
++      "parallel": "scalar limit preparation while slab module checks"
++    },
++    {
++      "consumer": "end-to-end variable-potential convergence target",
++      "missing": "initial-data stability transfer and final approximation sandwich; partial-slab refinement not yet proved",
++      "next_attack": "Use accepted stability only after actual smooth-cutoff spatial sum vanishes.",
++      "obligation": "Discharge baseline initial/potential approximation quantifiers and separately the requested time range."
++    },
++    {
++      "consumer": "sealed numerical-to-PDE result",
++      "missing": "final review/controls, isolated combined, fresh independent-runtime qualification, transfer/finalizer gates",
++      "next_attack": "Read current acceptance/target catalogs; preserve all gates.",
++      "obligation": "Full qualification and sealing at the adopted finish line."
++    }
++  ],
+   "completed_release_backup": {
+     "all_payload_hashes_checked": true,
+     "archive": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+@@ -149,8 +179,8 @@
+   "continuation": {
+     "authorized": true,
+     "current_status": "59 accepted development modules. Actual finite initial-cutoff weighted bounds, fourth moments/tails and endpoint spatial-budget consumer proved; 19 new standard-axiom reports. Quadratic slab estimates, spatial refinement and full qualification remain open. Exp016 is unsealed.",
+-    "user_request": "Proceed with next best step: actual finite-cutoff initial weighted bounds and their numerical propagation consumer.",
+-    "utc": "2026-09-10T02:00:53.240936+00:00"
++    "user_request": "Universal recovery plus persistent dependency-ordered continuation; do not stop at an intermediate report or ordinary technical failure.",
++    "utc": "2026-09-10T02:22:07.493871+00:00"
+   },
+   "continuum_milestone": {
+     "accepted": true,
+@@ -160,6 +190,10 @@
+     "sealed": false,
+     "sha256": "78f2f8163a6c916a3a28ffd68423d435c2418d4e9c2ef6c2d40c792b31a39a08"
+   },
++  "deferred_opportunities": [
++    "Quadratic between-grid-time refinement: retain explicit endpoint distinctions.",
++    "Executable certified numerical bounds require separate validated tail/quadrature/arithmetic work."
++  ],
+   "design_comparison": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/RECONSTRUCTION_COMPARISON.md",
+   "design_plan": "/home/richman954/NDEA_Evolve_offruntime/exp016/PLAN.md",
+   "development_runtime_restore": {
+@@ -1565,6 +1599,32 @@
+     },
+     "visibility": "public"
+   },
++  "job_inspection": {
++    "local_lean_lock": "available; no current lock owner",
++    "local_visibility": "process namespace limited; previous proof sessions completed; no global inventory claimed",
++    "remote_command": "/home/richman954/.local/bin/colab sessions",
++    "remote_exit_code": 0,
++    "remote_output": "[colab] No active sessions found on server.",
++    "utc": "2026-09-10T02:22:07.493871+00:00"
++  },
++  "job_register": [
++    {
++      "command": "python3 -u -B /home/richman954/NDEA_Recovery/checkpoint.py --watch --interval 60 --hours 12",
++      "cwd": "/home/richman954",
++      "environment": "local",
++      "latest_archive_sha256": "0659162905901d469e3424ddcf3e84806fcc10e21f07587f89b0f241dbb3d30c",
++      "latest_receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T021937.621717Z_a948b142.json",
++      "log": "tracked session 27367 stdout; durable per-checkpoint receipts in NDEA_Recovery/snapshots",
++      "next_inspection": "Observe an advancing verified interval during continued work; retain healthy watcher.",
++      "observed_utc": "2026-09-10T02:22:07.493871+00:00",
++      "pid": 2,
++      "pid_scope": "watcher sandbox namespace; host PID unavailable",
++      "purpose": "Verified recovery snapshots",
++      "session_id": 27367,
++      "started_utc": "2026-09-09T23:41:52.147298+00:00",
++      "status": "running; advancing watch_interval receipt and exact current accepted sources read back"
++    }
++  ],
+   "latest_development_milestone": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_WEIGHTED_MILESTONE_LOCAL.json",
+   "next_mathematical_consumer": "Bound the actual quadratic slab mean, velocity and generator-velocity in W_2, then substitute into the spatial contribution. Prove the scalar spatial coefficient vanishes on an expanding low-band schedule and deduce scheduledSpatialSum vanishing.",
+   "predecessor_baseline": "/home/richman954/NDEA_Evolve_offruntime/exp016/BASELINE.json",
+@@ -1576,9 +1636,9 @@
+       "final_observation": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/initial_weighted_20260910/FINAL_WATCHER_OBSERVATION.json",
+       "interval_seconds": 60,
+       "latest_actual_source_readback_count": 59,
+-      "latest_observed_archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T020304.466959Z_207bda97.zip",
+-      "latest_observed_archive_sha256": "221a38fd9e088fc069d9bbdcffb34331e36ff9a417a4da59eac8b619a4d6f3fe",
+-      "latest_observed_publication_utc": "2026-09-10T02:03:06.469263+00:00",
++      "latest_observed_archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T021937.621717Z_a948b142.zip",
++      "latest_observed_archive_sha256": "0659162905901d469e3424ddcf3e84806fcc10e21f07587f89b0f241dbb3d30c",
++      "latest_observed_publication_utc": "2026-09-10T02:19:39.635587+00:00",
+       "status": "running",
+       "tracked_session_id": 27367,
+       "verified_start_utc": "2026-09-09T23:41:52.147298+00:00"
+@@ -1638,6 +1698,14 @@
+       }
+     },
+     "latest_checkpoint_pointer": "/home/richman954/NDEA_Recovery/LATEST_CHECKPOINT.json",
++    "latest_reconciliation": {
++      "accepted_source_count": 59,
++      "evidence": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/recovery_20260910T0220/START_STATE.json",
++      "passed": true,
++      "proof_checks_rerun": false,
++      "report": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/recovery_20260910T0220/RECOVERY_REPORT.md",
++      "utc": "2026-09-10T02:22:07.493871+00:00"
++    },
+     "local_backup_receipt": "/home/richman954/NDEA_Recovery/LOCAL_BACKUP_RECEIPT.json",
+     "local_download_folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_035911Z_0f2d0f",
+     "local_metadata_fix": {
+@@ -1763,5 +1831,5 @@
+     "human_timestamps": "Asia/Seoul (KST) first, with UTC in parentheses. Machine receipt timestamps and filenames retain original UTC."
+   },
+   "source_frozen": false,
+-  "updated_utc": "2026-09-10T02:07:08.685012+00:00"
++  "updated_utc": "2026-09-10T02:22:07.493871+00:00"
+ }

@@ -1,4 +1,6 @@
-## Current Exp016 continuation — initial weights and spatial moments, September 10, 2026 UTC
+Current frontier (2026-09-10 KST): 62 development-accepted Exp016 modules. The complete actual spatial residual sum and actual fixed-cutoff time-1 solver error now tend to zero. Read exp016/design/SPATIAL_REFINEMENT_MILESTONE.md and its original source-bound receipts. Initial-data/potential approximation and uniform finite-horizon grid-time convergence are preserved drafts. Exp016 is unsealed. TASK_STATE.json identifies current jobs; watcher 9546 is advancing.
+
+## Current Exp016 continuation — initial weights and spatial moments, September 10, 2026 KST
 
 Resume all 59 accepted development modules in TASK_STATE. InitialWeightedCutoff
 and WeightedSpatialMoments passed the unchanged Lean 4.31.0/Mathlib pins with
@@ -25,8 +27,15 @@ Exp013–015 payloads/packet hashes remain unchanged. The first initial-cutoff
 attempt is preserved separately as rejected evidence; no theorem assumption
 was changed to repair it. All Lean checks completed. Only watcher session
 27367 continues minute snapshots, without reboot autostart. Main and pins
-remain unchanged. New Git coverage is pending readback; the prior 57-module
-coverage at ba14346ad7d391487630ec9d4fef46f7df211485 remains verified.
+remain unchanged. Git 72145e7c826942be4abe26c5f51dd261056aa988 protects the
+frozen 2026-09-10 11:00:55 KST (02:00:55 UTC) milestone on dev/variable-potential.
+Fresh network readback matched all 812 tree files and all 59 accepted
+source/receipt/log bindings; main and archival heads remain unchanged. Read
+EXP016_INITIAL_WEIGHTED_GIT_BINDING.json in NDEA_Recovery/github_evidence.
+The final local checkpoint captures the later Git/process/recovery metadata.
+Watcher publication at 2026-09-10 11:03:06 KST (02:03:06 UTC) was readback-verified
+with all 59 accepted source/receipt pairs. Colab's current server query returned
+no active sessions. Human status timestamps should use KST first, then UTC.
 Historical entries below describe earlier states and then-pending work.
 
 ## Current Exp016 continuation — actual weighted Cayley propagation, September 10, 2026 UTC

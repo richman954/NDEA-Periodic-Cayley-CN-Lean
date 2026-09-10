@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-10T02:39:07.627212+00:00",
+  "passed": true,
+  "watcher_session": 27367,
+  "checkpoint": {
+    "active_experiment": "exp016",
+    "archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T023846.456447Z_8d605d0e.zip",
+    "archive_bytes": 34478193,
+    "archive_sha256": "501d7d534a3a697ffdc1772621244929b49a16774d067acbfccefbbc2686c798",
+    "final_packet_receipt_captured": false,
+    "kind": "recovery_checkpoint_receipt",
+    "payload_files_verified": 1478,
+    "proof_completion_evidence": false,
+    "published_utc": "2026-09-10T02:38:52.384251+00:00",
+    "reason": "watch_interval",
+    "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T023846.456447Z_8d605d0e.json",
+    "receipt_sha256": "8a3d4cd37d43d38eda1f6cee6f607c720b9f5d06d9f43277783d86117465e132",
+    "task_state_present": true
+  },
+  "full_payloads_verified": 1478,
+  "current_lean_files_including_drafts": 65,
+  "accepted_source_receipts_covered": 60,
+  "qualification": "Recovery byte coverage; draft files are not promoted to accepted proofs."
+}

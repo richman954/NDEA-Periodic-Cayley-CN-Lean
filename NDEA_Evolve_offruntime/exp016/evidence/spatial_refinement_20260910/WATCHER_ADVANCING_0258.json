@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-10T02:59:06.060484+00:00",
+  "passed": true,
+  "watcher_session": 9546,
+  "checkpoint": {
+    "active_experiment": "exp016",
+    "archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T025849.984849Z_eb62fb78.zip",
+    "archive_bytes": 34522616,
+    "archive_sha256": "c35971c722f6c4ff82c9f5e92282732931fd96d3cb519a3e3f2e6de8828c212d",
+    "final_packet_receipt_captured": false,
+    "kind": "recovery_checkpoint_receipt",
+    "payload_files_verified": 1509,
+    "proof_completion_evidence": false,
+    "published_utc": "2026-09-10T02:58:53.166193+00:00",
+    "reason": "watch_interval",
+    "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T025849.984849Z_eb62fb78.json",
+    "receipt_sha256": "9c720b98a9a8707294b5618fb20aa9e1e1b4f78ffff500f0caaf702bbc097cbf",
+    "task_state_present": true
+  },
+  "payloads_verified": 1509,
+  "accepted_sources_and_receipts": 61,
+  "advancing_confirmed": true
+}

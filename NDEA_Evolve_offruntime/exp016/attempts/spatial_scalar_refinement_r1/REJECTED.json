@@ -1,0 +1,8 @@
+{
+  "source_sha256": "07c7cbd2a734fa1fa4e934ae14de97c88088677e884a40dbe940921f94dddb99",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T023606.115217Z_SpatialScalarRefinement.json",
+  "compiler_exit": 1,
+  "reason": "Two limit goals retained function composition from unannotated have hi; expected explicit sequence.",
+  "next_attempt": "Annotate inverse grid Tendsto and eta-expand the mesh limit; check a small composition-normalization probe.",
+  "mathematical_statement_changed": false
+}

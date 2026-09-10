@@ -2,16 +2,9 @@
 
 Status: authorized and in progress; no completion or independent qualification claimed. Exp013–015 are immutable. BASELINE.json records their read-only source/packet audit and exact Exp015 combined-source pin. The startup Git baseline was 8021c836fb6eb43dd18a70fdb71c0e5c147e8a10. The five-module source checkpoint was 2454fac4f3a63e2ad9a6663c8a8f950091dff0ad. The finite-trajectory source checkpoint is ed85977115113da7ca4c4a82b811e21d8965794a (fresh remote readback passed); later current source-bound receipts take precedence. Main is unchanged.
 
-Current continuation (2026-09-10T02:00 UTC): 59 accepted development modules.
-InitialWeightedCutoff supplies an actual finite-cutoff initial weighted bound
-and its scheduled numerical trajectory consumer. WeightedSpatialMoments bounds
-the fourth moment, low/high sums and actual spatial-defect budget by W_2,
-retaining an explicit scalar coefficient. Both passed 19 standard-axiom reports
-with no warnings or errors. Read design/INITIAL_WEIGHTED_MILESTONE.md.
-Next: the actual quadratic mean/velocity/generator-velocity spatial estimates,
-then scalar-coefficient and scheduledSpatialSum vanishing; see
-design/NEXT_SPATIAL_ROUTE.md. No Lean job remains. Exp016 is unsealed;
-approximation quantifiers, full qualification and solver convergence are pending.
+Current frontier (2026-09-10 KST): 62 development-accepted Exp016 modules. The complete actual spatial residual sum and actual fixed-cutoff time-1 solver error now tend to zero. Read exp016/design/SPATIAL_REFINEMENT_MILESTONE.md and its original source-bound receipts. Initial-data/potential approximation and uniform finite-horizon grid-time convergence are preserved drafts. Exp016 is unsealed. TASK_STATE.json identifies current jobs; watcher 9546 is advancing.
+
+Check InitialErrorTransfer, then BaselineTimeOneConvergence. Continue the explicit finite-horizon schedule, complete spatial/prefix certificate and finite maximum grid-time error theorem. All are preserved drafts; retain the original target and qualification gates.
 
 ## Chosen architecture and why
 

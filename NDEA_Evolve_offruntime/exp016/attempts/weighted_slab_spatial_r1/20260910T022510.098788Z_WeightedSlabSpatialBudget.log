@@ -1,0 +1,34 @@
+/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedSlabSpatialBudget.lean:55:2: error: Type mismatch: After simplification, term
+  mul_le_mul_of_nonneg_left (fourierWeightedNorm_add_le p M h y z)
+    (Mathlib.Meta.NormNum.isRat_le_true
+      (Mathlib.Meta.NormNum.IsNNRat.to_isRat
+        (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_zero)))
+      (Mathlib.Meta.NormNum.IsNNRat.to_isRat
+        (Mathlib.Meta.NormNum.isNNRat_div
+          (Mathlib.Meta.NormNum.isNNRat_mul (Eq.refl HMul.hMul)
+            (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ Nat.cast_one))
+            (Mathlib.Meta.NormNum.isNNRat_inv_pos
+              (Mathlib.Meta.NormNum.IsNat.to_isNNRat (Mathlib.Meta.NormNum.isNat_ofNat ℝ (Eq.refl 2))))
+            (Eq.refl (Nat.mul 1 1)) (Eq.refl 2))))
+      (Eq.refl true))
+ has type
+  1 * 2⁻¹ * fourierWeightedNorm p M h (y + z) ≤ 1 * 2⁻¹ * (fourierWeightedNorm p M h y + fourierWeightedNorm p M h z)
+but is expected to have type
+  1 * 2⁻¹ * fourierWeightedNorm p M h (y + z) ≤ 2⁻¹ * (fourierWeightedNorm p M h y + fourierWeightedNorm p M h z)
+'NDEAEvolve.Exp016.fourierWeightedNorm_gridKinetic_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_sampledGenerator_cutoff_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_quadraticMean_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.fourierWeightedNorm_quadraticVelocity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.sampledSpatialStageBudget_cutoff_le_fourthWeight' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledSpatialSum_doubleCutoff_eventually_le' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

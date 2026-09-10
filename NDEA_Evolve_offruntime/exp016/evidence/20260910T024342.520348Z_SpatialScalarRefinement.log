@@ -1,0 +1,14 @@
+'NDEAEvolve.Exp016.spatialLowCutoff_le' depends on axioms: [propext]
+'NDEAEvolve.Exp016.spatialLowCutoff_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialCutoffGap_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.frequencyNormTail_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.initialSamplingMesh_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.spatialFourthWeightCoefficient_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.temporalStep_generatorCoefficient_rescaled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NDEAEvolve.Exp016.scheduledStep_generatorCoefficient_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,1767 @@
+{
+  "accepted_active_module_receipts": {
+    "ActualCayleyCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json",
+    "ActualCayleySynthesis": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json",
+    "AffineReconstruction": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json",
+    "AliasTailCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json",
+    "AliasTailControls": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json",
+    "AliasWeights": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T005923.091644Z_AliasWeights.json",
+    "CayleyPerturbation": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/RESULT.json",
+    "ContinuumPotentialStability": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/RESULT.json",
+    "FourierCoefficientBridge": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json",
+    "FourierNorm": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json",
+    "FourierReconstruction": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json",
+    "FourierSynthesisRegular": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json",
+    "FourierTailBounds": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json",
+    "FullBandSymbol": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json",
+    "GridAlias": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json",
+    "IndependentTarget": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json",
+    "InitialSamplingBounds": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json",
+    "InitialSamplingControls": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json",
+    "InitialSamplingLimit": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json",
+    "InitialWeightedCutoff": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T014951.285496Z_InitialWeightedCutoff.json",
+    "InitializationCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json",
+    "KineticAssembly": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.json",
+    "KineticSymbolBound": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/RESULT.json",
+    "OneNodeCosine": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json",
+    "OrderedStageAlgebra": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json",
+    "OrderedStageBounds": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json",
+    "PotentialAlias": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json",
+    "PotentialAliasBounds": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json",
+    "PotentialCutoff": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/RESULT.json",
+    "PotentialDefectExpansion": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json",
+    "PotentialErrorTransfer": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/RESULT.json",
+    "PotentialStability": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/RESULT.json",
+    "QuadraticCayleyBridge": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.json",
+    "QuadraticNorm": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/RESULT.json",
+    "QuadraticNormAudit": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json",
+    "QuadraticPDEBudget": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json",
+    "QuadraticTime": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json",
+    "QuantitativeCayleyCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json",
+    "RegularSynthesis": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RESULT.json",
+    "SampledCayleyCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json",
+    "SampledPotential": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json",
+    "SampledPotentialBounds": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/RESULT.json",
+    "SamplingExpansion": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json",
+    "SlabError": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.json",
+    "SpatialDefectCertificate": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json",
+    "SpatialDefectSplit": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json",
+    "SpatialL2Bridge": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json",
+    "SpatialL2Operator": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/RESULT.json",
+    "SplitDefect": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json",
+    "StencilFourier": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json",
+    "SynthesizedSlabError": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json",
+    "TargetBinding": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/RESULT.json",
+    "TemporalBudget": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T002106.832927Z_TemporalBudget.json",
+    "TemporalRefinement": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T003342.122048Z_TemporalRefinement.json",
+    "WeightedCayleyPropagation": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T012618.779160Z_WeightedCayleyPropagation.json",
+    "WeightedCoefficientBridge": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json",
+    "WeightedGridStages": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T011949.617500Z_WeightedGridStages.json",
+    "WeightedSampledPotential": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T010421.237392Z_WeightedSampledPotential.json",
+    "WeightedSpatialMoments": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T015406.074914Z_WeightedSpatialMoments.json"
+  },
+  "accepted_active_module_scope_note": "Includes target definitions and a separate axiom audit module; this is a development inventory, not a count of completed numerical obligations or a sealed theorem count.",
+  "accepted_active_modules": [
+    "SplitDefect",
+    "AffineReconstruction",
+    "SpatialL2Bridge",
+    "FourierReconstruction",
+    "QuadraticTime",
+    "SlabError",
+    "RegularSynthesis",
+    "FourierNorm",
+    "FourierSynthesisRegular",
+    "QuadraticCayleyBridge",
+    "QuadraticNorm",
+    "QuadraticNormAudit",
+    "QuadraticPDEBudget",
+    "ActualCayleySynthesis",
+    "IndependentTarget",
+    "SynthesizedSlabError",
+    "SampledPotential",
+    "TargetBinding",
+    "ActualCayleyCertificate",
+    "OneNodeCosine",
+    "SampledCayleyCertificate",
+    "FourierCoefficientBridge",
+    "WeightedCoefficientBridge",
+    "OrderedStageAlgebra",
+    "SpatialDefectSplit",
+    "FullBandSymbol",
+    "SpatialDefectCertificate",
+    "OrderedStageBounds",
+    "QuantitativeCayleyCertificate",
+    "StencilFourier",
+    "GridAlias",
+    "FourierTailBounds",
+    "PotentialAlias",
+    "PotentialDefectExpansion",
+    "PotentialAliasBounds",
+    "AliasTailCertificate",
+    "AliasTailControls",
+    "SamplingExpansion",
+    "InitialSamplingBounds",
+    "InitialSamplingLimit",
+    "InitialSamplingControls",
+    "InitializationCertificate",
+    "SampledPotentialBounds",
+    "CayleyPerturbation",
+    "PotentialCutoff",
+    "PotentialStability",
+    "SpatialL2Operator",
+    "ContinuumPotentialStability",
+    "PotentialErrorTransfer",
+    "KineticSymbolBound",
+    "KineticAssembly",
+    "TemporalBudget",
+    "TemporalRefinement",
+    "AliasWeights",
+    "WeightedSampledPotential",
+    "WeightedGridStages",
+    "WeightedCayleyPropagation",
+    "InitialWeightedCutoff",
+    "WeightedSpatialMoments"
+  ],
+  "active_experiment": "/home/richman954/NDEA_Evolve_offruntime/exp016",
+  "active_task": "Exp016 regular reconstruction and actual discrete-residual bridge",
+  "completed_release_backup": {
+    "all_payload_hashes_checked": true,
+    "archive": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+    "archive_bytes": 39096085,
+    "archive_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+    "crc_checked": true,
+    "exact_zip_readback": true,
+    "manifest_sha256": "8296eb6f41d1b6b00538c8db49fe23146334680aeb394e00fee13d008720df60",
+    "originals_unchanged": true,
+    "passed": true,
+    "payload_files": 40,
+    "publication": "Generation directory atomically renamed after complete validation; receipt and checksum are outside ZIP.",
+    "scope": "Selected completed release/review packets for Experiments 001\u2013012, the 001\u2013007 recap, the 001\u2013008 fresh-VM recheck, explicit Exp003/004 release archives and Git bundles, and available checksum/receipt companions. This is not a backup of every historical intermediate file, current working tree, build cache, compiler installation, or account credential. Current task-state checkpoints are maintained separately.",
+    "source_checks": {
+      "accepted_packet_receipts_checked": 8,
+      "adjacent_checksum_lines_checked": 14,
+      "exp003_exp004_delivery_receipts_checked": 2,
+      "original_zip_crc_checks": 12
+    },
+    "utc": "2026-09-08T12:53:42.644762+00:00",
+    "zip_members": 41
+  },
+  "continuation": {
+    "authorized": true,
+    "current_status": "59 accepted development modules. Actual finite initial-cutoff weighted bounds, fourth moments/tails and endpoint spatial-budget consumer proved; 19 new standard-axiom reports. Quadratic slab estimates, spatial refinement and full qualification remain open. Exp016 is unsealed.",
+    "user_request": "Proceed with next best step: actual finite-cutoff initial weighted bounds and their numerical propagation consumer.",
+    "utc": "2026-09-10T02:00:53.240936+00:00"
+  },
+  "continuum_milestone": {
+    "accepted": true,
+    "independent_qualification": false,
+    "next_obligation": "Bound the actual quadratic slab mean, velocity and generator-velocity in W_2, then substitute into the spatial contribution. Prove the scalar spatial coefficient vanishes on an expanding low-band schedule and deduce scheduledSpatialSum vanishing.",
+    "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/CONTINUUM_MILESTONE_LOCAL.json",
+    "sealed": false,
+    "sha256": "78f2f8163a6c916a3a28ffd68423d435c2418d4e9c2ef6c2d40c792b31a39a08"
+  },
+  "design_comparison": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/RECONSTRUCTION_COMPARISON.md",
+  "design_plan": "/home/richman954/NDEA_Evolve_offruntime/exp016/PLAN.md",
+  "development_runtime_restore": {
+    "bootstrap_status": "Passed:196projectpayloads,57bootstraplogs,60libraryroots match exactpins/currentaccepted artifacts.",
+    "endpoint": "m-s-kkb-usc1c0-3nv3p0bo2kg3y",
+    "hardware": "CPU/Standard/DEFAULT",
+    "independent_qualification": false,
+    "local_records": "/home/richman954/NDEA_Evolve_offruntime/exp016/remote_dev/recovery_1526",
+    "project_install": "196 payloads hash-verified; unchanged37 accepted module source/artifacts",
+    "readback": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_RUNTIME_READBACK.json",
+    "remote_bootstrap_log": "/content/exp016_dev/bootstrap_full.log",
+    "remote_bootstrap_result": "/content/exp016_dev/bootstrap/RESULT.json",
+    "root": "/content/exp016_dev",
+    "session": "exp016-development"
+  },
+  "experiment_completed": false,
+  "external_inspection": {
+    "adoption": "Independent target specification and explicit implementation-to-target theorems; no external mathematical code imported.",
+    "commit": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+    "integration_status": "Accepted attributed Fourier coefficient proof-pattern transfer via pinned Mathlib, actual DFT reconstruction consumer and off-band zero. Other two mathematical candidates deferred. Independent target practice accepted. Upstream build/Comparator/additional kernel not run.",
+    "manifest": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/SOURCE_MANIFEST.json",
+    "manuscript_manifest": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/MANUSCRIPT_MANIFEST.json",
+    "new_authorized_scope": "Complete pinned reference source acquisition, one manuscript retrieval attempt, ranked three-candidate reuse map and one useful transfer tested under unchanged NDEA pins. Keep external checkout/caches outside routine snapshots.",
+    "post_reboot_delivery": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/RESUMED_REFERENCE_DELIVERY.md",
+    "post_reboot_readback": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/EXTERNAL_REFERENCE_READBACK.json",
+    "receipt": "/home/richman954/NDEA_External_Inspection/NavierStokesAndEuler_8937a8f4/READBACK_RECEIPT.json",
+    "reference_commit": "8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+    "repository": "openai/NavierStokesAndEuler",
+    "reuse_map": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/REUSE_MAP.md",
+    "scope": "Pinned reference acquisition, bounded reuse assessment and one useful local transfer; no upstream build or project pivot"
+  },
+  "github_backup": {
+    "archive_commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+    "authorized": true,
+    "current_coverage_note": "Git protects the frozen 2026-09-10 11:00:55 KST (02:00:55 UTC) milestone; later readback, head, process and watcher metadata is captured by the final local checkpoint.",
+    "development_commit": "72145e7c826942be4abe26c5f51dd261056aa988",
+    "development_scope": "Curated development source/evidence only, including 59 accepted modules, actual initial-cutoff weighted bounds, spatial moments and retained recovery/provenance records. No manuscript, upstream checkout or caches. Main/archive refs are separately checked; this is not a new proof or independent qualification.",
+    "development_tree": "a1e9cbe39f8c4447c0cc070d3b28677ed720e4fc",
+    "exp016_alias_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_ALIAS_GIT_BINDING.json",
+    "exp016_alias_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_ALIAS_ALL_TREE_READBACK.json",
+    "exp016_certificate_all_tree_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_CERTIFICATE_ALL_TREE_READBACK.json",
+    "exp016_certificate_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_CERTIFICATE_REMOTE_READBACK.json",
+    "exp016_continuum_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_CONTINUUM_GIT_BINDING.json",
+    "exp016_continuum_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_CONTINUUM_ALL_TREE_READBACK.json",
+    "exp016_defects_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_DEFECTS_GIT_BINDING.json",
+    "exp016_defects_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_DEFECTS_ALL_TREE_READBACK.json",
+    "exp016_foundations_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_FOUNDATIONS_REMOTE_READBACK.json",
+    "exp016_initial_weighted_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_INITIAL_WEIGHTED_GIT_BINDING.json",
+    "exp016_initial_weighted_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_INITIAL_WEIGHTED_ALL_TREE_READBACK.json",
+    "exp016_initialization_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_INIT_GIT_BINDING.json",
+    "exp016_initialization_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_INIT_ALL_TREE_READBACK.json",
+    "exp016_potential_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_POTENTIAL_GIT_BINDING.json",
+    "exp016_potential_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_POTENTIAL_ALL_TREE_READBACK.json",
+    "exp016_reboot_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_REBOOT_GIT_BINDING.json",
+    "exp016_reboot_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_REBOOT_ALL_TREE_READBACK.json",
+    "exp016_startup_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_REMOTE_READBACK.json",
+    "exp016_temporal_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_TEMPORAL_GIT_BINDING.json",
+    "exp016_temporal_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_TEMPORAL_ALL_TREE_READBACK.json",
+    "exp016_transfer_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_TRANSFER_GIT_BINDING.json",
+    "exp016_weighted_cayley_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_WEIGHTED_CAYLEY_GIT_BINDING.json",
+    "exp016_weighted_cayley_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_WEIGHTED_CAYLEY_ALL_TREE_READBACK.json",
+    "exp016_weighted_spatial_binding": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_WEIGHTED_SPATIAL_GIT_BINDING.json",
+    "exp016_weighted_spatial_remote_readback": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_WEIGHTED_SPATIAL_ALL_TREE_READBACK.json",
+    "final_heads": {
+      "backup/ndeaevolve-20260909": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+      "backup/verified-milestones-20260909": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+      "dev/variable-potential": "72145e7c826942be4abe26c5f51dd261056aa988",
+      "main": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+    },
+    "final_heads_log": "/home/richman954/NDEA_Recovery/github_evidence/EXP016_INITIAL_WEIGHTED_FINAL_HEADS.log",
+    "final_heads_log_sha256": "971ced4646ebf997c19e57095fb99b20440432900741a33b44cdc90db2111d4c",
+    "preserve_local_backups": true,
+    "receipt": "/home/richman954/NDEA_Recovery/GITHUB_BACKUP_RECEIPT.json",
+    "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
+    "source_commit": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+    "source_readback": {
+      "all_sha256_and_sizes_matched": true,
+      "branch": "backup/ndeaevolve-20260909",
+      "bytes_verified": 15290025,
+      "clone_exit_code": 0,
+      "clone_log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_CLONE.log",
+      "commands": [
+        {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_head.log",
+          "log_sha256": "6648d7cfd84b8b0203a44b6b5e2ccd111c35debe9007e19d2d61329440d64b99"
+        },
+        {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD^"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_parent.log",
+          "log_sha256": "f88424a9ea5647eb08fd3a4cea211cc3cbd5654ba3008d83dc6d0554dd0cee3b"
+        },
+        {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD^{tree}"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_tree.log",
+          "log_sha256": "1f7d94929ed8e62109568c66bf625d3722e54e2ea6f678e44b6adadc86684a4d"
+        },
+        {
+          "command": [
+            "git",
+            "diff",
+            "--name-status",
+            "HEAD^",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_diff.log",
+          "log_sha256": "0edfa6a3a2c13c8173a98da97d72c3efcd625e4cd5f7b2fa10cf3b0ebfcadf46"
+        },
+        {
+          "command": [
+            "git",
+            "fsck",
+            "--full"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_fsck.log",
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "log": "/home/richman954/NDEA_GitHub_Backup/logs/SOURCE_ROOT_clean.log",
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "commit": "2a4028add0c09e7e8445e8f6886a965cd2573ac0",
+      "coverage": "Selected sources through Exp014; Exp015/recovery snapshot at2026-09-09T02:50UTCbeforefreeze/finalqualification. Exactfullsealedarchives are separatebackupbranch.",
+      "files_verified": 1093,
+      "fresh_network_clone": "/home/richman954/NDEA_GitHub_Backup/source_readback_root",
+      "git_fsck_passed": true,
+      "original_files_unchanged": true,
+      "parent": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+      "passed": true,
+      "proof_verification": false,
+      "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
+      "source_manifest_sha256": "0027795707573837cb735c6a235710286099b36a27a244b9b7c3e5f6f0b3239f",
+      "tree": "252ca564f70e9d4772c920cd85338f605d80f4a4",
+      "upload_manifest_sha256": "7facfd9f69a597cb6de11cd69bc20cef81dd6a7ee238ea7c86c2a9a25450f3f0",
+      "utc": "2026-09-09T03:15:45.923750+00:00"
+    },
+    "status": "Fresh network clone: all 812 tree files and 59 source/receipt/log bindings matched.",
+    "user_request": "use the existing github you found, start backing things up there as well a locally on the chromebook",
+    "utc": "2026-09-09T02:50:20.566256+00:00",
+    "verified_exp016_coverage": "All 59 accepted modular sources, receipts and compiler logs; exact curated 812-file tree. Actual initial-cutoff weighted bounds and endpoint spatial-budget estimates are proved; full solver convergence and combined/fresh independent qualification remain pending.",
+    "verified_receipt": {
+      "archive_backup": {
+        "all_sha256_sizes_and_git_blobs_matched": true,
+        "allowed_original_changes": [],
+        "bytes_verified": 69701046,
+        "commands": [
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "rev-parse",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/head.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/head.stdout.log",
+            "stdout_sha256": "fa77087c04d3da4d0237d7354244f3cf999764da8f4d5c34fafeb47fabb3b7ba"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "rev-parse",
+              "HEAD^{tree}"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/tree.stdout.log",
+            "stdout_sha256": "cd409f3ae4357305f1d19e66eb6aa6fb08e233994399b75f8ca06393d0217f1d"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "show",
+              "-s",
+              "--format=%P",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/parent.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/parent.stdout.log",
+            "stdout_sha256": "bdfd7fceeff32dee43289a4942ec8cedb1e38fc3f908541104116bade9c89970"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "rev-parse",
+              "refs/remotes/origin/backup/verified-milestones-20260909"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/tracking.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/tracking.stdout.log",
+            "stdout_sha256": "fa77087c04d3da4d0237d7354244f3cf999764da8f4d5c34fafeb47fabb3b7ba"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "ls-tree",
+              "-rz",
+              "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/old_main_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/old_main_tree.stdout.log",
+            "stdout_sha256": "57461a8d3d48a63605b1b527a3c8525526161a1b9e04bf64f0fe0e1044ca879e"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "ls-tree",
+              "-rz",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/current_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/current_tree.stdout.log",
+            "stdout_sha256": "526d05e06f1612c6615faeb64e9fbb5474742aeb41ee8b2850d5403ee403de52"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "fsck",
+              "--full",
+              "--strict"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/fsck.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/fsck.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+              "status",
+              "--porcelain",
+              "--untracked-files=all"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/clean.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/archive_bound_remote_readback_logs/clean.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+        "config": {
+          "branch": "backup/verified-milestones-20260909",
+          "clone": "/home/richman954/NDEA_GitHub_Backup/archive_bound_readback",
+          "commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+          "manifest": "/home/richman954/NDEA_GitHub_Backup/ARCHIVE_BOUND_UPLOAD.json",
+          "original_main": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+          "parent": "906ed9e5cde420d630616f0d1d579d51fe7ea2c7",
+          "receipt": "/home/richman954/NDEA_GitHub_Backup/ARCHIVE_BOUND_REMOTE_READBACK.json",
+          "tree": "65a3c8fd8e51ad3f34af0c3e9625024eab6f09be"
+        },
+        "files_verified": 49,
+        "git_fsck_passed": true,
+        "manifest_sha256": "d207b14c1b5112ab860b1750436840bcca5cd4973f60ef20f1b75b30ee3d4fcc",
+        "original_files_preserved": 66,
+        "passed": true,
+        "proof_verification": false,
+        "tree": "65a3c8fd8e51ad3f34af0c3e9625024eab6f09be",
+        "utc": "2026-09-09T03:57:55.580736+00:00",
+        "verifier_sha256": "99719324f6e9157f38735cea48635942b106043537b7c4e78c4b339869df2e40"
+      },
+      "archive_commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+      "archive_payload_readback": {
+        "archive_bytes": 68422224,
+        "archives": [
+          {
+            "bytes": 237013,
+            "name": "Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+            "original": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T025020.732551Z_08cdab97.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+            "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+          },
+          {
+            "bytes": 39096085,
+            "name": "NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+            "original": "/home/richman954/NDEA_Recovery/releases/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+            "sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18"
+          },
+          {
+            "bytes": 5573217,
+            "name": "Exp013_Verified_Review_Packet_20260908.zip",
+            "original": "/home/richman954/Exp013_Verified_Review_Packet_20260908.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp013_Verified_Review_Packet_20260908.zip",
+            "sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412"
+          },
+          {
+            "bytes": 2112650,
+            "name": "Exp014_Verified_Review_Packet_20260909.zip",
+            "original": "/home/richman954/Exp014_Verified_Review_Packet_20260909.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp014_Verified_Review_Packet_20260909.zip",
+            "sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282"
+          },
+          {
+            "bytes": 440385,
+            "name": "Exp001_Assurance_Hardening_v2.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp001/assurance_v2/Exp001_Assurance_Hardening_v2.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp001_Assurance_Hardening_v2.bundle",
+            "sha256": "fb8cb79fc574522fdb142b348b50637087c75e582f437ed19531260546ad5257"
+          },
+          {
+            "bytes": 632099,
+            "name": "NDEA_Evolve_exp001_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp001/final/NDEA_Evolve_exp001_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Evolve_exp001_final.bundle",
+            "sha256": "10dc27fd1046a419358a92565fe59e1ae40414c9c5692c9afd3b016bce7540c1"
+          },
+          {
+            "bytes": 1345734,
+            "name": "NDEA_Evolve_exp002_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp002/final_delivery_20260906/NDEA_Evolve_exp002_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Evolve_exp002_final.bundle",
+            "sha256": "12dc3635e9bee8776cd6929bad1844e4293003b2117d4bc7c8dcee2023fe79d2"
+          },
+          {
+            "bytes": 190038,
+            "name": "NDEA_Exp002_validator_assurance_v2_1.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp002/supplements/final_delivery_validator_assurance_v2_1_20260906/NDEA_Exp002_validator_assurance_v2_1.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Exp002_validator_assurance_v2_1.bundle",
+            "sha256": "442928ce12499c4b5d27051393cb4fa9ce93cb954015a00416882fdd7cb5d7d1"
+          },
+          {
+            "bytes": 1801441,
+            "name": "NDEA_Evolve_exp003_step1_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp003/final_delivery_20260906/NDEA_Evolve_exp003_step1_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Evolve_exp003_step1_final.bundle",
+            "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963"
+          },
+          {
+            "bytes": 1846644,
+            "name": "exp003_step2_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp003_step2/releases/20260907_verified_final/exp003_step2_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp003_step2_verified_final.bundle",
+            "sha256": "e8bbedd8d2688611b8316a1e638ed11c8f1d7b7a30e1e431f2ac206ea5f2c0bd"
+          },
+          {
+            "bytes": 1868999,
+            "name": "exp003_step3_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp003_step3/releases/20260907_verified_final/exp003_step3_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp003_step3_verified_final.bundle",
+            "sha256": "66b7c56be14991c4085587cfb1965fada47c7b5535488b548b7c2bdb90ea9e5f"
+          },
+          {
+            "bytes": 1859404,
+            "name": "exp003_step4_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp003_step4/releases/20260907_verified_final/exp003_step4_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp003_step4_verified_final.bundle",
+            "sha256": "4a5f6283c5c3aacc0ae2bd19b239bacb063e371cad54d311d917080e5aeb9084"
+          },
+          {
+            "bytes": 2010027,
+            "name": "exp003_step5_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp003_step5/releases/20260907_verified_final/exp003_step5_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp003_step5_verified_final.bundle",
+            "sha256": "ec3823965d3dfb5b2f7cfa5c62b610f864c937cdbd1adbb6421cd81e254da511"
+          },
+          {
+            "bytes": 2017632,
+            "name": "exp004_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp004/releases/20260907_verified_final/exp004_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp004_verified_final.bundle",
+            "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8"
+          },
+          {
+            "bytes": 2700849,
+            "name": "exp005_verified_final.bundle",
+            "original": "/home/richman954/NDEA_Evolve_offruntime/exp005/releases/20260907_verified_final/exp005_verified_final.bundle",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/exp005_verified_final.bundle",
+            "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7"
+          },
+          {
+            "bytes": 2171185,
+            "name": "Exp015_Verified_Review_Packet_20260909.zip",
+            "original": "/home/richman954/Exp015_Verified_Review_Packet_20260909.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_Verified_Review_Packet_20260909.zip",
+            "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71"
+          },
+          {
+            "bytes": 2518822,
+            "name": "Exp015_SEALED_RECOVERY_20260909T034451Z.zip",
+            "original": "/home/richman954/NDEA_Recovery/snapshots/exp015_recovery_20260909T034450.992122Z_e8c1e77a.zip",
+            "original_bytes_equal": true,
+            "restored": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_SEALED_RECOVERY_20260909T034451Z.zip",
+            "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845"
+          }
+        ],
+        "archives_reconstructed": 17,
+        "backup_manifest_sha256": "57126eaa0bd293c88f4e114b365a65d538ce78ff57e8cd3f8c692f7349de2584",
+        "branch": "backup/verified-milestones-20260909",
+        "clone": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+        "clone_log": "/home/richman954/NDEA_GitHub_Backup/logs/ARCHIVE_FINAL_CLONE.log",
+        "clone_log_sha256": "0cee8c99f64570d3b6f5a4690d27149b5d58c81825f3b5e52720b7f9ae71a66c",
+        "commands": [
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "rev-parse",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/head.log",
+            "log_sha256": "bdfd7fceeff32dee43289a4942ec8cedb1e38fc3f908541104116bade9c89970"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "rev-parse",
+              "HEAD^{tree}"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/tree.log",
+            "log_sha256": "346e77dc7d27a8e0747e6a0414f34d723e7565acb0d7bfe115bb85dad1faf7fd"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "show",
+              "-s",
+              "--format=%P",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/parent.log",
+            "log_sha256": "8013d4ccbe28e79119468261d61d6a93af3156b46d05d0d6a3891be4c8bfc764"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "rev-parse",
+              "refs/remotes/origin/backup/verified-milestones-20260909"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/remote_tracking.log",
+            "log_sha256": "bdfd7fceeff32dee43289a4942ec8cedb1e38fc3f908541104116bade9c89970"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "remote",
+              "get-url",
+              "origin"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/origin.log",
+            "log_sha256": "a39536c197054d4bf16d2618f6240ebea3b060451674983ad89f6ff258961099"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "rev-parse",
+              "--is-shallow-repository"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/shallow.log",
+            "log_sha256": "2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "merge-base",
+              "--is-ancestor",
+              "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+              "906ed9e5cde420d630616f0d1d579d51fe7ea2c7"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/main_ancestor.log",
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "merge-base",
+              "--is-ancestor",
+              "ba4cd8d2275e13e812bd566bf5091f219fab1a79",
+              "906ed9e5cde420d630616f0d1d579d51fe7ea2c7"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/previous_backup_ancestor.log",
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "fsck",
+              "--full",
+              "--strict"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/fsck.log",
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "status",
+              "--porcelain"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/status_before.log",
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "ls-tree",
+              "-r",
+              "-z",
+              "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/oldmain_tree.log",
+            "log_sha256": "57461a8d3d48a63605b1b527a3c8525526161a1b9e04bf64f0fe0e1044ca879e"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "ls-tree",
+              "-r",
+              "-z",
+              "906ed9e5cde420d630616f0d1d579d51fe7ea2c7"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/final_tree.log",
+            "log_sha256": "a0041abf186135336972c6f3f81f873829eb3043f74e4289cdfea6bbd1ce2493"
+          },
+          {
+            "command": [
+              "/usr/bin/python3",
+              "-B",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback/NDEA_BACKUP/verify_backup.py",
+              "--restore-to",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/published_restore.log",
+            "log_sha256": "8a31bb60b7a15ada2bc6cda33c353513c76a0633ed5c928b801ab762ee710c5b"
+          },
+          {
+            "command": [
+              "git",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/archive_final_readback",
+              "status",
+              "--porcelain"
+            ],
+            "exit_code": 0,
+            "log": "/home/richman954/NDEA_GitHub_Backup/archive_final_readback_logs/status_after.log",
+            "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "commit": "906ed9e5cde420d630616f0d1d579d51fe7ea2c7",
+        "companions_verified": 20,
+        "coverage": {
+          "active_checkpoint": "Sealed Exp015 + recovery metadata as of2026-09-09T03:44:51UTC",
+          "completed_packets": "Exp001\u2013Exp015",
+          "historical_bundles": 11,
+          "historical_wip_retained": true
+        },
+        "exp015_combined_sha256": "ef99d7098209d790f32abf89e2ec866e1b3c0cb2ce5b4262022df3cfdbf18846",
+        "exp015_local_and_independent_audits_bound": 50,
+        "final_recovery_payloads_restored": 289,
+        "final_recovery_publication_utc": "2026-09-09T03:44:51.308873+00:00",
+        "final_recovery_receipt_sha256": "f7ace12eaaabd8a8dab63519fba03237b2a0314c03c651ddbd063a3221921efc",
+        "git_fsck_exit_code": 0,
+        "independent_helper_sha256": "3ca554d2036690576b866755534fb5fa5a5e25dcfb7e992f6e89d42ff9b465a3",
+        "independent_validator_sha256": "025eb3399472d42c961ee3f69aea165f3258045ae348aa7be6680fff93c26b56",
+        "kind": "independent_final_github_archive_readback",
+        "main_ancestor": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+        "old_main_files_unchanged": 66,
+        "original_packet_receipt_bindings": [
+          {
+            "archive_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+            "experiment": "exp013",
+            "manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+            "receipt_sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5"
+          },
+          {
+            "archive_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+            "experiment": "exp014",
+            "manifest_sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6",
+            "receipt_sha256": "4b14c15d4527c92468d38b9c003d359ba6d7ba42244eff697ca21fe02b637b09"
+          },
+          {
+            "archive_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+            "experiment": "exp015",
+            "manifest_sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740",
+            "receipt_sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e"
+          }
+        ],
+        "parent": "ba4cd8d2275e13e812bd566bf5091f219fab1a79",
+        "passed": true,
+        "proof_copy_not_fresh_proof": true,
+        "published_restorer_passed": true,
+        "published_restorer_sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39",
+        "qualification": "Independent local readback of fresh network clone. All archive parts reconstructed and compared with original bytes independently before published restorer ran. Restored output hashes, ZIP CRC/manifests/current sealed source files, accepted receipt copies and final recovery restoration checked. No new Lean compilation or remote changes; final source branch is separately qualified.",
+        "remote_file_bindings": {
+          "NDEA_BACKUP/BACKUP_MANIFEST.json": {
+            "bytes": 15877,
+            "git_blob_sha1": "4c472ec4a2138fae86bb128be650c4bf28ba8303",
+            "sha256": "57126eaa0bd293c88f4e114b365a65d538ce78ff57e8cd3f8c692f7349de2584"
+          },
+          "NDEA_BACKUP/BACKUP_RESTORE_TEST.json": {
+            "bytes": 411,
+            "git_blob_sha1": "c092a49f9eb54eec86ae1864bbf26e7a5a9aed28",
+            "sha256": "b5b48950a3a269de01002a3f14ca824d062bac7399981b5a0b35607de25d1d73"
+          },
+          "NDEA_BACKUP/NDEA_STARTUP_INSTRUCTIONS.md": {
+            "bytes": 5409,
+            "git_blob_sha1": "d6917f294ed22ce93fa06303dcfb7a24af0f9c11",
+            "sha256": "351a646a80e9fe1fa09abebe5a43c67699d2c0ebe92641019c21353677d19ac6"
+          },
+          "NDEA_BACKUP/README.md": {
+            "bytes": 3045,
+            "git_blob_sha1": "e9752fdd66a49d400ce800bbb73249a160248ca1",
+            "sha256": "69cd5e50c91119d8270ceb656604391f5493d078374aa0a6663be47f30867369"
+          },
+          "NDEA_BACKUP/RELEASE_ASSET_REVIEW.json": {
+            "bytes": 1048975,
+            "git_blob_sha1": "ac6a6c7f377031b76ae95ae628fba420f2dd0a3a",
+            "sha256": "8b8e28beedc6774a36ec89bcb1fa762a49aa06505d48b309478ae6da1e8744a0"
+          },
+          "NDEA_BACKUP/checkpoints/Exp015_SEALED_RECOVERY_20260909T034451Z.zip": {
+            "bytes": 2518822,
+            "git_blob_sha1": "3ab5c7ffa2140e8e04d8894b01d0f4392f27889c",
+            "sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845"
+          },
+          "NDEA_BACKUP/checkpoints/Exp015_SEALED_RECOVERY_RECEIPT.json": {
+            "bytes": 721,
+            "git_blob_sha1": "33861d2ecc148b6184e4d8035e1448d2807af14a",
+            "sha256": "f7ace12eaaabd8a8dab63519fba03237b2a0314c03c651ddbd063a3221921efc"
+          },
+          "NDEA_BACKUP/checkpoints/Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip": {
+            "bytes": 237013,
+            "git_blob_sha1": "d2d7b4ad5fad1596c3110fecb6fd9b97de177049",
+            "sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6"
+          },
+          "NDEA_BACKUP/checkpoints/Exp015_WORK_IN_PROGRESS_CHECKPOINT_RECEIPT.json": {
+            "bytes": 521,
+            "git_blob_sha1": "e742a52b800f380c8ec6b05ebe12e7dc2b062a02",
+            "sha256": "162717900ab3f61cdeb6c6293a51884754104441d17e5bae6c9d820649b16d36"
+          },
+          "NDEA_BACKUP/history/Exp001_Assurance_Hardening_v2.bundle/part-0000": {
+            "bytes": 440385,
+            "git_blob_sha1": "64f6f7c6231b3efd3d9a4f121c5cfa2fcb0ed5ed",
+            "sha256": "fb8cb79fc574522fdb142b348b50637087c75e582f437ed19531260546ad5257"
+          },
+          "NDEA_BACKUP/history/NDEA_Evolve_exp001_final.bundle/part-0000": {
+            "bytes": 632099,
+            "git_blob_sha1": "5db8dae837ff81561857dff043656d2fb85972ac",
+            "sha256": "10dc27fd1046a419358a92565fe59e1ae40414c9c5692c9afd3b016bce7540c1"
+          },
+          "NDEA_BACKUP/history/NDEA_Evolve_exp002_final.bundle/part-0000": {
+            "bytes": 1345734,
+            "git_blob_sha1": "2b9b589aa53571b320e7551a0d75f46b4d1f3747",
+            "sha256": "12dc3635e9bee8776cd6929bad1844e4293003b2117d4bc7c8dcee2023fe79d2"
+          },
+          "NDEA_BACKUP/history/NDEA_Evolve_exp003_step1_final.bundle/part-0000": {
+            "bytes": 1801441,
+            "git_blob_sha1": "3fd0724495c33618858221a56544c5f264b10706",
+            "sha256": "1b78af8283aaecb6f3e416310c0af517d09acfa9627593de0abc3e08b2b6b963"
+          },
+          "NDEA_BACKUP/history/NDEA_Exp002_validator_assurance_v2_1.bundle/part-0000": {
+            "bytes": 190038,
+            "git_blob_sha1": "03f8b8db3fd1cef60b1cdf08cf22f0061c5855c5",
+            "sha256": "442928ce12499c4b5d27051393cb4fa9ce93cb954015a00416882fdd7cb5d7d1"
+          },
+          "NDEA_BACKUP/history/exp003_step2_verified_final.bundle/part-0000": {
+            "bytes": 1846644,
+            "git_blob_sha1": "2f3b7f56b0a0e5fcd616472c0bea7d0f04563333",
+            "sha256": "e8bbedd8d2688611b8316a1e638ed11c8f1d7b7a30e1e431f2ac206ea5f2c0bd"
+          },
+          "NDEA_BACKUP/history/exp003_step3_verified_final.bundle/part-0000": {
+            "bytes": 1868999,
+            "git_blob_sha1": "af4fbd0c10055f41a865fef08838a93c9ec1a69c",
+            "sha256": "66b7c56be14991c4085587cfb1965fada47c7b5535488b548b7c2bdb90ea9e5f"
+          },
+          "NDEA_BACKUP/history/exp003_step4_verified_final.bundle/part-0000": {
+            "bytes": 1859404,
+            "git_blob_sha1": "46a41a87533bdbe30038859b6f06531c80869826",
+            "sha256": "4a5f6283c5c3aacc0ae2bd19b239bacb063e371cad54d311d917080e5aeb9084"
+          },
+          "NDEA_BACKUP/history/exp003_step5_verified_final.bundle/part-0000": {
+            "bytes": 2010027,
+            "git_blob_sha1": "bf79880398f150eba1d6bfac5b61dbacd4083629",
+            "sha256": "ec3823965d3dfb5b2f7cfa5c62b610f864c937cdbd1adbb6421cd81e254da511"
+          },
+          "NDEA_BACKUP/history/exp004_verified_final.bundle/part-0000": {
+            "bytes": 2017632,
+            "git_blob_sha1": "9c828127024e2333f79b432460a502a605305a90",
+            "sha256": "0456351290639145d90ab7b35bf7fcdc913045cba2228cd8b6b64d44199a5df8"
+          },
+          "NDEA_BACKUP/history/exp005_verified_final.bundle/part-0000": {
+            "bytes": 2700849,
+            "git_blob_sha1": "190e0bdc31771d740aea6621f75e90085037d5fe",
+            "sha256": "b63b89b0437ba6efb2550a929f69a0786b728ed704cb6c6a1538297dce72d5c7"
+          },
+          "NDEA_BACKUP/packets/Exp013_Verified_Review_Packet_20260908.zip/part-0000": {
+            "bytes": 4194304,
+            "git_blob_sha1": "f73df89ec139e529a88b10e5df210684794f1511",
+            "sha256": "fabe45129a2ef59b5b3a2a339b48411132bdeea296f972cb1cd860947a685c1f"
+          },
+          "NDEA_BACKUP/packets/Exp013_Verified_Review_Packet_20260908.zip/part-0001": {
+            "bytes": 1378913,
+            "git_blob_sha1": "7647ed2ead8927e993912a1f3a0cdb116a2b1354",
+            "sha256": "594ea28426f4a52ed4eca89116c4c82955080fb7339e47aef17e171e1a440af3"
+          },
+          "NDEA_BACKUP/packets/Exp014_Verified_Review_Packet_20260909.zip/part-0000": {
+            "bytes": 2112650,
+            "git_blob_sha1": "aab7bc5b296d49bd8d38c78e9cd5c4054cee0b9d",
+            "sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282"
+          },
+          "NDEA_BACKUP/packets/Exp015_Verified_Review_Packet_20260909.zip/part-0000": {
+            "bytes": 2171185,
+            "git_blob_sha1": "01fb2ac8d21d461de59902bebe61736157998af1",
+            "sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0000": {
+            "bytes": 4194304,
+            "git_blob_sha1": "85495dbc26cd474d4eb03fdee6f369484fd247b8",
+            "sha256": "d774c7bf38d7b3cf677beed3a4b904192275c291242849d9aadb15f164edb022"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0001": {
+            "bytes": 4194304,
+            "git_blob_sha1": "f1ec36281e28d6d3fb771c74e470effc02f42d85",
+            "sha256": "0a7ad6ba6f2e73b1e545fb0a42ce5294d9de9f10feb57bb499f73a0e4f2b36aa"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0002": {
+            "bytes": 4194304,
+            "git_blob_sha1": "7d70200d6fd11b09f69a8bcb3d9367a1c4590d05",
+            "sha256": "ddcb7a2b3c07b17629a8dc2ef4278d7f8df38598357449b98bca891143638ab6"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0003": {
+            "bytes": 4194304,
+            "git_blob_sha1": "616b98c35bcda6c9e5e435816011f12c4990ec31",
+            "sha256": "c7804fd73eff685c4a77c47bf57c8d49a8f15868f683511512b3aaa6028244bd"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0004": {
+            "bytes": 4194304,
+            "git_blob_sha1": "9f73aebf3d13b65e44ea1aa8742408ea78efa0ad",
+            "sha256": "8ebff83bfa4c2df5ea383fa67a3f72fdfc7325fc734163c4c3c026b5386e1e4b"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0005": {
+            "bytes": 4194304,
+            "git_blob_sha1": "2635d23daf5a13dd9b4567e8ffef5e4abb4e793f",
+            "sha256": "591b7ae3d71f7fce969edeecffa3412d5f93c0050226214f1e8afdaae6541ef7"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0006": {
+            "bytes": 4194304,
+            "git_blob_sha1": "431af3cd05750ed4da825d30e5ef9afbf165acb8",
+            "sha256": "9bbec04a849873978088225475ceeb615be9eaa8eb509b7c34dabf4f4f039a3b"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0007": {
+            "bytes": 4194304,
+            "git_blob_sha1": "ad66a7fe4d4d645b20be48a251d0d7eba1bbed8b",
+            "sha256": "b1a7c5d0eb7a54bd22ad3d77b529bb17e63a6b09505af6f3c6cc7c051be4072b"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0008": {
+            "bytes": 4194304,
+            "git_blob_sha1": "ed105e8bbcd548cdd789b5f2149c030835e49dbb",
+            "sha256": "062c97b22a54fc7be19862abdefcdb71c62616f313aa988b358a3d80604809fe"
+          },
+          "NDEA_BACKUP/packets/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip/part-0009": {
+            "bytes": 1347349,
+            "git_blob_sha1": "5d60499d7b5fff7a2687355d58312a8410f865e0",
+            "sha256": "8c96fac222d261c621d45d60452ea576fd72473f1d8ed2ed02335639ba929b25"
+          },
+          "NDEA_BACKUP/receipts/COMPLETED_001-012_ARCHIVE_RECEIPT.json": {
+            "bytes": 1381,
+            "git_blob_sha1": "141a5095dd10396ee0a4b4602bf10130f4515487",
+            "sha256": "c307a03bfaf133b00ab102ffa1d3d1996f71c0bc4823ce9c4e0c2b41d7f5225d"
+          },
+          "NDEA_BACKUP/receipts/FINAL_CHECKPOINT_PUBLIC_REVIEW.json": {
+            "bytes": 7150,
+            "git_blob_sha1": "f5b81ac28acb14ab7d9fd64afce32d36d8221d39",
+            "sha256": "f8dcb74bcfeb52ccab491d2d2fc8bfafcfe4fc55d8b29df632165beac1ef67fa"
+          },
+          "NDEA_BACKUP/receipts/exp013_FINAL_PACKET_RECEIPT.json": {
+            "bytes": 602,
+            "git_blob_sha1": "d38f62e018d3b6465d5003420c24e95aaa0485d2",
+            "sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5"
+          },
+          "NDEA_BACKUP/receipts/exp013_FINAL_VERIFICATION.json": {
+            "bytes": 6565,
+            "git_blob_sha1": "1eb6ee2dbf29db0687b9946f521b5f6f1dcc4f54",
+            "sha256": "2104ebcfb0a7bb6cdaa9541e56269e6ea9352a71c2c3a958c32a5e324f62ff64"
+          },
+          "NDEA_BACKUP/receipts/exp013_PACKET_MANIFEST.json": {
+            "bytes": 41018,
+            "git_blob_sha1": "2604f84656fc931c532a58ddb8b901de7d85e1e0",
+            "sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa"
+          },
+          "NDEA_BACKUP/receipts/exp014_FINAL_PACKET_RECEIPT.json": {
+            "bytes": 602,
+            "git_blob_sha1": "ce98d8d5378ead3d60fbefd093334813816d3a02",
+            "sha256": "4b14c15d4527c92468d38b9c003d359ba6d7ba42244eff697ca21fe02b637b09"
+          },
+          "NDEA_BACKUP/receipts/exp014_FINAL_VERIFICATION.json": {
+            "bytes": 11324,
+            "git_blob_sha1": "a7bdc32ffdd91f06d92a988262530d2bd9a4fc60",
+            "sha256": "9af04cc22680cbeab97f2c7874ceb624a0a5951264da4472e5b76fddbdeb7e82"
+          },
+          "NDEA_BACKUP/receipts/exp014_PACKET_MANIFEST.json": {
+            "bytes": 33111,
+            "git_blob_sha1": "02580fb9f353a78cd110b39f9656c3efb22eecbf",
+            "sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6"
+          },
+          "NDEA_BACKUP/receipts/exp015_FINAL_PACKET_RECEIPT.json": {
+            "bytes": 602,
+            "git_blob_sha1": "6f15bda5399a50bcc6406d8dee72ac796ba05212",
+            "sha256": "6a2cabb60c3b5f200c55b55517119b94ee5885a7006ebc5f3b22c3c80ba5867e"
+          },
+          "NDEA_BACKUP/receipts/exp015_FINAL_VERIFICATION.json": {
+            "bytes": 6472,
+            "git_blob_sha1": "d532be50f2e54ebcc1b1b800111b07394df2a2c8",
+            "sha256": "fc9c6dc0930bbc458955fe71d9864dbd729bba65efdeb9cafe63476ba0f49962"
+          },
+          "NDEA_BACKUP/receipts/exp015_INDEPENDENT_PACKET_READBACK.json": {
+            "bytes": 2376,
+            "git_blob_sha1": "0f73ef401ac6aba4dc7f6681ca5558baa833ec50",
+            "sha256": "5eb7af6ce230768b68d3e999b3f9114ebda6e89f7a77d54d90928f233c8c10e8"
+          },
+          "NDEA_BACKUP/receipts/exp015_PACKET_MANIFEST.json": {
+            "bytes": 26395,
+            "git_blob_sha1": "46f7d14a80aea2548e520652a126953c28139947",
+            "sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740"
+          },
+          "NDEA_BACKUP/receipts/exp015_PUBLIC_BACKUP_REVIEW.json": {
+            "bytes": 5237,
+            "git_blob_sha1": "642f5689cbd99e336924e4d940f6eb9d86c2bb47",
+            "sha256": "573594bac892d5a4fa29798e66f04c89adf0ecbde404727cc8206710cd81cbac"
+          },
+          "NDEA_BACKUP/verify_backup.py": {
+            "bytes": 3711,
+            "git_blob_sha1": "84ad85db0d82b761224026283b9288b249eac745",
+            "sha256": "1a1848ae6eb2cf3149f288ffe98edb3f5e2889d665898f88b8531abbe99b6e39"
+          }
+        },
+        "remote_files_verified": 48,
+        "repository": "https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean.git",
+        "restore_directory": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore",
+        "tree": "08cfa4733c2373f93f071f7ba292f505a39b5658",
+        "upload_manifest_sha256": "576cfe735b0a43c2dcd1a2452c1c342b83f244c866b486aac490466de515d54d",
+        "utc": "2026-09-09T03:51:15.300483+00:00",
+        "zip_checks": [
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/NDEA_Completed_Releases_001-012_20260908T125342.644762Z_d4e3e458.zip",
+            "archive_sha256": "1f54a8205a6c26f354fff837de611ee910d148fd42e3e80b4722389360591f18",
+            "current_sealed_files_matched": false,
+            "manifest_sha256": "8296eb6f41d1b6b00538c8db49fe23146334680aeb394e00fee13d008720df60",
+            "members": 41,
+            "payloads_verified": 40
+          },
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp013_Verified_Review_Packet_20260908.zip",
+            "archive_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+            "current_sealed_files_matched": true,
+            "manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+            "members": 314,
+            "payloads_verified": 313
+          },
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp014_Verified_Review_Packet_20260909.zip",
+            "archive_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+            "current_sealed_files_matched": true,
+            "manifest_sha256": "8779d9e4732613d19b2b5efa5ea5eee098664383d3e924e7fe304830627b98a6",
+            "members": 263,
+            "payloads_verified": 262
+          },
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_Verified_Review_Packet_20260909.zip",
+            "archive_sha256": "b65a2f2c48c4a1c86e3dd32baff8f89a248916b82fd1c330b71634cb4ced9e71",
+            "current_sealed_files_matched": true,
+            "manifest_sha256": "b8a94ddd17ed54a09d97f5a64ff3b99a12a915fbfcc5e3dec46b59e793537740",
+            "members": 215,
+            "payloads_verified": 214
+          },
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_WORK_IN_PROGRESS_20260909T025020Z.zip",
+            "archive_sha256": "81a5b7d1d808c5d52eaa9b49436b6e2b655540fe1bf489f95e56793aa3faeaf6",
+            "current_sealed_files_matched": false,
+            "manifest_sha256": "4e25bf721e00925e616107c934bc19c8fe5e9cc62bce1b3e6a7ccd3237c8af25",
+            "members": 96,
+            "payloads_verified": 95
+          },
+          {
+            "all_payload_hashes_and_crc_passed": true,
+            "archive": "/home/richman954/NDEA_GitHub_Backup/archive_final_remote_restore/Exp015_SEALED_RECOVERY_20260909T034451Z.zip",
+            "archive_sha256": "f144bbbc0aae55fcad5eb2b73b7511e09ac08046cf07cc9f227251212190a845",
+            "current_sealed_files_matched": false,
+            "manifest_sha256": "051624d7f7861834de3a8f86d5b6aa431df295aa97d1096ce6b84dd72af149b8",
+            "members": 290,
+            "payloads_verified": 289
+          }
+        ]
+      },
+      "archive_readback_receipt_sha256": "efea7f81caffc2f27b92e98893abcf84044e3c5b10dba5a20d816a91769bdcd5",
+      "cadence": "Localtrackedwatcher60seconds; GitHubmilestoneuploadsare agent-run, notan automaticbackgrounddaemon.",
+      "coverage": "Sealed Exp001\u2013015 packets/history; source checkpoint6c5d567e; curateddevelopment8021c836; exact finalExp015+fixedrecovery03:44:51UTC checkpoint; external Git/source/proof binding. All relevant remote bytes read back. Later local administrative receipts are preserved in subsequent local checkpoints.",
+      "development": {
+        "all_sha256_sizes_and_git_blobs_matched": true,
+        "allowed_original_changes": [
+          ".gitignore",
+          "README.md"
+        ],
+        "bytes_verified": 3283792,
+        "commands": [
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "rev-parse",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/head.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/head.stdout.log",
+            "stdout_sha256": "71ff7c16aebe5799f98ff7279306ebaa4a52850d2a64ec07f2448dab80bfa742"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "rev-parse",
+              "HEAD^{tree}"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/tree.stdout.log",
+            "stdout_sha256": "7b9868c1962d811186c85ad4accc58903f8b6fd615db08e2b10288d0fa4f5e04"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "show",
+              "-s",
+              "--format=%P",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/parent.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/parent.stdout.log",
+            "stdout_sha256": "f88424a9ea5647eb08fd3a4cea211cc3cbd5654ba3008d83dc6d0554dd0cee3b"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "rev-parse",
+              "refs/remotes/origin/dev/variable-potential"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/tracking.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/tracking.stdout.log",
+            "stdout_sha256": "71ff7c16aebe5799f98ff7279306ebaa4a52850d2a64ec07f2448dab80bfa742"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "ls-tree",
+              "-rz",
+              "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/old_main_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/old_main_tree.stdout.log",
+            "stdout_sha256": "57461a8d3d48a63605b1b527a3c8525526161a1b9e04bf64f0fe0e1044ca879e"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "ls-tree",
+              "-rz",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/current_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/current_tree.stdout.log",
+            "stdout_sha256": "50eba350949801858bfb6a6f2f3d07e31080b5c59bd8c30bacb34bc6c4b17af2"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "fsck",
+              "--full",
+              "--strict"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/fsck.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/fsck.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+              "status",
+              "--porcelain",
+              "--untracked-files=all"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/clean.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/dev_remote_readback_logs/clean.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "commit": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+        "config": {
+          "allowed_original_changes": [
+            ".gitignore",
+            "README.md"
+          ],
+          "branch": "dev/variable-potential",
+          "clone": "/home/richman954/NDEA_GitHub_Backup/dev_readback",
+          "commit": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+          "manifest": "/home/richman954/NDEA_GitHub_Backup/DEV_UPLOAD.json",
+          "original_main": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+          "parent": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+          "receipt": "/home/richman954/NDEA_GitHub_Backup/DEV_REMOTE_READBACK.json",
+          "tree": "fc977fc92eef5f9eb9077b9f3266ad8098453617"
+        },
+        "files_verified": 260,
+        "git_fsck_passed": true,
+        "manifest_sha256": "2529e080bf4affafeaaebc9e67c3ecae9c883dab0615d2d198e0a6cd32f9dfa4",
+        "original_files_preserved": 64,
+        "passed": true,
+        "proof_verification": false,
+        "tree": "fc977fc92eef5f9eb9077b9f3266ad8098453617",
+        "utc": "2026-09-09T03:56:22.305620+00:00",
+        "verifier_sha256": "99719324f6e9157f38735cea48635942b106043537b7c4e78c4b339869df2e40"
+      },
+      "development_commit": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+      "external_binding": {
+        "containing_commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+        "path": "NDEA_BACKUP/receipts/GIT_VERIFICATION_BINDING.json",
+        "sha256": "070f50a243068a2173d55d8bf809e2fca327778382ed401c0413d542db8900ca"
+      },
+      "kind": "github_backup_receipt",
+      "local_backups_continue": true,
+      "new_lean_verification_performed_by_git": false,
+      "overall_readback_verified": true,
+      "previous_generation_receipt_sha256": "e5d70d9fd24daa8948a2b64b49e990907f8349b638dc207393bbf79bfce64c8f",
+      "proof_verification": false,
+      "remote_heads": {
+        "branches": [
+          {
+            "branch": "main",
+            "commit": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+            "response": {
+              "node_id": "REF_kwDOUI4If69yZWZzL2hlYWRzL21haW4",
+              "object": {
+                "sha": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+                "type": "commit",
+                "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/commits/15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+              },
+              "ref": "refs/heads/main",
+              "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/refs/heads/main"
+            }
+          },
+          {
+            "branch": "backup/ndeaevolve-20260909",
+            "commit": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+            "response": {
+              "node_id": "REF_kwDOUI4If9oAJXJlZnMvaGVhZHMvYmFja3VwL25kZWFldm9sdmUtMjAyNjA5MDk",
+              "object": {
+                "sha": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+                "type": "commit",
+                "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/commits/6c5d567e37ea3d55bc518e4e7003be56fcf322e4"
+              },
+              "ref": "refs/heads/backup/ndeaevolve-20260909",
+              "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/refs/heads/backup/ndeaevolve-20260909"
+            }
+          },
+          {
+            "branch": "backup/verified-milestones-20260909",
+            "commit": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+            "response": {
+              "node_id": "REF_kwDOUI4If9oALnJlZnMvaGVhZHMvYmFja3VwL3ZlcmlmaWVkLW1pbGVzdG9uZXMtMjAyNjA5MDk",
+              "object": {
+                "sha": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+                "type": "commit",
+                "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/commits/eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498"
+              },
+              "ref": "refs/heads/backup/verified-milestones-20260909",
+              "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/refs/heads/backup/verified-milestones-20260909"
+            }
+          },
+          {
+            "branch": "dev/variable-potential",
+            "commit": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+            "response": {
+              "node_id": "REF_kwDOUI4If9oAIXJlZnMvaGVhZHMvZGV2L3ZhcmlhYmxlLXBvdGVudGlhbA",
+              "object": {
+                "sha": "8021c836fb6eb43dd18a70fdb71c0e5c147e8a10",
+                "type": "commit",
+                "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/commits/8021c836fb6eb43dd18a70fdb71c0e5c147e8a10"
+              },
+              "ref": "refs/heads/dev/variable-potential",
+              "url": "https://api.github.com/repos/richman954/NDEA-Periodic-Cayley-CN-Lean/git/refs/heads/dev/variable-potential"
+            }
+          }
+        ],
+        "passed": true
+      },
+      "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
+      "source_backup": {
+        "all_sha256_sizes_and_git_blobs_matched": true,
+        "allowed_original_changes": [],
+        "bytes_verified": 16509155,
+        "commands": [
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "rev-parse",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/head.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/head.stdout.log",
+            "stdout_sha256": "bd278da15737e26a613f86425d2ef929390653527a8f7be8430077edcb918fe0"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "rev-parse",
+              "HEAD^{tree}"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/tree.stdout.log",
+            "stdout_sha256": "c9f606721c481f637f31f44ff7bb4850d5e2b33cd347837a4b615338caf7b0c6"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "show",
+              "-s",
+              "--format=%P",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/parent.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/parent.stdout.log",
+            "stdout_sha256": "6648d7cfd84b8b0203a44b6b5e2ccd111c35debe9007e19d2d61329440d64b99"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "rev-parse",
+              "refs/remotes/origin/backup/ndeaevolve-20260909"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/tracking.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/tracking.stdout.log",
+            "stdout_sha256": "bd278da15737e26a613f86425d2ef929390653527a8f7be8430077edcb918fe0"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "ls-tree",
+              "-rz",
+              "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/old_main_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/old_main_tree.stdout.log",
+            "stdout_sha256": "57461a8d3d48a63605b1b527a3c8525526161a1b9e04bf64f0fe0e1044ca879e"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "ls-tree",
+              "-rz",
+              "HEAD"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/current_tree.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/current_tree.stdout.log",
+            "stdout_sha256": "7d5990a86c7ad3c85306b070973d5b54c6b3ebc9df54eb5a3a7f10cbd9ad1468"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "fsck",
+              "--full",
+              "--strict"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/fsck.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/fsck.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "command": [
+              "git",
+              "--no-optional-locks",
+              "-C",
+              "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+              "status",
+              "--porcelain",
+              "--untracked-files=all"
+            ],
+            "exit_code": 0,
+            "stderr": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/clean.stderr.log",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stdout": "/home/richman954/NDEA_GitHub_Backup/source_final_remote_readback_logs/clean.stdout.log",
+            "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "commit": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+        "config": {
+          "branch": "backup/ndeaevolve-20260909",
+          "clone": "/home/richman954/NDEA_GitHub_Backup/source_final_readback",
+          "commit": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+          "manifest": "/home/richman954/NDEA_GitHub_Backup/SOURCE_FINAL_UPLOAD.json",
+          "original_main": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c",
+          "parent": "2a4028add0c09e7e8445e8f6886a965cd2573ac0",
+          "receipt": "/home/richman954/NDEA_GitHub_Backup/SOURCE_FINAL_REMOTE_READBACK.json",
+          "tree": "58d1c35eabe58c643c5c1af8114743a10a6aab7c"
+        },
+        "files_verified": 1254,
+        "git_fsck_passed": true,
+        "manifest_sha256": "a6b320fe5b131adfb44827e59b79f200e43f8db17dd64e0cae7aa0ee34dbb559",
+        "original_files_preserved": 66,
+        "passed": true,
+        "proof_verification": false,
+        "tree": "58d1c35eabe58c643c5c1af8114743a10a6aab7c",
+        "utc": "2026-09-09T03:53:31.891816+00:00",
+        "verifier_sha256": "99719324f6e9157f38735cea48635942b106043537b7c4e78c4b339869df2e40"
+      },
+      "source_commit": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+      "source_readback_receipt_sha256": "7c6c82e91410303f41c0eb9d4a0aa7fdd9be8b264f18856e2b8db5a3667fc467",
+      "updated_utc": "2026-09-09T03:59:09.828545+00:00",
+      "utc": "2026-09-09T03:23:35.492793+00:00",
+      "verified_coverage": {
+        "active_checkpoint_qualification": "Exp015 all7modulespassed beforefinalsourcefreeze/localcombined/independentqualification",
+        "active_checkpoint_utc": "2026-09-09T02:50:20.795454+00:00",
+        "archive_files_verified": 39,
+        "completed_packets": "Exp001\u2013Exp014",
+        "device_loss_protection": "VerifiedGitHubcopycovers exactlylistedsourceandarchives; newerlocalprogressneedsmilestoneupdate.",
+        "historical_git_bundles": 11,
+        "original_archives_reconstructed": 15,
+        "source_files_verified": 1093
+      },
+      "visibility": "public"
+    },
+    "visibility": "public"
+  },
+  "latest_development_milestone": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_WEIGHTED_MILESTONE_LOCAL.json",
+  "next_mathematical_consumer": "Bound the actual quadratic slab mean, velocity and generator-velocity in W_2, then substitute into the spatial contribution. Prove the scalar spatial coefficient vanishes on an expanding low-band schedule and deduce scheduledSpatialSum vanishing.",
+  "predecessor_baseline": "/home/richman954/NDEA_Evolve_offruntime/exp016/BASELINE.json",
+  "recovery": {
+    "active_watcher": {
+      "advancing_confirmed": true,
+      "automatic_reboot_restart": false,
+      "experiment": "exp016",
+      "final_observation": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/initial_weighted_20260910/FINAL_WATCHER_OBSERVATION.json",
+      "interval_seconds": 60,
+      "latest_actual_source_readback_count": 59,
+      "latest_observed_archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260910T020304.466959Z_207bda97.zip",
+      "latest_observed_archive_sha256": "221a38fd9e088fc069d9bbdcffb34331e36ff9a417a4da59eac8b619a4d6f3fe",
+      "latest_observed_publication_utc": "2026-09-10T02:03:06.469263+00:00",
+      "status": "running",
+      "tracked_session_id": 27367,
+      "verified_start_utc": "2026-09-09T23:41:52.147298+00:00"
+    },
+    "current_check": {
+      "pending_module": null,
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/INITIAL_WEIGHTED_MILESTONE_LOCAL.json",
+      "receipt_sha256": "444d9a00d3f5661f1aec1840306cc45ad667ab03f3343eb76754420d5b39cea6",
+      "status": "Initial cutoff and spatial moment modules passed; no Lean job remains running."
+    },
+    "current_durable_off_device_backup_verified": true,
+    "drive_backup": {
+      "authorized": false,
+      "completed": false,
+      "status": "Canceled by user; do not mount Google Drive or resume the transfer unless newly requested."
+    },
+    "github_heads_post_reboot": {
+      "heads": {
+        "backup/ndeaevolve-20260909": "6c5d567e37ea3d55bc518e4e7003be56fcf322e4",
+        "backup/verified-milestones-20260909": "eff63a3d6bbedcf4c3bd2b4421bedcc2485a6498",
+        "dev/variable-potential": "c8b15ce8aecc27c2091ce17ab58c542021ec9438",
+        "main": "15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c"
+      },
+      "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/github_heads.log",
+      "log_sha256": "ccbdb34e83d6a2923ce8caad191f81acf7580ead91cc63a36513af6bb8514b12",
+      "network_check_exit_code": 0
+    },
+    "github_metadata_capture": {
+      "actual_payloads_verified_and_restored": 282,
+      "completed_utc": "2026-09-09T03:32:32.738597+00:00",
+      "coverage": "Required AGENTS.md, GitHub receipt/runbook and explicit reviewed github_evidence subtree; final subsequent checkpoint captures updated result/runbook/log.",
+      "metadata_files_verified": 44,
+      "passed": true,
+      "summary": "/home/richman954/NDEA_Recovery/github_evidence/RECOVERY_METADATA_FIX_RESULT.json",
+      "summary_sha256": "c2123cfc94feba09febfb94dac018867d4cee67adbd9d11c89e3d985018aae43",
+      "test_result": "/home/richman954/NDEA_Recovery/RECOVERY_TEST_RESULT.json",
+      "test_result_sha256": "7a3ee59959b0c9140be6a99788776d81940f28f754957e20dda395b7efc2405b",
+      "test_sha256": "446e12400cece679f18a152d5f4d1a39e7cf19555b413ef96a750d841c17d266",
+      "utility_sha256": "70aeeb67bdae5880944c3256f8758bac6425d187fa4562c02adc10028d94b0b0"
+    },
+    "guide": "/home/richman954/NDEA_Recovery/START_HERE.md",
+    "historical_colab_copy_was_verified": true,
+    "historical_status_notes": {
+      "before_exp016_startup_cleanup": {
+        "off_machine_copy_availability": "Historical Colab copies are not available through a live session: fresh sessions query found none. Verified local files remain available.",
+        "on_resume": "Use the local backup receipt, current task state and actual proof receipts. Keep local milestone checkpoints. Do not mount Google Drive or pursue an off-machine backup unless newly requested.",
+        "permanent_storage": "Verified local Chromebook copies are the chosen backup destination. Google Drive backup was canceled by the user.",
+        "qualification": "GitHubfreshnetworkclone/readbackverified: completedExp001\u2013014packets,11historybundles,selectedsourcesandExp015WIP02:50UTC. This isdurableoff-devicecoverageforthatfixedsnapshot,notlaterresults. Colabremainsatemporaryverificationruntime; localChromebookcopiescontinue.",
+        "resume_saving_method": "Active Exp015 watcher uses 60-second interval, maximum12hours, tracked session94110; explicit verified checkpoints before long operations and after milestones. No automatic restart after reboot.",
+        "watcher_status": "Tracked foreground watcher94110 running; startup and advancing minute snapshot verified."
+      },
+      "exp015_watcher_verification": {
+        "interval_archive_sha256": "3037b0c40b2fb8028318e0e2812cad8e09bb9516c035583cfa418285aeb2276c",
+        "interval_snapshot_utc": "2026-09-09T02:07:08.144771+00:00",
+        "session_id": 94110,
+        "start_snapshot_utc": "2026-09-09T02:05:07.960771+00:00"
+      }
+    },
+    "latest_checkpoint_pointer": "/home/richman954/NDEA_Recovery/LATEST_CHECKPOINT.json",
+    "local_backup_receipt": "/home/richman954/NDEA_Recovery/LOCAL_BACKUP_RECEIPT.json",
+    "local_download_folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_035911Z_0f2d0f",
+    "local_metadata_fix": {
+      "after": "final packet stops existing watcher",
+      "change": "Add these names to checkpoint.py METADATA_FILES; run test_recovery.py and verify exact current metadata bytes in final snapshot.",
+      "completed_utc": "2026-09-09T01:59:00.829208+00:00",
+      "files_to_include": [
+        "LOCAL_BACKUP_RECEIPT.json",
+        "make_local_copy.py",
+        "test_local_copy.py",
+        "LOCAL_COPY_TEST_RESULT.json"
+      ],
+      "final_receipt_capture": "Completed for the Exp014 local-backup receipt; subsequent verified snapshots include the current receipt and publisher utilities.",
+      "prepared_patch": "/tmp/NDEA_checkpoint_local_metadata.patch",
+      "prepared_validator": "/tmp/NDEA_verify_checkpoint_local_metadata.py",
+      "reason": "Existing snapshots include task-state backup summaries but omit the exact local-backup receipt and publisher utilities.",
+      "status": "Complete: restore/corruption/task-selection tests passed and all four metadata files matched exact bytes in verified286-payload snapshot.",
+      "utility_sha256": "6c0eb8a6f5e377021fc8ba8c27a1e1783a038ab315d8f7561a5fb95123c0b3bd"
+    },
+    "local_validation": {
+      "active_packet_sha256": "11aed98c23b9a5efc64e9f66d042d61ff08c1f33e76c4b8889174f299b56b282",
+      "completed_packet_coverage": {
+        "active": "exp014",
+        "base": "exp001\u2013exp012",
+        "contiguous": true,
+        "supplemental": [
+          "exp013"
+        ]
+      },
+      "copied_archive_verifiers_exit_zero": true,
+      "copied_completed_release_payloads_verified": 40,
+      "copied_files_hash_checked": 21,
+      "copied_recovery_payloads_verified": 286,
+      "folder": "/home/richman954/Downloads/NDEA_Backup_2026-09-09_015901Z_e51c03",
+      "passed": true,
+      "supplemental_packets": [
+        {
+          "archive": "Exp013_Verified_Review_Packet.zip",
+          "archive_bytes": 5573217,
+          "archive_sha256": "dbaad9c12c0f5154099f6ccaac3e1675fb6b678eb1ccb37d7f601e252dcf6412",
+          "crc_and_payload_hashes_verified": true,
+          "experiment": "exp013",
+          "manifest_sha256": "df35b6a73cff1a715d1e7e085152178571913ab453b3fd078e6f9f780c949afa",
+          "packet_receipt": "Exp013_PACKET_RECEIPT.json",
+          "packet_receipt_sha256": "3dc3b3d69037c4369930ad388719c6960f4eff22c8e5f846f20e4ca039be7dd5",
+          "payload_files_verified": 313,
+          "qualification": "Exp013_VERIFICATION.json",
+          "qualification_sha256": "2104ebcfb0a7bb6cdaa9541e56269e6ea9352a71c2c3a958c32a5e324f62ff64",
+          "zip_members_verified": 314
+        }
+      ],
+      "utc": "2026-09-09T02:00:13.713893+00:00"
+    },
+    "off_machine_backup_receipt": "/home/richman954/NDEA_Recovery/OFF_MACHINE_BACKUP_RECEIPT.json",
+    "off_machine_copies_verified": true,
+    "off_machine_copy_availability": "GitHub readback verifies the existing sealed Exp001\u2013015 archive layer and curated Exp016 source/evidence through 72145e7c826942be4abe26c5f51dd261056aa988 (59 modules). Large external reference/PDF and disposable artifacts are local only.",
+    "on_resume": "Read active Exp016 task state and actual receipts; preserve sealed Exp013\u2013015. Verify newest local snapshot and watcher advancement, restarting it after reboot if needed. GitHub is the explicitly authorized off-device destination; Google Drive remains canceled.",
+    "permanent_storage": "Verified local Chromebook snapshots/copies plus explicitly authorized GitHub source and archival branches; Colab is temporary verification compute.",
+    "policy": "/home/richman954/NDEA_Recovery/RECOVERY_POLICY.md",
+    "post_reboot_integrity": {
+      "accepted_exp016_sources_matched": 50,
+      "checkpoint_live_files_matched": 1298,
+      "historical_prompt_reconciled": "Actual saved state already contains 50 accepted Exp016 modules; continue it, do not restart.",
+      "no_proof_rerun": true,
+      "passed": true,
+      "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/RECOVERY_INTEGRITY.json",
+      "receipt_sha256": "c11181ba5da27d792366193bba290a94eb09b1b7f4b4ab18df181879e27579f7",
+      "sealed_exp013_015_payloads_matched": 789,
+      "utc": "2026-09-09T23:41:51.979053+00:00"
+    },
+    "pre_reboot_watcher_20260909": {
+      "advancing_confirmed": true,
+      "automatic_reboot_restart": false,
+      "experiment": "exp016",
+      "interval_seconds": 60,
+      "latest_actual_source_readback_count": 50,
+      "latest_observed_archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260909T173828.813459Z_0894b962.zip",
+      "latest_observed_archive_sha256": "1f0563e3a4141044855de4ae1082afff4d89eeebe283e9d3c1626b08a4e9c840",
+      "latest_observed_publication_utc": "2026-09-09T17:38:30.750665+00:00",
+      "latest_observed_reason": "manual milestone snapshot after fresh pinned runtime bootstrap; assembly execution blocked by Colab DNS",
+      "log": "/home/richman954/NDEA_Recovery/EXP016_WATCHER_20260909T1608.log",
+      "maximum_duration_stop_utc": "2026-09-10T04:08:16.113392+00:00",
+      "tracked_session_id": 59441,
+      "verified_start_utc": "2026-09-09T16:08:16.113392+00:00"
+    },
+    "previous_completed_watcher": {
+      "active_experiment": "exp014",
+      "interval_seconds": 60.0,
+      "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp014_recovery_20260909T015707.091512Z_76c3aa27.zip",
+      "maximum_hours": 12.0,
+      "pid": 2,
+      "started_utc": "2026-09-09T00:37:45.165630+00:00",
+      "status": "stopped",
+      "stop_reason": "final_packet_receipt_captured",
+      "stopped_utc": "2026-09-09T01:57:07.355151+00:00",
+      "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+    },
+    "previous_exp016_watcher": {
+      "active_experiment": "exp016",
+      "interval_seconds": 60.0,
+      "latest_archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260909T160738.100522Z_0e38a41b.zip",
+      "maximum_hours": 12.0,
+      "pid": 3,
+      "started_utc": "2026-09-09T04:07:38.074576+00:00",
+      "status": "stopped",
+      "stop_reason": "maximum_duration_reached",
+      "stopped_utc": "2026-09-09T16:07:39.949200+00:00",
+      "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+    },
+    "qualification": "59 accepted development modules. Actual finite initial-cutoff weighted bounds, fourth moments/tails and endpoint spatial-budget consumer proved; 19 new standard-axiom reports. Quadratic slab estimates, spatial refinement and full qualification remain open. Exp016 is unsealed.",
+    "restore_tests_passed": true,
+    "resume_saving_method": "Tracked watcher 27367 at 60 seconds for 12 hours, plus verified manual milestone snapshots; no reboot autostart.",
+    "storage_preference": "Local copies on the Chromebook, explicitly selected by the user.",
+    "watcher_semantics": "WATCHER_STATUS.latest_archive is written only on normal watcher stop (checkpoint.py lines374\u2013375). While running, LATEST_CHECKPOINT.json and dated receipts identify actual verified snapshots. 05:22:15 generation SHA436c401338d0a41ea0d25fb906d2f566e3468c53ff44ed3445b1298cf6a45cf8 verified265 payloads and exact current five Lean source copies.",
+    "watcher_status": "Tracked foreground watcher 27367 running; advancing interval and all 59 accepted source/receipt pairs verified."
+  },
+  "remaining_steps": [
+    "Bound the actual quadratic slab mean, velocity and generator-velocity in W_2, then substitute into the spatial contribution. Prove the scalar spatial coefficient vanishes on an expanding low-band schedule and deduce scheduledSpatialSum vanishing.",
+    "Discharge the baseline potential/initial-data approximation quantifiers with accepted stability. Quadratic partial-slab transfer/refinement remains separate.",
+    "Complete final statement/dependency review and controls, isolated combined and fresh independent qualification, transfer validation and finalizer/sealing gates."
+  ],
+  "reporting_preferences": {
+    "human_timestamps": "Asia/Seoul (KST) first, with UTC in parentheses. Machine receipt timestamps and filenames retain original UTC."
+  },
+  "source_frozen": false,
+  "updated_utc": "2026-09-10T02:07:08.685012+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "9493a64065e6d6424da8deadb11c0d762b522eae8677a7a4c0588d8c4869cea7",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260910T022510.098788Z_WeightedSlabSpatialBudget.json",
+  "compiler_exit": 1,
+  "reason": "Missing one_mul simplification in weighted quadratic mean; downstream sorryAx reports rejected.",
+  "next_attempt": "Check representative real scalar normalization, then add one_mul only.",
+  "source_statement_changed": false
+}

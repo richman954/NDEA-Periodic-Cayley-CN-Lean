@@ -1,0 +1,11 @@
+{
+  "active_experiment": "exp016",
+  "error": "ValueError('Invalid GitHub evidence file: /home/richman954/NDEA_Recovery/github_evidence/SPATIAL_REFINEMENT_PREPARE.diff')",
+  "interval_seconds": 60.0,
+  "maximum_hours": 12.0,
+  "pid": 2,
+  "started_utc": "2026-09-09T23:41:52.147298+00:00",
+  "status": "failed",
+  "stopped_utc": "2026-09-10T02:51:38.132387+00:00",
+  "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+}
