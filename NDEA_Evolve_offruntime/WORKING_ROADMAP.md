@@ -1,3 +1,156 @@
+## Current Exp016 continuation — physical-grid kinetic assembly, September 10, 2026 UTC
+
+51 source-bound development modules are accepted. KineticAssembly closes
+`||op(sampledSplitA (2*M) h)|| <= 4/h^2+1` for `(2*M+1)*h=2*pi`, `h>0`.
+The concrete sampled potential bound is also already accepted. Next substitute
+both into the actual temporal certificate and prove the explicit temporal
+budget tends to zero for the recorded N, h, J, k refinement family.
+
+The next analytical barrier is evolved smooth-core spatial consistency/tails;
+finite Fourier inputs and L2 stability alone do not close it. Reuse the accepted
+paired continuum/numerical potential-cutoff comparison. Preserve quadratic
+slabs, actual ordered recurrence, initialization mismatch and all defect terms.
+
+Read exp016/design/KINETIC_ASSEMBLY_MILESTONE.md and the source-bound local receipt.
+Two new standard-axiom reports passed with no warnings/errors. All 50 previous
+accepted source/evidence/artifact bindings remain unchanged. Exp016 remains
+unsealed; full combined/fresh independent qualification and convergence are pending.
+
+The restart recovered the exact 1,298-payload checkpoint and all 789 sealed
+Exp013–015 payloads. The watcher is producing minute snapshots after manual
+restart. Latest dated checkpoint/Git readback receipts determine exact coverage.
+The pinned external transfer already removes the continuum/DFT coefficient
+identification gap and is consumed by WeightedCoefficientBridge. No further
+upstream port is justified for the current barrier; Comparator was not run.
+Historical milestone entries below are retained for continuity.
+
+## Historical Exp016 continuation — continuum/cutoff transfer, September 9, 2026
+
+Resume all 49 accepted source-matched development modules from TASK_STATE.
+SpatialL2Operator, ContinuumPotentialStability and PotentialErrorTransfer are
+new: exact residual (W-V)u_W, physical L2 conservation, coefficient-one
+continuum potential comparison with arbitrary initial mismatch, and actual
+ordered sampled-solver/PDE cutoff error transfer. For nonnegative steps at
+actual grid time T, E_v<=E_cutoff+2T*sqrt(2*pi)||a||*tail_v(R), with the explicit
+weighted tail bound W_v/(1+R)^2 and no grid-size factor or R<=M requirement.
+The cutoff solver error remains an actual unresolved quantity, not an assumed
+refinement result. No global variable-potential convergence is claimed.
+
+Read exp016/design/CONTINUUM_MILESTONE.md and
+exp016/evidence/CONTINUUM_MILESTONE_LOCAL.json. The three new accepted checks
+have 11 standard-axiom reports, two style warnings and zero errors; all source,
+import, artifact and received-evidence hashes match. Previous 46 source bytes
+and all 789 sealed Exp013–015 payloads/packets remain unchanged. Exp016 remains
+unsealed; combined/fresh-independent qualification and final gates are pending.
+No compiler job remains running at this milestone.
+
+Next: concrete induced kinetic bound ||A_h||<=4/h^2+1 and explicit temporal
+refinement budget; then justified smooth-core spatial consistency/evolved tail
+control. Finite potential support does not preserve finite solution support.
+The unchanged pinned CPU runtime survived a proxy-binding expiry: same boot
+and exact accepted archive checked after connection refresh, no proof rerun.
+Local minute snapshots continued during that interruption. The manual milestone
+archive passed all 49 source-byte checks. Dev commit c8b15ce8aecc27c2091ce17ab58c542021ec9438
+is fresh-clone verified: all 709 tree files and 49 source/receipt bindings match.
+Main and sealed archives remain unchanged. Git backup is distinct from proof qualification.
+
+## Current Exp016 continuation — potential stability, September 9, 2026
+
+Resume all46 accepted source-matched development modules in TASK_STATE. The four
+new modules prove mesh-independent sampled block norms, generic ordered Cayley
+potential perturbation, symmetric cutoff tail bounds and the actual sampled
+trajectory/Fourier L2 consumer. Grid-time discrepancy is bounded by physical
+initial mismatch plus total absolute step length times potential discrepancy
+times the second initial physical norm. Exact samples yield the uniform
+sqrt(2*pi)||a|| amplitude. Potential cutoff R gives tail T_v(R)<=W_v/(1+R)^2.
+No R<=M restriction is needed. The actual A-half/B-full/A-half order is retained.
+
+Read exp016/design/POTENTIAL_STABILITY_MILESTONE.md and its source-bound receipt
+catalog. Four new checks passed with28 standard-axiom reports,4 retained harmless
+style warnings and0 errors; source/import/log/artifact/transfer hashes match.
+No compiler jobs remain running. Exp013–015 and earlier accepted sources remain
+immutable. Exp016 is unsealed; combined/fresh independent qualification and
+final gates remain pending. Grid-time stability does not assert the same bound
+for quadratic paths between grid times or prove solver convergence.
+
+Next: continuum two-potential L2 comparison from Exp015, then actual smooth-core
+spatial consistency/evolved tail control. The concrete kinetic operator bound
+is also still needed. Initial L2 stability alone does not control derivatives.
+## Current Exp016 initialization milestone — September 9, 2026
+
+Actual sampling/interpolation tail and weighted rate, uniform sampled initial
+physical norm, arbitrary initialization perturbation and actual certificate
+substitution are development-accepted. Exact-sample initialization convergence
+is proved for expanding full odd grids; solver convergence remains open.
+Read exp016/PLAN.md and evidence/INITIAL_SAMPLING_MILESTONE_LOCAL.json.
+Next: explicit sampled potential/operator perturbation bounds, then numerical
+evolved-tail/moment control or justified smooth-core uniform stability.
+Exp016 remains unsealed; full combined/independent qualification is pending.
+
+## Current Exp016 alias milestone — September 9, 2026
+
+Actual potential-sampling alias formula, summability, full continuum discrepancy
+low/high tail bound and weighted potential-tail estimate are development-accepted.
+The actual ordered Cayley grid/partial certificate consumes these and the stencil
+fourth-moment estimate. A nonzero five-node resolved-support control passes.
+See exp016/PLAN.md for the single defect/refinement table and actual receipts in
+exp016/evidence/ALIAS_MILESTONE_LOCAL.json. Exp016 remains unsealed.
+Next: sampling/initialization and potential perturbation bridges, followed by
+numerical evolved-tail/regularity or justified smooth-core uniform stability.
+No mesh convergence or computable floating-point certification is claimed.
+
+Current update 2026-09-09T13:53:12.412656+00:00: 30 Exp016 development modules accepted. See RESUME_STATUS and exact TASK_STATE receipts. Next: actual potential alias/tail control; independent qualification and refinement remain pending. Main/predecessors unchanged.
+
+## Current Exp016 continuation — 2026-09-09T13:03:08.311527+00:00
+
+Resume the accepted working state, not historical startup obligations below.
+Exp013–015 are sealed and byte-unchanged. Exp016 remains UNSEALED, with full
+isolated/independent qualification and refinement still pending.
+
+Accepted development results now include actual sampled-potential finite and
+partial-slab trajectory certificates, exact Fourier reconstruction/regularity/L2
+normalization, and a nonzero cosine-potential control. FourierCoefficientBridge
+also proves normalized continuum coefficient extraction for the actual DFT
+reconstruction and off-band zero. Read the exact receipts listed in TASK_STATE.
+No residual-vanishing or numerical convergence theorem is claimed.
+
+The external release is pinned at 8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538
+outside NDEA. Compact manifests, ranked reuse decisions and Apache attribution
+are in exp016/design/external_reference. Only a small proof-pattern adapter via
+pinned Mathlib was adopted. No upstream build, Comparator or extra kernel ran.
+
+Colab's existing VM/files were recovered after proxy loss; a cache-helper lock
+required a Python-kernel reset. Readback preserved42 prior source/artifact files;
+AddCircle cache artifacts matched local pins; the final new theorem check passed.
+There are no pending compiler jobs. Failed and interrupted attempts are evidence,
+not accepted results. Do not restart/bootstrap/rerun old work unnecessarily.
+
+Git dev/variable-potential is freshly read back at
+2288a4d6625c903efdbf38b968cc21f1f0103e7f through the accepted transfer and
+sampled certificate: all489 files and22 source/receipt bindings matched.
+Read TASK_STATE and EXP016_TRANSFER_GIT_BINDING.json for exact coverage.
+Main and archival history are unchanged. The local minute watcher is producing
+verified archives (559 payloads at13:01:47 UTC); it does not restart after reboot.
+
+Next: expose separate stencil/potential alias defects and stronger ordered-stage
+graph-norm bounds, then complete review/controls and the unchanged qualification
+gates. Mesh-uniform refinement remains a separate explicit mathematical burden.
+
+# Current experiment: Exp016
+
+Exp016 is authorized and active. Its design comparison and proposed certificate
+endpoint are recorded in exp016/PLAN.md and exp016/design/. Choose full odd-grid
+Fourier synthesis/norm fidelity and quadratic reconstruction on time slabs,
+with an immediate actual symmetric A-half/B-full/A-half Cayley consumer.
+Five startup modules have local acceptance (39 public declarations): affine
+regularity, ordered Cayley defects, spatial L2 rules, full odd-grid Fourier
+inversion/periodicity, and quadratic time endpoint/derivative/residual identities.
+No compiler jobs remain running. No Exp016 combined/independent
+qualification or completion is claimed. Full spatial
+aliasing/high-frequency/refinement convergence is the next natural boundary.
+The active recovery watcher has been restarted and observed advancing.
+Exp013–015 and their packets are immutable; main remains unchanged.
+
 # Project goal and the current extension
 
 ## Current proof map and development architecture — September 9, 2026 UTC
@@ -141,7 +294,7 @@ service. Sealed Exp001-015 packets complement the local snapshots. The watcher s
 normally after capturing the Exp015 final receipt; explicit milestone saves
 continue. Initial GitHub source and archive branches passed fresh remote
 readback through Exp014 plus the historical Exp015 work-in-progress checkpoint.
-The sealed Exp015 backup refresh is underway: consult the current external
+The sealed Exp015 source/archive/development refresh passed readback. Consult the external
 GitHub receipt for the exact uploaded-and-readback-verified generation. Local
 minute snapshots do not automatically push to GitHub.
 
@@ -188,7 +341,7 @@ then covers only uploaded and verified content. A clone does not include release
 assets; preserve those separately alongside local Git bundles and recovery copies.
 The user authorized this existing public repository as an additional destination.
 Both backup branches have been published and read back; main remains unchanged.
-A curated dev/variable-potential branch is being prepared separately for Lean,
+The curated dev/variable-potential branch is published and readback-verified for Lean,
 tooling, tests, pins, derivations and meaningful compact receipts. No verified
 tag or GitHub release has been created. Existing historical notes below do not
 override the current receipts.
@@ -334,3 +487,11 @@ only restriction above is superseded for this destination. Additive integration
 and exact asset review are in progress; no verified remote backup receipt exists
 yet. All seven Exp015 modules now pass separately (50newpublictheorems); final
 combined/fresh-runtime qualification remains pending.
+## Current Exp016 continuation — kinetic symbol/operator bound, September 9, 2026
+
+KineticSymbolBound now proves the actual centered kinetic operator bound
+`||op(gridKinetic)|| <= 4/h^2` by exact Fourier diagonalization and discrete
+Parseval. The fixed Z factor remains an explicit triangle step for the planned
+`||A_h|| <= 4/h^2 + 1` bound. Temporal constants can now be substituted with
+their real mesh dependence. This does not control evolved fourth moments or
+prove spatial consistency; those remain the principal refinement obstacle.

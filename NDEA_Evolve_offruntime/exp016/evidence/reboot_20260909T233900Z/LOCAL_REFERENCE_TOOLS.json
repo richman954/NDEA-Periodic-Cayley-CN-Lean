@@ -1,0 +1,12 @@
+{
+  "uid": 1000,
+  "tools": {
+    "landrun": null,
+    "lean4export": null,
+    "nanoda_bin": null,
+    "systemd-run": "/usr/bin/systemd-run",
+    "pdfinfo": null
+  },
+  "comparator_run": false,
+  "isolation_prepared_for_comparator": false
+}

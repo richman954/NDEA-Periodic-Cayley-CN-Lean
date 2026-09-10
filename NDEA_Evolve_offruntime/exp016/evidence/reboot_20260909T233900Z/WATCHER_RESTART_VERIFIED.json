@@ -1,0 +1,29 @@
+{
+  "accepted_source_readbacks": 50,
+  "interval_checkpoint": {
+    "active_experiment": "exp016",
+    "archive": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260909T234254.093313Z_0e595408.zip",
+    "archive_bytes": 34011643,
+    "archive_sha256": "54a4dbe75d576329c730784bdd8dec753417dc3aa6765e9d60074f57cf661128",
+    "final_packet_receipt_captured": false,
+    "kind": "recovery_checkpoint_receipt",
+    "payload_files_verified": 1304,
+    "proof_completion_evidence": false,
+    "published_utc": "2026-09-09T23:42:55.973557+00:00",
+    "reason": "watch_interval",
+    "receipt": "/home/richman954/NDEA_Recovery/snapshots/exp016_recovery_20260909T234254.093313Z_0e595408.json",
+    "receipt_sha256": "190180012028b36f51e67cdfeef1abd8ae0657cf281b262a675db2957ef51e23",
+    "task_state_present": true
+  },
+  "payloads_verified": 1304,
+  "status": {
+    "active_experiment": "exp016",
+    "interval_seconds": 60.0,
+    "maximum_hours": 12.0,
+    "pid": 2,
+    "started_utc": "2026-09-09T23:41:52.147298+00:00",
+    "status": "running",
+    "task_state": "/home/richman954/NDEA_Recovery/TASK_STATE.json"
+  },
+  "tracked_session": 27367
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "module": "KineticSymbolBound",
+  "archive_sha256": "331be1efa1518d025415182f03ebd14b6a48714707dc8de7f89dcb0b4b114eee",
+  "source_sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/RESULT.json",
+  "receipt_sha256": "34290568ebf12d7e512cc121d07d4a9b56faa37378642cc8e995c45b3685a48c",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/compiler.log",
+  "artifact": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/KineticSymbolBound.olean",
+  "artifact_sha256": "f3526c1ba1df4632b09810d56d9b7b8952f1e2c48d049f43af63c71e2190be57",
+  "independent_qualification": false,
+  "utc": "2026-09-09T17:24:31.451329+00:00"
+}

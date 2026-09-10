@@ -20,6 +20,8 @@
       "InitialSamplingControls",
       "InitialSamplingLimit",
       "InitializationCertificate",
+      "KineticAssembly",
+      "KineticSymbolBound",
       "OneNodeCosine",
       "OrderedStageAlgebra",
       "OrderedStageBounds",
@@ -51,18 +53,17 @@
       "TargetBinding",
       "WeightedCoefficientBridge"
     ],
-    "accepted_property_theorem_declaration_count": 282,
-    "catalog": "NDEA_Evolve_offruntime/exp016/CONTINUUM_CHECKPOINT.json",
-    "catalog_sha256": "67904d203a68c2bf5654e3a2d3a05589dbd9ed41600f5069f0a14b173aef7087",
+    "catalog": "NDEA_Evolve_offruntime/exp016/REBOOT_CHECKPOINT.json",
+    "catalog_sha256": "4e922506f0da53f95b79cd36586c52d760d0e392b1c1ab0d903ec47350c45da7",
     "experiment": "exp016",
     "pending_modules": [],
     "qualification": {
       "combined_check": false,
+      "development_only": true,
       "independent_qualification": false,
-      "new_proof_checks_performed_by_staging": false,
       "sealed": false
     },
-    "status": "EXP016 IN PROGRESS; INCOMPLETE AND UNSEALED"
+    "status": "DEVELOPMENT ACCEPTED; COMBINED/INDEPENDENT QUALIFICATION AND CONVERGENCE PENDING; UNSEALED"
   },
   "active_development_import_closure": [
     {
@@ -709,11 +710,26 @@
       "from": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
       "import": "ResidualField",
       "to": "NDEA_Evolve_offruntime/exp015/lean/ResidualField.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/KineticSymbolBound.lean",
+      "import": "StencilFourier",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean",
+      "import": "KineticSymbolBound",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/KineticSymbolBound.lean"
+    },
+    {
+      "from": "NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean",
+      "import": "SampledPotentialBounds",
+      "to": "NDEA_Evolve_offruntime/exp016/lean/SampledPotentialBounds.lean"
     }
   ],
   "active_development_unresolved_imports": [],
-  "base_commit": "d24fced28fa65b371c628d3e2e738a45f8b65f37",
-  "base_tree": "6ea4e7a1e535549aa6deaf6bcfeccd4309f15414",
+  "base_commit": "c8b15ce8aecc27c2091ce17ab58c542021ec9438",
+  "base_tree": "bd7ed6086baf5e10d7601cedd98b49f567ffb0e0",
   "files": [
     {
       "bytes": 1185,
@@ -1401,15 +1417,29 @@
       "target": "NDEAMathlibGate/WeightedL2SpatialConsistencyV1.lean"
     },
     {
-      "bytes": 21578,
-      "git_blob_sha1": "a5aaf9edba35c69be4b375c35b66f01186d24227",
+      "bytes": 60051,
+      "git_blob_sha1": "55e0cfca62c69ba897e76241f1abc9bd552dffa0",
       "git_mode": "100644",
       "origin": {
-        "kind": "exact_workspace_copy",
-        "path": "/home/richman954/NDEA_Evolve_offruntime/WORKING_ROADMAP.md",
-        "role": "current roadmap copied after Exp015 sealing; live note snapshot"
+        "captured_sha256": "6d415e19a94c05aca35237902fba79ea0fcf2a003d6216ee0ad2318083007c32",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
-      "sha256": "1a94a385a33f50a036f2a0c8c14152f4f8c7f1b75c6d331dc709893897e7f584",
+      "sha256": "6d415e19a94c05aca35237902fba79ea0fcf2a003d6216ee0ad2318083007c32",
+      "target": "NDEA_Evolve_offruntime/RESUME_STATUS.md"
+    },
+    {
+      "bytes": 32012,
+      "git_blob_sha1": "0da5b2d1fa055798a44a8048679f17b202f2b232",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "abcac4300eb080967de4da76435d924cfb79285a411949323699e6c051cd9339",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "abcac4300eb080967de4da76435d924cfb79285a411949323699e6c051cd9339",
       "target": "NDEA_Evolve_offruntime/WORKING_ROADMAP.md"
     },
     {
@@ -6018,16 +6048,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/MODULAR_ACCEPTANCE.json"
     },
     {
-      "bytes": 3776,
-      "git_blob_sha1": "3c7f0e95a2bde425e4ccdbcc2816d8aae073536b",
+      "bytes": 4175,
+      "git_blob_sha1": "4ea4726b2d502344295957c2dda5682403cc04a7",
       "git_mode": "100644",
       "origin": {
-        "captured_sha256": "2e4112a898c64f49c7434ca1f209f9f4170161f2d337bfd0f9e98d6b90525ef4",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "development_document_or_small_pinned_runner",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/NEXT_STEPS.md"
+        "captured_sha256": "82f959a952c5aa16d8ab00f3c7679454b87fcceab34d7eff659eb70dad0f3174",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
-      "sha256": "2e4112a898c64f49c7434ca1f209f9f4170161f2d337bfd0f9e98d6b90525ef4",
+      "sha256": "82f959a952c5aa16d8ab00f3c7679454b87fcceab34d7eff659eb70dad0f3174",
       "target": "NDEA_Evolve_offruntime/exp016/NEXT_STEPS.md"
     },
     {
@@ -6044,16 +6074,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/NUMERICAL_PINS.json"
     },
     {
-      "bytes": 22392,
-      "git_blob_sha1": "c06f890fd4759304dfc33e079de666be80960406",
+      "bytes": 23133,
+      "git_blob_sha1": "f9667f969b53906b7cf90accb15a04c1b4d29a2d",
       "git_mode": "100644",
       "origin": {
-        "captured_sha256": "33a5f7af73a61eca40b7250c54c166131b9c952d5abf98a058544c1f5dac81b8",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "development_document_or_small_pinned_runner",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/PLAN.md"
+        "captured_sha256": "b69313ea736f4a1a608b5f9e4b80cf696e4469d1a7c92d5d8a1a510465a640fb",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
-      "sha256": "33a5f7af73a61eca40b7250c54c166131b9c952d5abf98a058544c1f5dac81b8",
+      "sha256": "b69313ea736f4a1a608b5f9e4b80cf696e4469d1a7c92d5d8a1a510465a640fb",
       "target": "NDEA_Evolve_offruntime/exp016/PLAN.md"
     },
     {
@@ -6066,6 +6096,19 @@
       },
       "sha256": "b73b9ecc5e2d45b2364206819b611fbbfcb628c474388b6d4fadd832cee1eb8a",
       "target": "NDEA_Evolve_offruntime/exp016/POTENTIAL_CHECKPOINT.json"
+    },
+    {
+      "bytes": 36475,
+      "git_blob_sha1": "c59a5ec2156c6a81a92a372358fa38cbda71c309",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "4e922506f0da53f95b79cd36586c52d760d0e392b1c1ab0d903ec47350c45da7",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "4e922506f0da53f95b79cd36586c52d760d0e392b1c1ab0d903ec47350c45da7",
+      "target": "NDEA_Evolve_offruntime/exp016/REBOOT_CHECKPOINT.json"
     },
     {
       "bytes": 2501,
@@ -6090,6 +6133,110 @@
       },
       "sha256": "19daa1a6dafa3984a7268ddd069f3e847b3393554ef7b4cde29d6465daf3ce77",
       "target": "NDEA_Evolve_offruntime/exp016/TRANSFER_CHECKPOINT.json"
+    },
+    {
+      "bytes": 2788,
+      "git_blob_sha1": "47d591b796115084da8c959d4ad0e452a4e2c7bb",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "c7f13a7549c5ebad1d7d1035b1cdc81a00243d6d29172ddcf593e4d757bb90a1",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "c7f13a7549c5ebad1d7d1035b1cdc81a00243d6d29172ddcf593e4d757bb90a1",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r1/20260909T234407.625814Z_KineticAssembly.json"
+    },
+    {
+      "bytes": 610,
+      "git_blob_sha1": "ab0f4192754dc133e14e587a2e944c6a8c53872e",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "cf0c14d46d75d60972c586d82f40ff1706377ac4d13e773792538fb7478d9017",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "cf0c14d46d75d60972c586d82f40ff1706377ac4d13e773792538fb7478d9017",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r1/20260909T234407.625814Z_KineticAssembly.log"
+    },
+    {
+      "bytes": 1364,
+      "git_blob_sha1": "31fab3de5fdab4ad0a66ef9468cd2a5b9bfe8678",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "16912b7fd50dbb6822c7e42674a74759ae9229ff6b2ac8df52ce2d867978f007",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "16912b7fd50dbb6822c7e42674a74759ae9229ff6b2ac8df52ce2d867978f007",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r1/KineticAssembly.lean"
+    },
+    {
+      "bytes": 332,
+      "git_blob_sha1": "2dff377ff47f916ad67563aa8c87b1171ce20b3b",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "60a2001ccb36b7128d40d04716abe2417164c2085c49a7738a99d8078677739d",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "60a2001ccb36b7128d40d04716abe2417164c2085c49a7738a99d8078677739d",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r1/PRESERVATION.json"
+    },
+    {
+      "bytes": 2793,
+      "git_blob_sha1": "80f45345aafe87c44b0c2149d0883592c50d6529",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "358177d57dd70b625c03c01825505defb73d90cf1934c8af951d9f76758b3c4c",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "358177d57dd70b625c03c01825505defb73d90cf1934c8af951d9f76758b3c4c",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r2/20260909T235206.160082Z_KineticAssembly.json"
+    },
+    {
+      "bytes": 486,
+      "git_blob_sha1": "6d56d59025643e2f226e982c7f79a70e0d3b89f8",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "10bd3c0afe77e4c0127325b070fc7697bdbdeae1a57644333017840599b5945d",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "10bd3c0afe77e4c0127325b070fc7697bdbdeae1a57644333017840599b5945d",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r2/20260909T235206.160082Z_KineticAssembly.log"
+    },
+    {
+      "bytes": 1386,
+      "git_blob_sha1": "b54af75415fca0afc3f25ad79f0349ac63f86da0",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "cdd985ceef65865d5586e6346d68e8ba94363849ffa2b2981eca51375469913a",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "cdd985ceef65865d5586e6346d68e8ba94363849ffa2b2981eca51375469913a",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r2/KineticAssembly.lean"
+    },
+    {
+      "bytes": 332,
+      "git_blob_sha1": "b721f770f02ebccff118c4b53e834e8845391648",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "e803c1030134bed9b4e4a37fe8537b35acf15bcb6aea134276009062a34549a5",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "e803c1030134bed9b4e4a37fe8537b35acf15bcb6aea134276009062a34549a5",
+      "target": "NDEA_Evolve_offruntime/exp016/attempts/kinetic_assembly_reboot_r2/PRESERVATION.json"
     },
     {
       "bytes": 5268,
@@ -6222,6 +6369,19 @@
       "target": "NDEA_Evolve_offruntime/exp016/design/INITIAL_SAMPLING_MILESTONE.md"
     },
     {
+      "bytes": 4026,
+      "git_blob_sha1": "d6a3c98039d6355d256714fbc0badfb6dfa29a1c",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "9e0af39280dc53bfe47e2a2d907757efa40694e499b7abc371bacc48ff188081",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "9e0af39280dc53bfe47e2a2d907757efa40694e499b7abc371bacc48ff188081",
+      "target": "NDEA_Evolve_offruntime/exp016/design/KINETIC_ASSEMBLY_MILESTONE.md"
+    },
+    {
       "bytes": 4522,
       "git_blob_sha1": "ebf70b06c1d09dfb9aaa910cbf54dd9b3d300ed7",
       "git_mode": "100644",
@@ -6305,12 +6465,25 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "60150dca6b31a5bda3e9b6e9d2c08fd3253c1b2164077908b99f271c6d1b8948",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/MANUSCRIPT_MANIFEST.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "60150dca6b31a5bda3e9b6e9d2c08fd3253c1b2164077908b99f271c6d1b8948",
       "target": "NDEA_Evolve_offruntime/exp016/design/external_reference/MANUSCRIPT_MANIFEST.json"
+    },
+    {
+      "bytes": 10054,
+      "git_blob_sha1": "2910feb32ec506fce37f04db285b54b2439bbbc5",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "e5818ce2e84e65f3d73549297b761abfa386b60de289325834a27be346df041a",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "e5818ce2e84e65f3d73549297b761abfa386b60de289325834a27be346df041a",
+      "target": "NDEA_Evolve_offruntime/exp016/design/external_reference/RESUMED_REFERENCE_DELIVERY.md"
     },
     {
       "bytes": 11572,
@@ -6318,9 +6491,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "61bff9e82c731731ca1350c1c2370c9b77acde2387d46b413e7577cf4937f683",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/REUSE_MAP.md"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "61bff9e82c731731ca1350c1c2370c9b77acde2387d46b413e7577cf4937f683",
       "target": "NDEA_Evolve_offruntime/exp016/design/external_reference/REUSE_MAP.md"
@@ -6331,9 +6504,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b760993391a46afafc2aabe5922720745f9bedab99592b7551a282eabb1496c4",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/SOURCE_MANIFEST.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b760993391a46afafc2aabe5922720745f9bedab99592b7551a282eabb1496c4",
       "target": "NDEA_Evolve_offruntime/exp016/design/external_reference/SOURCE_MANIFEST.json"
@@ -6357,9 +6530,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "compact_external_reference_record_not_imported_source_or_proof_verification",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/design/external_reference/UPSTREAM_LICENSE.txt"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
       "target": "NDEA_Evolve_offruntime/exp016/design/external_reference/UPSTREAM_LICENSE.txt"
@@ -6434,9 +6607,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.json"
@@ -6447,9 +6620,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "fa1df9eae7e6c325c4f1e054e47caf67def380534c94a11e2ae04ed5325151a9",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T041739.854114Z_SplitDefect.log"
@@ -6460,9 +6633,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.json"
@@ -6473,9 +6646,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "86fb0f4707e077b308a52e2f4f9c21c84255e55c7f364a073b59bfd80e2175bb",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T042218.136527Z_AffineReconstruction.log"
@@ -6486,9 +6659,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.json"
@@ -6499,9 +6672,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69c738f0dea2463701011f48b7f3c71a51382fcd31784228f5853f672fd6a888",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "69c738f0dea2463701011f48b7f3c71a51382fcd31784228f5853f672fd6a888",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044247.828965Z_SpatialL2Bridge.log"
@@ -6512,9 +6685,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.json"
@@ -6525,9 +6698,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3ffd778f3aa3448d88759e2e567a4f2f7db21f1f4068dd9a44c8d5abfdb9e921",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "3ffd778f3aa3448d88759e2e567a4f2f7db21f1f4068dd9a44c8d5abfdb9e921",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T044647.851979Z_FourierReconstruction.log"
@@ -6538,9 +6711,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.json"
@@ -6551,9 +6724,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "60bc3f2b625060cdbcc18abde314c8e0e443b002f5a3733b242366620b9f0486",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T050033.042701Z_QuadraticTime.log"
@@ -6564,9 +6737,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.json"
@@ -6577,9 +6750,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2920505c4127fd61534220d66258f8b0334d235c7f367f543fe51b68d7a09d92",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2920505c4127fd61534220d66258f8b0334d235c7f367f543fe51b68d7a09d92",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T053447.952267Z_SlabError.log"
@@ -6590,9 +6763,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_local_modular_receipt",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.json"
@@ -6603,12 +6776,38 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0d28adcdef123bf6f68fcaf6a93b21ebf792e3c6509090dd013bcf6730513e36",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "complete_matching_local_compiler_log",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "0d28adcdef123bf6f68fcaf6a93b21ebf792e3c6509090dd013bcf6730513e36",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T054033.038748Z_QuadraticCayleyBridge.log"
+    },
+    {
+      "bytes": 2949,
+      "git_blob_sha1": "f48f9bbbfe9e4bc471e2ea0c50c4f04c75927959",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "964decbc28054f3414a4da0bfa3f03d319b4a0e149f18eb3b6f238400e61d2f8",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "964decbc28054f3414a4da0bfa3f03d319b4a0e149f18eb3b6f238400e61d2f8",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.json"
+    },
+    {
+      "bytes": 214,
+      "git_blob_sha1": "95aff27ae6f3b2d23c62c99f99af62e3adb1ab22",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "30c7e7a149dc6daa9356d0678b9a0e658ba4cc4041fceb7f136c0f948a29d634",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "30c7e7a149dc6daa9356d0678b9a0e658ba4cc4041fceb7f136c0f948a29d634",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.log"
     },
     {
       "bytes": 14923,
@@ -6884,6 +7083,32 @@
       "target": "NDEA_Evolve_offruntime/exp016/evidence/INITIAL_SAMPLING_RUNTIME_READBACK.json"
     },
     {
+      "bytes": 1840,
+      "git_blob_sha1": "97896cf09698164dc59784d091e51bb597168b4c",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "c8a8b0712dcb1f39426e07bbaa6bb5bb06f76795fab9e8e287db64f9181597a2",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "c8a8b0712dcb1f39426e07bbaa6bb5bb06f76795fab9e8e287db64f9181597a2",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/KINETIC_ASSEMBLY_MILESTONE_LOCAL.json"
+    },
+    {
+      "bytes": 1107,
+      "git_blob_sha1": "d4a2ccd0295b8544f42bb71bf4fb385b50da8c7d",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "3604038561d28acec625e2081fec8d0baea69f5470c1cd31af2435d92fccd47b",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "3604038561d28acec625e2081fec8d0baea69f5470c1cd31af2435d92fccd47b",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/KINETIC_SYMBOL_MILESTONE_LOCAL.json"
+    },
+    {
       "bytes": 609,
       "git_blob_sha1": "702ed3dafae978e915e07d2104f4ae20c8a467f0",
       "git_mode": "100644",
@@ -7046,9 +7271,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/RESULT.json"
@@ -7059,9 +7284,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T060815.328360Z_IndependentTarget/compiler.log"
@@ -7111,9 +7336,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/RESULT.json"
@@ -7137,9 +7362,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "cdff5aade63b8aca95cdcf20b2b55a1313b1a18717214a5f48f3a11490b780cc",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "cdff5aade63b8aca95cdcf20b2b55a1313b1a18717214a5f48f3a11490b780cc",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T061043.658237Z_SynthesizedSlabError/compiler.log"
@@ -7189,9 +7414,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/RESULT.json"
@@ -7202,9 +7427,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d5742ffb56fb3eb6b734394be9e8a5e8787d798e555f0ba4d4b6b8162fb5406d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d5742ffb56fb3eb6b734394be9e8a5e8787d798e555f0ba4d4b6b8162fb5406d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T062351.276072Z_OneNodeCosine/compiler.log"
@@ -7241,9 +7466,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/RESULT.json"
@@ -7267,9 +7492,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2cc33974ef0ba8d49f243264a1e4b2ac9eeebf4128429b0738247eb6f16533f5",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2cc33974ef0ba8d49f243264a1e4b2ac9eeebf4128429b0738247eb6f16533f5",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T122026.130571Z_SampledCayleyCertificate/compiler.log"
@@ -7319,9 +7544,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/RESULT.json"
@@ -7332,9 +7557,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "12b1f0ea1fa04a1416e9ef8ed603438329f4f3d60e5050b12cbce3fd5d212190",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "12b1f0ea1fa04a1416e9ef8ed603438329f4f3d60e5050b12cbce3fd5d212190",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T133821.720954Z_OrderedStageAlgebra/compiler.log"
@@ -7384,9 +7609,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/RESULT.json"
@@ -7397,9 +7622,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f5c8561e866894293dbeaf4d7d007c20d66cbc3966b9614368349c4c57cdcd98",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f5c8561e866894293dbeaf4d7d007c20d66cbc3966b9614368349c4c57cdcd98",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T134458.862789Z_OrderedStageBounds/compiler.log"
@@ -7449,9 +7674,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/RESULT.json"
@@ -7462,9 +7687,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "379642ca28b8c8577a36d5de626a033596c3d185072e1825f1c0722c3c310912",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T144117.477372Z_PotentialAlias/compiler.log"
@@ -7501,9 +7726,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/RESULT.json"
@@ -7527,9 +7752,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "1fa5c059bac237bd1840595315093b97a486b02d7570359e5b250474fcd6f02a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/compiler.log"
@@ -7548,14 +7773,105 @@
       "target": "NDEA_Evolve_offruntime/exp016/evidence/colab_20260909T153246.991406Z_SamplingExpansion/run_module.py"
     },
     {
+      "bytes": 13606,
+      "git_blob_sha1": "b693a33ce37d0745d438091ad10ee8cf4ddb0d76",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "d8d098597cb4c3caefde6645c692871f1a9a5dc63434a0cb08a6a86abef40341",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "d8d098597cb4c3caefde6645c692871f1a9a5dc63434a0cb08a6a86abef40341",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/KINETIC_ASSEMBLY_INPUTS.json"
+    },
+    {
+      "bytes": 242,
+      "git_blob_sha1": "09305638600046f9faddbd5e0ced79026745d8d4",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6b748fade07d3bc44b73d0a2d7ad24937ac1724f1f5bd6c4cda5d0f1ac898281",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "6b748fade07d3bc44b73d0a2d7ad24937ac1724f1f5bd6c4cda5d0f1ac898281",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/LOCAL_REFERENCE_TOOLS.json"
+    },
+    {
+      "bytes": 43195,
+      "git_blob_sha1": "c5c9a7a602002da42e30b0cddc294c6161f9dea8",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "c11181ba5da27d792366193bba290a94eb09b1b7f4b4ab18df181879e27579f7",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "c11181ba5da27d792366193bba290a94eb09b1b7f4b4ab18df181879e27579f7",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/RECOVERY_INTEGRITY.json"
+    },
+    {
+      "bytes": 1779,
+      "git_blob_sha1": "afe86b65e3fc8f9bf3de86f10a1418cb4ce6812d",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "66eda95f0846ac233d35120a847af29004a5e13676461ab80181036e5ab852ee",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "66eda95f0846ac233d35120a847af29004a5e13676461ab80181036e5ab852ee",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/REFERENCE_RECOVERY_SUMMARY.json"
+    },
+    {
+      "bytes": 1153,
+      "git_blob_sha1": "9c86f693fad592640bddaae8215bcca6e93af62c",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "8516adf71475e878baffee891c9b792b3922a27138a4d70bcd0c8b0960e44b3d",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "8516adf71475e878baffee891c9b792b3922a27138a4d70bcd0c8b0960e44b3d",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/WATCHER_RESTART_VERIFIED.json"
+    },
+    {
+      "bytes": 299,
+      "git_blob_sha1": "b727c8a0964c315f3357dd7b80ccde2b4102dc93",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "ccbdb34e83d6a2923ce8caad191f81acf7580ead91cc63a36513af6bb8514b12",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "ccbdb34e83d6a2923ce8caad191f81acf7580ead91cc63a36513af6bb8514b12",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/github_heads.log"
+    },
+    {
+      "bytes": 103,
+      "git_blob_sha1": "1a18ef3bc11349875e2791597a52c67413c9e6dc",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "c03993ffbfc53f3d94482280ae03432c32ed100b467fdd8fe025951537f96634",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "c03993ffbfc53f3d94482280ae03432c32ed100b467fdd8fe025951537f96634",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/reboot_20260909T233900Z/upstream_heads.log"
+    },
+    {
       "bytes": 17775,
       "git_blob_sha1": "ed8384bf99b597e1f423561554150c5b804a5c14",
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/RESULT.json"
@@ -7592,9 +7908,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ab6d12ebc121d81630301e207e422783682dd86eb97cde63e0d7d2d4eff677f2",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "ab6d12ebc121d81630301e207e422783682dd86eb97cde63e0d7d2d4eff677f2",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055252.204266_0000_RegularSynthesis/compiler.log"
@@ -7631,9 +7947,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/RESULT.json"
@@ -7657,9 +7973,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "3e0a2d1fa6902c83f3a442ed3204d190b77248d67d3868cd8bf5961e246566fa",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "3e0a2d1fa6902c83f3a442ed3204d190b77248d67d3868cd8bf5961e246566fa",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055635.796041_0000_FourierNorm/compiler.log"
@@ -7696,9 +8012,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/RESULT.json"
@@ -7722,9 +8038,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "61890b76deb84293ac264b55c0c87c86b162bdab45c886845a4eb8a10d3ddad4",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "61890b76deb84293ac264b55c0c87c86b162bdab45c886845a4eb8a10d3ddad4",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T055727.753945_0000_FourierSynthesisRegular/compiler.log"
@@ -7761,9 +8077,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/RESULT.json"
@@ -7787,9 +8103,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060109.464523_0000_QuadraticNorm/compiler.log"
@@ -7839,9 +8155,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/RESULT.json"
@@ -7865,9 +8181,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b98e3cc3ebeeff398d3c08979d0ff18dbcbae87f754832aa3e899c27df55e587",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b98e3cc3ebeeff398d3c08979d0ff18dbcbae87f754832aa3e899c27df55e587",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060450.139109_0000_QuadraticPDEBudget/compiler.log"
@@ -7904,9 +8220,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/RESULT.json"
@@ -7930,9 +8246,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5c63ea69fae3fc497d4f691ed78cf5af8f046a5d80db0d2bd5f881de56c032cc",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "5c63ea69fae3fc497d4f691ed78cf5af8f046a5d80db0d2bd5f881de56c032cc",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T060548.158455_0000_QuadraticNormAudit/compiler.log"
@@ -7969,9 +8285,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/RESULT.json"
@@ -7995,9 +8311,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "09b0cb9396e849646b3a34f89a1f27f9977df0250fecce660119aca961f44801",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "09b0cb9396e849646b3a34f89a1f27f9977df0250fecce660119aca961f44801",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061007.515736_0000_ActualCayleySynthesis/compiler.log"
@@ -8034,9 +8350,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/RESULT.json"
@@ -8073,9 +8389,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "991817e9fd3f9b6a352bad9e82f4f889da451430caa294694c2a167b9b5793d1",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "991817e9fd3f9b6a352bad9e82f4f889da451430caa294694c2a167b9b5793d1",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061118.336344_0000_SampledPotential/compiler.log"
@@ -8099,9 +8415,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/RESULT.json"
@@ -8138,9 +8454,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "94489c4f17f812e13cc7b81acbe347c4fb54c98c9d164779d2ce4bb2265af64a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "94489c4f17f812e13cc7b81acbe347c4fb54c98c9d164779d2ce4bb2265af64a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061339.684840_0000_TargetBinding/compiler.log"
@@ -8190,9 +8506,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/RESULT.json"
@@ -8216,9 +8532,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "806710206c03ce5126797bfdfaadb4b58c8c65ea3d0ebfc194790e8feca086c2",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "806710206c03ce5126797bfdfaadb4b58c8c65ea3d0ebfc194790e8feca086c2",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T061804.697393_0000_ActualCayleyCertificate/compiler.log"
@@ -8268,9 +8584,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/RESULT.json"
@@ -8294,9 +8610,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5617f8c805fa9a118163fa5037661c3d208d0647f048dccf6157aeb88615244d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "5617f8c805fa9a118163fa5037661c3d208d0647f048dccf6157aeb88615244d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T130009.044711_0000_FourierCoefficientBridge/compiler.log"
@@ -8333,9 +8649,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/RESULT.json"
@@ -8372,9 +8688,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "727cf42444d363853a8cae315b0e9562142a04a427f963826f2cf4c832b2017f",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "727cf42444d363853a8cae315b0e9562142a04a427f963826f2cf4c832b2017f",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T133923.585177_0000_WeightedCoefficientBridge/compiler.log"
@@ -8411,9 +8727,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/RESULT.json"
@@ -8450,9 +8766,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "39da45345524354303bf9416c44f3edd9a7c71c653c527d6b940774ced911315",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "39da45345524354303bf9416c44f3edd9a7c71c653c527d6b940774ced911315",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134011.494690_0000_SpatialDefectSplit/compiler.log"
@@ -8502,9 +8818,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/RESULT.json"
@@ -8528,9 +8844,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7f95fc712149686c7aa05d0cff18070d72b8843c12f9f0f597b4da159420a641",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7f95fc712149686c7aa05d0cff18070d72b8843c12f9f0f597b4da159420a641",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134044.110931_0000_FullBandSymbol/compiler.log"
@@ -8567,9 +8883,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/RESULT.json"
@@ -8606,9 +8922,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "99e3fa521098ca791b0c7ef87af3b6cbadaae4035d81946e11021db0504c41e0",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "99e3fa521098ca791b0c7ef87af3b6cbadaae4035d81946e11021db0504c41e0",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134316.933029_0000_SpatialDefectCertificate/compiler.log"
@@ -8658,9 +8974,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/RESULT.json"
@@ -8684,9 +9000,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "92df489935a8634fd9f99cdcce3505aa94b95089860aaa24fd8b012a60ab792c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "92df489935a8634fd9f99cdcce3505aa94b95089860aaa24fd8b012a60ab792c",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134814.167978_0000_QuantitativeCayleyCertificate/compiler.log"
@@ -8723,9 +9039,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/RESULT.json"
@@ -8775,9 +9091,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8db1ecaedd9b5f6420d28588f4856e04d3516dfd2d6b45e2dc2932dddea9472a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "8db1ecaedd9b5f6420d28588f4856e04d3516dfd2d6b45e2dc2932dddea9472a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T134943.888436_0000_StencilFourier/compiler.log"
@@ -8814,9 +9130,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/RESULT.json"
@@ -8840,9 +9156,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "66f5f464d7448bd2580db4805281c5c45cda928690aa5d8df2957d698785cda0",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "66f5f464d7448bd2580db4805281c5c45cda928690aa5d8df2957d698785cda0",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143611.711347_0000_FourierTailBounds/compiler.log"
@@ -8892,9 +9208,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/RESULT.json"
@@ -8918,9 +9234,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "98680feb53f249d36a9b7d96b659fffcce3d4b58f3eade44044bf9767d116d61",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T143645.695653_0000_GridAlias/compiler.log"
@@ -8970,9 +9286,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/RESULT.json"
@@ -8996,9 +9312,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "5320e6c8c8f46b0ec9c96dff4cf51e4b874fa07c3184f4b324af087d51230bed",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144202.870337_0000_PotentialDefectExpansion/compiler.log"
@@ -9035,9 +9351,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/RESULT.json"
@@ -9061,9 +9377,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e14530e368033bee5263d8400b5c3d2b00eb7469a4dfd6267df03660fb82b6e5",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e14530e368033bee5263d8400b5c3d2b00eb7469a4dfd6267df03660fb82b6e5",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144700.107225_0000_PotentialAliasBounds/compiler.log"
@@ -9100,9 +9416,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/RESULT.json"
@@ -9126,9 +9442,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "59c373477ff6a0abaa70b9fad347bde96731c929e1c4c45b14b71cd770429967",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "59c373477ff6a0abaa70b9fad347bde96731c929e1c4c45b14b71cd770429967",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144824.632989_0000_AliasTailCertificate/compiler.log"
@@ -9178,9 +9494,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/RESULT.json"
@@ -9204,9 +9520,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "1e453ada64d6f32cfad7e44e29a6a905c75b81a7c67997b8aa88ee4a7d50a128",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T144922.733180_0000_AliasTailControls/compiler.log"
@@ -9243,9 +9559,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/RESULT.json"
@@ -9269,9 +9585,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "4acf8897217d549c9df24daee08416d67b07c7ab27a8289887c339cfaeeb826a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153618.900457_0000_InitialSamplingBounds/compiler.log"
@@ -9308,9 +9624,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/RESULT.json"
@@ -9334,9 +9650,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f878d36e2f1dcffd8c8c4c7ecabcedfa6b852c40c0102297907aa675e1cba9cf",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153720.567454_0000_InitializationCertificate/compiler.log"
@@ -9386,9 +9702,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/RESULT.json"
@@ -9412,9 +9728,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b4e355320c74baa91b6b57fcd487e404562c4b475408d9561202928cf80e2c79",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153835.720976_0000_InitialSamplingControls/compiler.log"
@@ -9464,9 +9780,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/RESULT.json"
@@ -9490,9 +9806,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "8108fc22ec9d25160f9a2d364fdfa48ca9781a2b159a37b422bb80b82ac985c4",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T153946.442377_0000_InitialSamplingLimit/compiler.log"
@@ -9542,9 +9858,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "7ede124c841597e2faf9e22c064d0a8e1c73cd442dfaba2b80cc0dfccf77e870",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7ede124c841597e2faf9e22c064d0a8e1c73cd442dfaba2b80cc0dfccf77e870",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/RESULT.json"
@@ -9568,9 +9884,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "204340adced4a954707fa877e548d4c4ba5ef652483870aaf588e01371cd5506",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "204340adced4a954707fa877e548d4c4ba5ef652483870aaf588e01371cd5506",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T155912.773438_0000_PotentialCutoff/compiler.log"
@@ -9594,9 +9910,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b86b848ce4cc4b84ee13b63d23018c47585d8275c7e4e2f78ec2bb33ad834e32",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b86b848ce4cc4b84ee13b63d23018c47585d8275c7e4e2f78ec2bb33ad834e32",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/RESULT.json"
@@ -9646,9 +9962,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "e7c460e43f23f2f1dcaa2fd550b350efff3289df6966899509fcee5db14e534c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e7c460e43f23f2f1dcaa2fd550b350efff3289df6966899509fcee5db14e534c",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160017.910502_0000_SampledPotentialBounds/compiler.log"
@@ -9685,9 +10001,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a14b001ee917ced2d69875a8691df0cbea974949f68809baf53e6c3b70f8f8ba",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a14b001ee917ced2d69875a8691df0cbea974949f68809baf53e6c3b70f8f8ba",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/RESULT.json"
@@ -9724,9 +10040,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "b89951cf6474ebeabfd089148b994c0154d00384542796b1cbb7d52b402805f8",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b89951cf6474ebeabfd089148b994c0154d00384542796b1cbb7d52b402805f8",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160228.627123_0000_CayleyPerturbation/compiler.log"
@@ -9763,9 +10079,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/RESULT.json"
@@ -9802,9 +10118,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a10691065419f4b06a4e6b4b440f5cfe8fc00d9e6f61ce40e60767172522f86a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a10691065419f4b06a4e6b4b440f5cfe8fc00d9e6f61ce40e60767172522f86a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T160357.450499_0000_PotentialStability/compiler.log"
@@ -9828,9 +10144,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/RESULT.json"
@@ -9880,9 +10196,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "4a8f0965a7502c251a8458e64c381e5a1ddd6b852eb73537de815aa249849399",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "4a8f0965a7502c251a8458e64c381e5a1ddd6b852eb73537de815aa249849399",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162330.782447_0000_SpatialL2Operator/compiler.log"
@@ -9932,9 +10248,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/RESULT.json"
@@ -9971,9 +10287,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "a04e0a2219ea0e18bc86a152fdc9b9eb557b64d0105bbb92eda4687afaed3832",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a04e0a2219ea0e18bc86a152fdc9b9eb557b64d0105bbb92eda4687afaed3832",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T162632.143369_0000_ContinuumPotentialStability/compiler.log"
@@ -10010,9 +10326,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "ceb03e5dc8485353a51e4dce3b30e23e59b94e22f571b65193b6a8efc5ece46a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/RESULT.json"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "ceb03e5dc8485353a51e4dce3b30e23e59b94e22f571b65193b6a8efc5ece46a",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/RESULT.json"
@@ -10049,9 +10365,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "81a3a8797d0757eb36ba4564a91ecfb729470401e946d88cccb4ff7062fed124",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "completed_matching_development_evidence",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/compiler.log"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "81a3a8797d0757eb36ba4564a91ecfb729470401e946d88cccb4ff7062fed124",
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/compiler.log"
@@ -10070,19 +10386,92 @@
       "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T170431.729458_0000_PotentialErrorTransfer/run_module.py"
     },
     {
+      "bytes": 3343,
+      "git_blob_sha1": "544dac3a19baa8544c4996cf4244791723866fe5",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/KineticSymbolBound.lean"
+    },
+    {
+      "bytes": 28106,
+      "git_blob_sha1": "23fad5f819712a42969d9e174a2bbedf3c36005a",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "34290568ebf12d7e512cc121d07d4a9b56faa37378642cc8e995c45b3685a48c",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "34290568ebf12d7e512cc121d07d4a9b56faa37378642cc8e995c45b3685a48c",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/RESULT.json"
+    },
+    {
+      "bytes": 895,
+      "git_blob_sha1": "a1fadb153209a60453e8a1ce85502b3f1f237fb8",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "dd1b496cf617022f6f620ac55a14d4113c4dce5aebe1011def97b286512a829f",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "dd1b496cf617022f6f620ac55a14d4113c4dce5aebe1011def97b286512a829f",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/TRANSFER_VALIDATION.json"
+    },
+    {
+      "bytes": 1507,
+      "git_blob_sha1": "ec475f1931a9318e0f336b150699ec0884109343",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "2c484ae6b8b5818f99028425d2f493bdcb357636deacd4618070dd7ae6e55614",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "2c484ae6b8b5818f99028425d2f493bdcb357636deacd4618070dd7ae6e55614",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/WORKFLOW_VALIDATION.json"
+    },
+    {
+      "bytes": 328,
+      "git_blob_sha1": "da33db58acb5121c90602497376b5877845e2071",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "ef243c666c869a54ae99a0ec9baca3f3433be19490caeadb542f0b4f4ff49aa9",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "ef243c666c869a54ae99a0ec9baca3f3433be19490caeadb542f0b4f4ff49aa9",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/compiler.log"
+    },
+    {
+      "bytes": 4077,
+      "git_blob_sha1": "b6ca634d9e4b82b04e8a86d8154dae3c25b63a53",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "6afc87c76470de47823cc7caff2b4b8ffd2948c53f0c947f81891bca3382d2bf",
+      "target": "NDEA_Evolve_offruntime/exp016/evidence/remote_development/2026-09-09T172401.813894_0000_KineticSymbolBound/run_module.py"
+    },
+    {
       "bytes": 6413,
       "git_blob_sha1": "6ebcdd22ae218624fa0738431cbcecd7bbc24e26",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "21d57f5813fef09027e794ac7c203b13c7e8063f6e1f967f01b0061bf7b5d7e0"
-        ],
         "captured_sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ActualCayleyCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "6d017035755cf76a389eb4d71c64b8fb4a47778b9882476868d9187e30bae639",
       "target": "NDEA_Evolve_offruntime/exp016/lean/ActualCayleyCertificate.lean"
@@ -10092,15 +10481,10 @@
       "git_blob_sha1": "35a3a21ca4388d689fbda8c7fe7bb150327c8eb8",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "0da4462af31cbaed0cbf2460308271469efb7057204704052b873fb7caf77d6e"
-        ],
         "captured_sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ActualCayleySynthesis.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "ef2fb4c6c57b0f803755fff5c379be317ddcc0335250c3f63e65716e5436d882",
       "target": "NDEA_Evolve_offruntime/exp016/lean/ActualCayleySynthesis.lean"
@@ -10110,15 +10494,10 @@
       "git_blob_sha1": "1c1227f82e2a846ccfc2f078995dc182634d75cf",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "bfe191e3d332f0cdf6fd1018f8f7aa75f46c19fc119fc52a53321bb7403131fc"
-        ],
         "captured_sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "c12486b6d86a23b3f6084f73ff283da756ea8d1ae3b72659babe85b2359654cf",
       "target": "NDEA_Evolve_offruntime/exp016/lean/AffineReconstruction.lean"
@@ -10128,15 +10507,10 @@
       "git_blob_sha1": "ba5eca3fe25cefe82daeda53d68ebdc948110997",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2873467fc48e0d59b8dec158709de3eb4993ccce95c1d23f98b376661db38fc0"
-        ],
         "captured_sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "48b5e8f2db5c8abca165d129a692933f55af657d6ca0e6e6f69df86d0916de59",
       "target": "NDEA_Evolve_offruntime/exp016/lean/AliasTailCertificate.lean"
@@ -10146,15 +10520,10 @@
       "git_blob_sha1": "86c5aa101659d7d44e4b236b17dc296b9fe0792d",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "69bc1be5f9c4fe948e51ec07ca486166815d589ff8e198e862973260a134f414"
-        ],
         "captured_sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "3e4b8448cfd1b14f3569062c6fd0c5e97c6344d09d5e977a19b1ab0cd6e9e19f",
       "target": "NDEA_Evolve_offruntime/exp016/lean/AliasTailControls.lean"
@@ -10164,15 +10533,10 @@
       "git_blob_sha1": "9ed75bd80f2f1fb50deeea7294442fd3c355c204",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "a14b001ee917ced2d69875a8691df0cbea974949f68809baf53e6c3b70f8f8ba"
-        ],
         "captured_sha256": "6c3f37c945912f8983c1db9001410e9b87da9eac3755127f41a8385e7f1f83ff",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/CayleyPerturbation.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "6c3f37c945912f8983c1db9001410e9b87da9eac3755127f41a8385e7f1f83ff",
       "target": "NDEA_Evolve_offruntime/exp016/lean/CayleyPerturbation.lean"
@@ -10182,15 +10546,10 @@
       "git_blob_sha1": "fc4fd707ad28cb31470adf5f2ec80cdaa88253a9",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "d8cf81ab8fd4b5e34fef02d81bced16347d7ed3a4b07d5aa174f9656488e440d"
-        ],
         "captured_sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/ContinuumPotentialStability.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "e841febb252b281f3a7536c37469c339688bc1676ab7a7763b0c8ed6f5e55750",
       "target": "NDEA_Evolve_offruntime/exp016/lean/ContinuumPotentialStability.lean"
@@ -10200,15 +10559,10 @@
       "git_blob_sha1": "079dec4daca0d101d7abe21bc63b96cf076d4b3d",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "0bab210adf0b5ce26130de4c9e62bdc9b85e652511627c1572277cbc44ea7647"
-        ],
         "captured_sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierCoefficientBridge.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "0b550fad136360d5bbb2f9c68f595cf5a2f274a33c0f1bd393cb3b9c50d44918",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FourierCoefficientBridge.lean"
@@ -10218,15 +10572,10 @@
       "git_blob_sha1": "b8a8de7aa558e8202acef0d97ea91e8de3cacf22",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "83f831bd0ae3294eccabc580bbb93eba5e279e7dd83c7f240bcd63965841695e"
-        ],
         "captured_sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierNorm.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "53e071fd76c917f15f2f988d1d795115175bab932d1ab3d4b64361a2205d82ae",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FourierNorm.lean"
@@ -10236,15 +10585,10 @@
       "git_blob_sha1": "083b232481244345c207cf4888197635f0ab75ed",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "3c7b6e88f57df5902590ea5a999930bc8fe56962b1457a246bf836b8386be3d3"
-        ],
         "captured_sha256": "d371e36b98114f56cef229021e2f0d0aa0f12c42f77e5d7faf28bdcc2a8f3000",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d371e36b98114f56cef229021e2f0d0aa0f12c42f77e5d7faf28bdcc2a8f3000",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FourierReconstruction.lean"
@@ -10254,15 +10598,10 @@
       "git_blob_sha1": "eb6d6340aa31f4715033b43e896426c23537675d",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "7656a92006276c4af2b80e0d4e111a015236a25b955ad1cc336fdfe196a56caf"
-        ],
         "captured_sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierSynthesisRegular.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f908cd403983f8561a000bb9baf75a02f4102f7435ea25bec82998a99e34e096",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FourierSynthesisRegular.lean"
@@ -10272,15 +10611,10 @@
       "git_blob_sha1": "19a2cc91538e0064ac08c2b109009710c210a482",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "e35a07c2001c36287760b013781d47798aa5aadcc84c4a64b1ec63b5f3f8b74c"
-        ],
         "captured_sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FourierTailBounds.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "44ca198b3ae004029d41865e72ff62a4265ac69408eebbec5b78ffce70762026",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FourierTailBounds.lean"
@@ -10290,15 +10624,10 @@
       "git_blob_sha1": "79d18698f2d74aa61dc37a946922f62b39a506e5",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2e8565ba298866aa6da2a7f5903c05bf14340e7d144dfa10edaac7fdfd87007e"
-        ],
         "captured_sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/FullBandSymbol.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "12d13272a69d16eafefb222c22813711c0c70c138732df50c12d127c84c93996",
       "target": "NDEA_Evolve_offruntime/exp016/lean/FullBandSymbol.lean"
@@ -10308,15 +10637,10 @@
       "git_blob_sha1": "147a47dd220cc05a17fcbcd3ad8bc8390349656b",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "659fd9f33e5faf6574f9d5f610bbc8af5c841d66681e3497ae06840770642d33"
-        ],
         "captured_sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a180336450e30f0073681a7c447f2be562b1bb6b726b87952c980e472fdea4e4",
       "target": "NDEA_Evolve_offruntime/exp016/lean/GridAlias.lean"
@@ -10326,15 +10650,10 @@
       "git_blob_sha1": "4031cc9b9b90d1cdc21f791e4144dca234d08cd2",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "e9f5ed2b3da543da2178b0015b0b0e04447568fc713c5344e98ea06c65b2a889"
-        ],
         "captured_sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "independently_authored_target_definitions_only_no_property_theorem",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/IndependentTarget.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "9c9157cd3274f874093dee0c2978e2e6a27c4339528463bba038990796031288",
       "target": "NDEA_Evolve_offruntime/exp016/lean/IndependentTarget.lean"
@@ -10344,15 +10663,10 @@
       "git_blob_sha1": "067887b9c3c48ae06464592c547a8166366a018d",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "7a6b440ea90566b5113d256af805fac162513e8ab8b5fdd290cbd8939fdd5f88"
-        ],
         "captured_sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d4f51ef7dbb348bf9d4b3683d20e1b347208d31170e9caea7ef543c93f794df3",
       "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingBounds.lean"
@@ -10362,15 +10676,10 @@
       "git_blob_sha1": "530ee8d7b830ede29e9872cee3df511395eff57b",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "b83b55d7b492aaec4a8d6f1082badc5e72d47bb546565f105c605e201d826e49"
-        ],
         "captured_sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "5b6ac3e962fea36388e97069c1e8996473d3b9371f90c07b5b9c11fd805c2f22",
       "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingControls.lean"
@@ -10380,15 +10689,10 @@
       "git_blob_sha1": "a48b867f11572b4278ec90a882884c2cb04de9ce",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "b931b156715a780d4a4429bee9ecdd2f3408801a8394e315178ee55a7871eb78"
-        ],
         "captured_sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "189b8e6730f16b99794a95d563a9002c2f1d464e1d27d098f4ef1313c0420e45",
       "target": "NDEA_Evolve_offruntime/exp016/lean/InitialSamplingLimit.lean"
@@ -10398,33 +10702,49 @@
       "git_blob_sha1": "b412c360f4a290783f2ee8771e208f780661d6a7",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2a51d65163f93f0d7402884da73a14a827a9859713b4d55ad7a84dafc3a0f181"
-        ],
         "captured_sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "91c5abcc205b0b58e28df274076f0ea061b3fe12346ce231d3f6291f6d830d97",
       "target": "NDEA_Evolve_offruntime/exp016/lean/InitializationCertificate.lean"
+    },
+    {
+      "bytes": 1458,
+      "git_blob_sha1": "c9f5fa40fee38cc5a4b79de37aa6b36a1ee759fc",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "e2452dc2b18153b7595984b43f7ca56748cbdb1d870325d342cfa8450e97a9ae",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "e2452dc2b18153b7595984b43f7ca56748cbdb1d870325d342cfa8450e97a9ae",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean"
+    },
+    {
+      "bytes": 3343,
+      "git_blob_sha1": "544dac3a19baa8544c4996cf4244791723866fe5",
+      "git_mode": "100644",
+      "origin": {
+        "captured_sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
+      },
+      "sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+      "target": "NDEA_Evolve_offruntime/exp016/lean/KineticSymbolBound.lean"
     },
     {
       "bytes": 9262,
       "git_blob_sha1": "5f84fcf123b45752398583df30d3ed4737672793",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "6c70adac6496bb8506cd06be15a151e78b3ce3ede6e2483980575809bbca04ca"
-        ],
         "captured_sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "beab2af97660ca96d8116ae6726baafe7c2f811e9922379902cc2ecc7c770cc5",
       "target": "NDEA_Evolve_offruntime/exp016/lean/OneNodeCosine.lean"
@@ -10434,15 +10754,10 @@
       "git_blob_sha1": "18504bcb1098fa029216195bdc1ff0b8d7c4c5ec",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "bbffe270e646209fc20d2dd829bd9cb09a1fdbefaec49f9b2f27e549f2eb6ffb"
-        ],
         "captured_sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OrderedStageAlgebra.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "bc8f563ca1cdc2a78e004ddffa6737c2ec51c3993588d14c6c5820d233b99791",
       "target": "NDEA_Evolve_offruntime/exp016/lean/OrderedStageAlgebra.lean"
@@ -10452,15 +10767,10 @@
       "git_blob_sha1": "a4706e5e1c6c5954fbd011ca9a1e980b0ca8ba4a",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "03c8ded9808ec1f246dcc90ec7a15b8e4e4fd5d372d9dd63daaacf9dce440067"
-        ],
         "captured_sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/OrderedStageBounds.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "67753ee44bc7f85c48441bacf698a452766de8cb6307aa12c499b41bc12b1d34",
       "target": "NDEA_Evolve_offruntime/exp016/lean/OrderedStageBounds.lean"
@@ -10470,15 +10780,10 @@
       "git_blob_sha1": "7db01a5e385058ab700168581bae1ee3eec46242",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "fd1f1b6a15962b57e66a46b73d6be502ec6bb19a6ad273eaaf18dc74797cb33d"
-        ],
         "captured_sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "a25743974f2ded8e7a6db6d490b1733b10b921809ee6e214d8a5968dc357cf03",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialAlias.lean"
@@ -10488,15 +10793,10 @@
       "git_blob_sha1": "699f385740347ab0ccd31b2c9ae883e9571f4df1",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "96b336f409697cf375d0dbf4456a69ba47fcf15a1993e502fdd47444b7fd4c1d"
-        ],
         "captured_sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "abee8ab2e3460b74b28a51229bdef2ceae872443360baf8be0ec9d652efc6c6f",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialAliasBounds.lean"
@@ -10506,15 +10806,10 @@
       "git_blob_sha1": "6008fce7127f6af10ad2ad01a020a725d79de270",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "7ede124c841597e2faf9e22c064d0a8e1c73cd442dfaba2b80cc0dfccf77e870"
-        ],
         "captured_sha256": "b6964deb1ced3b127060458c572b7d3c68cea33b6ba291de7f2f22bee93bdf5a",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialCutoff.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b6964deb1ced3b127060458c572b7d3c68cea33b6ba291de7f2f22bee93bdf5a",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialCutoff.lean"
@@ -10524,15 +10819,10 @@
       "git_blob_sha1": "2f3c2eeeee4bbb990b30888090db41bc9734e823",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "fe5d98ab133e4392069cb7f779def1e641845b91f28ee8cd8f8d211c0a2ac59a"
-        ],
         "captured_sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "af34d499a6aa3a40d97977a238ec8fb547174c3685fd575eb42f53f0037335ac",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialDefectExpansion.lean"
@@ -10542,15 +10832,10 @@
       "git_blob_sha1": "457ee7c2d06a9b178d4f5effc1c9833333230050",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "ceb03e5dc8485353a51e4dce3b30e23e59b94e22f571b65193b6a8efc5ece46a"
-        ],
         "captured_sha256": "4d83f7f9651c3bf143a5f3a99ea804c4db887ec9999c4d6af319c87d764765bd",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialErrorTransfer.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "4d83f7f9651c3bf143a5f3a99ea804c4db887ec9999c4d6af319c87d764765bd",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialErrorTransfer.lean"
@@ -10560,15 +10845,10 @@
       "git_blob_sha1": "cda284dd3e7e3c4059c70f46d72fd67dd690d2bc",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "70a6e79c46d744433a2ae5c3a53da4a1c42dc28f91701e3ef89bef6ed8fa51f7"
-        ],
         "captured_sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/PotentialStability.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "1e3740db02ec39af4eaac44e73608fe0f030569c480f45a3beb89106307f7e23",
       "target": "NDEA_Evolve_offruntime/exp016/lean/PotentialStability.lean"
@@ -10578,15 +10858,10 @@
       "git_blob_sha1": "6d5f689c91b77641e7bad8f560ac1bec1165881e",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "c8bfb73ac915656fd0e97fe5c723f59f74a170e9a36524d8968d569cfcbbf5bd"
-        ],
         "captured_sha256": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "c0c20bb3b48ce38362205fbdfe8733d65479e446f14c4837bbc70a9b1811b130",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuadraticCayleyBridge.lean"
@@ -10596,15 +10871,10 @@
       "git_blob_sha1": "a1956a8188c5b1ab7cf2002015f8b779b5f4d8c7",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "a4146a85c2b047d19cb3b471ad2c7ba43ff7d68d7da1bf2398ae5cfcd6f27d2a"
-        ],
         "captured_sha256": "4c1a6ec0d168cfbea7f75257c133e29a7a522a7f3295d5107194db3dcf9d5104",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticNorm.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "4c1a6ec0d168cfbea7f75257c133e29a7a522a7f3295d5107194db3dcf9d5104",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuadraticNorm.lean"
@@ -10614,15 +10884,10 @@
       "git_blob_sha1": "43aa3632cffb4438685ce250df2b694c353fe12b",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "6b9947518e1607011b7cf61ab17e7c1a93d7dfe29e95e50460261039f91578c8"
-        ],
         "captured_sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "separate_axiom_audit_only",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticNormAudit.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b41618eaf41e2f520cacf7f757a7fd87bdae98baa2735c59f391c139dfccf78d",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuadraticNormAudit.lean"
@@ -10632,15 +10897,10 @@
       "git_blob_sha1": "075db25b5830b95d2fb7d549a3016954a2cba637",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "e8928054e3beaa1a9a645c8151cbd245b68e5a4dda8fdf3520494c32fdf736e1"
-        ],
         "captured_sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticPDEBudget.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "19f30bfcea00eaf417cba612fd3f7cbab54392be6262a19b9bdeee9063c4c9b2",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuadraticPDEBudget.lean"
@@ -10650,15 +10910,10 @@
       "git_blob_sha1": "bfaed37e78f3a29f178cc3a2b91a902894d03de3",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "69af8168b1e06cf4e266a3b2b15a77e73173b73c65279d7447e5aa8c13ed234d"
-        ],
         "captured_sha256": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b1387489a9f484d891e8257a467da4ead788a5dd24aeee79470fe9e9f6606ffc",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuadraticTime.lean"
@@ -10668,15 +10923,10 @@
       "git_blob_sha1": "c9871fd67a42fce8e420aa050ee95608816cd361",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "8c7200bfcf2533de95f529f11db4f24d95385103251c0c48d66352003c2d7455"
-        ],
         "captured_sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7e299cfcbacef742d7e48c5cd9c7c569fd5739708a2b78583c70496c01dcf3e8",
       "target": "NDEA_Evolve_offruntime/exp016/lean/QuantitativeCayleyCertificate.lean"
@@ -10686,15 +10936,10 @@
       "git_blob_sha1": "5fa2b4a9a6391a7627226fef0a74d336a964a791",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "49af6f4b3f7c976189b49e8f26b33ad3b30b11c07b3090930dfab52b0b0699ae"
-        ],
         "captured_sha256": "1335c94ca420eb6c905ea5479beaf87a2af405486e194759d46d9b6dff3ca425",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/RegularSynthesis.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "1335c94ca420eb6c905ea5479beaf87a2af405486e194759d46d9b6dff3ca425",
       "target": "NDEA_Evolve_offruntime/exp016/lean/RegularSynthesis.lean"
@@ -10704,15 +10949,10 @@
       "git_blob_sha1": "df96802855a04eee7e6f6be5b94dc08de8155824",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "d83fa90b6e0e67231f32903ae2929f716290ff6d6572fab0ee60a4c765965a32"
-        ],
         "captured_sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "edda81123881a586e8346fea33077076f43534ce5c8b37d2cbc301e0c62dfbc5",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SampledCayleyCertificate.lean"
@@ -10722,15 +10962,10 @@
       "git_blob_sha1": "62650aefba3998d6ac6273c43324c2afb5a46f0d",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "d65fd312711f4fc3c30050ab4f17d9f5ffab92aed73a7e184ae0171603b62363"
-        ],
         "captured_sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "201f230ed541c0b3cc6c27ac16e777e8f3a39491d8fa929db023b4088d61c4f1",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SampledPotential.lean"
@@ -10740,15 +10975,10 @@
       "git_blob_sha1": "f7a465c0e8ba5f97b6df9dc649a76911c42e3ad0",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "b86b848ce4cc4b84ee13b63d23018c47585d8275c7e4e2f78ec2bb33ad834e32"
-        ],
         "captured_sha256": "b6bd1493cd3e954f100094be0aa3513ccc341d43d4a985777baaf04094294c9b",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SampledPotentialBounds.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "b6bd1493cd3e954f100094be0aa3513ccc341d43d4a985777baaf04094294c9b",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SampledPotentialBounds.lean"
@@ -10758,15 +10988,10 @@
       "git_blob_sha1": "bc38a9bbda9931c6e8472548ec8c9f1d35a3c45b",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "a75bef2e81a26036f5e943ef4db286ad34ab3504399203367fefd312a7b87dac"
-        ],
         "captured_sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "0a9f4a631f60cbfedf724c0da5b5f315d9e9c4ac867bee73f9816f3efa4f1649",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SamplingExpansion.lean"
@@ -10776,15 +11001,10 @@
       "git_blob_sha1": "ad9f6a99ef3b447b184854267d99cf944eeb53c7",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "f18e7fc8adc758a8dfcb6ec55b71959326750183a5da36bb30ba6164891cd49e"
-        ],
         "captured_sha256": "02b88b6e07caa92642f2d5b2de4b132f2a30678ba4d0bf282a96e22c087be4e7",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SlabError.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "02b88b6e07caa92642f2d5b2de4b132f2a30678ba4d0bf282a96e22c087be4e7",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SlabError.lean"
@@ -10794,15 +11014,10 @@
       "git_blob_sha1": "e83146714fade184e83892a9f4ff89f5efd778b5",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "e839441ae8550fbc488c8acb3f06324653892b69a3bf5cf95019723d7b420732"
-        ],
         "captured_sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialDefectCertificate.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d0aef1fbc82fae155cfd6facc31ef755d7dc93a9e81dd9dde21aa88ac4dfc6ff",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectCertificate.lean"
@@ -10812,15 +11027,10 @@
       "git_blob_sha1": "342809cea4d001012c21fd55159ae60c917faed6",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2caf42b10b7c0fbb54cb41dc6bf85ff9dbf873cbbd3f181aac58e96aadef041d"
-        ],
         "captured_sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialDefectSplit.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "8d10ba2964e2780df9c651a57231af2d39db280e4736c518a8e9b20c353dca46",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SpatialDefectSplit.lean"
@@ -10830,15 +11040,10 @@
       "git_blob_sha1": "b8050441893489a9e70bd0888245c69143e9ca42",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2555ecf1b2b94b5dce578de575cf436b5ff1fe8c461d136fb96712efa8bdd046"
-        ],
         "captured_sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "bc951fd5b4e7c3e47037dd43322c286f16a43f897c251d35e97f85e16d9274c1",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Bridge.lean"
@@ -10848,15 +11053,10 @@
       "git_blob_sha1": "90762be2583f6bd172b6a93918729587976e08e7",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "9294749d12786c95f8f86589400cec33b94709f25bcf4700ad5f91049ab51509"
-        ],
         "captured_sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SpatialL2Operator.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f4b3571affbfdd05a706597c2c51162a39a607c8412c9d8cca35fb99117c65a8",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SpatialL2Operator.lean"
@@ -10866,15 +11066,10 @@
       "git_blob_sha1": "f557ddbfebea7a29b1e5f4713bbe83e5f55d4acf",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "2d12b03d22fa0f3ba1aa7e92ccff06964076460f50e8ecc65a0fbbddf88abf67"
-        ],
         "captured_sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "affc2fcff250486f163d11cc3822014f7affadaaf7e0de5cd51baa52a3519b96",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SplitDefect.lean"
@@ -10884,15 +11079,10 @@
       "git_blob_sha1": "04b75c7ffd9a6f57cae5c7c6228fbe9014192668",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "91842702c6155ae9950af68e6540d27365192972ca05de2b4fef40603b82b594"
-        ],
         "captured_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
       "target": "NDEA_Evolve_offruntime/exp016/lean/StencilFourier.lean"
@@ -10902,15 +11092,10 @@
       "git_blob_sha1": "9b85564bc5cfb3d727d1bc89fd795b8e1369e71a",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "4f3a4433c5f0e7f31dc07d9e5a4cfe38e97f17995acb6ca4b086bc4e325451ee"
-        ],
         "captured_sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/SynthesizedSlabError.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "fa5886412c567d01ffb814c7685b04fe7561673b33f1292980c6e4c915686079",
       "target": "NDEA_Evolve_offruntime/exp016/lean/SynthesizedSlabError.lean"
@@ -10920,15 +11105,10 @@
       "git_blob_sha1": "96871d31664e9f0158529eda81ae5ebb66043077",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "04b0f6eae28e3babb5ed6ca15a93c8d884d7a8870befbebd26b9e79c5484769c"
-        ],
         "captured_sha256": "20d749118fe1f0f788de93397f296252d3c2b56858c177a76198d9b0c89eace3",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/TargetBinding.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "20d749118fe1f0f788de93397f296252d3c2b56858c177a76198d9b0c89eace3",
       "target": "NDEA_Evolve_offruntime/exp016/lean/TargetBinding.lean"
@@ -10938,15 +11118,10 @@
       "git_blob_sha1": "ba9a8063b2f76c577dcc4994b137243fa82daf24",
       "git_mode": "100644",
       "origin": {
-        "accepted_receipt_hashes": [
-          "ec0bbdb7e83fee6486debd06c6a6bf7ed6f5b13d7255c8f5a234fd6e525b6a2c"
-        ],
         "captured_sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "current_exp016_source_snapshot",
-        "kind_of_module": "property_module",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/WeightedCoefficientBridge.lean",
-        "status": "matching_completed_development_acceptance"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "7258642dae2d715e0735696865520cc30c2482f3ebe2de4938e6f427cee77bbd",
       "target": "NDEA_Evolve_offruntime/exp016/lean/WeightedCoefficientBridge.lean"
@@ -11142,9 +11317,9 @@
       "git_mode": "100644",
       "origin": {
         "captured_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "development_document_or_small_pinned_runner",
-        "local_source": "/home/richman954/NDEA_Evolve_offruntime/exp016/run_lean.py"
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
       "sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
       "target": "NDEA_Evolve_offruntime/exp016/run_lean.py"
@@ -11163,16 +11338,16 @@
       "target": "NDEA_Evolve_offruntime/exp016/run_lean_timed.py"
     },
     {
-      "bytes": 12481,
-      "git_blob_sha1": "7fcd2bb6592b1213d37bbcc259c04a46187f297f",
+      "bytes": 13045,
+      "git_blob_sha1": "cb7675b7fb990d1898e66c3fb203090f08ff101c",
       "git_mode": "100644",
       "origin": {
-        "base_commit": "d24fced28fa65b371c628d3e2e738a45f8b65f37",
-        "captured_utc": "2026-09-09T17:12:00.276549+00:00",
-        "kind": "updated_development_progress_document",
-        "previous_sha256": "1eb67a70f02c6993ff5e268df4dc14a0dc18344962cb4d1fb84e3fbcee0bf5aa"
+        "captured_sha256": "137d5bc757c46ddbbc9aaab7cd46ff82a2db96a98f0961b082ee2ec6cef268f2",
+        "captured_utc": "2026-09-10T00:08:30.402357+00:00",
+        "kind": "verified_recovery_milestone",
+        "snapshot_sha256": "151d77194ca9f2542bcc0bc0b140d51c14ccc8b282a4809555367842521a6541"
       },
-      "sha256": "ff2b820ddbe8cfb96ad0b274c6d0ba3409384f54ca57c11da7814be5c3f888d6",
+      "sha256": "137d5bc757c46ddbbc9aaab7cd46ff82a2db96a98f0961b082ee2ec6cef268f2",
       "target": "README.md"
     },
     {
@@ -11284,7 +11459,10 @@
       "target": "paper/NDEA_MACHINE_CHECKED_CAYLEY_CN_CHAIN_PAPER.tex"
     }
   ],
-  "git_binding": "Future external readback receipt binds actual commit/tree to SHA256 of this manifest and exact staged payloads. This manifest excludes itself to avoid self-hash recursion.",
+  "git_binding": {
+    "kind": "external receipt to be produced after publication and complete byte readback",
+    "previous_source_manifest_sha256": "912f76ca51166aebc2f1fe97969ecb8a034528e56023b518e7a21ab0160cd436"
+  },
   "import_closure": [
     {
       "from": "NDEA_Evolve_offruntime/exp015/lean/Controls.lean",
@@ -12018,10 +12196,11 @@
       }
     }
   },
-  "previous_source_manifest_sha256": "cf71eee6b526dd05ced50e17ac2e6a40351bbac2a47e0e54f5200f135d638b1f",
+  "previous_git_binding": "Future external readback receipt binds actual commit/tree to SHA256 of this manifest and exact staged payloads. This manifest excludes itself to avoid self-hash recursion.",
+  "previous_source_manifest_sha256": "912f76ca51166aebc2f1fe97969ecb8a034528e56023b518e7a21ab0160cd436",
   "purpose": "Curated exact Exp016 continuum-stability development checkpoint; incomplete and unsealed",
   "repository": "richman954/NDEA-Periodic-Cayley-CN-Lean",
   "schema_version": 1,
   "target_branch": "dev/variable-potential",
-  "utc": "2026-09-09T17:12:00.276549+00:00"
+  "utc": "2026-09-10T00:08:30.402357+00:00"
 }

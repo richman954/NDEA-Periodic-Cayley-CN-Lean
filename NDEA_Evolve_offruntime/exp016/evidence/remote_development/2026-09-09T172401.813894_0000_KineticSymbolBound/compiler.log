@@ -1,0 +1,3 @@
+'NDEAEvolve.Exp016.modeSymbol_abs_le_four_div_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.fourierCoefficient_gridKinetic_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NDEAEvolve.Exp016.gridKinetic_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

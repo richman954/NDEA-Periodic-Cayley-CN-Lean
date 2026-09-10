@@ -1,0 +1,33 @@
+{
+  "utc": "2026-09-10T00:04:52.620781+00:00",
+  "passed": true,
+  "module": "KineticAssembly",
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean",
+  "source_sha256": "e2452dc2b18153b7595984b43f7ca56748cbdb1d870325d342cfa8450e97a9ae",
+  "receipt": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.json",
+  "receipt_sha256": "964decbc28054f3414a4da0bfa3f03d319b4a0e149f18eb3b6f238400e61d2f8",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T235728.222817Z_KineticAssembly.log",
+  "log_sha256": "30c7e7a149dc6daa9356d0678b9a0e658ba4cc4041fceb7f136c0f948a29d634",
+  "artifact_sha256": "b7a026053b4bab49be569043d1b901a1be41ccd5639418396f01b96e38c39ecd",
+  "compiler_exit": 0,
+  "elapsed_seconds": 294.582309766,
+  "axiom_audits": {
+    "NDEAEvolve.Exp016.sampledPotentialZ_opNorm_le_one": "propext, Classical.choice, Quot.sound",
+    "NDEAEvolve.Exp016.sampledSplitA_opNorm_le": "propext, Classical.choice, Quot.sound"
+  },
+  "explicit_axiom_audit_count": 2,
+  "standard_axioms_only": true,
+  "warning_count": 0,
+  "errors": 0,
+  "previous_accepted_sources_unchanged": 50,
+  "prior_import_artifacts_readback": 110,
+  "development_only": true,
+  "independent_qualification": false,
+  "sealed": false,
+  "scope": "For the actual full odd physical grid, (2*M+1)*h=2*pi and h>0, the induced operator of sampledSplitA is bounded by 4/h^2+1. The fixed Z block estimate holds for any n,h. This is not temporal or spatial refinement.",
+  "rejected_attempts": [
+    "attempts/kinetic_assembly_reboot_r1",
+    "attempts/kinetic_assembly_reboot_r2"
+  ],
+  "next_step": "Substitute the physical-mesh kinetic/fixed-Z bound and sampled-potential bound into the actual temporal budget; then derive smooth-core evolved spatial consistency/tails."
+}

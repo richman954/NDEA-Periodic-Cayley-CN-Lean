@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "module": "KineticSymbolBound",
+  "prepared_manifest_sha256": "db4d04e1e34413c0fa33305deac3a630fff0114313576a20817aaada43e10946",
+  "source_sha256": "a89b69f7e8b60816654536160aa465f1d4e33085918f3df0f154309fddfc5142",
+  "receipt_sha256": "34290568ebf12d7e512cc121d07d4a9b56faa37378642cc8e995c45b3685a48c",
+  "artifact_sha256": "f3526c1ba1df4632b09810d56d9b7b8952f1e2c48d049f43af63c71e2190be57",
+  "explicit_axiom_audit_count": 3,
+  "explicit_axiom_audit_names": [
+    "NDEAEvolve.Exp016.modeSymbol_abs_le_four_div_sq",
+    "NDEAEvolve.Exp016.fourierCoefficient_gridKinetic_norm_le",
+    "NDEAEvolve.Exp016.gridKinetic_opNorm_le"
+  ],
+  "standard_axioms_only": true,
+  "warning_count": 0,
+  "expected_project_imports": {
+    "StencilFourier": {
+      "source": "exp016/lean/StencilFourier.lean",
+      "source_sha256": "f464527992df8b4c311e7870e47febb47d5856b960677dc99e68d6cab99f09c3",
+      "artifact": "exp016/build/lib/lean/StencilFourier.olean",
+      "artifact_sha256": "270636e072675db89e669e3538aed9493f6fe707800d4decfc0cb05870fb5210"
+    }
+  },
+  "bootstrap_receipt_sha256": "e98fe6247ae722f312b00d34f2be6631f215a87aee890da481e732a16b572cdb",
+  "runtime_readback_sha256": "a6fb5ffdd9f589afaaa076098b8fc837fa4b632e9a787a584fae6f8c6fa177ed",
+  "helper_sha256": "774e8f1de7671ac158b6c572e098b5add109f1bbe41fce9af2217bc4dcf149ea",
+  "independent_qualification": false,
+  "scope": "Source-bound incremental development with pinned restored imports, not independent qualification."
+}

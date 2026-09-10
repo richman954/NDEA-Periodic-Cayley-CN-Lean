@@ -1,0 +1,26 @@
+{
+  "source": "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean",
+  "source_sha256_before": "cdd985ceef65865d5586e6346d68e8ba94363849ffa2b2981eca51375469913a",
+  "lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "command": [
+    "/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean",
+    "-j",
+    "1",
+    "-R",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean",
+    "-o",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean/KineticAssembly.olean",
+    "/home/richman954/NDEA_Evolve_offruntime/exp016/lean/KineticAssembly.lean"
+  ],
+  "lean_path": "/home/richman954/NDEA_Evolve_offruntime/exp016/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp015/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp014/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp013/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp012/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp011/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp010/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp009/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp008/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/mathlib/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/plausible/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/importGraph/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/aesop/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Qq/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/batteries/.lake/build/lib/lean:/home/richman954/NDEA/workspace/NDEAMathlibGate/.lake/packages/Cli/.lake/build/lib/lean:/home/richman954/NDEA_Evolve_offruntime/exp006/build/lib/lean:/home/richman954/.elan/toolchains/leanprover--lean4---v4.31.0/lib/lean",
+  "start_utc": "2026-09-09T23:52:06.167701+00:00",
+  "runner_sha256": "d4a80b0eefe27d0ef72ab772d8a0f6c390263957d43eb30949f68023f0a3593c",
+  "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "exit_code": 1,
+  "source_sha256_after": "cdd985ceef65865d5586e6346d68e8ba94363849ffa2b2981eca51375469913a",
+  "elapsed_seconds": 204.31501381999988,
+  "log_sha256": "10bd3c0afe77e4c0127325b070fc7697bdbdeae1a57644333017840599b5945d",
+  "log": "/home/richman954/NDEA_Evolve_offruntime/exp016/evidence/20260909T235206.160082Z_KineticAssembly.log",
+  "output_sha256": {},
+  "sources_unchanged": true
+}

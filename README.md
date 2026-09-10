@@ -1,3 +1,7 @@
+# Current development checkpoint — recovered Exp016
+
+51 development modules are accepted, including the actual fixed-Z bound `||op(sampledSplitA)|| <= 4/h^2 + 1` on the positive physical odd grid. See [source/receipt catalog](NDEA_Evolve_offruntime/exp016/REBOOT_CHECKPOINT.json) and [pinned reference reuse delivery](NDEA_Evolve_offruntime/exp016/design/external_reference/RESUMED_REFERENCE_DELIVERY.md). Exp016 remains unsealed; full combined/independent qualification and spatial refinement are pending. The sections below retain earlier checkpoint history.
+
 # Variable-potential development
 
 This is the curated `dev/variable-potential` branch of NDEA. It starts from the August 30 main commit `15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c`. Main and its history remain unchanged. The original release sources, paper, configuration and audit files remain here; the [original README](https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean/blob/15b13fb8ad5e0b51d1ec3e4a0fefcb68614ebd9c/README.md) describes that release. This branch changes only this README and `.gitignore` among those original files.
