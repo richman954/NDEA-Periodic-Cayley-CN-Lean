@@ -1,0 +1,82 @@
+name: Exp016 convergence and verification assurance
+on:
+  push:
+    branches: [work/exp016-convergence-assurance-20261107]
+    paths:
+      - 'NDEA_Evolve_offruntime/exp016/verification_convergence/**'
+      - 'NDEA_Evolve_offruntime/exp016/verification_initial_error/**'
+      - 'NDEA_Evolve_offruntime/**/lean/**'
+      - '.github/workflows/exp016-convergence-assurance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: exp016-convergence-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    name: Fresh check (${{ matrix.replica }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        replica: [primary, repeat]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Test the verification tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s NDEA_Evolve_offruntime/exp016/verification_initial_error -p 'test_*.py' -v
+          python3 -m unittest discover -s NDEA_Evolve_offruntime/exp016/verification_convergence -p 'test_*.py' -v
+      - name: Bind exact sources and resolve all project imports
+        run: python3 NDEA_Evolve_offruntime/exp016/verification_convergence/run_assurance.py prepare --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/exp016-assurance"
+      - name: Provision unchanged compiler and dependency pins
+        uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          lake-package-directory: ${{ runner.temp }}/exp016-assurance/deps
+          auto-config: false
+          use-github-cache: false
+          use-mathlib-cache: true
+      - name: Compile convergence, audit claims, exercise rejection controls, replay kernel
+        run: python3 NDEA_Evolve_offruntime/exp016/verification_convergence/run_assurance.py run --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/exp016-assurance"
+      - name: Audit saved evidence independently of the build driver
+        run: python3 NDEA_Evolve_offruntime/exp016/verification_convergence/evidence_audit.py --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/exp016-assurance"
+      - name: Preserve evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: exp016-convergence-${{ matrix.replica }}-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/exp016-assurance/*.json
+            ${{ runner.temp }}/exp016-assurance/*.log
+            ${{ runner.temp }}/exp016-assurance/sources/
+            ${{ runner.temp }}/exp016-assurance/olean/
+            ${{ runner.temp }}/exp016-assurance/negative-controls/
+            ${{ runner.temp }}/exp016-assurance/verification-tools/
+          if-no-files-found: error
+          retention-days: 90
+  compare:
+    name: Re-audit artifacts and compare fresh runs
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: exp016-convergence-*-${{ github.sha }}
+          path: ${{ runner.temp }}/replicas
+      - name: Check evidence again and compare exact inputs
+        run: python3 NDEA_Evolve_offruntime/exp016/verification_convergence/compare_replays.py --repo "$GITHUB_WORKSPACE" --artifacts "$RUNNER_TEMP/replicas"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: exp016-convergence-reproducibility-${{ github.sha }}
+          path: ${{ runner.temp }}/replicas/REPRODUCIBILITY.json
+          if-no-files-found: error
+          retention-days: 90
