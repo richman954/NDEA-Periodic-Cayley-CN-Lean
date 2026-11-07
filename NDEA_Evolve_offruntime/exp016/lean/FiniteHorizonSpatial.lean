@@ -102,9 +102,10 @@ theorem horizonSpatialSum_doubleCutoff_tendsto_zero (S R : ℕ) (T : ℝ) (hT : 
   have hc := spatialFourthWeightCoefficient_tendsto_zero (potentialCutoff R v)
     (potentialCutoff_regular R v)
   have hg := horizonStep_generatorCoefficient_tendsto_zero T (cutoffPotentialWeight 2 R v)
-  have hm := ((hc.mul ((hg.div_const 8).const_add 1)).mul_const
-    (2 * (Real.exp (2 * (cutoffPotentialWeight 2 R v + 1) * T) * cutoffInitialWeight 2 S a)))
-      .mul_const T
+  have hproduct := hc.mul ((hg.div_const 8).const_add 1)
+  have hscaled := hproduct.mul_const
+    (2 * (Real.exp (2 * (cutoffPotentialWeight 2 R v + 1) * T) * cutoffInitialWeight 2 S a))
+  have hm := hscaled.mul_const T
   simp only [zero_div, add_zero, zero_mul] at hm
   exact squeeze_zero'
     (Eventually.of_forall (horizonSpatialSum_nonneg (potentialCutoff R v) (initialStateCutoff S a) b T hT))
