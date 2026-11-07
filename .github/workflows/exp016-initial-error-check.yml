@@ -1,0 +1,57 @@
+name: Exp016 InitialErrorTransfer development check
+
+on:
+  push:
+    branches:
+      - work/exp016-initial-error-check-20261107
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: exp016-initial-error-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout exact test commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Test checker independently of Lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s NDEA_Evolve_offruntime/exp016/verification_initial_error -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/checker-tests.log"
+      - name: Resolve source closure without historical project artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 NDEA_Evolve_offruntime/exp016/verification_initial_error/check_initial_error_transfer.py prepare --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/exp016-check"
+      - name: Provision existing pinned toolchain and external library cache
+        uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          lake-package-directory: ${{ runner.temp }}/exp016-check/deps
+          auto-config: false
+          use-github-cache: false
+          use-mathlib-cache: true
+      - name: Compile exact project sources and audit target declarations
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 NDEA_Evolve_offruntime/exp016/verification_initial_error/check_initial_error_transfer.py run --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/exp016-check"
+      - name: Preserve scoped evidence, including blocked or failed checks
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: initial-error-transfer-${{ github.sha }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/checker-tests.log
+            ${{ runner.temp }}/exp016-check/*.json
+            ${{ runner.temp }}/exp016-check/*.log
+          if-no-files-found: error
+          retention-days: 30
