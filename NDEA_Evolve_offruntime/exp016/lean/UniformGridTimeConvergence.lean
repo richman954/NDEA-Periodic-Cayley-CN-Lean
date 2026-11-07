@@ -121,9 +121,10 @@ theorem horizonGridError_tendsto_zero (T : ℝ) (hT : 0 < T)
     exact horizonGridError_potentialCutoff_transfer R T hT v hv hHerm a b q
   · intro R
     exact horizonGridError_potentialCutoff_tendsto_zero R T hT v hHerm a b
-  · simpa only [mul_zero, zero_mul] using
-      ((frequencyNormTail_tendsto_zero v (Exp014.regularPotential_absolute v hv) hv id tendsto_id)
-        .const_mul (2 * T)).mul_const (Real.sqrt (2 * Real.pi) * ‖a‖)
+  · have htail := frequencyNormTail_tendsto_zero v
+      (Exp014.regularPotential_absolute v hv) hv id tendsto_id
+    simpa only [mul_zero, zero_mul] using
+      (htail.const_mul (2 * T)).mul_const (Real.sqrt (2 * Real.pi) * ‖a‖)
 
 #print axioms horizonGridError_nonneg
 #print axioms horizonGridError_le_iff

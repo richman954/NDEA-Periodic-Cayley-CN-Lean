@@ -70,9 +70,10 @@ theorem scheduledCayley_baseline_timeOne_error_tendsto_zero
     simpa only [mul_one] using he
   · intro R
     exact scheduledCayley_potentialCutoff_error_tendsto_zero R v hHerm a b
-  · simpa only [mul_zero, zero_mul] using
-      ((frequencyNormTail_tendsto_zero v (Exp014.regularPotential_absolute v hv) hv id tendsto_id)
-        .const_mul 2).mul_const (Real.sqrt (2 * Real.pi) * ‖a‖)
+  · have htail := frequencyNormTail_tendsto_zero v
+      (Exp014.regularPotential_absolute v hv) hv id tendsto_id
+    simpa only [mul_zero, zero_mul] using
+      (htail.const_mul 2).mul_const (Real.sqrt (2 * Real.pi) * ‖a‖)
 
 #print axioms tendsto_zero_of_uniform_approximation
 #print axioms scheduledCayley_potentialCutoff_error_tendsto_zero

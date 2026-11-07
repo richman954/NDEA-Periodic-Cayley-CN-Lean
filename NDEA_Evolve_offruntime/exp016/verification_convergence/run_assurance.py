@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Additive checks of unchanged Exp016 sources; no acceptance or sealing writes."""
+"""Checks of reviewed Exp016 source revisions; no acceptance or sealing writes."""
 from __future__ import annotations
 import argparse
 import hashlib
@@ -18,8 +18,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = 'NDEA_Evolve_offruntime/exp016'
 BLOBS = {
     'InitialErrorTransfer': '32e149dda788b429d77db9fe15ef4cd07543cde3',
-    'BaselineTimeOneConvergence': 'f25d88c7d7c2bb34180113ff2bf35e475b5c4f43',
-    'UniformGridTimeConvergence': '3888607003336797ff29c7d70c668ec21137a0d6',
+    'FiniteHorizonSpatial': '7c90d6b9a87fe3a07c499f17a5b873d0606e451d',
+    'BaselineTimeOneConvergence': '6787ae3aaa0ebaeb6ea3663d06c46fed9d5b2400',
+    'UniformGridTimeConvergence': 'b8b62dbfb13a92189f8819fec37b726ad40638ff',
 }
 
 
