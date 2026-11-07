@@ -31,7 +31,11 @@ def load_builder(repo: Path):
     module.TARGET = 'UniformGridTimeConvergence'
     module.SOURCE = ROOT + '/lean/UniformGridTimeConvergence.lean'
     module.BASELINE_BLOB = BLOBS[module.TARGET]
-    module.DECLARATIONS = tuple(evidence.HORIZON)
+    # The retained builder's generated audit imports InitialErrorTransfer literally.
+    # Keep its eight-declaration audit intact; target-axioms below separately
+    # imports VerificationContracts and checks all 23 convergence declarations.
+    evidence.require(tuple(module.DECLARATIONS) == tuple(evidence.INITIAL),
+                     'Retained builder audit changed; review before adapting')
     return module
 
 
