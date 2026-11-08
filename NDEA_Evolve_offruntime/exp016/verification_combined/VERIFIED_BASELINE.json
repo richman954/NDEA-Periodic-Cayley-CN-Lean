@@ -1,0 +1,49 @@
+{
+  "baseline_commit": "5e2b5522bf7ddee673b040c64ba28e3863d94b38",
+  "run_id": 42437947802,
+  "run_url": "https://github.com/richman954/NDEA-Periodic-Cayley-CN-Lean/actions/runs/42437947802",
+  "status": "TWO_FRESH_RUNS_AND_EVIDENCE_AUDITS_PASS",
+  "artifacts": [
+    {
+      "role": "primary",
+      "id": 13600573111,
+      "zip_sha256": "3fd0fa2745b85c88a2cf3a091e6e8adc83a011739889e1e2664b1e783a36956c"
+    },
+    {
+      "role": "repeat",
+      "id": 13600897263,
+      "zip_sha256": "19e300dfa346f06ba4c734dbeaee1c9c2788bb1cd50a63c50f6a1da8c168f5f5"
+    },
+    {
+      "role": "comparison",
+      "id": 13601090976,
+      "zip_sha256": "be1d77122ac6106b0ea1f13734b85ac9062c5bee6bd5cd5a33851861a00b5fb5"
+    }
+  ],
+  "local_readback": {
+    "zip_digests_verified": 3,
+    "manifest_files_verified_per_replica": 328,
+    "identical_project_sources": 96,
+    "identical_project_olean_files": 96,
+    "local_lean_executed": false
+  },
+  "reproducibility_receipt": {
+    "status": "TWO_FRESH_RUNS_AND_EVIDENCE_AUDITS_PASS",
+    "commit": "5e2b5522bf7ddee673b040c64ba28e3863d94b38",
+    "project_modules": 96,
+    "audited_declarations": 23,
+    "replica_manifest_sha256": [
+      "21bb511202cb821d7e393821206b50b23e4789078c44fd7f1032c2c6a354fc47",
+      "87f83bf98b31b3744979c7fee73496994df12fd8b3b6cf37b8c88f665660fa44"
+    ],
+    "runners": [
+      "GitHub Actions 1000000195",
+      "GitHub Actions 1000000196"
+    ],
+    "independent_kernel": false,
+    "exp016_sealed": false,
+    "limits": "Same pinned kernel and verifier code; not independent implementation or semantic review."
+  },
+  "independent_kernel": false,
+  "exp016_sealed": false
+}
