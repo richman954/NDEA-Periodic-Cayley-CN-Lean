@@ -46,7 +46,7 @@ theorem scheduledCayley_potentialCutoff_error_tendsto_zero (R : ℕ)
       a (fun _ => temporalStepSize q) (temporalStepCount q) b 1 (by norm_num)
   · intro S
     exact scheduledCayley_doubleCutoff_error_tendsto_zero S R v hHerm a b
-  · simpa only [mul_zero] using
+  · simpa only [id_eq, mul_zero] using
       (frequencyNormTail_tendsto_zero (Exp014.coefficient a) (Exp014.coefficient_summable_norm a)
         (Exp014.weighted_summable a) id tendsto_id).const_mul (2 * Real.sqrt (2 * Real.pi))
 
@@ -72,7 +72,7 @@ theorem scheduledCayley_baseline_timeOne_error_tendsto_zero
     exact scheduledCayley_potentialCutoff_error_tendsto_zero R v hHerm a b
   · have htail := frequencyNormTail_tendsto_zero v
       (Exp014.regularPotential_absolute v hv) hv id tendsto_id
-    simpa only [mul_zero, zero_mul] using
+    simpa only [id_eq, mul_zero, zero_mul] using
       (htail.const_mul 2).mul_const (Real.sqrt (2 * Real.pi) * ‖a‖)
 
 #print axioms tendsto_zero_of_uniform_approximation
