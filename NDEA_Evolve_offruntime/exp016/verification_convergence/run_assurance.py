@@ -13,6 +13,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 import evidence_audit as evidence
+from replay_environment import pinned_replay_environment
 
 HERE = Path(__file__).resolve().parent
 ROOT = 'NDEA_Evolve_offruntime/exp016'
@@ -89,6 +90,18 @@ def run(repo: Path, out: Path, builder) -> None:
     for name in ('LEAN_PATH', 'LEAN_SRC_PATH', 'LEAN_SYSROOT'):
         env.pop(name, None)
     env.update(LEAN_PATH=os.pathsep.join(map(str, paths)), LEAN_NUM_THREADS='1')
+    env = pinned_replay_environment(lean, env, builder.LEAN_SHA256,
+                                    (deps / 'lean-toolchain').read_text().strip())
+    probe = command(out, 'replay-toolchain', ['lean', '--print-prefix'],
+                    out / 'sources', env, 30)
+    evidence.require(probe['exit_code'] == 0, 'Replay toolchain lookup failed')
+    reported_root = (out / 'replay-toolchain.log').read_text().strip()
+    evidence.require(Path(reported_root).resolve() == lean.parent.parent,
+                     'Replay resolved a different Lean sysroot')
+    save(out, 'replay-environment.json', {
+        'lean': str(lean), 'lean_sha256': evidence.digest(lean),
+        'sysroot': reported_root, 'path_first': env['PATH'].split(os.pathsep)[0],
+        'elan_toolchain': env['ELAN_TOOLCHAIN'], 'probe_log_sha256': probe['log_sha256']})
     source = out / 'sources/VerificationContracts.lean'
     shutil.copyfile(HERE / source.name, source)
     spec_check = command(out, 'contract', [str(lean), '-j', '1', '-R', str(out / 'sources'),
