@@ -33,8 +33,10 @@ theorem finite_horizon_spec (T : ℝ) (hT : 0 < T)
               (fun _ => horizonStepSize T q) N) x -
           Exp014.solution v a ((N : ℝ) * horizonStepSize T q) x)
           b (2 * Real.pi))) atTop (𝓝 0) := by
-  have h := horizonGridError_tendsto_zero T hT v hv hHerm a b
-  simpa only [horizonGridError, sampledCayleySolutionError, actualCayleyTime_constant] using h
+  refine Filter.Tendsto.congr ?_ (horizonGridError_tendsto_zero T hT v hv hHerm a b)
+  intro q
+  simpa only [sampledCayleySolutionError] using
+    horizonGridError_eq_max_at_nk v a b T q
 
 theorem initial_error_in_max (v : ℤ → E 2 →L[ℂ] E 2)
     (a : Exp014.FourierState (E 2)) (b T : ℝ) (q : ℕ) :
